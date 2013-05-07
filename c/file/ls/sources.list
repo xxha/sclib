@@ -1,0 +1,11 @@
+#网易的源（163源，无论是不是教育网，速度都很快）
+deb http://mirrors.163.com/ubuntu/ quantal main universe restricted multiverse
+deb-src http://mirrors.163.com/ubuntu/ quantal main universe restricted multiverse
+deb http://mirrors.163.com/ubuntu/ quantal-security universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ quantal-security universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ quantal-updates universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ quantal-proposed universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ quantal-proposed universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ quantal-backports universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ quantal-backports universe main multiverse restricted
+deb-src http://mirrors.163.com/ubuntu/ quantal-updates universe main multiverse restricted
