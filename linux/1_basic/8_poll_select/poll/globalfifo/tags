@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFER_LEN	select_app/select.c	20;"	d	file:
+FIFO_CLEAR	globalfifo.c	24;"	d	file:
+FIFO_CLEAR	select_app/select.c	19;"	d	file:
+GLOBALFIFO_MAJOR	globalfifo.c	25;"	d	file:
+GLOBALFIFO_SIZE	globalfifo.c	23;"	d	file:
+KERNELDIR	Makefile	/^KERNELDIR := \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+PWD	Makefile	/^PWD :=$(shell pwd)$/;"	m
+__this_module	globalfifo.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	globalfifo.mod.c	/^__used$/;"	v	file:
+__used	globalfifo.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+cdev	globalfifo.c	/^	struct cdev cdev; \/*cdev结构体*\/											 $/;"	m	struct:globalfifo_dev	typeref:struct:globalfifo_dev::cdev	file:
+current_len	globalfifo.c	/^	unsigned int current_len;		\/*fifo有效数据长度*\/$/;"	m	struct:globalfifo_dev	file:
+globalfifo_dev	globalfifo.c	/^struct globalfifo_dev																		 $/;"	s	file:
+globalfifo_devp	globalfifo.c	/^struct globalfifo_dev *globalfifo_devp; \/*设备结构体指针*\/$/;"	v	typeref:struct:globalfifo_dev
+globalfifo_exit	globalfifo.c	/^module_exit(globalfifo_exit);$/;"	v
+globalfifo_exit	globalfifo.c	/^void globalfifo_exit(void)$/;"	f
+globalfifo_fops	globalfifo.c	/^static const struct file_operations globalfifo_fops =$/;"	v	typeref:struct:file_operations	file:
+globalfifo_init	globalfifo.c	/^int globalfifo_init(void)$/;"	f
+globalfifo_init	globalfifo.c	/^module_init(globalfifo_init);$/;"	v
+globalfifo_ioctl	globalfifo.c	/^static long globalfifo_ioctl(struct file *filp, unsigned$/;"	f	file:
+globalfifo_major	globalfifo.c	/^static int globalfifo_major = GLOBALFIFO_MAJOR;$/;"	v	file:
+globalfifo_open	globalfifo.c	/^int globalfifo_open(struct inode *inode, struct file *filp)$/;"	f
+globalfifo_poll	globalfifo.c	/^static unsigned int globalfifo_poll(struct file *filp, poll_table *wait)$/;"	f	file:
+globalfifo_read	globalfifo.c	/^static ssize_t globalfifo_read(struct file *filp, char __user *buf, size_t count,$/;"	f	file:
+globalfifo_release	globalfifo.c	/^int globalfifo_release(struct inode *inode, struct file *filp)$/;"	f
+globalfifo_setup_cdev	globalfifo.c	/^static void globalfifo_setup_cdev(struct globalfifo_dev *dev, int index)$/;"	f	file:
+globalfifo_write	globalfifo.c	/^static ssize_t globalfifo_write(struct file *filp, const char __user *buf,$/;"	f	file:
+main	select_app/select.c	/^main()$/;"	f
+mem	globalfifo.c	/^	unsigned char mem[GLOBALFIFO_SIZE]; \/*全局内存*\/				$/;"	m	struct:globalfifo_dev	file:
+obj-m	Makefile	/^obj-m := globalfifo.o$/;"	m
+r_wait	globalfifo.c	/^	wait_queue_head_t r_wait; \/*阻塞读用的等待队列头*\/		 $/;"	m	struct:globalfifo_dev	file:
+sem	globalfifo.c	/^	struct semaphore sem; \/*并发控制用的信号量*\/					 $/;"	m	struct:globalfifo_dev	typeref:struct:globalfifo_dev::semaphore	file:
+w_wait	globalfifo.c	/^	wait_queue_head_t w_wait; \/*阻塞写用的等待队列头*\/		 $/;"	m	struct:globalfifo_dev	file:

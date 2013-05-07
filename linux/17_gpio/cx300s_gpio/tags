@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=gcc$/;"	m
+CHARGE_IN	testgpio.c	20;"	d	file:
+CPLD_JTAG_TCK	gpio.h	/^	CPLD_JTAG_TCK = _MX27_BUILD_PIN(5, 13);$/;"	e	enum:iomux_pins
+CPLD_JTAG_TDI	gpio.h	/^	CPLD_JTAG_TDI = _MX27_BUILD_PIN(4, 14);$/;"	e	enum:iomux_pins
+CPLD_JTAG_TDO	gpio.h	/^	CPLD_JTAG_TDO = _MX27_BUILD_PIN(5, 18);$/;"	e	enum:iomux_pins
+CPLD_JTAG_TMS	gpio.h	/^	CPLD_JTAG_TMS = _MX27_BUILD_PIN(5, 14);$/;"	e	enum:iomux_pins
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = \/home\/xxha\/cross_compile\/gcc-4.1.2-glibc-2.5-nptl-3\/arm-none-linux-gnueabi\/bin\/arm-none-linux-gnueabi-$/;"	m
+GPIO_REG_DDIR	gpio.c	21;"	d	file:
+GPIO_REG_DR	gpio.c	28;"	d	file:
+GPIO_REG_GIUS	gpio.c	29;"	d	file:
+GPIO_REG_GPR	gpio.c	35;"	d	file:
+GPIO_REG_ICONFA1	gpio.c	24;"	d	file:
+GPIO_REG_ICONFA2	gpio.c	25;"	d	file:
+GPIO_REG_ICONFB1	gpio.c	26;"	d	file:
+GPIO_REG_ICONFB2	gpio.c	27;"	d	file:
+GPIO_REG_ICR1	gpio.c	31;"	d	file:
+GPIO_REG_ICR2	gpio.c	32;"	d	file:
+GPIO_REG_IMR	gpio.c	33;"	d	file:
+GPIO_REG_ISR	gpio.c	34;"	d	file:
+GPIO_REG_OCR1	gpio.c	22;"	d	file:
+GPIO_REG_OCR2	gpio.c	23;"	d	file:
+GPIO_REG_PUEN	gpio.c	37;"	d	file:
+GPIO_REG_SSR	gpio.c	30;"	d	file:
+GPIO_REG_SWR	gpio.c	36;"	d	file:
+I2C1_SCL	testgpio.c	23;"	d	file:
+I2C1_SDA	testgpio.c	22;"	d	file:
+I2C2_SCL	testgpio.c	25;"	d	file:
+I2C2_SDA	testgpio.c	24;"	d	file:
+INPUT	gpio.h	29;"	d
+LED1	testgpio.c	7;"	d	file:
+LED2	testgpio.c	8;"	d	file:
+LED3	testgpio.c	9;"	d	file:
+LED4	testgpio.c	10;"	d	file:
+MAP_MASK	gpio.c	7;"	d	file:
+MAP_SIZE	gpio.c	6;"	d	file:
+MMAP_BASE_ADDR	gpio.c	9;"	d	file:
+MUX_IO_I	gpio.h	33;"	d
+MUX_IO_P	gpio.h	32;"	d
+MX120_GPIO1	testgpio.c	12;"	d	file:
+OUTPUT	gpio.h	28;"	d
+PORTA_OFFSET_ADDR	gpio.c	14;"	d	file:
+PORTB_OFFSET_ADDR	gpio.c	15;"	d	file:
+PORTC_OFFSET_ADDR	gpio.c	16;"	d	file:
+PORTD_OFFSET_ADDR	gpio.c	17;"	d	file:
+PORTE_OFFSET_ADDR	gpio.c	18;"	d	file:
+PORTF_OFFSET_ADDR	gpio.c	19;"	d	file:
+PORT_A	gpio.h	21;"	d
+PORT_B	gpio.h	22;"	d
+PORT_C	gpio.h	23;"	d
+PORT_D	gpio.h	24;"	d
+PORT_E	gpio.h	25;"	d
+PORT_F	gpio.h	26;"	d
+PORT_OFFSET_INC	gpio.c	12;"	d	file:
+TENGG_GPIO1	testgpio.c	14;"	d	file:
+TENGG_GPIO2	testgpio.c	16;"	d	file:
+TENGG_GPIO3	testgpio.c	15;"	d	file:
+TEST_DELAY	testgpio.c	18;"	d	file:
+_MX27_BUILD_PIN	gpio.h	34;"	d
+__MX27_GPIO_H__	gpio.h	4;"	d
+fd	gpio.c	/^int fd = 0;$/;"	v
+getgpiodata	gpio.c	/^int getgpiodata(unsigned int port, int pin, unsigned int * data)$/;"	f
+gpio_exit	gpio.c	/^int gpio_exit()$/;"	f
+gpio_init	gpio.c	/^int gpio_init()$/;"	f
+iomux_pin_name_t	gpio.h	/^} iomux_pin_name_t;$/;"	t	typeref:enum:iomux_pins
+iomux_pins	gpio.h	/^typedef enum iomux_pins {$/;"	g
+main	testgpio.c	/^int main()$/;"	f
+map_base	gpio.c	/^volatile void *map_base = NULL; $/;"	v
+setgpiodata	gpio.c	/^int setgpiodata(unsigned int port, unsigned int pin, unsigned int data)$/;"	f
+setgpiodir	gpio.c	/^int setgpiodir(unsigned int port, unsigned int pin, unsigned int dir)$/;"	f
+setpullup	gpio.c	/^int setpullup(unsigned int port, int pin, unsigned int pull)$/;"	f

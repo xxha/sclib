@@ -1,0 +1,1 @@
+cmd_/home/xxha/sclib/linux/2_char/7_ioctl/ioctl_test.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.32-45-generic/scripts/module-common.lds --build-id -o /home/xxha/sclib/linux/2_char/7_ioctl/ioctl_test.ko /home/xxha/sclib/linux/2_char/7_ioctl/ioctl_test.o /home/xxha/sclib/linux/2_char/7_ioctl/ioctl_test.mod.o

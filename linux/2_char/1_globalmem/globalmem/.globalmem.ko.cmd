@@ -1,0 +1,1 @@
+cmd_/home/xxha/sclib/linux_driver/char_dev/globalmem/globalmem.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.32-21-generic/scripts/module-common.lds --build-id -o /home/xxha/sclib/linux_driver/char_dev/globalmem/globalmem.ko /home/xxha/sclib/linux_driver/char_dev/globalmem/globalmem.o /home/xxha/sclib/linux_driver/char_dev/globalmem/globalmem.mod.o

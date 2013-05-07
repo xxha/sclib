@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+KERNELDIR	Makefile	/^KERNELDIR=$(shell ls -d ~\/linux-2.6.[0-9]*)$/;"	m
+MYDEV_MAX_NDEV	mymod_multi.c	8;"	d	file:
+MYDEV_RING_SIZE	mymod_multi.c	16;"	d	file:
+MYDEV_RING_SIZE	mymod_single.c	13;"	d	file:
+OutRingBuffer	ringbuffer.h	/^struct OutRingBuffer$/;"	s
+PWD	Makefile	/^PWD := $(shell pwd)$/;"	m
+TARGETDIR	Makefile	/^TARGETDIR=\/targetfs$/;"	m
+__RINGBUFFER_H__	ringbuffer.h	24;"	d
+buffer	ringbuffer.h	/^    char *buffer;$/;"	m	struct:OutRingBuffer
+data_size	ringbuffer.h	/^    int data_size;$/;"	m	struct:OutRingBuffer
+major	mymod_basic.c	/^static unsigned major = 0;				\/* save major number assigned to driver *\/$/;"	v	file:
+major	mymod_multi.c	/^static unsigned major = 0;				\/* save major number assigned to driver *\/$/;"	v	file:
+major	mymod_single.c	/^static unsigned major = 0;				\/* save major number assigned to driver *\/$/;"	v	file:
+mydev	mymod_basic.c	/^static struct cdev mydev;				\/* to be registered with kernel *\/$/;"	v	typeref:struct:cdev	file:
+mydev	mymod_multi.c	/^static struct cdev mydev;				\/* to be registered with kernel *\/$/;"	v	typeref:struct:cdev	file:
+mydev	mymod_single.c	/^static struct cdev mydev;				\/* to be registered with kernel *\/$/;"	v	typeref:struct:cdev	file:
+mydev-objs	Makefile	/^mydev-objs := mymod.o ringbuffer.o$/;"	m
+mydev_class	mymod_basic.c	/^static struct class *mydev_class = NULL;		\/* device class to register with sysfs *\/$/;"	v	typeref:struct:class	file:
+mydev_class	mymod_multi.c	/^static struct class *mydev_class = NULL;		\/* device class to register with sysfs *\/$/;"	v	typeref:struct:class	file:
+mydev_class	mymod_single.c	/^static struct class *mydev_class = NULL;		\/* device class to register with sysfs *\/$/;"	v	typeref:struct:class	file:
+mydev_device	mymod_basic.c	/^static struct device *mydev_device;			\/* device registered with sysfs *\/$/;"	v	typeref:struct:device	file:
+mydev_device	mymod_multi.c	/^static struct device *mydev_device[MYDEV_MAX_NDEV];	\/* devices registered with sysfs *\/$/;"	v	typeref:struct:device	file:
+mydev_device	mymod_single.c	/^static struct device *mydev_device;			\/* device registered with sysfs *\/$/;"	v	typeref:struct:device	file:
+mydev_fops	mymod_basic.c	/^static const struct file_operations mydev_fops = {$/;"	v	typeref:struct:file_operations	file:
+mydev_fops	mymod_multi.c	/^static const struct file_operations mydev_fops = {$/;"	v	typeref:struct:file_operations	file:
+mydev_fops	mymod_single.c	/^static const struct file_operations mydev_fops = {$/;"	v	typeref:struct:file_operations	file:
+mydev_read	mymod_basic.c	/^mydev_read(struct file *filp, char __user *buf, size_t nbuf, loff_t *offs)$/;"	f	file:
+mydev_read	mymod_multi.c	/^mydev_read(struct file *filp, char __user *buf, size_t nbuf, loff_t *offs)$/;"	f	file:
+mydev_read	mymod_single.c	/^mydev_read(struct file *filp, char __user *buf, size_t nbuf, loff_t *offs)$/;"	f	file:
+mydev_ring	mymod_multi.c	/^static struct OutRingBuffer *mydev_ring[MYDEV_MAX_NDEV];	\/* ring buffer handles *\/$/;"	v	typeref:struct:OutRingBuffer	file:
+mydev_ring	mymod_single.c	/^static struct OutRingBuffer *mydev_ring;			\/* ring buffer handle *\/$/;"	v	typeref:struct:OutRingBuffer	file:
+mydev_write	mymod_basic.c	/^mydev_write(struct file *filp, const char __user *buf, size_t nbuf, loff_t *offs)$/;"	f	file:
+mydev_write	mymod_multi.c	/^mydev_write(struct file *filp, const char __user *buf, size_t nbuf, loff_t *offs)$/;"	f	file:
+mydev_write	mymod_single.c	/^mydev_write(struct file *filp, const char __user *buf, size_t nbuf, loff_t *offs)$/;"	f	file:
+mymod_exit	mymod.c	/^module_exit(mymod_exit);$/;"	v
+mymod_exit	mymod.c	/^mymod_exit(void) $/;"	f	file:
+mymod_exit	mymod_basic.c	/^module_exit(mymod_exit);$/;"	v
+mymod_exit	mymod_basic.c	/^mymod_exit(void) $/;"	f	file:
+mymod_exit	mymod_multi.c	/^module_exit(mymod_exit);$/;"	v
+mymod_exit	mymod_multi.c	/^mymod_exit(void) $/;"	f	file:
+mymod_exit	mymod_single.c	/^module_exit(mymod_exit);$/;"	v
+mymod_exit	mymod_single.c	/^mymod_exit(void) $/;"	f	file:
+mymod_init	mymod.c	/^module_init(mymod_init);$/;"	v
+mymod_init	mymod.c	/^mymod_init (void)$/;"	f	file:
+mymod_init	mymod_basic.c	/^module_init(mymod_init);$/;"	v
+mymod_init	mymod_basic.c	/^mymod_init (void)$/;"	f	file:
+mymod_init	mymod_multi.c	/^module_init(mymod_init);$/;"	v
+mymod_init	mymod_multi.c	/^mymod_init (void)$/;"	f	file:
+mymod_init	mymod_single.c	/^module_init(mymod_init);$/;"	v
+mymod_init	mymod_single.c	/^mymod_init (void)$/;"	f	file:
+ndev	mymod_multi.c	/^static unsigned ndev = 1;				\/* number of devices to create *\/$/;"	v	file:
+obj-m	Makefile	/^obj-m := mydev.o$/;"	m
+rb_clear	ringbuffer.c	/^rb_clear (struct OutRingBuffer *rb)$/;"	f
+rb_data_size	ringbuffer.c	/^rb_data_size (struct OutRingBuffer *rb)$/;"	f
+rb_destroy	ringbuffer.c	/^rb_destroy (struct OutRingBuffer *rb)$/;"	f
+rb_free	ringbuffer.c	/^rb_free (struct OutRingBuffer *rb)$/;"	f
+rb_init	ringbuffer.c	/^rb_init (struct OutRingBuffer **rb, int size)$/;"	f
+rb_read	ringbuffer.c	/^rb_read (struct OutRingBuffer *rb, unsigned char * buf, int max)$/;"	f
+rb_write	ringbuffer.c	/^rb_write (struct OutRingBuffer *rb, unsigned char * buf, int len)$/;"	f
+rbuf	mymod_multi.c	/^static char rbuf[MYDEV_RING_SIZE], wbuf[MYDEV_RING_SIZE];	\/* temporary buffers for moving data$/;"	v	file:
+rbuf	mymod_single.c	/^static char rbuf[MYDEV_RING_SIZE], wbuf[MYDEV_RING_SIZE];	\/* temporary buffers for moving data$/;"	v	file:
+rd_pointer	ringbuffer.h	/^    int rd_pointer;$/;"	m	struct:OutRingBuffer
+size	ringbuffer.h	/^    int size;$/;"	m	struct:OutRingBuffer
+wbuf	mymod_multi.c	/^static char rbuf[MYDEV_RING_SIZE], wbuf[MYDEV_RING_SIZE];	\/* temporary buffers for moving data$/;"	v	file:
+wbuf	mymod_single.c	/^static char rbuf[MYDEV_RING_SIZE], wbuf[MYDEV_RING_SIZE];	\/* temporary buffers for moving data$/;"	v	file:
+wr_pointer	ringbuffer.h	/^    int wr_pointer;$/;"	m	struct:OutRingBuffer

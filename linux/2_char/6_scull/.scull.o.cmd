@@ -1,0 +1,1 @@
+cmd_/home/xxha/sclib/linux/2_char/6_scull/scull.o := ld -m elf_i386   -r -o /home/xxha/sclib/linux/2_char/6_scull/scull.o /home/xxha/sclib/linux/2_char/6_scull/main.o /home/xxha/sclib/linux/2_char/6_scull/pipe.o /home/xxha/sclib/linux/2_char/6_scull/access.o 

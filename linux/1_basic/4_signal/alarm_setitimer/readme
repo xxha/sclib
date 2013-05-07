@@ -1,0 +1,13 @@
+这是关于setitimer调用的一个简单示范，在该例子中，每隔一秒发出一个SIGALRM，每隔0.5秒发出一个SIGVTALRM信号：
+
+该例子的屏幕拷贝如下：
+
+localhost:~$ ./timer_test
+process id is 579
+Catch a signal – SIGVTALRM
+Catch a signal – SIGALRM
+Catch a signal – SIGVTALRM
+Catch a signal – SIGVTALRM
+Catch a signal – SIGALRM
+Catch a signal –GVTALRM
+

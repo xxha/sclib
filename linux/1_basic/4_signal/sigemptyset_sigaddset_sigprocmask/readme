@@ -1,0 +1,12 @@
+默认gcc编译不过，报错：
+
+/tmp/ccXTghCW.o: In function `main':
+sig_test.c:(.text+0xe5): undefined reference to `sin'
+collect2: ld returned 1 exit status
+
+需要使用：
+gcc *.c -lm -L/lib -L/usr/lib 
+
+block 时，信号不会被接受，
+unblock时，信号才会被接受，ctrl+c 才起作用。
+

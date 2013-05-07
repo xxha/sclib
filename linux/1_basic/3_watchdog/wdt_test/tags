@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Init	test_wdt.c	/^int Init()   $/;"	f
+OPTION_BASIC	test_wdt.c	17;"	d	file:
+OPTION_REBOOT	test_wdt.c	16;"	d	file:
+REBOOT	test_wdt.c	19;"	d	file:
+WATCHDOG_IOCTL_BASE	watchdog.h	14;"	d
+WDIOC_GETBOOTSTATUS	watchdog.h	24;"	d
+WDIOC_GETSTATUS	watchdog.h	23;"	d
+WDIOC_GETSUPPORT	watchdog.h	22;"	d
+WDIOC_GETTEMP	watchdog.h	25;"	d
+WDIOC_GETTIMEOUT	watchdog.h	29;"	d
+WDIOC_KEEPALIVE	watchdog.h	27;"	d
+WDIOC_SETOPTIONS	watchdog.h	26;"	d
+WDIOC_SETTIMEOUT	watchdog.h	28;"	d
+WDIOF_CARDRESET	watchdog.h	39;"	d
+WDIOF_EXTERN1	watchdog.h	36;"	d
+WDIOF_EXTERN2	watchdog.h	37;"	d
+WDIOF_FANFAULT	watchdog.h	35;"	d
+WDIOF_KEEPALIVEPING	watchdog.h	43;"	d
+WDIOF_MAGICCLOSE	watchdog.h	42;"	d
+WDIOF_OVERHEAT	watchdog.h	34;"	d
+WDIOF_POWEROVER	watchdog.h	40;"	d
+WDIOF_POWERUNDER	watchdog.h	38;"	d
+WDIOF_SETTIMEOUT	watchdog.h	41;"	d
+WDIOF_UNKNOWN	watchdog.h	31;"	d
+WDIOS_DISABLECARD	watchdog.h	45;"	d
+WDIOS_ENABLECARD	watchdog.h	46;"	d
+WDIOS_TEMPPANIC	watchdog.h	47;"	d
+WDIOS_UNKNOWN	watchdog.h	32;"	d
+_LINUX_WATCHDOG_H	watchdog.h	10;"	d
+firmware_version	watchdog.h	/^	unsigned int firmware_version;	\/* Firmware version of the card *\/$/;"	m	struct:watchdog_info
+identity	watchdog.h	/^	unsigned char identity[32];	\/* Identity of the board *\/$/;"	m	struct:watchdog_info
+main	test_wdt.c	/^int main(int argc,char **argv)   $/;"	f
+options	watchdog.h	/^	unsigned int options;		\/* Options the card\/driver supports *\/$/;"	m	struct:watchdog_info
+watchdog_info	watchdog.h	/^struct watchdog_info {$/;"	s
+zsleep	test_wdt.c	/^int zsleep(int millisecond)   $/;"	f

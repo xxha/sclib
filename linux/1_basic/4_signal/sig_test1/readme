@@ -1,0 +1,14 @@
+其中信号SIGINT由按下Ctrl-C发出，信号SIGQUIT由按下Ctrl-发出。该程序执行的结果如下：
+
+localhost:~$ ./sig_test
+process id is 463
+Get a signal -SIGINT //按下Ctrl-C得到的结果
+Get a signal -SIGQUIT //按下Ctrl-得到的结果
+//按下Ctrl-z将进程置于后台
+[1]+ Stopped ./sig_test
+localhost:~$ bg
+[1]+ ./sig_test &
+localhost:~$ kill -HUP 463 //向进程发送SIGHUP信号
+localhost:~$ Get a signal – SIGHUP
+kill -9 463 //向进程发送SIGKILL信号，终止进程
+localhost:~$ :

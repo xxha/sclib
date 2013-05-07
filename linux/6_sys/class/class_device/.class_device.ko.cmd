@@ -1,0 +1,1 @@
+cmd_/home/xxha/sclib/linux/6_sys/class/class_device/class_device.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.32-45-generic/scripts/module-common.lds --build-id -o /home/xxha/sclib/linux/6_sys/class/class_device/class_device.ko /home/xxha/sclib/linux/6_sys/class/class_device/class_device.o /home/xxha/sclib/linux/6_sys/class/class_device/class_device.mod.o
