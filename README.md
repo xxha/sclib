@@ -1,4 +1,0 @@
-sclib
-=====
-
-souce code library

@@ -1,0 +1,6 @@
+version:1.0.1
+snatch and write the usr image for v300.Add automatic version update and compile infomation.
+
+verion:1.0.0
+snatch the flash image from target .write flash image to target in the linux environment.
+

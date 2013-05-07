@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLOCK_SIZES_FOR_WRITE	main.c	13;"	d	file:
+CC	Makefile	/^CC=arm-none-linux-gnueabi-gcc$/;"	m
+CFLAG	Makefile	/^CFLAG=$/;"	m
+ERASE_INFO_USER	new_type.h	/^typedef struct erase_info_user ERASE_INFO_USER;$/;"	t	typeref:struct:erase_info_user
+INT16	new_type.h	14;"	d
+INT32	new_type.h	15;"	d
+INT8	new_type.h	13;"	d
+MAX_CONFIG_DATA	main.h	10;"	d
+MEMERASE	mtd-self.h	36;"	d
+MEMUNLOCK	mtd-self.h	37;"	d
+PARTITION_ITEM	main.h	/^}PARTITION_ITEM;$/;"	t	typeref:struct:__anon1
+PART_COUNTS	main.h	6;"	d
+REDBOOT_FIS_DIRECTORY_ENTRY_SIZE	main.h	9;"	d
+UINT16	new_type.h	10;"	d
+UINT32	new_type.h	11;"	d
+UINT8	new_type.h	9;"	d
+UTILS_AUTHOR	version.h	5;"	d
+UTILS_HOST_OS	version.h	4;"	d
+UTILS_TIME	version.h	6;"	d
+UTILS_VERSION	Makefile	/^UTILS_VERSION=1.0.1$/;"	m
+UTILS_VERSION	version.h	3;"	d
+UTIS_AUTHOR	Makefile	/^UTIS_AUTHOR=$(shell whoami)$/;"	m
+UTIS_HOST_OS	Makefile	/^UTIS_HOST_OS=$(shell uname)$/;"	m
+UTIS_TIME	Makefile	/^UTIS_TIME=$(shell date)$/;"	m
+V100_PART_COUNTS	main.h	7;"	d
+V300_PART_COUNTS	main.h	8;"	d
+_IOC	mtd-self.h	26;"	d
+_IOC_DIRBITS	mtd-self.h	15;"	d
+_IOC_DIRMASK	mtd-self.h	20;"	d
+_IOC_DIRSHIFT	mtd-self.h	25;"	d
+_IOC_NRBITS	mtd-self.h	12;"	d
+_IOC_NRMASK	mtd-self.h	17;"	d
+_IOC_NRSHIFT	mtd-self.h	22;"	d
+_IOC_SIZEBITS	mtd-self.h	14;"	d
+_IOC_SIZEMASK	mtd-self.h	19;"	d
+_IOC_SIZESHIFT	mtd-self.h	24;"	d
+_IOC_TYPEBITS	mtd-self.h	13;"	d
+_IOC_TYPEMASK	mtd-self.h	18;"	d
+_IOC_TYPESHIFT	mtd-self.h	23;"	d
+_MAIN_H	main.h	5;"	d
+_NEW_TYPE_H	new_type.h	5;"	d
+__MTD_H	mtd-self.h	2;"	d
+__VERSION_H	version.h	2;"	d
+_config	main.h	/^struct _config {$/;"	s
+cksum	main.h	/^    unsigned long cksum;$/;"	m	struct:_config
+config_data	main.h	/^    unsigned char config_data[MAX_CONFIG_DATA-(4*4)];$/;"	m	struct:_config
+data	main.c	/^static unsigned char data[BLOCK_SIZES_FOR_WRITE];$/;"	v	file:
+detect_partition	main.c	/^int detect_partition(){$/;"	f
+display_redboot_config	main.c	/^int display_redboot_config(){$/;"	f
+end_addr	main.h	/^	UINT32	end_addr;$/;"	m	struct:__anon1
+erase_info_user	mtd-self.h	/^struct  erase_info_user{$/;"	s
+key1	main.h	/^    unsigned long key1;$/;"	m	struct:_config
+key2	main.h	/^    unsigned long key2;$/;"	m	struct:_config
+len	main.h	/^	UINT32	len;	$/;"	m	struct:__anon1
+len	main.h	/^    unsigned long len;$/;"	m	struct:_config
+length	mtd-self.h	/^	unsigned int length;$/;"	m	struct:erase_info_user
+main	main.c	/^ int main(int argc,char **argv){$/;"	f
+md5sum1	main.c	/^static UINT8 md5sum1[64],md5sum2[64];$/;"	v	file:
+md5sum2	main.c	/^static UINT8 md5sum1[64],md5sum2[64];$/;"	v	file:
+partion_buff	main.c	/^UINT8 	partion_buff[512];$/;"	v
+partion_name	main.h	/^	UINT8 	partion_name[32];$/;"	m	struct:__anon1
+partion_table	main.c	/^PARTITION_ITEM	partion_table[PART_COUNTS];$/;"	v
+partition_num	main.c	/^INT32	partition_num;$/;"	v
+read_image_from_partition	main.c	/^int read_image_from_partition(UINT8 *image,UINT8 *partition){$/;"	f
+snatch_usr_v300	main.c	/^int snatch_usr_v300(int index, UINT8 * image){$/;"	f
+start	mtd-self.h	/^	unsigned int  start;$/;"	m	struct:erase_info_user
+start_addr	main.h	/^	UINT32	start_addr;$/;"	m	struct:__anon1
+tempBuf	main.c	/^static unsigned char tempBuf[BLOCK_SIZES_FOR_WRITE];$/;"	v	file:
+update_usr_v300	main.c	/^int update_usr_v300(int index,UINT8 *image){$/;"	f
+usage	main.c	/^ void usage(unsigned char *str){$/;"	f
+write_image_to_partition	main.c	/^int write_image_to_partition(UINT8 *image,UINT8 * partition){$/;"	f

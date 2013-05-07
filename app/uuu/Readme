@@ -1,0 +1,11 @@
+The tool can write image into flash and snatch image from flash.It can not operate the redboot partition now .
+Build and install:
+ 1)."make" to make the tool.
+ 2).Download the tool into your unit. The "/tmp" directory is recommended.
+
+Usage:
+ 1)."./uuu " will give you a help about how to use the tool.
+ 2)."./uuu -l" will list the partition table of the unit.
+ 3)."./uuu -w image-name partion" will burn the image file into the partion. The image file should have been 
+    downloaded in the unit before burning it.
+ 4)."./uuu -r partion image-name" will snatch the partition image into the file .
