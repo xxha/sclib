@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wrxml>
+    <properties platform="WRLinux" platform_name="wrlinux-4" root="1" type="ApplicationProject"/>
+    <attributes>
+        <mapAttribute>
+            <listAttribute key="BLD::Info|GlobalMacros">
+                <stringAttribute value="PROJECT_TYPE"/>
+            </listAttribute>
+            <stringAttribute key="BLD::Info|GlobalMacro|PROJECT_TYPE" value="APP"/>
+            <listAttribute key="BLD::Info|Incl|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4">
+                <stringAttribute value="-I$(PRJ_ROOT_DIR)/include"/>
+            </listAttribute>
+            <listAttribute key="BLD::Info|Incl|har_tcm2065-uclibc_small-armv6jel_vfp-harman">
+                <stringAttribute value="-I$(PRJ_ROOT_DIR)/include"/>
+            </listAttribute>
+            <listAttribute key="BLD::Info|Libs|har_tcm2065-uclibc_small-armv6jel_vfp-harman"/>
+            <listAttribute key="BLD::Info|Macros">
+                <stringAttribute value="ARCH"/>
+                <stringAttribute value="TOOL_PATH"/>
+                <stringAttribute value="CROSS_COMPILE"/>
+                <stringAttribute value="CROSS_COMPILE_KERNEL"/>
+                <stringAttribute value="ADAPT_DEPS"/>
+                <stringAttribute value="LINUX_KERNEL_VERSION"/>
+                <stringAttribute value="CPU_VARIANT"/>
+                <stringAttribute value="ROOTFS"/>
+                <stringAttribute value="LIBPATH"/>
+                <stringAttribute value="LIBS"/>
+                <stringAttribute value="LAYER"/>
+            </listAttribute>
+            <stringAttribute key="BLD::Info|Macro|ADAPT_DEPS|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADAPT_DEPS|value|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADAPT_DEPS|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADAPT_DEPS|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ADAPT_DEPS|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|ARCH|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="arm"/>
+            <stringAttribute key="BLD::Info|Macro|ARCH|value|common_pc-glibc_std-i686-wrlinux_4" value="x86"/>
+            <stringAttribute key="BLD::Info|Macro|ARCH|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="arm"/>
+            <stringAttribute key="BLD::Info|Macro|ARCH|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="mips"/>
+            <stringAttribute key="BLD::Info|Macro|ARCH|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="powerpc"/>
+            <stringAttribute key="BLD::Info|Macro|CPU_VARIANT|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="armv5tel_vfp"/>
+            <stringAttribute key="BLD::Info|Macro|CPU_VARIANT|value|common_pc-glibc_std-i686-wrlinux_4" value="i686"/>
+            <stringAttribute key="BLD::Info|Macro|CPU_VARIANT|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="armv6jel_vfp"/>
+            <stringAttribute key="BLD::Info|Macro|CPU_VARIANT|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="mips_xlr"/>
+            <stringAttribute key="BLD::Info|Macro|CPU_VARIANT|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="ppc_603e"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE_KERNEL|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="arm-wrs-linux-gnueabi-"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE_KERNEL|value|common_pc-glibc_std-i686-wrlinux_4" value="i586-wrs-linux-gnu-"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE_KERNEL|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="arm-wrs-linux-gnueabi-"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE_KERNEL|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="mips-wrs-linux-gnu-"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE_KERNEL|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="powerpc-wrs-linux-gnu-"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="armv5tel_vfp-target-linux-gnueabi-"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE|value|common_pc-glibc_std-i686-wrlinux_4" value="i686-target-linux-gnu-"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="armv6jel_vfp-target-linux-gnueabi-"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="mips_xlr-target-linux-gnu-"/>
+            <stringAttribute key="BLD::Info|Macro|CROSS_COMPILE|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="ppc_603e-target-linux-gnu-"/>
+            <stringAttribute key="BLD::Info|Macro|LAYER|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="/home/sean/WindRiver/wrlinux-4/sysroots/arm_versatile_926ejs-glibc_std"/>
+            <stringAttribute key="BLD::Info|Macro|LAYER|value|common_pc-glibc_std-i686-wrlinux_4" value="/home/sean/WindRiver/wrlinux-4/sysroots/common_pc-glibc_std"/>
+            <stringAttribute key="BLD::Info|Macro|LAYER|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="/home/sean/WindRiver/workspace/harman_prj/export/sysroot/har_tcm2065-uclibc_small"/>
+            <stringAttribute key="BLD::Info|Macro|LAYER|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="/home/sean/WindRiver/wrlinux-4/sysroots/nlm_xls_atx_64_be-glibc_std"/>
+            <stringAttribute key="BLD::Info|Macro|LAYER|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="/home/sean/WindRiver/wrlinux-4/sysroots/qemu_ppc32-glibc_std"/>
+            <stringAttribute key="BLD::Info|Macro|LIBPATH|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBPATH|value|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBPATH|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBPATH|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBPATH|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBS|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBS|value|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBS|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBS|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LIBS|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Macro|LINUX_KERNEL_VERSION|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="2.6.34"/>
+            <stringAttribute key="BLD::Info|Macro|LINUX_KERNEL_VERSION|value|common_pc-glibc_std-i686-wrlinux_4" value="2.6.34"/>
+            <stringAttribute key="BLD::Info|Macro|LINUX_KERNEL_VERSION|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="2.6.34"/>
+            <stringAttribute key="BLD::Info|Macro|LINUX_KERNEL_VERSION|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="2.6.34"/>
+            <stringAttribute key="BLD::Info|Macro|LINUX_KERNEL_VERSION|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="2.6.34"/>
+            <stringAttribute key="BLD::Info|Macro|ROOTFS|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="glibc_std"/>
+            <stringAttribute key="BLD::Info|Macro|ROOTFS|value|common_pc-glibc_std-i686-wrlinux_4" value="glibc_std"/>
+            <stringAttribute key="BLD::Info|Macro|ROOTFS|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="uclibc_small"/>
+            <stringAttribute key="BLD::Info|Macro|ROOTFS|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="glibc_std"/>
+            <stringAttribute key="BLD::Info|Macro|ROOTFS|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="glibc_std"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="/home/sean/WindRiver/wrlinux-4/sysroots/arm_versatile_926ejs-glibc_std/x86-linux2/"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|common_pc-glibc_std-i686-wrlinux_4" value="/home/sean/WindRiver/wrlinux-4/sysroots/common_pc-glibc_std/x86-linux2/"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="/home/xxha/WindRiver/workspace/tcm0105_prj/export/sysroot/har_tcm2065-glibc_small/x86-linux2/"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="/home/sean/WindRiver/wrlinux-4/sysroots/nlm_xls_atx_64_be-glibc_std/x86-linux2/"/>
+            <stringAttribute key="BLD::Info|Macro|TOOL_PATH|value|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="/home/sean/WindRiver/wrlinux-4/sysroots/qemu_ppc32-glibc_std/x86-linux2/"/>
+            <listAttribute key="BLD::Info|Tools">
+                <stringAttribute value="Assembler"/>
+                <stringAttribute value="C++-Compiler"/>
+                <stringAttribute value="C++-Linker"/>
+                <stringAttribute value="C-Compiler"/>
+                <stringAttribute value="C-Linker"/>
+                <stringAttribute value="Librarian"/>
+                <stringAttribute value="Shared Library Linker"/>
+            </listAttribute>
+            <stringAttribute key="BLD::Info|Tool|Assembler|cmd|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="echo  &quot;building $@ &quot;;%assemblerprefix% $(TOOL_PATH)$(CROSS_COMPILE)as %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -o %OutFile% %InFile% $(ADAPT_DEPS)"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|cmd|common_pc-glibc_std-i686-wrlinux_4" value="echo  &quot;building $@ &quot;;%assemblerprefix% $(TOOL_PATH)$(CROSS_COMPILE)as %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -o %OutFile% %InFile% $(ADAPT_DEPS)"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|cmd|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="echo  &quot;building $@ &quot;;%assemblerprefix% $(TOOL_PATH)$(CROSS_COMPILE)as %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -o %OutFile% %InFile% $(ADAPT_DEPS)"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|cmd|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="echo  &quot;building $@ &quot;;%assemblerprefix% $(TOOL_PATH)$(CROSS_COMPILE)as %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -o %OutFile% %InFile% $(ADAPT_DEPS)"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|cmd|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="echo  &quot;building $@ &quot;;%assemblerprefix% $(TOOL_PATH)$(CROSS_COMPILE)as %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -o %OutFile% %InFile% $(ADAPT_DEPS)"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|common_pc-glibc_std-i686-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|dbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|common_pc-glibc_std-i686-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|derivedSigs|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|flags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|flags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|flags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|flags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|flags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|nonDbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <booleanAttribute key="BLD::Info|Tool|Assembler|object" value="true"/>
+            <booleanAttribute key="BLD::Info|Tool|Assembler|passAble" value="false"/>
+            <stringAttribute key="BLD::Info|Tool|Assembler|sigs" value="*.ppc;*.s;*.S"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="echo  &quot;building $@ &quot;;%cppcompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|common_pc-glibc_std-i686-wrlinux_4" value="echo  &quot;building $@ &quot;;%cppcompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="echo  &quot;building $@ &quot;;%cppcompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="echo  &quot;building $@ &quot;;%cppcompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|cmd|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="echo  &quot;building $@ &quot;;%cppcompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% $(ADDED_C++FLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-g -O0 -fno-omit-frame-pointer -mapcs-frame -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|common_pc-glibc_std-i686-wrlinux_4" value="-g -march=pentium4 -mmmx -msse -msse2 -mfpmath=sse -O0 -fno-omit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-g -mcpu=arm1136jf-s -O0 -fno-omit-frame-pointer -mapcs-frame -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-g -march=xlr -O0 -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|dbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-g -mcpu=603e -O0 -fno-omit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|common_pc-glibc_std-i686-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|derivedSigs|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|flags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-O2 -fomit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|common_pc-glibc_std-i686-wrlinux_4" value="-march=pentium4 -mmmx -msse -msse2 -mfpmath=sse -O2 -fomit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-mcpu=arm1136jf-s -Os -fomit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-march=xlr -O2 -fomit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|nonDbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-mcpu=603e -O2 -fomit-frame-pointer -pipe"/>
+            <booleanAttribute key="BLD::Info|Tool|C++-Compiler|object" value="true"/>
+            <booleanAttribute key="BLD::Info|Tool|C++-Compiler|passAble" value="false"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Compiler|sigs" value="*.cpp;*.cxx;*.C;*.cc"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|cmd|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|cmd|common_pc-glibc_std-i686-wrlinux_4" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|cmd|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|cmd|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|cmd|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)g++ %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|dbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|dbgFlags|common_pc-glibc_std-i686-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|dbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|dbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|dbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|derivedSigs|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|derivedSigs|common_pc-glibc_std-i686-wrlinux_4" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|derivedSigs|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|derivedSigs|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|derivedSigs|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|flags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|flags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|flags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|flags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|flags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|nonDbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|nonDbgFlags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|nonDbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|nonDbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|nonDbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <booleanAttribute key="BLD::Info|Tool|C++-Linker|object" value="false"/>
+            <booleanAttribute key="BLD::Info|Tool|C++-Linker|passAble" value="false"/>
+            <stringAttribute key="BLD::Info|Tool|C++-Linker|sigs" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="echo  &quot;building $@ &quot;;%ccompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|common_pc-glibc_std-i686-wrlinux_4" value="echo  &quot;building $@ &quot;;%ccompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="echo  &quot;building $@ &quot;;%ccompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="echo  &quot;building $@ &quot;;%ccompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|cmd|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="echo  &quot;building $@ &quot;;%ccompilerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% $(ADDED_CFLAGS) %Defines% %Includes% $(ADDED_INCLUDES) $(DEFINES) -MD -MP -c -DARCH=$(ARCH) -o %OutFile% %InFile%"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-g -O0 -fno-omit-frame-pointer -mapcs-frame -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|common_pc-glibc_std-i686-wrlinux_4" value="-g -march=pentium4 -mmmx -msse -msse2 -mfpmath=sse -O0 -fno-omit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-g -mcpu=arm1136jf-s -O0 -fno-omit-frame-pointer -mapcs-frame -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-g -march=xlr -O0 -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|dbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-g -mcpu=603e -O0 -fno-omit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|common_pc-glibc_std-i686-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|derivedSigs|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="*.o"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|flags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-O2 -fomit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|common_pc-glibc_std-i686-wrlinux_4" value="-march=pentium4 -mmmx -msse -msse2 -mfpmath=sse -O2 -fomit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-mcpu=arm1136jf-s -Os -fomit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-march=xlr -O2 -fomit-frame-pointer -pipe"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|nonDbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-mcpu=603e -O2 -fomit-frame-pointer -pipe"/>
+            <booleanAttribute key="BLD::Info|Tool|C-Compiler|object" value="true"/>
+            <booleanAttribute key="BLD::Info|Tool|C-Compiler|passAble" value="false"/>
+            <stringAttribute key="BLD::Info|Tool|C-Compiler|sigs" value="*.c"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|cmd|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="echo  &quot;building $@ &quot;;%clinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|cmd|common_pc-glibc_std-i686-wrlinux_4" value="echo  &quot;building $@ &quot;;%clinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|cmd|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="echo  &quot;building $@ &quot;;%clinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|cmd|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="echo  &quot;building $@ &quot;;%clinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|cmd|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="echo  &quot;building $@ &quot;;%clinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|dbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|dbgFlags|common_pc-glibc_std-i686-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|dbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|dbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|dbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|derivedSigs|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|derivedSigs|common_pc-glibc_std-i686-wrlinux_4" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|derivedSigs|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|derivedSigs|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|derivedSigs|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="*.out"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|flags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|flags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|flags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-static"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|flags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|flags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|nonDbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|nonDbgFlags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|nonDbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|nonDbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|nonDbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <booleanAttribute key="BLD::Info|Tool|C-Linker|object" value="false"/>
+            <booleanAttribute key="BLD::Info|Tool|C-Linker|passAble" value="false"/>
+            <stringAttribute key="BLD::Info|Tool|C-Linker|sigs" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|cmd|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="echo  &quot;building $@ &quot;;%archiverprefix% $(TOOL_PATH)$(CROSS_COMPILE)ar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|cmd|common_pc-glibc_std-i686-wrlinux_4" value="echo  &quot;building $@ &quot;;%archiverprefix% $(TOOL_PATH)$(CROSS_COMPILE)ar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|cmd|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="echo  &quot;building $@ &quot;;%archiverprefix% $(TOOL_PATH)$(CROSS_COMPILE)ar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|cmd|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="echo  &quot;building $@ &quot;;%archiverprefix% $(TOOL_PATH)$(CROSS_COMPILE)ar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|cmd|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="echo  &quot;building $@ &quot;;%archiverprefix% $(TOOL_PATH)$(CROSS_COMPILE)ar %ToolFlags% %OutFile% %Objects% $(ADDED_OBJECTS)"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|common_pc-glibc_std-i686-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|dbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="*.a"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|common_pc-glibc_std-i686-wrlinux_4" value="*.a"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="*.a"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="*.a"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|derivedSigs|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="*.a"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|flags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="crus"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|flags|common_pc-glibc_std-i686-wrlinux_4" value="crus"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|flags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="crus"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|flags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="crus"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|flags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="crus"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|nonDbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <booleanAttribute key="BLD::Info|Tool|Librarian|object" value="false"/>
+            <booleanAttribute key="BLD::Info|Tool|Librarian|passAble" value="true"/>
+            <stringAttribute key="BLD::Info|Tool|Librarian|sigs" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|cmd|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|cmd|common_pc-glibc_std-i686-wrlinux_4" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|cmd|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|cmd|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|cmd|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="echo  &quot;building $@ &quot;;%cpplinkerprefix% $(TOOL_PATH)$(CROSS_COMPILE)gcc %DebugModeFlags% %ToolFlags% -o %OutFile% %Objects% $(ADDED_OBJECTS) %Libraries% $(LIBPATH) $(LIBS) $(ADDED_LIBPATH) $(ADDED_LIBS)"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|dbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|dbgFlags|common_pc-glibc_std-i686-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|dbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|dbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|dbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-g"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|derivedSigs|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="*.so"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|derivedSigs|common_pc-glibc_std-i686-wrlinux_4" value="*.so"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|derivedSigs|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="*.so"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|derivedSigs|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="*.so"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|derivedSigs|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="*.so"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|flags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="-shared -fPIC -Wl,-soname=$(@F) "/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|flags|common_pc-glibc_std-i686-wrlinux_4" value="-shared -fPIC -Wl,-soname=$(@F) "/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|flags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="-shared -fPIC -Wl,-soname=$(@F) "/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|flags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="-shared -fPIC -Wl,-soname=$(@F) "/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|flags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="-shared -fPIC -Wl,-soname=$(@F) "/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|nonDbgFlags|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|nonDbgFlags|common_pc-glibc_std-i686-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|nonDbgFlags|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|nonDbgFlags|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value=""/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|nonDbgFlags|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value=""/>
+            <booleanAttribute key="BLD::Info|Tool|Shared Library Linker|object" value="false"/>
+            <booleanAttribute key="BLD::Info|Tool|Shared Library Linker|passAble" value="true"/>
+            <stringAttribute key="BLD::Info|Tool|Shared Library Linker|sigs" value=""/>
+            <stringAttribute key="BLD::Info|cmd" value="%makeprefix% make --no-print-directory"/>
+            <stringAttribute key="BLD::Info|defaultSpec" value="har_tcm2065-uclibc_small-armv6jel_vfp-harman"/>
+            <stringAttribute key="BLD::Info|redirDir|arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4" value="arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4"/>
+            <stringAttribute key="BLD::Info|redirDir|common_pc-glibc_std-i686-wrlinux_4" value="common_pc-glibc_std-i686-wrlinux_4"/>
+            <stringAttribute key="BLD::Info|redirDir|har_tcm2065-uclibc_small-armv6jel_vfp-harman" value="har_tcm2065-uclibc_small-armv6jel_vfp-harman"/>
+            <stringAttribute key="BLD::Info|redirDir|nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4" value="nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4"/>
+            <stringAttribute key="BLD::Info|redirDir|qemu_ppc32-glibc_std-ppc_603e-wrlinux_4" value="qemu_ppc32-glibc_std-ppc_603e-wrlinux_4"/>
+            <stringAttribute key="BLD::Info|redirRoot" value=""/>
+            <listAttribute key="BLD::Info|specs">
+                <stringAttribute value="arm_versatile_926ejs-glibc_std-armv5tel_vfp-wrlinux_4"/>
+                <stringAttribute value="common_pc-glibc_std-i686-wrlinux_4"/>
+                <stringAttribute value="nlm_xls_atx_64_be-glibc_std-mips_xlr-wrlinux_4"/>
+                <stringAttribute value="qemu_ppc32-glibc_std-ppc_603e-wrlinux_4"/>
+                <stringAttribute value="har_tcm2065-uclibc_small-armv6jel_vfp-harman"/>
+            </listAttribute>
+            <intAttribute key="BuildSupportEnabled" value="1"/>
+            <listAttribute key="BuildSupportForBuildSpecs">
+                <stringAttribute value="har_tcm2065-uclibc_small-armv6jel_vfp-harman"/>
+            </listAttribute>
+            <booleanAttribute key="BuildTargetCentric" value="true"/>
+        </mapAttribute>
+    </attributes>
+    <buildtargets>
+        <buildtarget buildtool="C-Linker" name="harctl" passed="false" targetname="harctl">
+            <contents>
+                <folder name="/harctl" recursive="true"/>
+            </contents>
+        </buildtarget>
+    </buildtargets>
+</wrxml>

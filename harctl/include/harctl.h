@@ -1,0 +1,12 @@
+int harAPI_Init(void);
+char *harEnv_List();
+char *harEnv_Get(char *name);
+int harEnv_Set(char *name, char *value);
+int harEnv_Save(void);
+char *harEnv_getBootOrder();
+int harEnv_setBootOrder(char *order);
+char *harEnv_getCmdline();
+int harEnv_setCmdline(char *cmdline);
+int harEnv_setDefault();
+char *harAPI_getLog();
+int harAPI_writePartition(char *name, size_t size, char *data);

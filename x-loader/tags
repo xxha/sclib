@@ -1,0 +1,1070 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABCR	include/aquarius.h	/^	uint32_t ABCR;                                \/* Autobaud Control register                    0x100 *\/$/;"	m	struct:__anon31
+ABDFR	include/aquarius.h	/^	uint32_t ABDFR;                               \/* Autobaud Divisor Fraction register           0x154 *\/$/;"	m	struct:__anon31
+ABDR	include/aquarius.h	/^	uint32_t ABDR;                                \/* Autobaud Divisor register                    0x150 *\/$/;"	m	struct:__anon31
+ABFMT	include/aquarius.h	/^	uint32_t ABFMT;                               \/* Autobaud Format register                     0x108 *\/$/;"	m	struct:__anon31
+ABICR	include/aquarius.h	/^	uint32_t ABICR;                               \/* Autobaud Interrupt Clear register            0x168 *\/$/;"	m	struct:__anon31
+ABIMSC	include/aquarius.h	/^	uint32_t ABIMSC;                              \/* Autobaud Interrupt Mask register             0x15C *\/$/;"	m	struct:__anon31
+ABMIS	include/aquarius.h	/^	uint32_t ABMIS;                               \/* Autobaud Masked Interrupt register           0x164 *\/$/;"	m	struct:__anon31
+ABMR	include/aquarius.h	/^	uint32_t ABMR;                                \/* Autobaud Measurement register                0x158 *\/$/;"	m	struct:__anon31
+ABRIS	include/aquarius.h	/^	uint32_t ABRIS;                               \/* Autobaud Raw Interrupt status register       0x160 *\/$/;"	m	struct:__anon31
+ABSR	include/aquarius.h	/^	uint32_t ABSR;                                \/* Autobaud Status register                     0x104 *\/$/;"	m	struct:__anon31
+AS	Makefile	/^AS = $(CROSS_COMPILE)as$/;"	m
+ASFLAGS	Makefile	/^ASFLAGS = -mcpu=arm1136jf-s$/;"	m
+ATAG_CMDLINE	include/image.h	48;"	d
+ATAG_CORE	include/image.h	46;"	d
+ATAG_MEM	include/image.h	47;"	d
+ATAG_NONE	include/image.h	45;"	d
+ATTRIB	include/aquarius.h	/^	gmc_comm_attr_ioata_reg_t ATTRIB;     \/* Timings for PCcard Attribute mode and wait mode NAND 0x4C *\/$/;"	m	struct:__anon7
+Abort_Handler	src/crt0.s	/^Abort_Handler:$/;"	l
+BACKUP_RAM_END_ADDR	include/aquarius.h	34;"	d
+BACKUP_RAM_LENGTH	include/aquarius.h	33;"	d
+BACKUP_RAM_START_ADDR	include/aquarius.h	32;"	d
+BANK0_SIZE	include/config.h	41;"	d
+BANK0_START	include/config.h	40;"	d
+BL_InitDDRMemory	src/harman.c	/^int BL_InitDDRMemory(void)$/;"	f
+BL_InitPlatform	src/harman.c	/^int BL_InitPlatform(void)$/;"	f
+BOOT_PARAMS_OFFSET	include/config.h	38;"	d
+BOOT_RAM_BANK0_END_ADDR	include/aquarius.h	29;"	d
+BOOT_RAM_BANK0_LENGTH	include/aquarius.h	28;"	d
+BOOT_RAM_BANK0_START_ADDR	include/aquarius.h	27;"	d
+BOOT_ROM_END_ADDR	include/aquarius.h	39;"	d
+BOOT_ROM_LENGTH	include/aquarius.h	38;"	d
+BOOT_ROM_START_ADDR	include/aquarius.h	37;"	d
+BR110BAUD	include/uart.h	/^	BR110BAUD		= 0x2F6A88,$/;"	e	enum:__anon38
+BR115200BAUD	include/uart.h	/^	BR115200BAUD	= 0x03001A,$/;"	e	enum:__anon38
+BR1200BAUD	include/uart.h	/^	BR1200BAUD		= 0x0009C4,$/;"	e	enum:__anon38
+BR1843200BAUD	include/uart.h	/^	BR1843200BAUD	= 0x290001,$/;"	e	enum:__anon38
+BR230400BAUD	include/uart.h	/^	BR230400BAUD	= 0x02000D,$/;"	e	enum:__anon38
+BR2400BAUD	include/uart.h	/^	BR2400BAUD		= 0x0004E2,$/;"	e	enum:__anon38
+BR3000000BAUD	include/uart.h	/^	BR3000000BAUD	= 0x000001$/;"	e	enum:__anon38
+BR38400BAUD	include/uart.h	/^	BR38400BAUD		= 0x08004E,$/;"	e	enum:__anon38
+BR460800BAUD	include/uart.h	/^	BR460800BAUD	= 0x210006,$/;"	e	enum:__anon38
+BR921600BAUD	include/uart.h	/^	BR921600BAUD	= 0x110003,$/;"	e	enum:__anon38
+BR9600BAUD	include/uart.h	/^	BR9600BAUD		= 0x200138,$/;"	e	enum:__anon38
+BUILD_SPEC	ARMV6LNcrossdiab/Makefile	/^BUILD_SPEC = ARMV6LNcrossdiab$/;"	m
+BackupRAM	src/crt0.s	/^BackupRAM:	.word	0x80010000$/;"	l
+Bit	include/aquarius.h	/^	} Bit;$/;"	m	union:__anon24	typeref:struct:__anon24::__anon25
+Bit	include/aquarius.h	/^	} Bit;$/;"	m	union:__anon26	typeref:struct:__anon26::__anon27
+Bit	include/aquarius.h	/^	} Bit;$/;"	m	union:__anon29	typeref:struct:__anon29::__anon30
+BreakError	include/aquarius.h	/^		bitfield_t BreakError :1;$/;"	m	struct:__anon29::__anon30
+Busy	include/aquarius.h	/^	bitfield_t Busy :1;$/;"	m	struct:__anon23
+CARTESIO_VIC_BASE	src/wd.c	25;"	d	file:
+CARTESIO_WDT_BASE	src/wd.c	26;"	d	file:
+CC	Makefile	/^CC = $(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = $(WRLINUX_CFLAGS) -Os $(INCLUDES)$/;"	m
+CLEAN_STEP	ARMV6LNcrossdiab/Makefile	/^CLEAN_STEP := clean_scopetools$/;"	m
+COMM	include/aquarius.h	/^	gmc_comm_attr_ioata_reg_t COMM;       \/* Timings for PCcard Common mode and NAND              0x48 *\/$/;"	m	struct:__anon7
+CONFIG_ECC	src/nand.c	25;"	d	file:
+CPU	ARMV6LNcrossdiab/Makefile	/^CPU = ARMV6$/;"	m
+CPU	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : CPU = ARMV6$/;"	m
+CR	include/aquarius.h	/^	uart_cr_reg_t CR;                             \/* Control register                             0x030 *\/$/;"	m	struct:__anon31
+CR_INTEN	src/wd.c	59;"	d	file:
+CR_RESEN	src/wd.c	60;"	d	file:
+CTSEnable	include/aquarius.h	/^		bitfield_t CTSEnable :1;$/;"	m	struct:__anon26::__anon27
+ClearToSend	include/aquarius.h	/^	bitfield_t ClearToSend :1;$/;"	m	struct:__anon23
+ClearToSendModem	include/aquarius.h	/^		bitfield_t ClearToSendModem :1;$/;"	m	struct:__anon29::__anon30
+ClockOutConfig	include/aquarius.h	/^	src_clk_output_conf_reg_t ClockOutConfig;     \/* Clock Output Configuration register          0x044 *\/$/;"	m	struct:__anon18
+Control	include/aquarius.h	/^	src_control_reg_t Control;                    \/* System control register                      0x000 *\/$/;"	m	struct:__anon18
+DATA	include/aquarius.h	/^	uart_dr_reg_t DATA;                           \/* data register                                0x000 *\/$/;"	m	struct:__anon31
+DATABITS_5	include/uart.h	/^	DATABITS_5 = 0x0,$/;"	e	enum:__anon36
+DATABITS_6	include/uart.h	/^	DATABITS_6 = 0x1,$/;"	e	enum:__anon36
+DATABITS_7	include/uart.h	/^	DATABITS_7 = 0x2,$/;"	e	enum:__anon36
+DATABITS_8	include/uart.h	/^	DATABITS_8 = 0x3$/;"	e	enum:__anon36
+DATA_BYTES_PER_SECTOR	include/MT29F2G16A.h	22;"	d
+DCTS	include/aquarius.h	/^	bitfield_t DCTS :1;$/;"	m	struct:__anon23
+DDCD	include/aquarius.h	/^	bitfield_t DDCD :1;$/;"	m	struct:__anon23
+DDRConfig	src/harman.c	/^static const uint32_t DDRConfig[] = {$/;"	v	file:
+DDSR	include/aquarius.h	/^	bitfield_t DDSR :1;$/;"	m	struct:__anon23
+DEBUGFLAGS_Assembler	ARMV6LNcrossdiab/Makefile	/^DEBUGFLAGS_Assembler = $/;"	m
+DEBUGFLAGS_Assembler	ARMV6LNcrossdiab/Makefile	/^DEBUGFLAGS_Assembler = -Xasm-debug-on$/;"	m
+DEBUGFLAGS_Assembler	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : DEBUGFLAGS_Assembler = $/;"	m
+DEBUGFLAGS_Assembler	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : DEBUGFLAGS_Assembler = -Xasm-debug-on$/;"	m
+DEBUGFLAGS_C-Compiler	ARMV6LNcrossdiab/Makefile	/^DEBUGFLAGS_C-Compiler = -Xsize-opt$/;"	m
+DEBUGFLAGS_C-Compiler	ARMV6LNcrossdiab/Makefile	/^DEBUGFLAGS_C-Compiler = -g -Xdebug-dwarf3$/;"	m
+DEBUGFLAGS_C-Compiler	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : DEBUGFLAGS_C-Compiler = -Xsize-opt$/;"	m
+DEBUGFLAGS_C-Compiler	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : DEBUGFLAGS_C-Compiler = -g -Xdebug-dwarf3$/;"	m
+DEBUGFLAGS_C-Linker	ARMV6LNcrossdiab/Makefile	/^DEBUGFLAGS_C-Linker = $/;"	m
+DEBUGFLAGS_C-Linker	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : DEBUGFLAGS_C-Linker = $/;"	m
+DEBUGFLAGS_Librarian	ARMV6LNcrossdiab/Makefile	/^DEBUGFLAGS_Librarian = $/;"	m
+DEBUGFLAGS_Librarian	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : DEBUGFLAGS_Librarian = $/;"	m
+DEBUGFLAGS_Linker	ARMV6LNcrossdiab/Makefile	/^DEBUGFLAGS_Linker = $/;"	m
+DEBUGFLAGS_Linker	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : DEBUGFLAGS_Linker = $/;"	m
+DEBUG_MODE	ARMV6LNcrossdiab/Makefile	/^DEBUG_MODE = 1$/;"	m
+DEFAULT_ENV	include/config.h	43;"	d
+DEFINES	ARMV6LNcrossdiab/Makefile	/^DEFINES = $/;"	m
+DEFINES	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : DEFINES = $/;"	m
+DEP_FILES	ARMV6LNcrossdiab/Makefile	/^DEP_FILES := x-loader\/$(MODE_DIR)\/Objects\/x-loader\/src\/__crc32.d x-loader\/$(MODE_DIR)\/Objects\/x-loader\/src\/crc32.d x-loader\/$(MODE_DIR)\/Objects\/x-loader\/src\/crt0.d \\$/;"	m
+DEVICE_ID	include/MT29F2G16A.h	17;"	d
+DMACR	include/aquarius.h	/^	uint32_t DMACR;                               \/* DMA Control register                         0x048 *\/$/;"	m	struct:__anon31
+DMA_AHB_MASTER_0	src/dma.c	39;"	d	file:
+DMA_AHB_MASTER_1	src/dma.c	40;"	d	file:
+DMA_BURST_SIZE_1	src/dma.c	46;"	d	file:
+DMA_BURST_SIZE_128	src/dma.c	52;"	d	file:
+DMA_BURST_SIZE_16	src/dma.c	49;"	d	file:
+DMA_BURST_SIZE_256	src/dma.c	53;"	d	file:
+DMA_BURST_SIZE_32	src/dma.c	50;"	d	file:
+DMA_BURST_SIZE_4	src/dma.c	47;"	d	file:
+DMA_BURST_SIZE_64	src/dma.c	51;"	d	file:
+DMA_BURST_SIZE_8	src/dma.c	48;"	d	file:
+DMA_CFG_ACTIVE	src/dma.c	36;"	d	file:
+DMA_CFG_DSTP	src/dma.c	24;"	d	file:
+DMA_CFG_ENABLE	src/dma.c	22;"	d	file:
+DMA_CFG_FLW_M2M_DMA	src/dma.c	25;"	d	file:
+DMA_CFG_FLW_M2P_DMA	src/dma.c	26;"	d	file:
+DMA_CFG_FLW_M2P_DP	src/dma.c	30;"	d	file:
+DMA_CFG_FLW_P2M_DMA	src/dma.c	27;"	d	file:
+DMA_CFG_FLW_P2M_SP	src/dma.c	31;"	d	file:
+DMA_CFG_FLW_P2P_DMA	src/dma.c	28;"	d	file:
+DMA_CFG_FLW_P2P_DP	src/dma.c	29;"	d	file:
+DMA_CFG_FLW_P2P_SP	src/dma.c	32;"	d	file:
+DMA_CFG_HALT	src/dma.c	37;"	d	file:
+DMA_CFG_IE	src/dma.c	33;"	d	file:
+DMA_CFG_ITC	src/dma.c	34;"	d	file:
+DMA_CFG_LOCK	src/dma.c	35;"	d	file:
+DMA_CFG_SRCP	src/dma.c	23;"	d	file:
+DMA_CR_DAHBM	include/dma.h	40;"	d
+DMA_CR_DBSIZE	include/dma.h	36;"	d
+DMA_CR_DSTI	include/dma.h	42;"	d
+DMA_CR_DWIDTH	include/dma.h	38;"	d
+DMA_CR_PROT_BUF	include/dma.h	44;"	d
+DMA_CR_PROT_CAC	include/dma.h	45;"	d
+DMA_CR_PROT_PAM	include/dma.h	43;"	d
+DMA_CR_SAHBM	include/dma.h	39;"	d
+DMA_CR_SBSIZE	include/dma.h	35;"	d
+DMA_CR_SRCI	include/dma.h	41;"	d
+DMA_CR_SWIDTH	include/dma.h	37;"	d
+DMA_CR_TCIE	include/dma.h	46;"	d
+DMA_CR_TSIZE	include/dma.h	34;"	d
+DMA_TRANSFER_WIDTH_16BIT	src/dma.c	43;"	d	file:
+DMA_TRANSFER_WIDTH_32BIT	src/dma.c	44;"	d	file:
+DMA_TRANSFER_WIDTH_8BIT	src/dma.c	42;"	d	file:
+Data	include/aquarius.h	/^	bitfield_t    Data   :8;$/;"	m	struct:__anon22
+DataCarrierDetect	include/aquarius.h	/^	bitfield_t DataCarrierDetect :1;$/;"	m	struct:__anon23
+DataCarrierDetectModem	include/aquarius.h	/^		bitfield_t DataCarrierDetectModem :1;$/;"	m	struct:__anon29::__anon30
+DataSetReady	include/aquarius.h	/^	bitfield_t DataSetReady :1;$/;"	m	struct:__anon23
+DataSetReadyModem	include/aquarius.h	/^		bitfield_t DataSetReadyModem :1;$/;"	m	struct:__anon29::__anon30
+DataTransmitReady	include/aquarius.h	/^		bitfield_t DataTransmitReady :1;$/;"	m	struct:__anon26::__anon27
+ECC2r	include/aquarius.h	/^	uint32_t ECC2r;                       \/* 2nd 32 ECC bytes for NAND                            0x58 *\/$/;"	m	struct:__anon7
+ECC3r	include/aquarius.h	/^	uint32_t ECC3r;                       \/* 3rd 32 ECC bytes for NAND                            0x5C *\/$/;"	m	struct:__anon7
+ECC_BLOCKS_PER_PAGE	include/MT29F2G16A.h	23;"	d
+ECC_BYTES_PER_SUB_BLOCK	include/nand.h	33;"	d
+ECC_OOB_START	include/MT29F2G16A.h	24;"	d
+ECC_WORD_LIMIT	include/nand.h	32;"	d
+ECC_WORD_PER_SUB_BLOCK	include/nand.h	34;"	d
+ECCr	include/aquarius.h	/^	uint32_t ECCr;                        \/* 1st 32 ECC bytes for NAND                            0x54 *\/$/;"	m	struct:__anon7
+ENABLE_DDR_CMD	src/harman.c	50;"	d	file:
+ENV_NAND_END	include/config.h	34;"	d
+ENV_NAND_START	include/config.h	33;"	d
+ENV_RAM_ADDR	include/config.h	35;"	d
+ERROR_COUNT_MASK	src/nand.c	66;"	d	file:
+ERROR_COUNT_MAX	src/nand.c	68;"	d	file:
+ERROR_COUNT_POS	src/nand.c	67;"	d	file:
+ERROR_NAND_BAD_BLOCK	include/nand.h	53;"	d
+EVEN_PARITY_BIT	include/uart.h	/^	EVEN_PARITY_BIT,$/;"	e	enum:__anon35
+EXPAND_DBG	ARMV6LNcrossdiab/Makefile	/^EXPAND_DBG = 0$/;"	m
+EXPAND_DBG	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : EXPAND_DBG = 0$/;"	m
+Enable	include/aquarius.h	/^	bitfield_t Enable :1;$/;"	m	struct:__anon20
+Error	include/aquarius.h	/^	bitfield_t    Error  :4;$/;"	m	struct:__anon22
+EvenParitySelect	include/aquarius.h	/^		bitfield_t EvenParitySelect :1;$/;"	m	struct:__anon24::__anon25
+FALSE	include/boot.h	/^typedef enum {FALSE = 0, TRUE = 1} bool_t;$/;"	e	enum:__anon3
+FBRD	include/aquarius.h	/^	uint32_t FBRD;                                \/* Fractional baud rate register                0x028 *\/$/;"	m	struct:__anon31
+FIQ_Handler	src/crt0.s	/^FIQ_Handler:$/;"	l
+FLEXIBLE_BUILD	ARMV6LNcrossdiab/Makefile	/^FLEXIBLE_BUILD := 1$/;"	m
+FMSC_PCR_BANK_ENABLE	include/nand.h	43;"	d
+FMSC_PCR_BUS_WIDTH_16	include/nand.h	41;"	d
+FMSC_PCR_BUS_WIDTH_8	include/nand.h	40;"	d
+FMSC_PCR_MEM_TYPE_NAND	include/nand.h	42;"	d
+FMSC_PCR_PC_RESET	include/nand.h	45;"	d
+FMSC_PCR_WAIT_ENABLE	include/nand.h	44;"	d
+FMSC_PMEM_MEM0HIZ	include/nand.h	48;"	d
+FMSC_PMEM_MEM0HOLD	include/nand.h	49;"	d
+FMSC_PMEM_MEM0SET	include/nand.h	51;"	d
+FMSC_PMEM_MEM0WAIT	include/nand.h	50;"	d
+FR	include/aquarius.h	/^	uart_flag_reg_t FR;                           \/* Flag register                                0x018 *\/$/;"	m	struct:__anon31
+FSMCRegs	include/aquarius.h	/^} FSMCRegs;$/;"	t	typeref:struct:__anon8
+FSMC_BCR0	include/aquarius.h	/^	uint32_t FSMC_BCR0;   \/\/ 0x00$/;"	m	struct:__anon8
+FSMC_BCR1	include/aquarius.h	/^	uint32_t FSMC_BCR1;   \/\/ 0x08$/;"	m	struct:__anon8
+FSMC_BCR2	include/aquarius.h	/^	uint32_t FSMC_BCR2;   \/\/ 0x10$/;"	m	struct:__anon8
+FSMC_BCR3	include/aquarius.h	/^	uint32_t FSMC_BCR3;   \/\/ 0x18$/;"	m	struct:__anon8
+FSMC_BTR0	include/aquarius.h	/^	uint32_t FSMC_BTR0;   \/\/ 0x04$/;"	m	struct:__anon8
+FSMC_BTR1	include/aquarius.h	/^	uint32_t FSMC_BTR1;   \/\/ 0x0C$/;"	m	struct:__anon8
+FSMC_BTR2	include/aquarius.h	/^	uint32_t FSMC_BTR2;   \/\/ 0x14$/;"	m	struct:__anon8
+FSMC_BTR3	include/aquarius.h	/^	uint32_t FSMC_BTR3;   \/\/ 0x1C$/;"	m	struct:__anon8
+FSMC_ECC2R0	include/aquarius.h	/^	uint32_t FSMC_ECC2R0; \/\/ 0x58$/;"	m	struct:__anon8
+FSMC_ECC3R0	include/aquarius.h	/^	uint32_t FSMC_ECC3R0; \/\/ 0x5C$/;"	m	struct:__anon8
+FSMC_ECCR0	include/aquarius.h	/^	uint32_t FSMC_ECCR0;  \/\/ 0x54$/;"	m	struct:__anon8
+FSMC_PATT0	include/aquarius.h	/^	uint32_t FSMC_PATT0;  \/\/ 0x4C$/;"	m	struct:__anon8
+FSMC_PCR0	include/aquarius.h	/^	uint32_t FSMC_PCR0;   \/\/ 0x40$/;"	m	struct:__anon8
+FSMC_PIO0	include/aquarius.h	/^	uint32_t FSMC_PIO0;   \/\/ 0x50$/;"	m	struct:__anon8
+FSMC_PISR0	include/aquarius.h	/^	uint32_t FSMC_PISR0;  \/\/ 0x44$/;"	m	struct:__anon8
+FSMC_PMEM0	include/aquarius.h	/^	uint32_t FSMC_PMEM0;  \/\/ 0x48$/;"	m	struct:__anon8
+FSMC_REG_END_ADDR	include/aquarius.h	64;"	d
+FSMC_REG_LENGTH	include/aquarius.h	63;"	d
+FSMC_REG_START_ADDR	include/aquarius.h	62;"	d
+FifoEnable	include/aquarius.h	/^		bitfield_t FifoEnable :1;$/;"	m	struct:__anon24::__anon25
+FramingError	include/aquarius.h	/^		bitfield_t FramingError :1;$/;"	m	struct:__anon29::__anon30
+GENERATE_MAP_FILE	ARMV6LNcrossdiab/Makefile	/^GENERATE_MAP_FILE = 0$/;"	m
+GENERATE_MAP_FILE	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : GENERATE_MAP_FILE = 0$/;"	m
+GPIO0_REG_END_ADDR	include/aquarius.h	93;"	d
+GPIO0_REG_LENGTH	include/aquarius.h	92;"	d
+GPIO0_REG_START_ADDR	include/aquarius.h	91;"	d
+GPIO1_REG_END_ADDR	include/aquarius.h	88;"	d
+GPIO1_REG_LENGTH	include/aquarius.h	87;"	d
+GPIO1_REG_START_ADDR	include/aquarius.h	86;"	d
+GPIO2_REG_END_ADDR	include/aquarius.h	83;"	d
+GPIO2_REG_LENGTH	include/aquarius.h	82;"	d
+GPIO2_REG_START_ADDR	include/aquarius.h	81;"	d
+GPIO3_REG_END_ADDR	include/aquarius.h	78;"	d
+GPIO3_REG_LENGTH	include/aquarius.h	77;"	d
+GPIO3_REG_START_ADDR	include/aquarius.h	76;"	d
+GPIO4_REG_END_ADDR	include/aquarius.h	73;"	d
+GPIO4_REG_LENGTH	include/aquarius.h	72;"	d
+GPIO4_REG_START_ADDR	include/aquarius.h	71;"	d
+GPIO_ALL_ZERO	include/gpio_p.h	41;"	d
+GPIO_BLOCKS_COUNT	include/gpio_p.h	43;"	d
+GPIO_CTRL_ID_0	include/gpio.h	/^    GPIO_CTRL_ID_0,$/;"	e	enum:__anon48
+GPIO_CTRL_ID_1	include/gpio.h	/^    GPIO_CTRL_ID_1,$/;"	e	enum:__anon48
+GPIO_CTRL_ID_2	include/gpio.h	/^    GPIO_CTRL_ID_2,$/;"	e	enum:__anon48
+GPIO_CTRL_ID_3	include/gpio.h	/^    GPIO_CTRL_ID_3,$/;"	e	enum:__anon48
+GPIO_CTRL_ID_4	include/gpio.h	/^    GPIO_CTRL_ID_4, \/* Not for STn8815 and STA2062 and STA2064 but for STA2065 *\/$/;"	e	enum:__anon48
+GPIO_CTRL_ID_5	include/gpio.h	/^    GPIO_CTRL_ID_5, \/* Not for STn8815 and STA2062 and STA2064 and STA2065 *\/$/;"	e	enum:__anon48
+GPIO_CTRL_ID_6	include/gpio.h	/^    GPIO_CTRL_ID_6, \/* Not for STn8815 and STA2062 and STA2064 and STA2065 *\/$/;"	e	enum:__anon48
+GPIO_CTRL_ID_7	include/gpio.h	/^    GPIO_CTRL_ID_7  \/* Not for STn8815 and STA2062 and STA2064 and STA2065 *\/$/;"	e	enum:__anon48
+GPIO_CTRL_ID_INVALID	include/gpio.h	/^    GPIO_CTRL_ID_INVALID= 0x0,$/;"	e	enum:__anon48
+GPIO_DATA_HIGH	include/gpio.h	/^    GPIO_DATA_HIGH                      \/* GPIO pin status is high. *\/$/;"	e	enum:__anon51
+GPIO_DATA_LOW	include/gpio.h	/^    GPIO_DATA_LOW,                      \/* GPIO pin status is low. *\/$/;"	e	enum:__anon51
+GPIO_DATS_OFFSET	include/gpio_p.h	47;"	d
+GPIO_DAT_OFFSET	include/gpio_p.h	46;"	d
+GPIO_DEBOUNCE_DISABLE	include/gpio.h	/^    GPIO_DEBOUNCE_DISABLE,          \/* Debounce is disabled. *\/$/;"	e	enum:__anon47
+GPIO_DEBOUNCE_ENABLE	include/gpio.h	/^    GPIO_DEBOUNCE_ENABLE            \/* Debounce is enabled. It is not the case for STA_2062 *\/$/;"	e	enum:__anon47
+GPIO_DEBOUNCE_UNCHANGED	include/gpio.h	/^    GPIO_DEBOUNCE_UNCHANGED,        \/* Parameter will be ignored by the function. *\/$/;"	e	enum:__anon47
+GPIO_DEVICE_ID_0	include/gpio.h	/^    GPIO_DEVICE_ID_0        = 0x01,$/;"	e	enum:__anon42
+GPIO_DEVICE_ID_1	include/gpio.h	/^    GPIO_DEVICE_ID_1        = 0x02,$/;"	e	enum:__anon42
+GPIO_DEVICE_ID_2	include/gpio.h	/^    GPIO_DEVICE_ID_2        = 0x04,$/;"	e	enum:__anon42
+GPIO_DEVICE_ID_3	include/gpio.h	/^    GPIO_DEVICE_ID_3        = 0x08,$/;"	e	enum:__anon42
+GPIO_DEVICE_ID_4	include/gpio.h	/^    GPIO_DEVICE_ID_4        = 0x10	\/* for STA2065 *\/$/;"	e	enum:__anon42
+GPIO_DEVICE_ID_INVALID	include/gpio.h	/^    GPIO_DEVICE_ID_INVALID  = 0x0,$/;"	e	enum:__anon42
+GPIO_DIR_INPUT	include/gpio.h	/^    GPIO_DIR_INPUT,                 \/* GPIO set as input *\/$/;"	e	enum:__anon46
+GPIO_DIR_LEAVE_UNCHANGED	include/gpio.h	/^    GPIO_DIR_LEAVE_UNCHANGED,       \/* Parameter will be ignored by the function. *\/$/;"	e	enum:__anon46
+GPIO_DIR_OUTPUT	include/gpio.h	/^    GPIO_DIR_OUTPUT                 \/* GPIO set as output *\/$/;"	e	enum:__anon46
+GPIO_FIMSC_OFFSET	include/gpio_p.h	51;"	d
+GPIO_INVALID_PARAMETER	include/gpio.h	/^    GPIO_INVALID_PARAMETER      = HCL_INVALID_PARAMETER         \/* (-4) *\/$/;"	e	enum:__anon43
+GPIO_IN_Config	src/gpio.c	/^static const gpio_config_t GPIO_IN_Config = {$/;"	v	file:
+GPIO_Init	src/gpio.c	/^gpio_error_t GPIO_Init(void)$/;"	f
+GPIO_MIC_OFFSET	include/gpio_p.h	53;"	d
+GPIO_MIS_OFFSET	include/gpio_p.h	52;"	d
+GPIO_MODE_ALT_FUNCTION_A	include/gpio.h	/^    GPIO_MODE_ALT_FUNCTION_A,       \/* Pin connected to alternate function 1 (HW periph 1) *\/$/;"	e	enum:__anon45
+GPIO_MODE_ALT_FUNCTION_B	include/gpio.h	/^    GPIO_MODE_ALT_FUNCTION_B,       \/* Pin connected to alternate function 2 (HW periph 2) *\/$/;"	e	enum:__anon45
+GPIO_MODE_ALT_FUNCTION_C	include/gpio.h	/^    GPIO_MODE_ALT_FUNCTION_C        \/* Pin connected to alternate function 3 (HW periph 3) *\/$/;"	e	enum:__anon45
+GPIO_MODE_LEAVE_UNCHANGED	include/gpio.h	/^    GPIO_MODE_LEAVE_UNCHANGED,      \/* Parameter will be ignored by the function. *\/$/;"	e	enum:__anon45
+GPIO_MODE_SOFTWARE	include/gpio.h	/^    GPIO_MODE_SOFTWARE,             \/* Pin connected to GPIO (SW controlled) *\/$/;"	e	enum:__anon45
+GPIO_NO_OF_PINS	include/gpio_p.h	44;"	d
+GPIO_OK	include/gpio.h	/^    GPIO_OK                     = HCL_OK,                       \/* (0) *\/$/;"	e	enum:__anon43
+GPIO_PCELL_ID_0	include/gpio_p.h	36;"	d
+GPIO_PCELL_ID_1	include/gpio_p.h	37;"	d
+GPIO_PCELL_ID_2	include/gpio_p.h	38;"	d
+GPIO_PCELL_ID_3	include/gpio_p.h	39;"	d
+GPIO_PDIS_OFFSET	include/gpio_p.h	48;"	d
+GPIO_PERIPH_ID_0	include/gpio_p.h	32;"	d
+GPIO_PERIPH_ID_1	include/gpio_p.h	33;"	d
+GPIO_PERIPH_ID_2	include/gpio_p.h	34;"	d
+GPIO_PERIPH_ID_3	include/gpio_p.h	35;"	d
+GPIO_PIN16_HIGH	include/gpio_p.h	55;"	d
+GPIO_PIN82_HIGH	include/gpio_p.h	56;"	d
+GPIO_PIN_0	include/gpio.h	/^    GPIO_PIN_0,$/;"	e	enum:__anon44
+GPIO_PIN_1	include/gpio.h	/^    GPIO_PIN_1,$/;"	e	enum:__anon44
+GPIO_PIN_10	include/gpio.h	/^    GPIO_PIN_10,$/;"	e	enum:__anon44
+GPIO_PIN_100	include/gpio.h	/^    GPIO_PIN_100,$/;"	e	enum:__anon44
+GPIO_PIN_101	include/gpio.h	/^    GPIO_PIN_101,$/;"	e	enum:__anon44
+GPIO_PIN_102	include/gpio.h	/^    GPIO_PIN_102,$/;"	e	enum:__anon44
+GPIO_PIN_103	include/gpio.h	/^    GPIO_PIN_103,$/;"	e	enum:__anon44
+GPIO_PIN_104	include/gpio.h	/^    GPIO_PIN_104,$/;"	e	enum:__anon44
+GPIO_PIN_105	include/gpio.h	/^    GPIO_PIN_105,$/;"	e	enum:__anon44
+GPIO_PIN_106	include/gpio.h	/^    GPIO_PIN_106,$/;"	e	enum:__anon44
+GPIO_PIN_107	include/gpio.h	/^    GPIO_PIN_107,$/;"	e	enum:__anon44
+GPIO_PIN_108	include/gpio.h	/^    GPIO_PIN_108,$/;"	e	enum:__anon44
+GPIO_PIN_109	include/gpio.h	/^    GPIO_PIN_109,$/;"	e	enum:__anon44
+GPIO_PIN_11	include/gpio.h	/^    GPIO_PIN_11,$/;"	e	enum:__anon44
+GPIO_PIN_110	include/gpio.h	/^    GPIO_PIN_110,$/;"	e	enum:__anon44
+GPIO_PIN_111	include/gpio.h	/^    GPIO_PIN_111,$/;"	e	enum:__anon44
+GPIO_PIN_112	include/gpio.h	/^    GPIO_PIN_112,$/;"	e	enum:__anon44
+GPIO_PIN_113	include/gpio.h	/^    GPIO_PIN_113,$/;"	e	enum:__anon44
+GPIO_PIN_114	include/gpio.h	/^    GPIO_PIN_114,$/;"	e	enum:__anon44
+GPIO_PIN_115	include/gpio.h	/^    GPIO_PIN_115,$/;"	e	enum:__anon44
+GPIO_PIN_116	include/gpio.h	/^    GPIO_PIN_116,$/;"	e	enum:__anon44
+GPIO_PIN_117	include/gpio.h	/^    GPIO_PIN_117,$/;"	e	enum:__anon44
+GPIO_PIN_118	include/gpio.h	/^    GPIO_PIN_118,$/;"	e	enum:__anon44
+GPIO_PIN_119	include/gpio.h	/^    GPIO_PIN_119,$/;"	e	enum:__anon44
+GPIO_PIN_12	include/gpio.h	/^    GPIO_PIN_12,$/;"	e	enum:__anon44
+GPIO_PIN_120	include/gpio.h	/^    GPIO_PIN_120,$/;"	e	enum:__anon44
+GPIO_PIN_121	include/gpio.h	/^    GPIO_PIN_121,$/;"	e	enum:__anon44
+GPIO_PIN_122	include/gpio.h	/^    GPIO_PIN_122,$/;"	e	enum:__anon44
+GPIO_PIN_123	include/gpio.h	/^    GPIO_PIN_123,$/;"	e	enum:__anon44
+GPIO_PIN_124	include/gpio.h	/^    GPIO_PIN_124,$/;"	e	enum:__anon44
+GPIO_PIN_125	include/gpio.h	/^    GPIO_PIN_125,$/;"	e	enum:__anon44
+GPIO_PIN_126	include/gpio.h	/^    GPIO_PIN_126,$/;"	e	enum:__anon44
+GPIO_PIN_127	include/gpio.h	/^    GPIO_PIN_127,$/;"	e	enum:__anon44
+GPIO_PIN_128	include/gpio.h	/^    GPIO_PIN_128,$/;"	e	enum:__anon44
+GPIO_PIN_129	include/gpio.h	/^    GPIO_PIN_129,$/;"	e	enum:__anon44
+GPIO_PIN_13	include/gpio.h	/^    GPIO_PIN_13,$/;"	e	enum:__anon44
+GPIO_PIN_130	include/gpio.h	/^    GPIO_PIN_130,$/;"	e	enum:__anon44
+GPIO_PIN_131	include/gpio.h	/^    GPIO_PIN_131,$/;"	e	enum:__anon44
+GPIO_PIN_132	include/gpio.h	/^    GPIO_PIN_132,$/;"	e	enum:__anon44
+GPIO_PIN_133	include/gpio.h	/^    GPIO_PIN_133,$/;"	e	enum:__anon44
+GPIO_PIN_134	include/gpio.h	/^    GPIO_PIN_134,$/;"	e	enum:__anon44
+GPIO_PIN_135	include/gpio.h	/^    GPIO_PIN_135,$/;"	e	enum:__anon44
+GPIO_PIN_136	include/gpio.h	/^    GPIO_PIN_136,$/;"	e	enum:__anon44
+GPIO_PIN_137	include/gpio.h	/^    GPIO_PIN_137,$/;"	e	enum:__anon44
+GPIO_PIN_138	include/gpio.h	/^    GPIO_PIN_138,$/;"	e	enum:__anon44
+GPIO_PIN_139	include/gpio.h	/^    GPIO_PIN_139,$/;"	e	enum:__anon44
+GPIO_PIN_14	include/gpio.h	/^    GPIO_PIN_14,$/;"	e	enum:__anon44
+GPIO_PIN_140	include/gpio.h	/^    GPIO_PIN_140,$/;"	e	enum:__anon44
+GPIO_PIN_141	include/gpio.h	/^    GPIO_PIN_141,$/;"	e	enum:__anon44
+GPIO_PIN_142	include/gpio.h	/^    GPIO_PIN_142,$/;"	e	enum:__anon44
+GPIO_PIN_143	include/gpio.h	/^    GPIO_PIN_143,$/;"	e	enum:__anon44
+GPIO_PIN_144	include/gpio.h	/^    GPIO_PIN_144,$/;"	e	enum:__anon44
+GPIO_PIN_145	include/gpio.h	/^    GPIO_PIN_145,$/;"	e	enum:__anon44
+GPIO_PIN_146	include/gpio.h	/^    GPIO_PIN_146,$/;"	e	enum:__anon44
+GPIO_PIN_147	include/gpio.h	/^    GPIO_PIN_147,$/;"	e	enum:__anon44
+GPIO_PIN_148	include/gpio.h	/^    GPIO_PIN_148,$/;"	e	enum:__anon44
+GPIO_PIN_149	include/gpio.h	/^    GPIO_PIN_149,$/;"	e	enum:__anon44
+GPIO_PIN_15	include/gpio.h	/^    GPIO_PIN_15,$/;"	e	enum:__anon44
+GPIO_PIN_150	include/gpio.h	/^    GPIO_PIN_150,$/;"	e	enum:__anon44
+GPIO_PIN_151	include/gpio.h	/^    GPIO_PIN_151,$/;"	e	enum:__anon44
+GPIO_PIN_152	include/gpio.h	/^    GPIO_PIN_152,$/;"	e	enum:__anon44
+GPIO_PIN_153	include/gpio.h	/^    GPIO_PIN_153,$/;"	e	enum:__anon44
+GPIO_PIN_154	include/gpio.h	/^    GPIO_PIN_154,$/;"	e	enum:__anon44
+GPIO_PIN_155	include/gpio.h	/^    GPIO_PIN_155,$/;"	e	enum:__anon44
+GPIO_PIN_156	include/gpio.h	/^    GPIO_PIN_156,$/;"	e	enum:__anon44
+GPIO_PIN_157	include/gpio.h	/^    GPIO_PIN_157,$/;"	e	enum:__anon44
+GPIO_PIN_158	include/gpio.h	/^    GPIO_PIN_158,$/;"	e	enum:__anon44
+GPIO_PIN_159	include/gpio.h	/^    GPIO_PIN_159$/;"	e	enum:__anon44
+GPIO_PIN_16	include/gpio.h	/^    GPIO_PIN_16,$/;"	e	enum:__anon44
+GPIO_PIN_17	include/gpio.h	/^    GPIO_PIN_17,$/;"	e	enum:__anon44
+GPIO_PIN_18	include/gpio.h	/^    GPIO_PIN_18,$/;"	e	enum:__anon44
+GPIO_PIN_19	include/gpio.h	/^    GPIO_PIN_19,$/;"	e	enum:__anon44
+GPIO_PIN_2	include/gpio.h	/^    GPIO_PIN_2,$/;"	e	enum:__anon44
+GPIO_PIN_20	include/gpio.h	/^    GPIO_PIN_20,$/;"	e	enum:__anon44
+GPIO_PIN_21	include/gpio.h	/^    GPIO_PIN_21,$/;"	e	enum:__anon44
+GPIO_PIN_22	include/gpio.h	/^    GPIO_PIN_22,$/;"	e	enum:__anon44
+GPIO_PIN_23	include/gpio.h	/^    GPIO_PIN_23,$/;"	e	enum:__anon44
+GPIO_PIN_24	include/gpio.h	/^    GPIO_PIN_24,$/;"	e	enum:__anon44
+GPIO_PIN_25	include/gpio.h	/^    GPIO_PIN_25,$/;"	e	enum:__anon44
+GPIO_PIN_26	include/gpio.h	/^    GPIO_PIN_26,$/;"	e	enum:__anon44
+GPIO_PIN_27	include/gpio.h	/^    GPIO_PIN_27,$/;"	e	enum:__anon44
+GPIO_PIN_28	include/gpio.h	/^    GPIO_PIN_28,$/;"	e	enum:__anon44
+GPIO_PIN_29	include/gpio.h	/^    GPIO_PIN_29,$/;"	e	enum:__anon44
+GPIO_PIN_3	include/gpio.h	/^    GPIO_PIN_3,$/;"	e	enum:__anon44
+GPIO_PIN_30	include/gpio.h	/^    GPIO_PIN_30,$/;"	e	enum:__anon44
+GPIO_PIN_31	include/gpio.h	/^    GPIO_PIN_31,$/;"	e	enum:__anon44
+GPIO_PIN_32	include/gpio.h	/^    GPIO_PIN_32,$/;"	e	enum:__anon44
+GPIO_PIN_33	include/gpio.h	/^    GPIO_PIN_33,$/;"	e	enum:__anon44
+GPIO_PIN_34	include/gpio.h	/^    GPIO_PIN_34,$/;"	e	enum:__anon44
+GPIO_PIN_35	include/gpio.h	/^    GPIO_PIN_35,$/;"	e	enum:__anon44
+GPIO_PIN_36	include/gpio.h	/^    GPIO_PIN_36,$/;"	e	enum:__anon44
+GPIO_PIN_37	include/gpio.h	/^    GPIO_PIN_37,$/;"	e	enum:__anon44
+GPIO_PIN_38	include/gpio.h	/^    GPIO_PIN_38,$/;"	e	enum:__anon44
+GPIO_PIN_39	include/gpio.h	/^    GPIO_PIN_39,$/;"	e	enum:__anon44
+GPIO_PIN_4	include/gpio.h	/^    GPIO_PIN_4,$/;"	e	enum:__anon44
+GPIO_PIN_40	include/gpio.h	/^    GPIO_PIN_40,$/;"	e	enum:__anon44
+GPIO_PIN_41	include/gpio.h	/^    GPIO_PIN_41,$/;"	e	enum:__anon44
+GPIO_PIN_42	include/gpio.h	/^    GPIO_PIN_42,$/;"	e	enum:__anon44
+GPIO_PIN_43	include/gpio.h	/^    GPIO_PIN_43,$/;"	e	enum:__anon44
+GPIO_PIN_44	include/gpio.h	/^    GPIO_PIN_44,$/;"	e	enum:__anon44
+GPIO_PIN_45	include/gpio.h	/^    GPIO_PIN_45,$/;"	e	enum:__anon44
+GPIO_PIN_46	include/gpio.h	/^    GPIO_PIN_46,$/;"	e	enum:__anon44
+GPIO_PIN_47	include/gpio.h	/^    GPIO_PIN_47,$/;"	e	enum:__anon44
+GPIO_PIN_48	include/gpio.h	/^    GPIO_PIN_48,$/;"	e	enum:__anon44
+GPIO_PIN_49	include/gpio.h	/^    GPIO_PIN_49,$/;"	e	enum:__anon44
+GPIO_PIN_5	include/gpio.h	/^    GPIO_PIN_5,$/;"	e	enum:__anon44
+GPIO_PIN_50	include/gpio.h	/^    GPIO_PIN_50,$/;"	e	enum:__anon44
+GPIO_PIN_51	include/gpio.h	/^    GPIO_PIN_51,$/;"	e	enum:__anon44
+GPIO_PIN_52	include/gpio.h	/^    GPIO_PIN_52,$/;"	e	enum:__anon44
+GPIO_PIN_53	include/gpio.h	/^    GPIO_PIN_53,$/;"	e	enum:__anon44
+GPIO_PIN_54	include/gpio.h	/^    GPIO_PIN_54,$/;"	e	enum:__anon44
+GPIO_PIN_55	include/gpio.h	/^    GPIO_PIN_55,$/;"	e	enum:__anon44
+GPIO_PIN_56	include/gpio.h	/^    GPIO_PIN_56,$/;"	e	enum:__anon44
+GPIO_PIN_57	include/gpio.h	/^    GPIO_PIN_57,$/;"	e	enum:__anon44
+GPIO_PIN_58	include/gpio.h	/^    GPIO_PIN_58,$/;"	e	enum:__anon44
+GPIO_PIN_59	include/gpio.h	/^    GPIO_PIN_59,$/;"	e	enum:__anon44
+GPIO_PIN_6	include/gpio.h	/^    GPIO_PIN_6,$/;"	e	enum:__anon44
+GPIO_PIN_60	include/gpio.h	/^    GPIO_PIN_60,$/;"	e	enum:__anon44
+GPIO_PIN_61	include/gpio.h	/^    GPIO_PIN_61,$/;"	e	enum:__anon44
+GPIO_PIN_62	include/gpio.h	/^    GPIO_PIN_62,$/;"	e	enum:__anon44
+GPIO_PIN_63	include/gpio.h	/^    GPIO_PIN_63,$/;"	e	enum:__anon44
+GPIO_PIN_64	include/gpio.h	/^    GPIO_PIN_64,$/;"	e	enum:__anon44
+GPIO_PIN_65	include/gpio.h	/^    GPIO_PIN_65,$/;"	e	enum:__anon44
+GPIO_PIN_66	include/gpio.h	/^    GPIO_PIN_66,$/;"	e	enum:__anon44
+GPIO_PIN_67	include/gpio.h	/^    GPIO_PIN_67,$/;"	e	enum:__anon44
+GPIO_PIN_68	include/gpio.h	/^    GPIO_PIN_68,$/;"	e	enum:__anon44
+GPIO_PIN_69	include/gpio.h	/^    GPIO_PIN_69,$/;"	e	enum:__anon44
+GPIO_PIN_7	include/gpio.h	/^    GPIO_PIN_7,$/;"	e	enum:__anon44
+GPIO_PIN_70	include/gpio.h	/^    GPIO_PIN_70,$/;"	e	enum:__anon44
+GPIO_PIN_71	include/gpio.h	/^    GPIO_PIN_71,$/;"	e	enum:__anon44
+GPIO_PIN_72	include/gpio.h	/^    GPIO_PIN_72,$/;"	e	enum:__anon44
+GPIO_PIN_73	include/gpio.h	/^    GPIO_PIN_73,$/;"	e	enum:__anon44
+GPIO_PIN_74	include/gpio.h	/^    GPIO_PIN_74,$/;"	e	enum:__anon44
+GPIO_PIN_75	include/gpio.h	/^    GPIO_PIN_75,$/;"	e	enum:__anon44
+GPIO_PIN_76	include/gpio.h	/^    GPIO_PIN_76,$/;"	e	enum:__anon44
+GPIO_PIN_77	include/gpio.h	/^    GPIO_PIN_77,$/;"	e	enum:__anon44
+GPIO_PIN_78	include/gpio.h	/^    GPIO_PIN_78,$/;"	e	enum:__anon44
+GPIO_PIN_79	include/gpio.h	/^    GPIO_PIN_79,$/;"	e	enum:__anon44
+GPIO_PIN_8	include/gpio.h	/^    GPIO_PIN_8,$/;"	e	enum:__anon44
+GPIO_PIN_80	include/gpio.h	/^    GPIO_PIN_80,$/;"	e	enum:__anon44
+GPIO_PIN_81	include/gpio.h	/^    GPIO_PIN_81,$/;"	e	enum:__anon44
+GPIO_PIN_82	include/gpio.h	/^    GPIO_PIN_82,$/;"	e	enum:__anon44
+GPIO_PIN_83	include/gpio.h	/^    GPIO_PIN_83,$/;"	e	enum:__anon44
+GPIO_PIN_84	include/gpio.h	/^    GPIO_PIN_84,$/;"	e	enum:__anon44
+GPIO_PIN_85	include/gpio.h	/^    GPIO_PIN_85,$/;"	e	enum:__anon44
+GPIO_PIN_86	include/gpio.h	/^    GPIO_PIN_86,$/;"	e	enum:__anon44
+GPIO_PIN_87	include/gpio.h	/^    GPIO_PIN_87,$/;"	e	enum:__anon44
+GPIO_PIN_88	include/gpio.h	/^    GPIO_PIN_88,$/;"	e	enum:__anon44
+GPIO_PIN_89	include/gpio.h	/^    GPIO_PIN_89,$/;"	e	enum:__anon44
+GPIO_PIN_9	include/gpio.h	/^    GPIO_PIN_9,$/;"	e	enum:__anon44
+GPIO_PIN_90	include/gpio.h	/^    GPIO_PIN_90,$/;"	e	enum:__anon44
+GPIO_PIN_91	include/gpio.h	/^    GPIO_PIN_91,$/;"	e	enum:__anon44
+GPIO_PIN_92	include/gpio.h	/^    GPIO_PIN_92,$/;"	e	enum:__anon44
+GPIO_PIN_93	include/gpio.h	/^    GPIO_PIN_93,$/;"	e	enum:__anon44
+GPIO_PIN_94	include/gpio.h	/^    GPIO_PIN_94,$/;"	e	enum:__anon44
+GPIO_PIN_95	include/gpio.h	/^    GPIO_PIN_95,$/;"	e	enum:__anon44
+GPIO_PIN_96	include/gpio.h	/^    GPIO_PIN_96,$/;"	e	enum:__anon44
+GPIO_PIN_97	include/gpio.h	/^    GPIO_PIN_97,$/;"	e	enum:__anon44
+GPIO_PIN_98	include/gpio.h	/^    GPIO_PIN_98,$/;"	e	enum:__anon44
+GPIO_PIN_99	include/gpio.h	/^    GPIO_PIN_99,$/;"	e	enum:__anon44
+GPIO_RIMSC_OFFSET	include/gpio_p.h	50;"	d
+GPIO_ReadGpioPin	src/gpio.c	/^gpio_data_t GPIO_ReadGpioPin(gpio_pin_t pin)$/;"	f
+GPIO_SLEEP_MODE_CONTROLLED_BY_GPIO	include/gpio.h	/^    GPIO_SLEEP_MODE_CONTROLLED_BY_GPIO  \/* GPIO pin  is controlled by GPIO IP. So mode,$/;"	e	enum:__anon52
+GPIO_SLEEP_MODE_INPUT_DEFAULTVOLT	include/gpio.h	/^    GPIO_SLEEP_MODE_INPUT_DEFAULTVOLT,  \/* GPIO is an input with pull up\/down enabled$/;"	e	enum:__anon52
+GPIO_SLEEP_MODE_LEAVE_UNCHANGED	include/gpio.h	/^    GPIO_SLEEP_MODE_LEAVE_UNCHANGED,    \/* Parameter will be ignored by the function. *\/$/;"	e	enum:__anon52
+GPIO_SLPM_OFFSET	include/gpio_p.h	49;"	d
+GPIO_SetGpioDir	src/gpio.c	/^void GPIO_SetGpioDir(gpio_pin_t pin, bool_t dir_output)$/;"	f
+GPIO_SetPinConfig	src/gpio.c	/^gpio_error_t GPIO_SetPinConfig(gpio_pin_t pin, gpio_config_t config)$/;"	f
+GPIO_TOTAL_COUNT	include/gpio.h	28;"	d
+GPIO_TRIG_BOTH_EDGES	include/gpio.h	/^    GPIO_TRIG_BOTH_EDGES           \/* Triggers an IT on a rising and a falling edge *\/$/;"	e	enum:__anon49
+GPIO_TRIG_DISABLE	include/gpio.h	/^    GPIO_TRIG_DISABLE,              \/* Triggers no IT *\/$/;"	e	enum:__anon49
+GPIO_TRIG_FALLING_EDGE	include/gpio.h	/^    GPIO_TRIG_FALLING_EDGE,         \/* Triggers an IT on a falling edge *\/$/;"	e	enum:__anon49
+GPIO_TRIG_LEAVE_UNCHANGED	include/gpio.h	/^    GPIO_TRIG_LEAVE_UNCHANGED,      \/* Parameter will be ignored by the function *\/$/;"	e	enum:__anon49
+GPIO_TRIG_RISING_EDGE	include/gpio.h	/^    GPIO_TRIG_RISING_EDGE,          \/* Triggers an IT on a rising edge *\/$/;"	e	enum:__anon49
+GPIO_WAKE_BOTH_EDGES	include/gpio.h	/^    GPIO_WAKE_BOTH_EDGES				      \/* GPIO will wake the system up on both RISING and FALLING edge. *\/$/;"	e	enum:__anon53
+GPIO_WAKE_DISABLE	include/gpio.h	/^    GPIO_WAKE_DISABLE,                  \/* GPIO will not wake the system from sleep mode. *\/$/;"	e	enum:__anon53
+GPIO_WAKE_FALLING_EDGE	include/gpio.h	/^    GPIO_WAKE_FALLING_EDGE,                \/* GPIO will wake the system up on a FALLING edge. *\/$/;"	e	enum:__anon53
+GPIO_WAKE_HIGH_LEVEL	include/gpio.h	/^    GPIO_WAKE_HIGH_LEVEL,                \/* GPIO will wake the system up on a HIGH level. *\/$/;"	e	enum:__anon53
+GPIO_WAKE_LEAVE_UNCHANGED	include/gpio.h	/^    GPIO_WAKE_LEAVE_UNCHANGED,          \/* Parameter will be ignored by the function. *\/$/;"	e	enum:__anon53
+GPIO_WAKE_LOW_LEVEL	include/gpio.h	/^    GPIO_WAKE_LOW_LEVEL,                \/* GPIO will wake the system up on a LOW level. *\/$/;"	e	enum:__anon53
+GPIO_WAKE_RISING_EDGE	include/gpio.h	/^    GPIO_WAKE_RISING_EDGE,                \/* GPIO will wake the system up on a RISING edge. *\/$/;"	e	enum:__anon53
+GPIO_WriteGpioPin	src/gpio.c	/^void GPIO_WriteGpioPin(gpio_pin_t pin, gpio_data_t Value)$/;"	f
+HCL_ERROR	include/boot.h	35;"	d
+HCL_INTERNAL_ERROR	include/boot.h	28;"	d
+HCL_INVALID_PARAMETER	include/boot.h	32;"	d
+HCL_NOT_CONFIGURED	include/boot.h	29;"	d
+HCL_OK	include/boot.h	36;"	d
+HCL_REQUEST_NOT_APPLICABLE	include/boot.h	31;"	d
+HCL_REQUEST_PENDING	include/boot.h	30;"	d
+HCL_UNSUPPORTED_FEATURE	include/boot.h	33;"	d
+HCL_UNSUPPORTED_HW	include/boot.h	34;"	d
+IBRD	include/aquarius.h	/^	uint32_t IBRD;                                \/* Integer baud rate register                   0x024 *\/$/;"	m	struct:__anon31
+ICR	include/aquarius.h	/^	uart_int_reg_t ICR;                           \/* Interrupt Clear register                     0x044 *\/$/;"	m	struct:__anon31
+IDE_DEFINES	ARMV6LNcrossdiab/Makefile	/^IDE_DEFINES = $/;"	m
+IDE_DEFINES	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : IDE_DEFINES = $/;"	m
+IDE_INCLUDES	ARMV6LNcrossdiab/Makefile	/^IDE_INCLUDES = -I$(PRJ_ROOT_DIR)\/include $/;"	m
+IDE_INCLUDES	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : IDE_INCLUDES = -I$(PRJ_ROOT_DIR)\/include $/;"	m
+IDE_LIBRARIES	ARMV6LNcrossdiab/Makefile	/^IDE_LIBRARIES = $/;"	m
+IDE_LIBRARIES	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : IDE_LIBRARIES = $/;"	m
+IFLS	include/aquarius.h	/^	uart_ifls_reg_t IFLS;                         \/* Interrupt Fifo level select register         0x034 *\/$/;"	m	struct:__anon31
+IH_ARCH_ARM	include/image.h	22;"	d
+IH_COMP_NONE	include/image.h	24;"	d
+IH_MAGIC	include/image.h	26;"	d
+IH_NMLEN	include/image.h	27;"	d
+IH_OS_LINUX	include/image.h	20;"	d
+IH_OS_U_BOOT	include/image.h	21;"	d
+IH_TYPE_KERNEL	include/image.h	23;"	d
+IMSC	include/aquarius.h	/^	uart_int_reg_t IMSC;                          \/* Interrupt mask set\/clear register            0x038 *\/$/;"	m	struct:__anon31
+IMSC	include/aquarius.h	/^	uint32_t IMSC;                        \/* @0x00 *\/$/;"	m	struct:__anon21
+INCLUDES	Makefile	/^INCLUDES = -Iinclude$/;"	m
+IO_ATA	include/aquarius.h	/^	gmc_comm_attr_ioata_reg_t IO_ATA;     \/* Timings for PCcard I\/O mode and ATA                  0x50 *\/$/;"	m	struct:__anon7
+IRQ_Handler	src/crt0.s	/^IRQ_Handler:$/;"	l
+InitStacks	src/crt0.s	/^InitStacks:$/;"	l
+IntClr	include/aquarius.h	/^	uint32_t IntClr;                      \/* @0x0C *\/$/;"	m	struct:__anon21
+IsRxfifoEmpty	src/uart.c	/^static bool_t IsRxfifoEmpty(void)$/;"	f	file:
+IsTxfifoEmpty	src/uart.c	/^static bool_t IsTxfifoEmpty(void)$/;"	f	file:
+IsTxfifoFull	src/uart.c	/^static bool_t IsTxfifoFull(void)$/;"	f	file:
+ItControl	include/aquarius.h	/^	src_it_mode_ctrl_reg_t ItControl;             \/* Interrupt mode control register              0x004 *\/$/;"	m	struct:__anon18
+ItStatus	include/aquarius.h	/^	src_it_mode_sta_reg_t ItStatus;               \/* Interrupt mode status register               0x008 *\/$/;"	m	struct:__anon18
+JOBS	ARMV6LNcrossdiab/Makefile	/^JOBS?=1$/;"	m
+LCRH	include/aquarius.h	/^	uart_lcr_reg_t LCRH;                          \/* Line Control register                        0x02C *\/$/;"	m	struct:__anon31
+LD	Makefile	/^LD = $(CROSS_COMPILE)ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -static --script=link.gnu -L$(LAYER)\/sysroot\/uclibc\/usr\/lib$/;"	m
+LIBPATH	ARMV6LNcrossdiab/Makefile	/^LIBPATH = $/;"	m
+LIBPATH	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : LIBPATH = $/;"	m
+LIBS	ARMV6LNcrossdiab/Makefile	/^LIBS = -Ws$/;"	m
+LIBS	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : LIBS = -Ws$/;"	m
+LINKER_FILE	ARMV6LNcrossdiab/Makefile	/^LINKER_FILE = $(PRJ_ROOT_DIR)\/default.dld$/;"	m
+LINKER_FILE	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : LINKER_FILE = $(PRJ_ROOT_DIR)\/default.dld$/;"	m
+LoopBackEnable	include/aquarius.h	/^		bitfield_t LoopBackEnable :1;$/;"	m	struct:__anon26::__anon27
+MACH_TYPE	include/config.h	37;"	d
+MAKEFILE	ARMV6LNcrossdiab/Makefile	/^MAKEFILE := Makefile$/;"	m
+MAKER_ID	include/MT29F2G16A.h	18;"	d
+MASK_ALL16	include/boot.h	26;"	d
+MIS	include/aquarius.h	/^	uart_int_reg_t MIS;                           \/* Masked Interrupt register                    0x040 *\/$/;"	m	struct:__anon31
+MIS	include/aquarius.h	/^	uint32_t MIS;                         \/* @0x08 *\/$/;"	m	struct:__anon21
+MODE_DIR	ARMV6LNcrossdiab/Makefile	/^MODE_DIR := Debug$/;"	m
+MODE_DIR	ARMV6LNcrossdiab/Makefile	/^MODE_DIR := NonDebug$/;"	m
+MTU0_REG_END_ADDR	include/aquarius.h	103;"	d
+MTU0_REG_LENGTH	include/aquarius.h	102;"	d
+MTU0_REG_START_ADDR	include/aquarius.h	101;"	d
+MTU1_REG_END_ADDR	include/aquarius.h	98;"	d
+MTU1_REG_LENGTH	include/aquarius.h	97;"	d
+MTU1_REG_START_ADDR	include/aquarius.h	96;"	d
+MagicKey	src/crt0.s	/^MagicKey:	.word	0x5aa555aa$/;"	l
+Mode	include/aquarius.h	/^	bitfield_t Mode :1;$/;"	m	struct:__anon20
+NAND_Address	include/nand.h	/^} NAND_Address;$/;"	t	typeref:struct:__anon40
+NAND_FLASH_CS0_END_ADDR	include/aquarius.h	44;"	d
+NAND_FLASH_CS0_LENGTH	include/aquarius.h	43;"	d
+NAND_FLASH_CS0_START_ADDR	include/aquarius.h	42;"	d
+NAND_FLASH_CS1_END_ADDR	include/aquarius.h	49;"	d
+NAND_FLASH_CS1_LENGTH	include/aquarius.h	48;"	d
+NAND_FLASH_CS1_START_ADDR	include/aquarius.h	47;"	d
+NAND_Id	include/nand.h	/^} NAND_Id;$/;"	t	typeref:struct:__anon39
+NAND_SECTORS_PER_BLOCK	include/nand.h	31;"	d
+NAND_SECTOR_SIZE	include/nand.h	30;"	d
+NAND_TIMING_1	include/MT29F2G16A.h	19;"	d
+NAND_TIMING_2	include/MT29F2G16A.h	20;"	d
+NOPARITY_BIT	include/uart.h	/^	NOPARITY_BIT,$/;"	e	enum:__anon35
+NR_IRQ_BLOCKS	src/wd.c	43;"	d	file:
+NR_VECTOR_IRQS	src/wd.c	42;"	d	file:
+NandInit	src/nand.c	/^int NandInit(void)$/;"	f
+OBJ	Makefile	/^OBJ := $(OBJ:.s=.o)$/;"	m
+OBJ	Makefile	/^OBJ := $(SRC:.c=.o)$/;"	m
+OBJCOPY	Makefile	/^OBJCOPY = $(CROSS_COMPILE)objcopy$/;"	m
+OBJECTS_x-loader	ARMV6LNcrossdiab/Makefile	/^OBJECTS_x-loader = x-loader\/$(MODE_DIR)\/Objects\/x-loader\/src\/__crc32.o \\$/;"	m
+OBJ_DIR	ARMV6LNcrossdiab/Makefile	/^OBJ_DIR := .$/;"	m
+OBJ_DIR	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : OBJ_DIR := x-loader\/$(MODE_DIR)$/;"	m
+ODD_PARITY_BIT	include/uart.h	/^	ODD_PARITY_BIT,$/;"	e	enum:__anon35
+ONE_STOPBIT	include/uart.h	/^	ONE_STOPBIT = 0x0,$/;"	e	enum:__anon37
+OS_NAND_END	include/config.h	31;"	d
+OS_NAND_START	include/config.h	30;"	d
+OneShot	include/aquarius.h	/^	bitfield_t OneShot :1;$/;"	m	struct:__anon20
+OverrunError	include/aquarius.h	/^		bitfield_t OverrunError :1;$/;"	m	struct:__anon29::__anon30
+OversamplingFactor	include/aquarius.h	/^		bitfield_t OversamplingFactor :1;$/;"	m	struct:__anon26::__anon27
+PAGE	include/nand.h	37;"	d
+PAGE_SIZE	include/nand.h	29;"	d
+PARITY_0_BIT	include/uart.h	/^	PARITY_0_BIT,$/;"	e	enum:__anon35
+PARITY_1_BIT	include/uart.h	/^	PARITY_1_BIT$/;"	e	enum:__anon35
+PATH	Makefile	/^PATH := $(PATH):$(TOOL_PATH)$/;"	m
+PC	include/aquarius.h	/^	gmc_pc_reg_t PC;                      \/* Control Register                                     0x40 *\/$/;"	m	struct:__anon7
+PCellID	include/aquarius.h	/^	const uint32_t PCellID[4];                    \/* PrimeCell id registers                       0xFF0 *\/$/;"	m	struct:__anon18
+PCellID0	include/aquarius.h	/^	uint32_t PCellID0;                            \/* PrimeCell id register0                       0xFF0 *\/$/;"	m	struct:__anon31
+PCellID0	include/aquarius.h	/^	uint32_t PCellID0;                    \/* @0xFF0 *\/$/;"	m	struct:__anon21
+PCellID1	include/aquarius.h	/^	uint32_t PCellID1;                            \/* PrimeCell id register1                       0xFF4 *\/$/;"	m	struct:__anon31
+PCellID1	include/aquarius.h	/^	uint32_t PCellID1;                    \/* @0xFF4 *\/$/;"	m	struct:__anon21
+PCellID2	include/aquarius.h	/^	uint32_t PCellID2;                            \/* PrimeCell id register2                       0xFF8 *\/$/;"	m	struct:__anon31
+PCellID2	include/aquarius.h	/^	uint32_t PCellID2;                    \/* @0xFF8 *\/$/;"	m	struct:__anon21
+PCellID3	include/aquarius.h	/^	uint32_t PCellID3;                            \/* PrimeCell id register3                       0xFFC *\/$/;"	m	struct:__anon31
+PCellID3	include/aquarius.h	/^	uint32_t PCellID3;                    \/* @0xFFC *\/$/;"	m	struct:__anon21
+PLLFR	src/harman.c	48;"	d	file:
+PRJ_ROOT_DIR	ARMV6LNcrossdiab/Makefile	/^PRJ_ROOT_DIR := $(WS_ROOT_DIR)\/x-loader$/;"	m
+PROJECT_TARGETS	ARMV6LNcrossdiab/Makefile	/^PROJECT_TARGETS = x-loader\/$(MODE_DIR)\/x-loader.elf$/;"	m
+PROJECT_TYPE	ARMV6LNcrossdiab/Makefile	/^PROJECT_TYPE = APP$/;"	m
+PROJECT_TYPE	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : PROJECT_TYPE = APP$/;"	m
+ParityEnable	include/aquarius.h	/^		bitfield_t ParityEnable :1;$/;"	m	struct:__anon24::__anon25
+ParityError	include/aquarius.h	/^		bitfield_t ParityError :1;$/;"	m	struct:__anon29::__anon30
+PeriphClkDis0	include/aquarius.h	/^	uint32_t PeriphClkDis0;                       \/* Peripheral clock disable register 0          0x028 *\/$/;"	m	struct:__anon18
+PeriphClkDis1	include/aquarius.h	/^	uint32_t PeriphClkDis1;                       \/* Peripheral clock disable register 1          0x038 *\/$/;"	m	struct:__anon18
+PeriphClkDis2	include/aquarius.h	/^	uint32_t PeriphClkDis2;                       \/* Peripheral clock disable register 2          0x04C *\/$/;"	m	struct:__anon18
+PeriphClkEn0	include/aquarius.h	/^	uint32_t PeriphClkEn0;                        \/* Peripheral clock enable register 0           0x024 *\/$/;"	m	struct:__anon18
+PeriphClkEn1	include/aquarius.h	/^	uint32_t PeriphClkEn1;                        \/* Peripheral clock enable register 1           0x034 *\/$/;"	m	struct:__anon18
+PeriphClkEn2	include/aquarius.h	/^	uint32_t PeriphClkEn2;                        \/* Peripheral clock enable register 2           0x048 *\/$/;"	m	struct:__anon18
+PeriphClkStatus0	include/aquarius.h	/^	uint32_t PeriphClkStatus0;                    \/* Peripheral clock status register 0           0x030 *\/$/;"	m	struct:__anon18
+PeriphClkStatus1	include/aquarius.h	/^	uint32_t PeriphClkStatus1;                    \/* Peripheral clock status register 1           0x040 *\/$/;"	m	struct:__anon18
+PeriphClkStatus2	include/aquarius.h	/^	uint32_t PeriphClkStatus2;                    \/* Peripheral clock status register 2           0x054 *\/$/;"	m	struct:__anon18
+PeriphEnStatus0	include/aquarius.h	/^	uint32_t PeriphEnStatus0;                     \/* Peripheral clock enable status register 0    0x02C *\/$/;"	m	struct:__anon18
+PeriphEnStatus1	include/aquarius.h	/^	uint32_t PeriphEnStatus1;                     \/* Peripheral clock enable status register 1    0x03C *\/$/;"	m	struct:__anon18
+PeriphEnStatus2	include/aquarius.h	/^	uint32_t PeriphEnStatus2;                     \/* Peripheral clock enable status register 2    0x050 *\/$/;"	m	struct:__anon18
+PeriphID	include/aquarius.h	/^	const uint32_t PeriphID[4];                   \/* Peripheral id registers                      0xFE0 *\/$/;"	m	struct:__anon18
+PeriphID0	include/aquarius.h	/^	uint32_t PeriphID0;                           \/* Peripheral id register0                      0xFE0 *\/$/;"	m	struct:__anon31
+PeriphID0	include/aquarius.h	/^	uint32_t PeriphID0;                   \/* @0xFE0 *\/$/;"	m	struct:__anon21
+PeriphID1	include/aquarius.h	/^	uint32_t PeriphID1;                           \/* Peripheral id register1                      0xFE4 *\/$/;"	m	struct:__anon31
+PeriphID1	include/aquarius.h	/^	uint32_t PeriphID1;                   \/* @0xFE4 *\/$/;"	m	struct:__anon21
+PeriphID2	include/aquarius.h	/^	uint32_t PeriphID2;                           \/* Peripheral id register2                      0xFE8 *\/$/;"	m	struct:__anon31
+PeriphID2	include/aquarius.h	/^	uint32_t PeriphID2;                   \/* @0xFE8 *\/$/;"	m	struct:__anon21
+PeriphID3	include/aquarius.h	/^	uint32_t PeriphID3;                           \/* Peripheral id register3                      0xFEC *\/$/;"	m	struct:__anon31
+PeriphID3	include/aquarius.h	/^	uint32_t PeriphID3;                   \/* @0xFEC *\/$/;"	m	struct:__anon21
+Pll1Mask	include/aquarius.h	/^	bitfield_t Pll1Mask :1;$/;"	m	struct:__anon10
+Pll1Mis	include/aquarius.h	/^	bitfield_t Pll1Mis :1;$/;"	m	struct:__anon11
+Pll2Mask	include/aquarius.h	/^	bitfield_t Pll2Mask :1;$/;"	m	struct:__anon10
+Pll2Mis	include/aquarius.h	/^	bitfield_t Pll2Mis :1;$/;"	m	struct:__anon11
+PllControl	include/aquarius.h	/^	src_pll_control_reg_t PllControl;             \/* PLL control register                         0x010 *\/$/;"	m	struct:__anon18
+PllFreq	include/aquarius.h	/^	src_pll_freq_reg_t PllFreq;                   \/* PLL frequency register                       0x014 *\/$/;"	m	struct:__anon18
+Prefetch_Handler	src/crt0.s	/^Prefetch_Handler:$/;"	l
+Prescaler	include/aquarius.h	/^	bitfield_t Prescaler :2;$/;"	m	struct:__anon20
+RIS	include/aquarius.h	/^	uint32_t RIS;                                 \/* Raw Interrupt register                       0x03C *\/$/;"	m	struct:__anon31
+RIS	include/aquarius.h	/^	uint32_t RIS;                         \/* @0x04 *\/$/;"	m	struct:__anon21
+RSR	include/aquarius.h	/^	uint32_t RSR;                                 \/* Receive status\/Error clear register          0x004 *\/$/;"	m	struct:__anon31
+RTSEnable	include/aquarius.h	/^		bitfield_t RTSEnable :1;$/;"	m	struct:__anon26::__anon27
+RTXDIS	include/aquarius.h	/^	bitfield_t RTXDIS :1;$/;"	m	struct:__anon23
+ReadNandPages	src/nand.c	/^uint32_t ReadNandPages(uint32_t page, uint8_t *buf, int pageCount, int endPage)$/;"	f
+ReceiveEnable	include/aquarius.h	/^		bitfield_t ReceiveEnable :1;$/;"	m	struct:__anon26::__anon27
+ReceiveFifoEmpty	include/aquarius.h	/^	bitfield_t ReceiveFifoEmpty :1;$/;"	m	struct:__anon23
+ReceiveFifoFull	include/aquarius.h	/^	bitfield_t ReceiveFifoFull :1;$/;"	m	struct:__anon23
+Received	include/aquarius.h	/^		bitfield_t Received :1;$/;"	m	struct:__anon29::__anon30
+ReceivedTimeout	include/aquarius.h	/^		bitfield_t ReceivedTimeout :1;$/;"	m	struct:__anon29::__anon30
+Reg	include/aquarius.h	/^	uint32_t Reg;$/;"	m	union:__anon24
+Reg	include/aquarius.h	/^	uint32_t Reg;$/;"	m	union:__anon26
+Reg	include/aquarius.h	/^	uint32_t Reg;$/;"	m	union:__anon29
+RequestToSend	include/aquarius.h	/^		bitfield_t RequestToSend :1;$/;"	m	struct:__anon26::__anon27
+ResetStatus	include/aquarius.h	/^	src_reset_status_reg_t ResetStatus;           \/* Reset status register                        0x018 *\/$/;"	m	struct:__anon18
+Reset_Handler	src/crt0.s	/^Reset_Handler:$/;"	l
+RingIndicator	include/aquarius.h	/^	bitfield_t RingIndicator :1;$/;"	m	struct:__anon23
+RingIndicatorModem	include/aquarius.h	/^		bitfield_t RingIndicatorModem :1;$/;"	m	struct:__anon29::__anon30
+RxIntFifoLevel	include/aquarius.h	/^	bitfield_t RxIntFifoLevel :3;$/;"	m	struct:__anon28
+SCCLKDIVCR	src/harman.c	49;"	d	file:
+SDRAM_CS0_END_ADDR	include/aquarius.h	54;"	d
+SDRAM_CS0_LENGTH	include/aquarius.h	53;"	d
+SDRAM_CS0_START_ADDR	include/aquarius.h	52;"	d
+SDRAM_CS1_END_ADDR	include/aquarius.h	59;"	d
+SDRAM_CS1_LENGTH	include/aquarius.h	58;"	d
+SDRAM_CS1_START_ADDR	include/aquarius.h	57;"	d
+SET_BLOCK_ADDRESSING	include/MT29F2G16A.h	29;"	d
+SET_BLOCK_OFFSET	include/MT29F2G16A.h	36;"	d
+SIZE_BYTE_SUB_BLOCK	include/nand.h	35;"	d
+SRC	Makefile	/^SRC = $(wildcard src\/*.c) $(wildcard src\/*.s)$/;"	m
+SRCCR	src/harman.c	47;"	d	file:
+SRC_REG_END_ADDR	include/aquarius.h	108;"	d
+SRC_REG_LENGTH	include/aquarius.h	107;"	d
+SRC_REG_START_ADDR	include/aquarius.h	106;"	d
+START_MESSAGE	include/config.h	28;"	d
+STATUS	include/aquarius.h	/^	gmc_status_reg_t STATUS;              \/* Interrupts and FIFO status                           0x44 *\/$/;"	m	struct:__anon7
+SWI_Handler	src/crt0.s	/^SWI_Handler:$/;"	l
+ScClkDivCr	include/aquarius.h	/^	src_clk_divider_ctrl_reg_t ScClkDivCr;        \/* SRC Clock Divider Control register           0x058 *\/$/;"	m	struct:__anon18
+SendBreak	include/aquarius.h	/^		bitfield_t SendBreak :1;$/;"	m	struct:__anon24::__anon25
+Size	include/aquarius.h	/^	bitfield_t Size :1;$/;"	m	struct:__anon20
+StackFill	src/crt0.s	/^StackFill:	.word	0xAAAAAAAA$/;"	l
+StickParitySelect	include/aquarius.h	/^		bitfield_t StickParitySelect :1;$/;"	m	struct:__anon24::__anon25
+TARGET_JOBS	ARMV6LNcrossdiab/Makefile	/^TARGET_JOBS?=$(JOBS)$/;"	m
+TARGET_JOBS_RULE	ARMV6LNcrossdiab/Makefile	/^TARGET_JOBS_RULE=$(MAKE) -f $(MAKEFILE) --jobs $(TARGET_JOBS) $(MFLAGS) $* TARGET_JOBS=1$/;"	m
+TARGET_JOBS_RULE	ARMV6LNcrossdiab/Makefile	/^TARGET_JOBS_RULE?=echo update makefile template$/;"	m
+TERI	include/aquarius.h	/^	bitfield_t TERI :1;$/;"	m	struct:__anon23
+TGT_FLAG	ARMV6LNcrossdiab/Makefile	/^TGT_FLAG = -tARMV6LN:cross$/;"	m
+TGT_FLAG	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : TGT_FLAG = -tARMV6LN:cross$/;"	m
+TMR1BGLoad	include/aquarius.h	/^	uint32_t TMR1BGLoad;                  \/* @0x1C *\/$/;"	m	struct:__anon21
+TMR1Control	include/aquarius.h	/^	tmr_ctrl_reg_t TMR1Control;           \/* @0x18 *\/$/;"	m	struct:__anon21
+TMR1Load	include/aquarius.h	/^	uint32_t TMR1Load;                    \/* @0x10 *\/$/;"	m	struct:__anon21
+TMR1Value	include/aquarius.h	/^	uint32_t TMR1Value;                   \/* @0x14 *\/$/;"	m	struct:__anon21
+TMR2BGLoad	include/aquarius.h	/^	uint32_t TMR2BGLoad;                  \/* @0x2C *\/$/;"	m	struct:__anon21
+TMR2Control	include/aquarius.h	/^	tmr_ctrl_reg_t TMR2Control;           \/* @0x28 *\/$/;"	m	struct:__anon21
+TMR2Load	include/aquarius.h	/^	uint32_t TMR2Load;                    \/* @0x20 *\/$/;"	m	struct:__anon21
+TMR2Value	include/aquarius.h	/^	uint32_t TMR2Value;                   \/* @0x24 *\/$/;"	m	struct:__anon21
+TMR3BGLoad	include/aquarius.h	/^	uint32_t TMR3BGLoad;                  \/* @0x3C *\/$/;"	m	struct:__anon21
+TMR3Control	include/aquarius.h	/^	tmr_ctrl_reg_t TMR3Control;           \/* @0x38 *\/$/;"	m	struct:__anon21
+TMR3Load	include/aquarius.h	/^	uint32_t TMR3Load;                    \/* @0x30 *\/$/;"	m	struct:__anon21
+TMR3Value	include/aquarius.h	/^	uint32_t TMR3Value;                   \/* @0x34 *\/$/;"	m	struct:__anon21
+TMR4BGLoad	include/aquarius.h	/^	uint32_t TMR4BGLoad;                  \/* @0x4C *\/$/;"	m	struct:__anon21
+TMR4Control	include/aquarius.h	/^	tmr_ctrl_reg_t TMR4Control;           \/* @0x48 *\/$/;"	m	struct:__anon21
+TMR4Load	include/aquarius.h	/^	uint32_t TMR4Load;                    \/* @0x40 *\/$/;"	m	struct:__anon21
+TMR4Value	include/aquarius.h	/^	uint32_t TMR4Value;                   \/* @0x44 *\/$/;"	m	struct:__anon21
+TOOL_PATH	ARMV6LNcrossdiab/Makefile	/^TOOL_PATH = $/;"	m
+TOOL_PATH	ARMV6LNcrossdiab/Makefile	/^x-loader\/$(MODE_DIR)\/% : TOOL_PATH = $/;"	m
+TRACE	ARMV6LNcrossdiab/Makefile	/^TRACE=0$/;"	m
+TRACEON	ARMV6LNcrossdiab/Makefile	/^TRACEON=$(TRACE:0=@)$/;"	m
+TRACE_FLAG	ARMV6LNcrossdiab/Makefile	/^TRACE_FLAG=$(TRACEON:1=)$/;"	m
+TRUE	include/boot.h	/^typedef enum {FALSE = 0, TRUE = 1} bool_t;$/;"	e	enum:__anon3
+TWO_STOPBITS	include/uart.h	/^	TWO_STOPBITS = 0x1$/;"	e	enum:__anon37
+Thiz	include/aquarius.h	/^	bitfield_t Thiz :8;           \/* common memory data bus HiZ time: write cycle only *\/$/;"	m	struct:__anon4
+Thold	include/aquarius.h	/^	bitfield_t Thold :8;          \/* common memory hold time: read and write cycle  *\/$/;"	m	struct:__anon4
+Transmit	include/aquarius.h	/^		bitfield_t Transmit :1;$/;"	m	struct:__anon29::__anon30
+TransmitEnable	include/aquarius.h	/^		bitfield_t TransmitEnable :1;$/;"	m	struct:__anon26::__anon27
+TransmitFifoEmpty	include/aquarius.h	/^	bitfield_t TransmitFifoEmpty :1;$/;"	m	struct:__anon23
+TransmitFifoFull	include/aquarius.h	/^	bitfield_t TransmitFifoFull :1;$/;"	m	struct:__anon23
+Tset	include/aquarius.h	/^	bitfield_t Tset :8;           \/* common memory Set up time: read and write cycle *\/$/;"	m	struct:__anon4
+Twait	include/aquarius.h	/^	bitfield_t Twait :8;          \/* common memory wait time: read and write cycle  *\/$/;"	m	struct:__anon4
+TwoStopBitsSelect	include/aquarius.h	/^		bitfield_t TwoStopBitsSelect :1;$/;"	m	struct:__anon24::__anon25
+TxIntFifoLevel	include/aquarius.h	/^	bitfield_t TxIntFifoLevel :3;$/;"	m	struct:__anon28
+UART0_REG_END_ADDR	include/aquarius.h	117;"	d
+UART0_REG_LENGTH	include/aquarius.h	116;"	d
+UART0_REG_START_ADDR	include/aquarius.h	115;"	d
+UART1_REG_END_ADDR	include/aquarius.h	122;"	d
+UART1_REG_LENGTH	include/aquarius.h	121;"	d
+UART1_REG_START_ADDR	include/aquarius.h	120;"	d
+UART2_REG_END_ADDR	include/aquarius.h	127;"	d
+UART2_REG_LENGTH	include/aquarius.h	126;"	d
+UART2_REG_START_ADDR	include/aquarius.h	125;"	d
+UART3_REG_END_ADDR	include/aquarius.h	132;"	d
+UART3_REG_LENGTH	include/aquarius.h	131;"	d
+UART3_REG_START_ADDR	include/aquarius.h	130;"	d
+UART_ERROR	include/uart.h	/^  UART_ERROR			= HCL_ERROR,			\/* (-1) *\/$/;"	e	enum:__anon34
+UART_Init	src/uart.c	/^uart_error_t UART_Init(uart_baudrate_t baudrate, uart_parity_bit_t parity_bit,$/;"	f
+UART_OK	include/uart.h	/^  UART_OK				= HCL_OK				\/* (0)  *\/$/;"	e	enum:__anon34
+UART_UNSUPPORTED_HW	include/uart.h	/^  UART_UNSUPPORTED_HW	= HCL_UNSUPPORTED_HW,	\/* (-2) *\/$/;"	e	enum:__anon34
+UART_flush	src/uart.c	/^void UART_flush(void)$/;"	f
+UNUSED0	include/aquarius.h	/^	uint32_t UNUSED0[8];  \/\/ [0x18 - 0x40]$/;"	m	struct:__anon8
+UartEnable	include/aquarius.h	/^		bitfield_t UartEnable :1;$/;"	m	struct:__anon26::__anon27
+Undefined_Handler	src/crt0.s	/^Undefined_Handler:$/;"	l
+Unused1	include/aquarius.h	/^		bitfield_t Unused1 :2;$/;"	m	struct:__anon26::__anon27
+Unused2	include/aquarius.h	/^		bitfield_t Unused2 :3;$/;"	m	struct:__anon26::__anon27
+Unused3	include/aquarius.h	/^		bitfield_t Unused3 :2;$/;"	m	struct:__anon26::__anon27
+VERSION	include/config.h	27;"	d
+VIC_CVAR	src/wd.c	37;"	d	file:
+VIC_DVAR	src/wd.c	38;"	d	file:
+VIC_FIQSR	src/wd.c	29;"	d	file:
+VIC_IENC	src/wd.c	33;"	d	file:
+VIC_IENS	src/wd.c	32;"	d	file:
+VIC_IRQSR	src/wd.c	28;"	d	file:
+VIC_ISEL	src/wd.c	31;"	d	file:
+VIC_PER	src/wd.c	36;"	d	file:
+VIC_RIS	src/wd.c	30;"	d	file:
+VIC_SWICR	src/wd.c	35;"	d	file:
+VIC_SWISR	src/wd.c	34;"	d	file:
+VIC_VAR	src/wd.c	39;"	d	file:
+VIC_VCR	src/wd.c	40;"	d	file:
+WDT_CR	src/wd.c	50;"	d	file:
+WDT_ICR	src/wd.c	51;"	d	file:
+WDT_LOCK	src/wd.c	54;"	d	file:
+WDT_LR	src/wd.c	48;"	d	file:
+WDT_MIS	src/wd.c	53;"	d	file:
+WDT_RIS	src/wd.c	52;"	d	file:
+WDT_VAL	src/wd.c	49;"	d	file:
+WIND_BASE	ARMV6LNcrossdiab/Makefile	/^WIND_BASE := $(subst \\,\/,$(WIND_BASE))$/;"	m
+WIND_HOME	ARMV6LNcrossdiab/Makefile	/^WIND_HOME := $(subst \\,\/,$(WIND_HOME))$/;"	m
+WIND_SCOPETOOLS_BASE	ARMV6LNcrossdiab/Makefile	/^WIND_SCOPETOOLS_BASE := $(subst \\,\/,$(WIND_SCOPETOOLS_BASE))$/;"	m
+WS_ROOT_DIR	ARMV6LNcrossdiab/Makefile	/^WS_ROOT_DIR := \/home\/xxha\/WindRiver\/workspace$/;"	m
+WordLength	include/aquarius.h	/^		bitfield_t WordLength :2;$/;"	m	struct:__anon24::__anon25
+XFCR	include/aquarius.h	/^	uint32_t XFCR;                                \/* XON\/XOFF Control register                    0x050 *\/$/;"	m	struct:__anon31
+XOFF1	include/aquarius.h	/^	uint32_t XOFF1;                               \/* Xoff1 character for sw flow control          0x05C *\/$/;"	m	struct:__anon31
+XOFF2	include/aquarius.h	/^	uint32_t XOFF2;                               \/* Xoff2 character for sw flow control          0x060 *\/$/;"	m	struct:__anon31
+XOFFInterrupt	include/aquarius.h	/^		bitfield_t XOFFInterrupt :1;$/;"	m	struct:__anon29::__anon30
+XON1	include/aquarius.h	/^	uint32_t XON1;                                \/* Xon1 character for sw flow control           0x054 *\/$/;"	m	struct:__anon31
+XON2	include/aquarius.h	/^	uint32_t XON2;                                \/* Xon2 character for sw flow control           0x058 *\/$/;"	m	struct:__anon31
+XtalControl	include/aquarius.h	/^	src_xtal_control_reg_t XtalControl;           \/* Crystal control register                     0x00C *\/$/;"	m	struct:__anon18
+_AQUARIUS_H_	include/aquarius.h	18;"	d
+_BOOT_CRC_H_	include/crc32.h	18;"	d
+_BOOT_H_	include/boot.h	18;"	d
+_CONFIG_H_	include/config.h	18;"	d
+_ENV_H_	include/env.h	18;"	d
+_IMAGE_H_	include/image.h	18;"	d
+_INC_GPIOP_H_	include/gpio_p.h	18;"	d
+_INC_GPIO_H_	include/gpio.h	18;"	d
+_IRQ_H_	include/irq.h	18;"	d
+_NAND_H_	include/nand.h	18;"	d
+_SUPPORT_H_	include/support.h	18;"	d
+_UART_H_	include/uart.h	18;"	d
+__DMA_H_	include/dma.h	18;"	d
+__crc32	src/__crc32.s	/^__crc32:$/;"	l
+_start	src/crt0.s	/^_start:$/;"	l
+addr	include/nand.h	/^	NAND_Address	addr;    \/\/ Logical Addresses associated to the current NAND device$/;"	m	struct:__anon41
+addrmux	include/aquarius.h	/^	bitfield_t addrmux :1;        \/* PCcard: muxed address         *\/$/;"	m	struct:__anon6
+batOk	include/aquarius.h	/^	bitfield_t batOk :1;$/;"	m	struct:__anon9
+bitfield_t	include/boot.h	/^typedef unsigned int bitfield_t;$/;"	t
+bool_t	include/boot.h	/^typedef enum {FALSE = 0, TRUE = 1} bool_t;$/;"	t	typeref:enum:__anon3
+bootPart	src/support.c	/^int bootPart(range_t *range)$/;"	f
+bytbch8	include/aquarius.h	/^	bitfield_t bytbch8 :8;        \/* Byte 13 of BCH8: trailer of the ECC NAND *\/$/;"	m	struct:__anon5
+cacheEnd	src/nand.c	/^static void cacheEnd(void)$/;"	f	file:
+cacheNext	src/nand.c	/^static void cacheNext(void)$/;"	f	file:
+cfg	src/dma.c	/^	uint32_t	cfg;	\/* Channel X Configuration Register            *\/$/;"	m	struct:__anon2	file:
+clcdclkdivsel	include/aquarius.h	/^	bitfield_t clcdclkdivsel :5;$/;"	m	struct:__anon17
+clkDiv0	include/aquarius.h	/^	bitfield_t clkDiv0 :6;$/;"	m	struct:__anon16
+clkDiv1	include/aquarius.h	/^	bitfield_t clkDiv1 :6;$/;"	m	struct:__anon16
+clkSel0	include/aquarius.h	/^	bitfield_t clkSel0 :3;$/;"	m	struct:__anon16
+clkSel1	include/aquarius.h	/^	bitfield_t clkSel1 :3;$/;"	m	struct:__anon16
+cmdline	include/image.h	/^		struct tag_cmdline cmdline;$/;"	m	union:tag::__anon32	typeref:struct:tag::__anon32::tag_cmdline
+cmdline	include/image.h	/^	char cmdline[1];$/;"	m	struct:tag_cmdline
+codrdy	include/aquarius.h	/^	bitfield_t codrdy :1;         \/* Code ready   *\/$/;"	m	struct:__anon5
+codtyp	include/aquarius.h	/^	bitfield_t codtyp :1;         \/* Code type   *\/$/;"	m	struct:__anon5
+core	include/image.h	/^		struct tag_core core;$/;"	m	union:tag::__anon32	typeref:struct:tag::__anon32::tag_core
+correctData	src/nand.c	/^static int correctData(uint8_t *buf)$/;"	f	file:
+cr	src/dma.c	/^	uint32_t	cr;		\/* Channel X Control Register                  *\/$/;"	m	struct:__anon2	file:
+crc	src/env.c	/^	uint32_t	crc;		\/* CRC32 over data bytes *\/$/;"	m	struct:__anon1	file:
+crc32	src/crc32.c	/^uint32_t crc32(uint32_t crc32val, uint8_t *s, uint32_t len)$/;"	f
+crc32_tab	src/crc32.c	/^static uint32_t crc32_tab[256];$/;"	v	file:
+current	src/main.c	/^	int current;$/;"	m	struct:partInfo	file:
+dadr	src/dma.c	/^	void *		dadr;	\/* Channel X Destination Address Register      *\/$/;"	m	struct:__anon2	file:
+data	src/env.c	/^	uint8_t		data[1];	\/* Environment data *\/$/;"	m	struct:__anon1	file:
+dclkdivsel	include/aquarius.h	/^	bitfield_t dclkdivsel :2;$/;"	m	struct:__anon17
+dclksrc	include/aquarius.h	/^	bitfield_t dclksrc :2;$/;"	m	struct:__anon9
+dclksync	include/aquarius.h	/^	bitfield_t dclksync :1;$/;"	m	struct:__anon9
+debounce	include/gpio.h	/^    gpio_debounce_t     debounce;       \/* Debounce logic control for pin (in SOFTWARE mode only) *\/$/;"	m	struct:__anon50
+defaultEnv	src/support.c	/^static const uint8_t *defaultEnv = DEFAULT_ENV;$/;"	v	file:
+devtyp	include/aquarius.h	/^	bitfield_t devtyp :1;         \/* Device type                          *\/$/;"	m	struct:__anon6
+devwid	include/aquarius.h	/^	bitfield_t devwid :2;         \/* Device width for all type of memories *\/$/;"	m	struct:__anon6
+direction	include/gpio.h	/^    gpio_direction_t    direction;      \/* Define pin direction (in SOFTWARE mode only). *\/$/;"	m	struct:__anon50
+dma_chan	src/dma.c	/^static volatile dma_channel_t *dma_chan = (dma_channel_t *)0x10150100; $/;"	v	file:
+dma_channel_t	src/dma.c	/^} dma_channel_t;$/;"	t	typeref:struct:__anon2	file:
+dma_copy16	src/dma.c	/^void dma_copy16 (void *dest, void *src, int len, uint32_t flags)$/;"	f
+done	src/__crc32.s	/^done:	mov		r3, #0xffffffff$/;"	l
+eccen	include/aquarius.h	/^	bitfield_t eccen :1;          \/* ECC computation logic enable bit      *\/$/;"	m	struct:__anon6
+eccplen	include/aquarius.h	/^	bitfield_t eccplen :1;        \/* ECC page Length                     *\/$/;"	m	struct:__anon6
+ecctyp	include/aquarius.h	/^	bitfield_t ecctyp :3;         \/* ECC type   *\/$/;"	m	struct:__anon5
+enable	include/aquarius.h	/^	bitfield_t enable :1;         \/* PC-Card\/NAND\/ATA enable device *\/$/;"	m	struct:__anon6
+enafal	include/aquarius.h	/^	bitfield_t enafal :1;         \/* Enable falling edge  *\/$/;"	m	struct:__anon5
+enalev	include/aquarius.h	/^	bitfield_t enalev :1;         \/* Enable level   *\/$/;"	m	struct:__anon5
+enaris	include/aquarius.h	/^	bitfield_t enaris :1;         \/* Enable rising edge           *\/$/;"	m	struct:__anon5
+end	include/support.h	/^	uint32_t end;$/;"	m	struct:__anon33
+env	src/support.c	/^static uint8_t *env;$/;"	v	file:
+envVar	src/env.c	/^char *envVar (uint8_t *env, char *name)$/;"	f
+env_t	src/env.c	/^} env_t;$/;"	t	typeref:struct:__anon1	file:
+errfnd	include/aquarius.h	/^	bitfield_t errfnd :4;         \/* Errors found   *\/$/;"	m	struct:__anon5
+even	src/__crc32.s	/^even:	subs	r2, r2, #32				; \/* can we do 32 bytes at a time? *\/$/;"	l
+fStart	include/aquarius.h	/^	bitfield_t fStart :1;$/;"	m	struct:__anon12
+fifemp	include/aquarius.h	/^	bitfield_t fifemp :1;         \/* FIFO empty   *\/$/;"	m	struct:__anon5
+fiq_disable	include/irq.h	/^asm static void fiq_disable(void)$/;"	f
+fiq_disable	include/irq.h	/^static void fiq_disable(void)$/;"	f
+fiq_enable	include/irq.h	/^asm static void fiq_enable(void)$/;"	f
+fiq_enable	include/irq.h	/^static void fiq_enable(void)$/;"	f
+flags	include/image.h	/^	uint32_t flags;$/;"	m	struct:tag_core
+fsmc_nand_ata_pccard_aquarius_reg_t	include/aquarius.h	/^} fsmc_nand_ata_pccard_aquarius_reg_t;$/;"	t	typeref:struct:__anon7
+fstartnbypstat	include/aquarius.h	/^	bitfield_t fstartnbypstat :1;$/;"	m	struct:__anon9
+getBlockStatus	src/nand.c	/^static int getBlockStatus(void)$/;"	f	file:
+gmc_comm_attr_ioata_reg_t	include/aquarius.h	/^} gmc_comm_attr_ioata_reg_t;$/;"	t	typeref:struct:__anon4
+gmc_pc_reg_t	include/aquarius.h	/^} gmc_pc_reg_t;$/;"	t	typeref:struct:__anon6
+gmc_status_reg_t	include/aquarius.h	/^} gmc_status_reg_t;$/;"	t	typeref:struct:__anon5
+gpio	include/gpio.h	/^    bool_t gpio[GPIO_TOTAL_COUNT];$/;"	m	struct:__anon55
+gpio	src/gpio.c	/^static gpio_system_context_t gpio = {$/;"	v	file:
+gpio_afsla	include/aquarius.h	/^	uint32_t gpio_afsla;                          \/* 0x020 GPIO Alternate Function Select register A*\/$/;"	m	struct:__anon19
+gpio_afslb	include/aquarius.h	/^	uint32_t gpio_afslb;                          \/* 0x024 GPIO Alternate Function Select register B*\/$/;"	m	struct:__anon19
+gpio_config_t	include/gpio.h	/^} gpio_config_t;$/;"	t	typeref:struct:__anon50
+gpio_ctrl_id_t	include/gpio.h	/^} gpio_ctrl_id_t;$/;"	t	typeref:enum:__anon48
+gpio_dat	include/aquarius.h	/^	uint32_t gpio_dat;                            \/* 0x000 GPIO data register *\/$/;"	m	struct:__anon19
+gpio_data_t	include/gpio.h	/^} gpio_data_t;$/;"	t	typeref:enum:__anon51
+gpio_datc	include/aquarius.h	/^	uint32_t gpio_datc;                           \/* 0x008 GPIO data Clear register *\/$/;"	m	struct:__anon19
+gpio_dats	include/aquarius.h	/^	uint32_t gpio_dats;                           \/* 0x004 GPIO data Set register *\/$/;"	m	struct:__anon19
+gpio_debounce_t	include/gpio.h	/^} gpio_debounce_t;$/;"	t	typeref:enum:__anon47
+gpio_dir	include/aquarius.h	/^	uint32_t gpio_dir;                            \/* 0x010 GPIO data direction register *\/$/;"	m	struct:__anon19
+gpio_dirc	include/aquarius.h	/^	uint32_t gpio_dirc;                           \/* 0x018 GPIO data direction Clear register *\/$/;"	m	struct:__anon19
+gpio_direction_t	include/gpio.h	/^} gpio_direction_t;$/;"	t	typeref:enum:__anon46
+gpio_dirs	include/aquarius.h	/^	uint32_t gpio_dirs;                           \/* 0x014 GPIO data direction Set register *\/$/;"	m	struct:__anon19
+gpio_error_t	include/gpio.h	/^} gpio_error_t;$/;"	t	typeref:enum:__anon43
+gpio_fimsc	include/aquarius.h	/^	uint32_t gpio_fimsc;                          \/* 0x044 GPIO falling edge interrupt set\/clear register*\/$/;"	m	struct:__anon19
+gpio_ic	include/aquarius.h	/^	uint32_t gpio_ic;                             \/* 0x04C GPIO Interrupt Clear register*\/$/;"	m	struct:__anon19
+gpio_is	include/aquarius.h	/^	uint32_t gpio_is;                             \/* 0x048 GPIO masked interrupt status register*\/$/;"	m	struct:__anon19
+gpio_mode_t	include/gpio.h	/^} gpio_mode_t;$/;"	t	typeref:enum:__anon45
+gpio_multiple_device_id_t	include/gpio.h	/^typedef uint32_t    gpio_multiple_device_id_t;$/;"	t
+gpio_pcell_id_0	include/aquarius.h	/^	uint32_t gpio_pcell_id_0;                     \/* 0xFF0 Peripheral identification register bits 7:0*\/$/;"	m	struct:__anon19
+gpio_pcell_id_1	include/aquarius.h	/^	uint32_t gpio_pcell_id_1;                     \/* 0xFF4 Peripheral identification register bits 15:8*\/$/;"	m	struct:__anon19
+gpio_pcell_id_2	include/aquarius.h	/^	uint32_t gpio_pcell_id_2;                     \/* 0xFF8 Peripheral identification register bits 23:16*\/$/;"	m	struct:__anon19
+gpio_pcell_id_3	include/aquarius.h	/^	uint32_t gpio_pcell_id_3;                     \/* 0xFFC Peripheral identification register bits 31:24*\/$/;"	m	struct:__anon19
+gpio_pdis	include/aquarius.h	/^	uint32_t gpio_pdis;                           \/* 0x00C GPIO Pull disable register *\/$/;"	m	struct:__anon19
+gpio_periph_id_0	include/aquarius.h	/^	uint32_t gpio_periph_id_0;                    \/* 0xFE0 Peripheral identification register bits 7:0*\/$/;"	m	struct:__anon19
+gpio_periph_id_1	include/aquarius.h	/^	uint32_t gpio_periph_id_1;                    \/* 0xFE4 Peripheral identification register bits 15:8*\/$/;"	m	struct:__anon19
+gpio_periph_id_2	include/aquarius.h	/^	uint32_t gpio_periph_id_2;                    \/* 0xFE8 Peripheral identification register bits 23:16*\/$/;"	m	struct:__anon19
+gpio_periph_id_3	include/aquarius.h	/^	uint32_t gpio_periph_id_3;                    \/* 0xFEC Peripheral identification register bits 31:24*\/$/;"	m	struct:__anon19
+gpio_pin_irq_status_t	include/gpio.h	/^} gpio_pin_irq_status_t;    \/* Interrupt status for all GPIO pins *\/$/;"	t	typeref:struct:__anon55
+gpio_pin_t	include/gpio.h	/^} gpio_pin_t;$/;"	t	typeref:enum:__anon44
+gpio_register_t	include/aquarius.h	/^} gpio_register_t;$/;"	t	typeref:struct:__anon19
+gpio_rimsc	include/aquarius.h	/^	uint32_t gpio_rimsc;                          \/* 0x040 GPIO rising edge interrupt set\/clear*\/$/;"	m	struct:__anon19
+gpio_sleep_config_t	include/gpio.h	/^} gpio_sleep_config_t;$/;"	t	typeref:struct:__anon54
+gpio_sleep_mode_t	include/gpio.h	/^} gpio_sleep_mode_t;$/;"	t	typeref:enum:__anon52
+gpio_slpm	include/aquarius.h	/^	uint32_t gpio_slpm;                           \/* 0x01C GPIO Sleep mode register *\/$/;"	m	struct:__anon19
+gpio_system_context_t	include/gpio_p.h	/^} gpio_system_context_t;$/;"	t	typeref:struct:__anon56
+gpio_trig_t	include/gpio.h	/^} gpio_trig_t;$/;"	t	typeref:enum:__anon49
+gpio_wake_t	include/gpio.h	/^} gpio_wake_t;$/;"	t	typeref:enum:__anon53
+gpio_wakeup_status_t	include/gpio.h	/^typedef uint32_t gpio_wakeup_status_t;$/;"	t
+gpsclk4xdiv	include/aquarius.h	/^	bitfield_t gpsclk4xdiv :4;$/;"	m	struct:__anon17
+gpssclk16sel	include/aquarius.h	/^	bitfield_t gpssclk16sel :1;$/;"	m	struct:__anon17
+hclksrc	include/aquarius.h	/^	bitfield_t hclksrc :1;$/;"	m	struct:__anon9
+hdr	include/image.h	/^	struct tag_header hdr;$/;"	m	struct:tag	typeref:struct:tag::tag_header
+id	include/nand.h	/^	NAND_Id			id;           \/\/ Identity Card for the current device$/;"	m	struct:__anon41
+ih_arch	include/image.h	/^	uint8_t ih_arch;					\/* CPU arch *\/$/;"	m	struct:image_header
+ih_comp	include/image.h	/^	uint8_t ih_comp;					\/* Compression *\/$/;"	m	struct:image_header
+ih_dcrc	include/image.h	/^	uint32_t ih_dcrc;					\/* Image CRC *\/$/;"	m	struct:image_header
+ih_ep	include/image.h	/^	uint32_t ih_ep;						\/* Address to jump to *\/$/;"	m	struct:image_header
+ih_hcrc	include/image.h	/^	uint32_t ih_hcrc;					\/* Header CRC *\/$/;"	m	struct:image_header
+ih_load	include/image.h	/^	uint32_t ih_load;					\/* Address to put image *\/$/;"	m	struct:image_header
+ih_magic	include/image.h	/^	uint32_t ih_magic;					\/* Magic Number *\/$/;"	m	struct:image_header
+ih_name	include/image.h	/^	uint8_t ih_name[IH_NMLEN];			\/* Name *\/$/;"	m	struct:image_header
+ih_os	include/image.h	/^	uint8_t ih_os;						\/* OS *\/$/;"	m	struct:image_header
+ih_size	include/image.h	/^	uint32_t ih_size;					\/* Image Size *\/$/;"	m	struct:image_header
+ih_time	include/image.h	/^	uint32_t ih_time;					\/* Creation Timestamp *\/$/;"	m	struct:image_header
+ih_type	include/image.h	/^	uint8_t ih_type;					\/* Type *\/$/;"	m	struct:image_header
+image_header	include/image.h	/^typedef struct image_header$/;"	s
+image_header_t	include/image.h	/^} image_header_t;$/;"	t	typeref:struct:image_header
+intfal	include/aquarius.h	/^	bitfield_t intfal :1;         \/* Interrupt falling edge *\/$/;"	m	struct:__anon5
+intlev	include/aquarius.h	/^	bitfield_t intlev :1;         \/* interrupt level  *\/$/;"	m	struct:__anon5
+intris	include/aquarius.h	/^	bitfield_t intris :1;         \/* Interrupt rising edge *\/$/;"	m	struct:__anon5
+irq_disable	include/irq.h	/^asm static void irq_disable(void)$/;"	f
+irq_disable	include/irq.h	/^static void irq_disable(void)$/;"	f
+irq_enable	include/irq.h	/^asm static void irq_enable(void)$/;"	f
+irq_enable	include/irq.h	/^static void irq_enable(void)$/;"	f
+isUboot	src/support.c	/^static int isUboot;$/;"	v	file:
+itEnable	include/aquarius.h	/^	bitfield_t itEnable :1;$/;"	m	struct:__anon10
+itMode	include/aquarius.h	/^	bitfield_t itMode :3;$/;"	m	struct:__anon10
+itPriority	include/aquarius.h	/^	bitfield_t itPriority :1;$/;"	m	struct:__anon10
+itStatus	include/aquarius.h	/^	bitfield_t itStatus :1;$/;"	m	struct:__anon11
+itType	include/aquarius.h	/^	bitfield_t itType :1;$/;"	m	struct:__anon10
+jumpTo	src/support.c	/^void jumpTo(uint32_t entry)$/;"	f
+list	src/main.c	/^	range_t list[5];$/;"	m	struct:partInfo	file:
+lli	src/dma.c	/^	uint32_t	lli;	\/* Channel X Linked List Address Register      *\/$/;"	m	struct:__anon2	file:
+loadEnv	src/support.c	/^void loadEnv(uint32_t start, uint32_t end)$/;"	f
+loadImage	src/support.c	/^uint32_t loadImage(uint32_t start, uint32_t end)$/;"	f
+logBuffer	src/uart.c	/^static char *logBuffer;$/;"	v	file:
+loop	src/__crc32.s	/^loop:	ldmia	r1!,{r4-r11}			; \/* grab 8 longs, 32 bytes *\/$/;"	l
+magic	src/main.c	/^	int magic;$/;"	m	struct:partInfo	file:
+main	src/main.c	/^int main(unsigned int magic)$/;"	f
+make_crc_table	src/crc32.c	/^void make_crc_table(void)$/;"	f
+mem	include/image.h	/^		struct tag_mem32 mem;$/;"	m	union:tag::__anon32	typeref:struct:tag::__anon32::tag_mem32
+mode	include/gpio.h	/^    gpio_mode_t         mode;           \/* Defines mode (SOFTWARE or Alternate). *\/$/;"	m	struct:__anon50
+modeControl	include/aquarius.h	/^	bitfield_t modeControl :3;$/;"	m	struct:__anon9
+modeStatus	include/aquarius.h	/^	bitfield_t modeStatus :4;$/;"	m	struct:__anon9
+mtu_register_t	include/aquarius.h	/^} mtu_register_t;$/;"	t	typeref:struct:__anon21
+nand	src/nand.c	/^static nand_system_context_t nand;$/;"	v	file:
+nandPage	src/support.c	/^static uint32_t nandPage[PAGE_SIZE \/ sizeof(uint32_t)];$/;"	v	file:
+nand_system_context_t	include/nand.h	/^} nand_system_context_t;$/;"	t	typeref:struct:__anon41
+odd	src/__crc32.s	/^odd:	ands	r4, r1, #3				; \/* on an odd boundry? *\/$/;"	l
+one	src/__crc32.s	/^one:	ldrb	r4, [r1], #1$/;"	l
+pAttributeArea	include/nand.h	/^	volatile uint8_t	*pAttributeArea;\/\/ Pointer to attribute area$/;"	m	struct:__anon40
+pBase	include/nand.h	/^	volatile uint16_t	*pBase;\/\/ Pointer to I\/O area$/;"	m	struct:__anon40
+pCommand	include/nand.h	/^	volatile uint8_t	*pCommand; \/\/ Pointer to command area$/;"	m	struct:__anon40
+pCommonArea	include/nand.h	/^	volatile uint8_t	*pCommonArea;\/\/ Pointer to common area$/;"	m	struct:__anon40
+pagesize	include/aquarius.h	/^	bitfield_t pagesize :3;       \/* NAND Flash, extended ECC only      *\/$/;"	m	struct:__anon6
+pagesize	include/image.h	/^	uint32_t pagesize;$/;"	m	struct:tag_core
+partInfo	src/main.c	/^static struct partInfo {$/;"	s	file:
+parts	src/main.c	/^} *parts = (struct partInfo *)0x80010000;$/;"	v	typeref:struct:partInfo	file:
+pll1CtrlOverride	include/aquarius.h	/^	bitfield_t pll1CtrlOverride :1;$/;"	m	struct:__anon13
+pll1Enable	include/aquarius.h	/^	bitfield_t pll1Enable :1;$/;"	m	struct:__anon13
+pll1NMul	include/aquarius.h	/^	bitfield_t pll1NMul :6;$/;"	m	struct:__anon14
+pll1PDiv	include/aquarius.h	/^	bitfield_t pll1PDiv :3;$/;"	m	struct:__anon14
+pll1Status	include/aquarius.h	/^	bitfield_t pll1Status :1;$/;"	m	struct:__anon13
+pll1Timeout	include/aquarius.h	/^	bitfield_t pll1Timeout :25;$/;"	m	struct:__anon13
+pll1pbo	include/aquarius.h	/^	bitfield_t pll1pbo :1;$/;"	m	struct:__anon9
+pll2Enable	include/aquarius.h	/^	bitfield_t pll2Enable :1;$/;"	m	struct:__anon13
+pll2NMul	include/aquarius.h	/^	bitfield_t pll2NMul :6;$/;"	m	struct:__anon14
+pll2PDiv	include/aquarius.h	/^	bitfield_t pll2PDiv :1;$/;"	m	struct:__anon14
+pll2Status	include/aquarius.h	/^	bitfield_t pll2Status :1;$/;"	m	struct:__anon13
+pll2pbo	include/aquarius.h	/^	bitfield_t pll2pbo :1;$/;"	m	struct:__anon9
+pllLockTimen	include/aquarius.h	/^	bitfield_t pllLockTimen :1;$/;"	m	struct:__anon13
+powerOnReset	include/aquarius.h	/^	bitfield_t powerOnReset :1;$/;"	m	struct:__anon15
+puts	src/uart.c	/^int puts(const char *buf)$/;"	f
+range_t	include/support.h	/^} range_t;$/;"	t	typeref:struct:__anon33
+readPage	src/nand.c	/^static int readPage(uint16_t *buf)$/;"	f	file:
+readenv	src/env.c	/^int readenv(uint8_t *buf, uint32_t start, uint32_t end)$/;"	f
+reg	include/gpio_p.h	/^	gpio_register_t *reg[GPIO_BLOCKS_COUNT];$/;"	m	struct:__anon56
+regs	include/nand.h	/^	FSMCRegs		*regs;       \/\/ Virtual Address of the mapped register space (FSMC)$/;"	m	struct:__anon41
+remap0	include/aquarius.h	/^	bitfield_t remap0 :1;$/;"	m	struct:__anon15
+remap1	include/aquarius.h	/^	bitfield_t remap1 :1;$/;"	m	struct:__anon15
+remapClrReq	include/aquarius.h	/^	bitfield_t remapClrReq :1;$/;"	m	struct:__anon9
+remapStatus	include/aquarius.h	/^	bitfield_t remapStatus :1;$/;"	m	struct:__anon9
+reserved_1	include/aquarius.h	/^	uint32_t reserved_1[(0x040 - 0x028) >> 2];    \/* unused *\/$/;"	m	struct:__anon19
+reserved_2	include/aquarius.h	/^	uint32_t reserved_2[(0xFE0 - 0x050) >> 2];    \/* unused *\/$/;"	m	struct:__anon19
+reset	include/aquarius.h	/^	bitfield_t reset :1;          \/* Software reset for PCcard #1   *\/$/;"	m	struct:__anon6
+rootdev	include/image.h	/^	uint32_t rootdev;$/;"	m	struct:tag_core
+sadr	src/dma.c	/^	void *		sadr;	\/* Channel X Source Address Register           *\/$/;"	m	struct:__anon2	file:
+sclkdivsel	include/aquarius.h	/^	bitfield_t sclkdivsel :2;$/;"	m	struct:__anon17
+sdmmc52sel	include/aquarius.h	/^	bitfield_t sdmmc52sel :3;$/;"	m	struct:__anon17
+seekBlock	src/nand.c	/^static void seekBlock(uint32_t BlockAddress)$/;"	f	file:
+setupTags	src/support.c	/^static void setupTags(struct tag *tags)$/;"	f	file:
+size	include/image.h	/^	uint32_t size;$/;"	m	struct:tag_header
+size	include/image.h	/^	uint32_t size;$/;"	m	struct:tag_mem32
+size	src/main.c	/^	int size;$/;"	m	struct:partInfo	file:
+sleepReset	include/aquarius.h	/^	bitfield_t sleepReset :1;$/;"	m	struct:__anon15
+sleep_mode	include/gpio.h	/^    gpio_sleep_mode_t   sleep_mode; \/* GPIO behaviour in sleep mode. *\/$/;"	m	struct:__anon54
+softReset	include/aquarius.h	/^	bitfield_t softReset :1;$/;"	m	struct:__anon15
+src_clk_divider_ctrl_reg_t	include/aquarius.h	/^} src_clk_divider_ctrl_reg_t;$/;"	t	typeref:struct:__anon17
+src_clk_output_conf_reg_t	include/aquarius.h	/^} src_clk_output_conf_reg_t;$/;"	t	typeref:struct:__anon16
+src_control_reg_t	include/aquarius.h	/^} src_control_reg_t;$/;"	t	typeref:struct:__anon9
+src_it_mode_ctrl_reg_t	include/aquarius.h	/^} src_it_mode_ctrl_reg_t;$/;"	t	typeref:struct:__anon10
+src_it_mode_sta_reg_t	include/aquarius.h	/^} src_it_mode_sta_reg_t;$/;"	t	typeref:struct:__anon11
+src_pll_control_reg_t	include/aquarius.h	/^} src_pll_control_reg_t;$/;"	t	typeref:struct:__anon13
+src_pll_freq_reg_t	include/aquarius.h	/^} src_pll_freq_reg_t;$/;"	t	typeref:struct:__anon14
+src_register_t	include/aquarius.h	/^} src_register_t;$/;"	t	typeref:struct:__anon18
+src_reset_status_reg_t	include/aquarius.h	/^} src_reset_status_reg_t;$/;"	t	typeref:struct:__anon15
+src_xtal_control_reg_t	include/aquarius.h	/^} src_xtal_control_reg_t;$/;"	t	typeref:struct:__anon12
+start	include/image.h	/^	uint32_t start;$/;"	m	struct:tag_mem32
+start	include/support.h	/^	uint32_t start;$/;"	m	struct:__anon33
+strHex	src/support.c	/^uint32_t strHex(char *str, char **end)$/;"	f
+sxtalenable	include/aquarius.h	/^	bitfield_t sxtalenable :1;$/;"	m	struct:__anon12
+t_gpio_device_id	include/gpio.h	/^} t_gpio_device_id;$/;"	t	typeref:enum:__anon42
+tag	include/image.h	/^	uint32_t tag;$/;"	m	struct:tag_header
+tag	include/image.h	/^struct tag$/;"	s
+tag_cmdline	include/image.h	/^struct tag_cmdline$/;"	s
+tag_core	include/image.h	/^struct tag_core$/;"	s
+tag_header	include/image.h	/^struct tag_header$/;"	s
+tag_mem32	include/image.h	/^struct tag_mem32$/;"	s
+tag_next	include/image.h	85;"	d
+tag_size	include/image.h	86;"	d
+tar	include/aquarius.h	/^	bitfield_t tar :4;            \/* NAND Flash: ALE to REb delay            *\/$/;"	m	struct:__anon6
+tclr	include/aquarius.h	/^	bitfield_t tclr :4;           \/* NAND Flash: CLE to REb delay           *\/$/;"	m	struct:__anon6
+tim0Sel	include/aquarius.h	/^	bitfield_t tim0Sel :1;$/;"	m	struct:__anon9
+tim1Sel	include/aquarius.h	/^	bitfield_t tim1Sel :1;$/;"	m	struct:__anon9
+tim2Sel	include/aquarius.h	/^	bitfield_t tim2Sel :1;$/;"	m	struct:__anon9
+tim3Sel	include/aquarius.h	/^	bitfield_t tim3Sel :1;$/;"	m	struct:__anon9
+tim4Sel	include/aquarius.h	/^	bitfield_t tim4Sel :1;$/;"	m	struct:__anon9
+tim5Sel	include/aquarius.h	/^	bitfield_t tim5Sel :1;$/;"	m	struct:__anon9
+tim6Sel	include/aquarius.h	/^	bitfield_t tim6Sel :1;$/;"	m	struct:__anon9
+tim7Sel	include/aquarius.h	/^	bitfield_t tim7Sel :1;$/;"	m	struct:__anon9
+tmr_ctrl_reg_t	include/aquarius.h	/^} tmr_ctrl_reg_t;$/;"	t	typeref:struct:__anon20
+traceclkmuxsel	include/aquarius.h	/^	bitfield_t traceclkmuxsel :3;$/;"	m	struct:__anon17
+trig	include/gpio.h	/^    gpio_trig_t         trig;           \/* Interrupt trigger (in SOFTWARE mode only) *\/$/;"	m	struct:__anon50
+u	include/image.h	/^	} u;$/;"	m	struct:tag	typeref:union:tag::__anon32
+uart	src/crt0.s	/^uart:		.word	0x101FB000$/;"	l
+uart_baudrate_t	include/uart.h	/^} uart_baudrate_t;$/;"	t	typeref:enum:__anon38
+uart_cr_reg_t	include/aquarius.h	/^} uart_cr_reg_t;$/;"	t	typeref:union:__anon26
+uart_data_bits_t	include/uart.h	/^} uart_data_bits_t;$/;"	t	typeref:enum:__anon36
+uart_dr_reg_t	include/aquarius.h	/^} uart_dr_reg_t;$/;"	t	typeref:struct:__anon22
+uart_error_t	include/uart.h	/^} uart_error_t;$/;"	t	typeref:enum:__anon34
+uart_flag_reg_t	include/aquarius.h	/^} uart_flag_reg_t;$/;"	t	typeref:struct:__anon23
+uart_ifls_reg_t	include/aquarius.h	/^} uart_ifls_reg_t;$/;"	t	typeref:struct:__anon28
+uart_int_reg_t	include/aquarius.h	/^} uart_int_reg_t;$/;"	t	typeref:union:__anon29
+uart_lcr_reg_t	include/aquarius.h	/^} uart_lcr_reg_t;$/;"	t	typeref:union:__anon24
+uart_out	src/crt0.s	/^uart_out:$/;"	l
+uart_parity_bit_t	include/uart.h	/^} uart_parity_bit_t;$/;"	t	typeref:enum:__anon35
+uart_register_t	include/aquarius.h	/^} uart_register_t;$/;"	t	typeref:struct:__anon31
+uart_stop_bits_t	include/uart.h	/^} uart_stop_bits_t;$/;"	t	typeref:enum:__anon37
+uiDeviceID	include/nand.h	/^	uint8_t uiDeviceID;$/;"	m	struct:__anon39
+uiManID	include/nand.h	/^	uint8_t uiManID;$/;"	m	struct:__anon39
+unused	include/aquarius.h	/^		bitfield_t unused :20;$/;"	m	struct:__anon29::__anon30
+unused	include/aquarius.h	/^		bitfield_t unused :24;$/;"	m	struct:__anon24::__anon25
+unused	include/aquarius.h	/^	bitfield_t    unused :20;$/;"	m	struct:__anon22
+unused	include/aquarius.h	/^	bitfield_t unused :10;$/;"	m	struct:__anon12
+unused	include/aquarius.h	/^	bitfield_t unused :12;        \/* unused     *\/$/;"	m	struct:__anon6
+unused	include/aquarius.h	/^	bitfield_t unused :18;$/;"	m	struct:__anon23
+unused	include/aquarius.h	/^	bitfield_t unused :1;$/;"	m	struct:__anon13
+unused	include/aquarius.h	/^	bitfield_t unused :24;$/;"	m	struct:__anon10
+unused	include/aquarius.h	/^	bitfield_t unused :25;$/;"	m	struct:__anon15
+unused	include/aquarius.h	/^	bitfield_t unused :29;$/;"	m	struct:__anon11
+unused	include/aquarius.h	/^	bitfield_t unused :8;         \/* unused    *\/$/;"	m	struct:__anon5
+unused	include/aquarius.h	/^	uint32_t unused[(0xFE0 - 0x50) >> 2];$/;"	m	struct:__anon21
+unused1	include/aquarius.h	/^	bitfield_t unused1 :1;$/;"	m	struct:__anon15
+unused1	include/aquarius.h	/^	bitfield_t unused1 :1;$/;"	m	struct:__anon9
+unused1	include/aquarius.h	/^	bitfield_t unused1 :2;$/;"	m	struct:__anon20
+unused1	include/aquarius.h	/^	bitfield_t unused1 :3;$/;"	m	struct:__anon17
+unused1	include/aquarius.h	/^	bitfield_t unused1 :5;$/;"	m	struct:__anon14
+unused1	include/aquarius.h	/^	bitfield_t unused1 :7;$/;"	m	struct:__anon16
+unused2	include/aquarius.h	/^	bitfield_t unused2 :24;$/;"	m	struct:__anon20
+unused2	include/aquarius.h	/^	bitfield_t unused2 :26;$/;"	m	struct:__anon28
+unused2	include/aquarius.h	/^	bitfield_t unused2 :2;$/;"	m	struct:__anon14
+unused2	include/aquarius.h	/^	bitfield_t unused2 :2;$/;"	m	struct:__anon17
+unused2	include/aquarius.h	/^	bitfield_t unused2 :2;$/;"	m	struct:__anon9
+unused2	include/aquarius.h	/^	bitfield_t unused2 :7;$/;"	m	struct:__anon16
+unused3	include/aquarius.h	/^		bitfield_t unused3 :16;$/;"	m	struct:__anon26::__anon27
+unused3	include/aquarius.h	/^	bitfield_t unused3 :1;$/;"	m	struct:__anon9
+unused3	include/aquarius.h	/^	bitfield_t unused3 :6;$/;"	m	struct:__anon17
+unused3	include/aquarius.h	/^	bitfield_t unused3 :7;$/;"	m	struct:__anon14
+unused4	include/aquarius.h	/^	bitfield_t unused4 :1;$/;"	m	struct:__anon17
+unused4	include/aquarius.h	/^	bitfield_t unused4 :1;$/;"	m	struct:__anon9
+unused4	include/aquarius.h	/^	bitfield_t unused4 :2;$/;"	m	struct:__anon14
+unused5	include/aquarius.h	/^	bitfield_t unused5 :1;$/;"	m	struct:__anon9
+unused6	include/aquarius.h	/^	bitfield_t unused6 :1;$/;"	m	struct:__anon9
+unused_1	include/aquarius.h	/^	uint32_t unused_1[(0x018 - 0x008) >> 2];      \/* unused *\/$/;"	m	struct:__anon31
+unused_1	include/aquarius.h	/^	uint32_t unused_1[(0x024 - 0x01C) >> 2];      \/* unused *\/$/;"	m	struct:__anon18
+unused_2	include/aquarius.h	/^	uint32_t unused_2[(0x024 - 0x01C) >> 2];      \/* unused *\/$/;"	m	struct:__anon31
+unused_2	include/aquarius.h	/^	uint32_t unused_2[(0xFE0 - 0x05C) >> 2];      \/* unused *\/$/;"	m	struct:__anon18
+unused_3	include/aquarius.h	/^	uint32_t unused_3;                            \/* unused *\/$/;"	m	struct:__anon31
+unused_4	include/aquarius.h	/^	uint32_t unused_4[(0x100 - 0x064) >> 2];      \/* unused *\/$/;"	m	struct:__anon31
+unused_5	include/aquarius.h	/^	uint32_t unused_5[(0x150 - 0x10C) >> 2];      \/* unused *\/$/;"	m	struct:__anon31
+unused_6	include/aquarius.h	/^	uint32_t unused_6[(0xFE0 - 0x16C) >> 2];      \/* unused *\/$/;"	m	struct:__anon31
+wait_on	include/aquarius.h	/^	bitfield_t wait_on :1;        \/* Wait sensitivity enable bit         *\/$/;"	m	struct:__anon6
+wake	include/gpio.h	/^    gpio_wake_t         wake;       \/* GPIO ability to wake up the system. *\/$/;"	m	struct:__anon54
+watchdogReset	include/aquarius.h	/^	bitfield_t watchdogReset :1;$/;"	m	struct:__anon15
+wdEnabled	src/support.c	/^int wdEnabled(void)$/;"	f
+wdtEnable	src/wd.c	/^int wdtEnable(void)$/;"	f
+writeHex	src/support.c	/^void writeHex(uint32_t data)$/;"	f
+writel	src/wd.c	/^static void writel(uint32_t value, uint32_t addr)$/;"	f	file:
+xtalCtrlOverride	include/aquarius.h	/^	bitfield_t xtalCtrlOverride :1;$/;"	m	struct:__anon12
+xtalEnable	include/aquarius.h	/^	bitfield_t xtalEnable :1;$/;"	m	struct:__anon12
+xtalStatus	include/aquarius.h	/^	bitfield_t xtalStatus :1;$/;"	m	struct:__anon12
+xtalTimen	include/aquarius.h	/^	bitfield_t xtalTimen :1;$/;"	m	struct:__anon12
+xtalTimeout	include/aquarius.h	/^	bitfield_t xtalTimeout :16;$/;"	m	struct:__anon12

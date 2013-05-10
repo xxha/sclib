@@ -1,0 +1,156 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADAPT_DEPS	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^ADAPT_DEPS = $/;"	m
+ADAPT_DEPS	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : ADAPT_DEPS = $/;"	m
+ARCH	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^ARCH = arm$/;"	m
+ARCH	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : ARCH = arm$/;"	m
+BOOTARGS	include/harctl/env.h	8;"	d
+BOOTLOG	src/lib/api.c	15;"	d	file:
+BOOTPART	include/harctl/env.h	9;"	d
+BUILD_SPEC	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^BUILD_SPEC = har_tcm2065-uclibc_small-armv6jel_vfp-harman$/;"	m
+CFLAGS	Makefile	/^CFLAGS?=-c$/;"	m
+CLEAN_STEP	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^CLEAN_STEP := clean_scopetools$/;"	m
+CPU_VARIANT	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^CPU_VARIANT = armv6jel_vfp$/;"	m
+CPU_VARIANT	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : CPU_VARIANT = armv6jel_vfp$/;"	m
+CROSS_COMPILE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^CROSS_COMPILE = armv6jel_vfp-target-linux-gnueabi-$/;"	m
+CROSS_COMPILE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : CROSS_COMPILE = armv6jel_vfp-target-linux-gnueabi-$/;"	m
+CROSS_COMPILE_KERNEL	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^CROSS_COMPILE_KERNEL = arm-wrs-linux-gnueabi-$/;"	m
+CROSS_COMPILE_KERNEL	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : CROSS_COMPILE_KERNEL = arm-wrs-linux-gnueabi-$/;"	m
+DEBUGFLAGS_Assembler	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_Assembler = $/;"	m
+DEBUGFLAGS_Assembler	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_Assembler = -g$/;"	m
+DEBUGFLAGS_Assembler	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_Assembler = $/;"	m
+DEBUGFLAGS_Assembler	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_Assembler = -g$/;"	m
+DEBUGFLAGS_C-Compiler	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_C-Compiler = -g -mcpu=arm1136jf-s -O0 -fno-omit-frame-pointer -mapcs-frame -pipe$/;"	m
+DEBUGFLAGS_C-Compiler	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_C-Compiler = -mcpu=arm1136jf-s -Os -fomit-frame-pointer -pipe$/;"	m
+DEBUGFLAGS_C-Compiler	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_C-Compiler = -g -mcpu=arm1136jf-s -O0 -fno-omit-frame-pointer -mapcs-frame -pipe$/;"	m
+DEBUGFLAGS_C-Compiler	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_C-Compiler = -mcpu=arm1136jf-s -Os -fomit-frame-pointer -pipe$/;"	m
+DEBUGFLAGS_C-Linker	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_C-Linker = $/;"	m
+DEBUGFLAGS_C-Linker	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_C-Linker = -g$/;"	m
+DEBUGFLAGS_C-Linker	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_C-Linker = $/;"	m
+DEBUGFLAGS_C-Linker	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_C-Linker = -g$/;"	m
+DEBUGFLAGS_Librarian	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_Librarian = $/;"	m
+DEBUGFLAGS_Librarian	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_Librarian = -g$/;"	m
+DEBUGFLAGS_Librarian	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_Librarian = $/;"	m
+DEBUGFLAGS_Librarian	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_Librarian = -g$/;"	m
+DEBUGFLAGS_Shared-Library-Linker	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_Shared-Library-Linker = $/;"	m
+DEBUGFLAGS_Shared-Library-Linker	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUGFLAGS_Shared-Library-Linker = -g$/;"	m
+DEBUGFLAGS_Shared-Library-Linker	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_Shared-Library-Linker = $/;"	m
+DEBUGFLAGS_Shared-Library-Linker	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : DEBUGFLAGS_Shared-Library-Linker = -g$/;"	m
+DEBUG_MODE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEBUG_MODE = 1$/;"	m
+DEFAULT_ENV	include/harctl/env.h	11;"	d
+DEP_FILES	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^DEP_FILES := harctl\/$(MODE_DIR)\/Objects\/harctl\/src\/harctl\/main.d harctl\/$(MODE_DIR)\/Objects\/harctl\/src\/lib\/api.d harctl\/$(MODE_DIR)\/Objects\/harctl\/src\/lib\/crc32.d \\$/;"	m
+ENV_PARTITION_NAME	include/harctl/config.h	2;"	d
+FLEXIBLE_BUILD	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^FLEXIBLE_BUILD := 1$/;"	m
+IDE_DEFINES	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^IDE_DEFINES = $/;"	m
+IDE_DEFINES	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : IDE_DEFINES = $/;"	m
+IDE_INCLUDES	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^IDE_INCLUDES = -I$(PRJ_ROOT_DIR)\/include $/;"	m
+IDE_INCLUDES	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : IDE_INCLUDES = -I$(PRJ_ROOT_DIR)\/include $/;"	m
+IDE_LIBRARIES	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^IDE_LIBRARIES = $/;"	m
+IDE_LIBRARIES	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : IDE_LIBRARIES = $/;"	m
+INCLUDES	Makefile	/^INCLUDES=-I$(PROJ_DIR)\/include$/;"	m
+JOBS	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^JOBS?=1$/;"	m
+LAYER	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^LAYER = \/home\/sean\/WindRiver\/workspace\/harman_prj\/export\/sysroot\/har_tcm2065-uclibc_small$/;"	m
+LAYER	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : LAYER = \/home\/sean\/WindRiver\/workspace\/harman_prj\/export\/sysroot\/har_tcm2065-uclibc_small$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS=-static$/;"	m
+LIBPATH	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^LIBPATH = $/;"	m
+LIBPATH	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : LIBPATH = $/;"	m
+LIBS	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^LIBS = $/;"	m
+LIBS	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : LIBS = $/;"	m
+LINUX_KERNEL_VERSION	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^LINUX_KERNEL_VERSION = 2.6.34$/;"	m
+LINUX_KERNEL_VERSION	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : LINUX_KERNEL_VERSION = 2.6.34$/;"	m
+LOG_BUF_SIZE	src/lib/api.c	14;"	d	file:
+MAKEFILE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^MAKEFILE := Makefile$/;"	m
+MODE_DIR	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^MODE_DIR := Debug$/;"	m
+MODE_DIR	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^MODE_DIR := NonDebug$/;"	m
+MTD_PATH	src/lib/nand.c	13;"	d	file:
+NAME	Makefile	/^NAME = harctl$/;"	m
+NEED_WRITE	include/harctl/env.h	7;"	d
+OBJECTS	Makefile	/^OBJECTS=$(SOURCES:.c=.o)$/;"	m
+OBJECTS_harctl	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^OBJECTS_harctl = harctl\/$(MODE_DIR)\/Objects\/harctl\/src\/harctl\/main.o \\$/;"	m
+OBJ_DIR	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^OBJ_DIR := .$/;"	m
+OBJ_DIR	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : OBJ_DIR := harctl\/$(MODE_DIR)$/;"	m
+PRJ_ROOT_DIR	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^PRJ_ROOT_DIR := $(WS_ROOT_DIR)\/harctl$/;"	m
+PROJECT_TARGETS	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^PROJECT_TARGETS = harctl\/$(MODE_DIR)\/harctl.out$/;"	m
+PROJECT_TYPE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^PROJECT_TYPE = APP$/;"	m
+PROJECT_TYPE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : PROJECT_TYPE = APP$/;"	m
+PROJ_DIR	Makefile	/^PROJ_DIR=$(shell pwd)$/;"	m
+RELEASE	Makefile	/^RELEASE = 2$/;"	m
+ROOTFS	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^ROOTFS = uclibc_small$/;"	m
+ROOTFS	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : ROOTFS = uclibc_small$/;"	m
+SOURCES	Makefile	/^SOURCES= $(wildcard src\/harctl\/*.c) $(wildcard src\/lib\/*.c)$/;"	m
+TARGET_JOBS	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^TARGET_JOBS?=$(JOBS)$/;"	m
+TARGET_JOBS_RULE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^TARGET_JOBS_RULE=$(MAKE) -f $(MAKEFILE) --jobs $(TARGET_JOBS) $(MFLAGS) $* TARGET_JOBS=1$/;"	m
+TARGET_JOBS_RULE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^TARGET_JOBS_RULE?=echo update makefile template$/;"	m
+TOOL_PATH	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^TOOL_PATH = \/home\/xxha\/WindRiver\/workspace\/tcm0105_prj\/export\/sysroot\/har_tcm2065-glibc_small\/x86-linux2\/$/;"	m
+TOOL_PATH	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^harctl\/$(MODE_DIR)\/% : TOOL_PATH = \/home\/xxha\/WindRiver\/workspace\/tcm0105_prj\/export\/sysroot\/har_tcm2065-glibc_small\/x86-linux2\/$/;"	m
+TRACE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^TRACE=0$/;"	m
+TRACEON	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^TRACEON=$(TRACE:0=@)$/;"	m
+TRACE_FLAG	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^TRACE_FLAG=$(TRACEON:1=)$/;"	m
+VERSION	Makefile	/^VERSION = 1.0$/;"	m
+WIND_BASE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^WIND_BASE := $(subst \\,\/,$(WIND_BASE))$/;"	m
+WIND_HOME	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^WIND_HOME := $(subst \\,\/,$(WIND_HOME))$/;"	m
+WIND_SCOPETOOLS_BASE	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^WIND_SCOPETOOLS_BASE := $(subst \\,\/,$(WIND_SCOPETOOLS_BASE))$/;"	m
+WS_ROOT_DIR	har_tcm2065-uclibc_small-armv6jel_vfp-harman/Makefile	/^WS_ROOT_DIR := \/home\/xxha\/WindRiver\/workspace$/;"	m
+_BOOT_CRC_H_	include/harctl/crc32.h	14;"	d
+_LARGEFILE64_SOURCE	src/lib/nand.c	1;"	d	file:
+_NAND_H	include/harctl/nand.h	3;"	d
+__ENV_H	include/harctl/env.h	3;"	d
+buf	src/lib/api.c	/^static env_t *buf;$/;"	v	file:
+cmd	src/harctl/main.c	/^	const char *cmd;$/;"	m	struct:cmd	file:
+cmd	src/harctl/main.c	/^static const struct cmd$/;"	s	file:
+cmds	src/harctl/main.c	/^} cmds[] = {$/;"	v	typeref:struct:cmd	file:
+crc	include/harctl/env.h	/^	uint32_t	crc;		\/* CRC32 over data bytes *\/$/;"	m	struct:__anon1
+crc32	src/lib/crc32.c	/^uint32_t crc32(uint32_t crc32val, uint8_t *s, uint32_t len)$/;"	f
+crc32_tab	src/lib/crc32.c	/^static const uint32_t crc32_tab[] = {$/;"	v	file:
+data	include/harctl/env.h	/^	uint8_t		data[1];	\/* Environment data *\/$/;"	m	struct:__anon1
+do_cmd	src/harctl/main.c	/^static int do_cmd(const char *argv0, int argc, char **argv)$/;"	f	file:
+do_help	src/harctl/main.c	/^static int do_help(int argc, char **argv)$/;"	f	file:
+env_t	include/harctl/env.h	/^} env_t;$/;"	t	typeref:struct:__anon1
+erase	include/harctl/nand.h	/^	int erase;              \/\/erase size$/;"	m	struct:__anon2
+eraseNandPages	src/lib/nand.c	/^int eraseNandPages(nand_t *nand, uint32_t page, int endPage)$/;"	f
+fd	include/harctl/nand.h	/^	int fd;$/;"	m	struct:__anon2
+func	src/harctl/main.c	/^	int (*func)(int argc, char **argv);$/;"	m	struct:cmd	file:
+getEnv	src/lib/env.c	/^char *getEnv(uint8_t *env, char *name)$/;"	f
+getSysInfo	src/lib/nand.c	/^static char *getSysInfo(int partition, char *sys)$/;"	f	file:
+getbootorder	src/harctl/main.c	/^int getbootorder()$/;"	f
+getcmdline	src/harctl/main.c	/^int getcmdline()$/;"	f
+geten	src/harctl/main.c	/^int geten(int argc, char **argv)$/;"	f
+getlog	src/harctl/main.c	/^int getlog()$/;"	f
+harAPI_Init	src/lib/api.c	/^int harAPI_Init(void)$/;"	f
+harAPI_getLog	src/lib/api.c	/^char *harAPI_getLog()$/;"	f
+harAPI_writePartition	src/lib/api.c	/^int harAPI_writePartition(char *name, size_t size, char *data)$/;"	f
+harEnv_Get	src/lib/api.c	/^char *harEnv_Get(char *name)$/;"	f
+harEnv_List	src/lib/api.c	/^char *harEnv_List()$/;"	f
+harEnv_Save	src/lib/api.c	/^int harEnv_Save(void)$/;"	f
+harEnv_Set	src/lib/api.c	/^int harEnv_Set(char *name, char *value)$/;"	f
+harEnv_getBootOrder	src/lib/api.c	/^char *harEnv_getBootOrder()$/;"	f
+harEnv_getCmdline	src/lib/api.c	/^char *harEnv_getCmdline()$/;"	f
+harEnv_setBootOrder	src/lib/api.c	/^int harEnv_setBootOrder(char *order)$/;"	f
+harEnv_setCmdline	src/lib/api.c	/^int harEnv_setCmdline(char *cmdline)$/;"	f
+harEnv_setDefault	src/lib/api.c	/^int harEnv_setDefault()$/;"	f
+initEnv	src/lib/env.c	/^env_t *initEnv(char *name)$/;"	f
+main	src/harctl/main.c	/^int main(int argc, char **argv)$/;"	f
+matches	src/harctl/main.c	/^int matches(const char *cmd, const char *pattern)$/;"	f
+nandClose	src/lib/nand.c	/^int nandClose(nand_t *nand)$/;"	f
+nandEnv	src/lib/env.c	/^static nand_t *nandEnv;$/;"	v	file:
+nandOpen	src/lib/nand.c	/^nand_t *nandOpen(char *name, int mode)$/;"	f
+nand_t	include/harctl/nand.h	/^} nand_t;$/;"	t	typeref:struct:__anon2
+page	include/harctl/nand.h	/^	int page;               \/\/page size$/;"	m	struct:__anon2
+printenv	src/harctl/main.c	/^int printenv(int argc, char **argv)$/;"	f
+readEnv	src/lib/env.c	/^int readEnv(env_t *env)$/;"	f
+readNandPages	src/lib/nand.c	/^int readNandPages(nand_t *nand, uint8_t *buf, uint32_t page, int pageCount, int endPage)$/;"	f
+setDefault	src/lib/env.c	/^int setDefault(uint8_t *env, char *def)$/;"	f
+setEnv	src/lib/env.c	/^int setEnv(uint8_t *env, char *name, char *str)$/;"	f
+setbootorder	src/harctl/main.c	/^int setbootorder(int argc, char **argv)$/;"	f
+setcmdline	src/harctl/main.c	/^int setcmdline(int argc, char **argv)$/;"	f
+setdefault	src/harctl/main.c	/^int setdefault()$/;"	f
+seten	src/harctl/main.c	/^int seten(int argc, char **argv)$/;"	f
+size	include/harctl/nand.h	/^	int size;               \/\/partition size$/;"	m	struct:__anon2
+usage	src/harctl/main.c	/^static void usage()$/;"	f	file:
+writeEnv	src/lib/env.c	/^int writeEnv(env_t *env)$/;"	f
+writeNandPages	src/lib/nand.c	/^int writeNandPages(nand_t *nand, uint8_t *buf, uint32_t page, int pageCount, int endPage)$/;"	f
+writepart	src/harctl/main.c	/^int writepart(int argc, char **argv)$/;"	f
