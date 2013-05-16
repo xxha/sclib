@@ -24,7 +24,7 @@ int main()
 			printf("open failed!");
 			return -1;
 		} else {
-			int w_size=write(fdw,temp,r_size);//相当于复制了所输鍏????件.txt中的255个大小的字符串到新文件file-rw.txt中
+			int w_size=write(fdw,temp,r_size);
 			close(fdw);
 			printf("have successfully copied 255 chars from \"%s\" to \"%s\"\n",filepath,fileto);
 		}
