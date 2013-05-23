@@ -1,0 +1,718 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABS	jamexp.c	/^	ABS,$/;"	e	enum:OPERATOR_TYPE	file:
+ABS_TOK	jamexp.c	241;"	d	file:
+ABS_TOK	jamytab.h	12;"	d
+ACCEPT	jamexp.c	114;"	d	file:
+ADD	jamexp.c	/^	ADD = 0,$/;"	e	enum:OPERATOR_TYPE	file:
+AND	jamexp.c	/^	AND,$/;"	e	enum:OPERATOR_TYPE	file:
+AND_TOK	jamexp.c	230;"	d	file:
+AND_TOK	jamytab.h	1;"	d
+ARRAY	jamexp.c	/^	ARRAY,$/;"	e	enum:OPERATOR_TYPE	file:
+ARRAY_ALL	jamexp.c	/^	ARRAY_ALL$/;"	e	enum:OPERATOR_TYPE	file:
+ARRAY_RANGE	jamexp.c	/^	ARRAY_RANGE,$/;"	e	enum:OPERATOR_TYPE	file:
+ARRAY_TOK	jamexp.c	249;"	d	file:
+ARRAY_TOK	jamytab.h	20;"	d
+BEGIN_GUARD	jamstub.c	/^	const DWORD BEGIN_GUARD = 0x01234567;$/;"	v
+BEGIN_MACHINE	jamexp.c	112;"	d	file:
+BITWISE_AND	jamexp.c	/^	BITWISE_AND,$/;"	e	enum:OPERATOR_TYPE	file:
+BITWISE_NOT	jamexp.c	/^	BITWISE_NOT,$/;"	e	enum:OPERATOR_TYPE	file:
+BITWISE_OR	jamexp.c	/^	BITWISE_OR,$/;"	e	enum:OPERATOR_TYPE	file:
+BITWISE_XOR	jamexp.c	/^	BITWISE_XOR,$/;"	e	enum:OPERATOR_TYPE	file:
+BOOL	jamdefs.h	24;"	d
+BOOL	jamexp.c	57;"	d	file:
+BOOL	jamstub.c	/^typedef int BOOL;$/;"	t	file:
+BYTE	jamstub.c	/^typedef unsigned char BYTE;$/;"	t	file:
+CALC	jamexp.c	223;"	d	file:
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -O2$/;"	m
+CH	jamexp.c	79;"	d	file:
+CHAR_BITS	jamcomp.c	22;"	d	file:
+CIEL	jamexp.c	/^	CIEL,$/;"	e	enum:OPERATOR_TYPE	file:
+CIEL_TOK	jamexp.c	245;"	d	file:
+CIEL_TOK	jamytab.h	16;"	d
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = \/home\/xxha\/cross_compile\/gcc-4.1.2-glibc-2.5-nptl-3\/arm-none-linux-gnueabi\/bin\/arm-none-linux-gnueabi-$/;"	m
+DATA_BLOB_LENGTH	jamcomp.c	23;"	d	file:
+DELAY_CHECK_LOOPS	jamstub.c	646;"	d	file:
+DELAY_SAMPLES	jamstub.c	645;"	d	file:
+DELETE_CH	jamexp.c	78;"	d	file:
+DIV	jamexp.c	/^	DIV,$/;"	e	enum:OPERATOR_TYPE	file:
+DOLLAR	jamexp.c	/^	DOLLAR,$/;"	e	enum:OPERATOR_TYPE	file:
+DOS	jamport.h	32;"	d
+DOT_DOT	jamexp.c	/^	DOT_DOT,$/;"	e	enum:OPERATOR_TYPE	file:
+DOT_DOT_TOK	jamexp.c	240;"	d	file:
+DOT_DOT_TOK	jamytab.h	11;"	d
+DRCAPTURE	jamjtag.h	/^	DRCAPTURE = 3,$/;"	e	enum:__anon3
+DREXIT1	jamjtag.h	/^	DREXIT1 = 5,$/;"	e	enum:__anon3
+DREXIT2	jamjtag.h	/^	DREXIT2 = 7,$/;"	e	enum:__anon3
+DRPAUSE	jamjtag.h	/^	DRPAUSE = 6,$/;"	e	enum:__anon3
+DRSELECT	jamjtag.h	/^	DRSELECT = 2,$/;"	e	enum:__anon3
+DRSHIFT	jamjtag.h	/^	DRSHIFT = 4,$/;"	e	enum:__anon3
+DRUPDATE	jamjtag.h	/^	DRUPDATE = 8,$/;"	e	enum:__anon3
+DWORD	jamstub.c	/^typedef unsigned long DWORD;$/;"	t	file:
+EMBEDDED	jamport.h	35;"	d
+END_GUARD	jamstub.c	/^	const DWORD END_GUARD = 0x76543210;$/;"	v
+END_MACHINE	jamexp.c	116;"	d	file:
+END_OF_STRING	jamexp.c	55;"	d	file:
+EOF	jamdefs.h	23;"	d
+EQUALITY	jamexp.c	/^	EQUALITY,$/;"	e	enum:OPERATOR_TYPE	file:
+EQUALITY_TOK	jamexp.c	232;"	d	file:
+EQUALITY_TOK	jamytab.h	3;"	d
+ERROR_TOK	jamexp.c	250;"	d	file:
+ERROR_TOK	jamytab.h	21;"	d
+EXPN_STACK	jamexp.c	/^} EXPN_STACK;$/;"	t	typeref:struct:EXP_STACK	file:
+EXP_STACK	jamexp.c	/^typedef struct EXP_STACK$/;"	s	file:
+FALSE	jamdefs.h	26;"	d
+FALSE	jamexp.c	59;"	d	file:
+FALSE	jamstub.c	47;"	d	file:
+FLOOR	jamexp.c	/^	FLOOR,$/;"	e	enum:OPERATOR_TYPE	file:
+FLOOR_TOK	jamexp.c	246;"	d	file:
+FLOOR_TOK	jamytab.h	17;"	d
+GET_FIRST_CH	jamexp.c	61;"	d	file:
+GET_NEXT_CH	jamexp.c	65;"	d	file:
+GPIO_REG_DDIR	gpio.c	21;"	d	file:
+GPIO_REG_DR	gpio.c	28;"	d	file:
+GPIO_REG_GIUS	gpio.c	29;"	d	file:
+GPIO_REG_GPR	gpio.c	35;"	d	file:
+GPIO_REG_ICONFA1	gpio.c	24;"	d	file:
+GPIO_REG_ICONFA2	gpio.c	25;"	d	file:
+GPIO_REG_ICONFB1	gpio.c	26;"	d	file:
+GPIO_REG_ICONFB2	gpio.c	27;"	d	file:
+GPIO_REG_ICR1	gpio.c	31;"	d	file:
+GPIO_REG_ICR2	gpio.c	32;"	d	file:
+GPIO_REG_IMR	gpio.c	33;"	d	file:
+GPIO_REG_ISR	gpio.c	34;"	d	file:
+GPIO_REG_OCR1	gpio.c	22;"	d	file:
+GPIO_REG_OCR2	gpio.c	23;"	d	file:
+GPIO_REG_PUEN	gpio.c	37;"	d	file:
+GPIO_REG_SSR	gpio.c	30;"	d	file:
+GPIO_REG_SWR	gpio.c	36;"	d	file:
+GREATER_EQ_TOK	jamexp.c	236;"	d	file:
+GREATER_EQ_TOK	jamytab.h	7;"	d
+GREATER_OR_EQUAL	jamexp.c	/^	GREATER_OR_EQUAL,$/;"	e	enum:OPERATOR_TYPE	file:
+GREATER_THAN	jamexp.c	/^	GREATER_THAN,$/;"	e	enum:OPERATOR_TYPE	file:
+GREATER_TOK	jamexp.c	234;"	d	file:
+GREATER_TOK	jamytab.h	5;"	d
+HEX_LINE_BITS	jamstub.c	262;"	d	file:
+HEX_LINE_CHARS	jamstub.c	261;"	d	file:
+IDENTIFIER_TOK	jamexp.c	248;"	d	file:
+IDENTIFIER_TOK	jamytab.h	19;"	d
+IDLE	jamjtag.h	/^	IDLE = 1,$/;"	e	enum:__anon3
+IGNORE_TDO	jamjtag.c	135;"	d	file:
+INC_JAMARRAY_H	jamarray.h	12;"	d
+INC_JAMCOMP_H	jamcomp.h	13;"	d
+INC_JAMDEFS_H	jamdefs.h	14;"	d
+INC_JAMEXEC_H	jamexec.h	12;"	d
+INC_JAMEXPRT_H	jamexprt.h	15;"	d
+INC_JAMEXP_H	jamexp.h	12;"	d
+INC_JAMHEAP_H	jamheap.h	14;"	d
+INC_JAMJTAG_H	jamjtag.h	12;"	d
+INC_JAMPORT_H	jamport.h	12;"	d
+INC_JAMSTACK_H	jamstack.h	14;"	d
+INC_JAMSYM_H	jamsym.h	14;"	d
+INC_JAMUTIL_H	jamutil.h	12;"	d
+INEQUALITY	jamexp.c	/^	INEQUALITY,$/;"	e	enum:OPERATOR_TYPE	file:
+INEQUALITY_TOK	jamexp.c	233;"	d	file:
+INEQUALITY_TOK	jamytab.h	4;"	d
+INITIALIZE	jamexp.c	1506;"	d	file:
+INPUT	gpio.h	29;"	d
+INT	jamexp.c	/^	INT,$/;"	e	enum:OPERATOR_TYPE	file:
+INT_TOK	jamexp.c	242;"	d	file:
+INT_TOK	jamytab.h	13;"	d
+IRCAPTURE	jamjtag.h	/^	IRCAPTURE = 10,$/;"	e	enum:__anon3
+IREXIT1	jamjtag.h	/^	IREXIT1 = 12,$/;"	e	enum:__anon3
+IREXIT2	jamjtag.h	/^	IREXIT2 = 14,$/;"	e	enum:__anon3
+IRPAUSE	jamjtag.h	/^	IRPAUSE = 13,$/;"	e	enum:__anon3
+IRSELECT	jamjtag.h	/^	IRSELECT = 9,$/;"	e	enum:__anon3
+IRSHIFT	jamjtag.h	/^	IRSHIFT = 11,$/;"	e	enum:__anon3
+IRUPDATE	jamjtag.h	/^	IRUPDATE = 15$/;"	e	enum:__anon3
+JAMC_ACTION_NOT_FOUND	jamexprt.h	49;"	d
+JAMC_ARRAY_CACHE_SIZE	jamdefs.h	50;"	d
+JAMC_ASSIGN_TO_CONST	jamexprt.h	38;"	d
+JAMC_AT_CHAR	jamdefs.h	76;"	d
+JAMC_BOOL_REP_COUNT	jamarray.c	41;"	d	file:
+JAMC_BOUNDS_ERROR	jamexprt.h	36;"	d
+JAMC_COLON_CHAR	jamdefs.h	60;"	d
+JAMC_COMMA_CHAR	jamdefs.h	62;"	d
+JAMC_COMMENT_CHAR	jamdefs.h	58;"	d
+JAMC_CRC_ERROR	jamexprt.h	34;"	d
+JAMC_DICTIONARY_SIZE	jamarray.c	44;"	d	file:
+JAMC_DIVIDE_BY_ZERO	jamexprt.h	33;"	d
+JAMC_DOLLAR_CHAR	jamdefs.h	75;"	d
+JAMC_EQUAL_CHAR	jamdefs.h	68;"	d
+JAMC_ILLEGAL_OPCODE	jamexprt.h	46;"	d
+JAMC_ILLEGAL_SYMBOL	jamexprt.h	42;"	d
+JAMC_INSTR_COUNT	jamexec.c	616;"	d	file:
+JAMC_INTEGER_OVERFLOW	jamexprt.h	32;"	d
+JAMC_INTERNAL_ERROR	jamexprt.h	35;"	d
+JAMC_IO_ERROR	jamexprt.h	27;"	d
+JAMC_JTAG_BUFFER_SIZE	jamdefs.h	41;"	d
+JAMC_JTAG_STATE_COUNT	jamjtag.c	80;"	d	file:
+JAMC_LBRACKET_CHAR	jamdefs.h	72;"	d
+JAMC_LPAREN_CHAR	jamdefs.h	70;"	d
+JAMC_MAX_INSTR_LENGTH	jamdefs.h	55;"	d
+JAMC_MAX_JTAG_DR_LENGTH	jamdefs.h	38;"	d
+JAMC_MAX_JTAG_DR_POSTAMBLE	jamdefs.h	37;"	d
+JAMC_MAX_JTAG_DR_PREAMBLE	jamdefs.h	36;"	d
+JAMC_MAX_JTAG_IR_LENGTH	jamdefs.h	35;"	d
+JAMC_MAX_JTAG_IR_POSTAMBLE	jamdefs.h	34;"	d
+JAMC_MAX_JTAG_IR_PREAMBLE	jamdefs.h	33;"	d
+JAMC_MAX_JTAG_STATE_LENGTH	jamjtag.h	20;"	d
+JAMC_MAX_LITERAL_ARRAYS	jamexec.c	74;"	d	file:
+JAMC_MAX_NAME_LENGTH	jamdefs.h	54;"	d
+JAMC_MAX_NESTING_DEPTH	jamdefs.h	30;"	d
+JAMC_MAX_STATEMENT_LENGTH	jamdefs.h	53;"	d
+JAMC_MAX_SYMBOL_COUNT	jamdefs.h	29;"	d
+JAMC_MAX_VECTOR_SIGNALS	jamexec.c	7975;"	d	file:
+JAMC_MINUS_CHAR	jamdefs.h	69;"	d
+JAMC_NEWLINE_CHAR	jamdefs.h	64;"	d
+JAMC_NEXT_UNEXPECTED	jamexprt.h	39;"	d
+JAMC_NULL_CHAR	jamdefs.h	77;"	d
+JAMC_OUT_OF_MEMORY	jamexprt.h	26;"	d
+JAMC_PERIOD_CHAR	jamdefs.h	63;"	d
+JAMC_PHASE_ERROR	jamexprt.h	47;"	d
+JAMC_POP_UNEXPECTED	jamexprt.h	40;"	d
+JAMC_POUND_CHAR	jamdefs.h	74;"	d
+JAMC_QUOTE_CHAR	jamdefs.h	59;"	d
+JAMC_RBRACKET_CHAR	jamdefs.h	73;"	d
+JAMC_REDEFINED_SYMBOL	jamexprt.h	31;"	d
+JAMC_RETURN_CHAR	jamdefs.h	65;"	d
+JAMC_RETURN_UNEXPECTED	jamexprt.h	41;"	d
+JAMC_RPAREN_CHAR	jamdefs.h	71;"	d
+JAMC_SCOPE_ERROR	jamexprt.h	48;"	d
+JAMC_SEMICOLON_CHAR	jamdefs.h	61;"	d
+JAMC_SPACE_CHAR	jamdefs.h	67;"	d
+JAMC_STACK_OVERFLOW	jamexprt.h	45;"	d
+JAMC_SUCCESS	jamexprt.h	25;"	d
+JAMC_SYNTAX_ERROR	jamexprt.h	28;"	d
+JAMC_TAB_CHAR	jamdefs.h	66;"	d
+JAMC_TYPE_MISMATCH	jamexprt.h	37;"	d
+JAMC_UNDEFINED_SYMBOL	jamexprt.h	30;"	d
+JAMC_UNDERSCORE_CHAR	jamdefs.h	78;"	d
+JAMC_UNEXPECTED_END	jamexprt.h	29;"	d
+JAMC_USER_ABORT	jamexprt.h	44;"	d
+JAMC_VECTOR_MAP_FAILED	jamexprt.h	43;"	d
+JAME_BOOLEAN_REP	jamheap.h	/^} JAME_BOOLEAN_REP;$/;"	t	typeref:enum:__anon2
+JAME_EXPRESSION_TYPE	jamdefs.h	/^} JAME_EXPRESSION_TYPE;$/;"	t	typeref:enum:__anon5
+JAME_HEAP_RECORD_TYPE	jamheap.h	/^} JAME_HEAP_RECORD_TYPE;$/;"	t	typeref:enum:__anon1
+JAME_INSTRUCTION	jamdefs.h	/^} JAME_INSTRUCTION;$/;"	t	typeref:enum:__anon4
+JAME_JTAG_STATE	jamjtag.h	/^} JAME_JTAG_STATE;$/;"	t	typeref:enum:__anon3
+JAME_PHASE_TYPE	jamdefs.h	/^} JAME_PHASE_TYPE;$/;"	t	typeref:enum:__anon6
+JAME_RLC_BLOCK_TYPE	jamarray.c	/^} JAME_RLC_BLOCK_TYPE;$/;"	t	typeref:enum:__anon10	file:
+JAME_STACK_RECORD_TYPE	jamstack.h	/^} JAME_STACK_RECORD_TYPE;$/;"	t	typeref:enum:__anon8
+JAME_SYMBOL_TYPE	jamsym.h	/^} JAME_SYMBOL_TYPE;$/;"	t	typeref:enum:__anon7
+JAMS_BOOL_REP_MAP	jamarray.c	/^struct JAMS_BOOL_REP_MAP$/;"	s	file:
+JAMS_HEAP_RECORD	jamheap.h	/^} JAMS_HEAP_RECORD;$/;"	t	typeref:struct:JAMS_HEAP_STRUCT
+JAMS_HEAP_STRUCT	jamheap.h	/^typedef struct JAMS_HEAP_STRUCT$/;"	s
+JAMS_INSTR_MAP	jamexec.c	/^struct JAMS_INSTR_MAP$/;"	s	file:
+JAMS_JTAG_MACHINE	jamjtag.c	/^struct JAMS_JTAG_MACHINE$/;"	s	file:
+JAMS_JTAG_MAP	jamjtag.c	/^struct JAMS_JTAG_MAP$/;"	s	file:
+JAMS_STACK_RECORD	jamstack.h	/^} JAMS_STACK_RECORD;$/;"	t	typeref:struct:__anon9
+JAMS_SYMBOL_RECORD	jamsym.h	/^} JAMS_SYMBOL_RECORD;$/;"	t	typeref:struct:JAMS_SYMBOL_STRUCT
+JAMS_SYMBOL_STRUCT	jamsym.h	/^typedef struct JAMS_SYMBOL_STRUCT$/;"	s
+JAM_ACTION_INSTR	jamdefs.h	/^	JAM_ACTION_INSTR,$/;"	e	enum:__anon4
+JAM_ACTION_PHASE	jamdefs.h	/^	JAM_ACTION_PHASE,$/;"	e	enum:__anon6
+JAM_ARRAY_REFERENCE	jamdefs.h	/^	JAM_ARRAY_REFERENCE,$/;"	e	enum:__anon5
+JAM_BOOLEAN_ARRAY_INITIALIZED	jamsym.h	/^	JAM_BOOLEAN_ARRAY_INITIALIZED,$/;"	e	enum:__anon7
+JAM_BOOLEAN_ARRAY_WRITABLE	jamsym.h	/^	JAM_BOOLEAN_ARRAY_WRITABLE,$/;"	e	enum:__anon7
+JAM_BOOLEAN_EXPR	jamdefs.h	/^	JAM_BOOLEAN_EXPR,$/;"	e	enum:__anon5
+JAM_BOOLEAN_INSTR	jamdefs.h	/^	JAM_BOOLEAN_INSTR,$/;"	e	enum:__anon4
+JAM_BOOLEAN_SYMBOL	jamsym.h	/^	JAM_BOOLEAN_SYMBOL,$/;"	e	enum:__anon7
+JAM_BOOL_BINARY	jamheap.h	/^	JAM_BOOL_BINARY,$/;"	e	enum:__anon2
+JAM_BOOL_COMMA_SEP	jamheap.h	/^	JAM_BOOL_COMMA_SEP,$/;"	e	enum:__anon2
+JAM_BOOL_COMPRESSED	jamheap.h	/^	JAM_BOOL_COMPRESSED$/;"	e	enum:__anon2
+JAM_BOOL_HEX	jamheap.h	/^	JAM_BOOL_HEX,$/;"	e	enum:__anon2
+JAM_BOOL_RUN_LENGTH	jamheap.h	/^	JAM_BOOL_RUN_LENGTH,$/;"	e	enum:__anon2
+JAM_CALL_INSTR	jamdefs.h	/^	JAM_CALL_INSTR,$/;"	e	enum:__anon4
+JAM_CONSTANT_ONES	jamarray.c	/^	JAM_CONSTANT_ONES,$/;"	e	enum:__anon10	file:
+JAM_CONSTANT_ZEROS	jamarray.c	/^	JAM_CONSTANT_ZEROS,$/;"	e	enum:__anon10	file:
+JAM_CRC_INSTR	jamdefs.h	/^	JAM_CRC_INSTR,$/;"	e	enum:__anon4
+JAM_DATA_BLOCK	jamsym.h	/^	JAM_DATA_BLOCK,$/;"	e	enum:__anon7
+JAM_DATA_INSTR	jamdefs.h	/^	JAM_DATA_INSTR,$/;"	e	enum:__anon4
+JAM_DATA_PHASE	jamdefs.h	/^	JAM_DATA_PHASE,$/;"	e	enum:__anon6
+JAM_DRSCAN_INSTR	jamdefs.h	/^	JAM_DRSCAN_INSTR,$/;"	e	enum:__anon4
+JAM_DRSTOP_INSTR	jamdefs.h	/^	JAM_DRSTOP_INSTR,$/;"	e	enum:__anon4
+JAM_ENDDATA_INSTR	jamdefs.h	/^	JAM_ENDDATA_INSTR,$/;"	e	enum:__anon4
+JAM_ENDPROC_INSTR	jamdefs.h	/^	JAM_ENDPROC_INSTR,$/;"	e	enum:__anon4
+JAM_EXIT_INSTR	jamdefs.h	/^	JAM_EXIT_INSTR,$/;"	e	enum:__anon4
+JAM_EXPORT_INSTR	jamdefs.h	/^	JAM_EXPORT_INSTR,$/;"	e	enum:__anon4
+JAM_EXPR_MAX	jamdefs.h	/^	JAM_EXPR_MAX$/;"	e	enum:__anon5
+JAM_FOR_INSTR	jamdefs.h	/^	JAM_FOR_INSTR,$/;"	e	enum:__anon4
+JAM_FREQUENCY_INSTR	jamdefs.h	/^	JAM_FREQUENCY_INSTR,$/;"	e	enum:__anon4
+JAM_GOTO_INSTR	jamdefs.h	/^	JAM_GOTO_INSTR,$/;"	e	enum:__anon4
+JAM_HEAP_BOOLEAN_ARRAY	jamheap.h	/^	JAM_HEAP_BOOLEAN_ARRAY,$/;"	e	enum:__anon1
+JAM_HEAP_BOOLEAN_ARRAY_CACHE	jamheap.h	/^	JAM_HEAP_BOOLEAN_ARRAY_CACHE,$/;"	e	enum:__anon1
+JAM_HEAP_INTEGER_ARRAY	jamheap.h	/^	JAM_HEAP_INTEGER_ARRAY,$/;"	e	enum:__anon1
+JAM_HEAP_MAX	jamheap.h	/^	JAM_HEAP_MAX$/;"	e	enum:__anon1
+JAM_IF_INSTR	jamdefs.h	/^	JAM_IF_INSTR,$/;"	e	enum:__anon4
+JAM_ILLEGAL_EXPR_TYPE	jamdefs.h	/^	JAM_ILLEGAL_EXPR_TYPE = 0,$/;"	e	enum:__anon5
+JAM_ILLEGAL_HEAP_TYPE	jamheap.h	/^	JAM_ILLEGAL_HEAP_TYPE = 0,$/;"	e	enum:__anon1
+JAM_ILLEGAL_INSTR	jamdefs.h	/^	JAM_ILLEGAL_INSTR = 0,$/;"	e	enum:__anon4
+JAM_ILLEGAL_JTAG_STATE	jamjtag.h	/^	JAM_ILLEGAL_JTAG_STATE = -1,$/;"	e	enum:__anon3
+JAM_ILLEGAL_REP	jamheap.h	/^	JAM_ILLEGAL_REP,$/;"	e	enum:__anon2
+JAM_ILLEGAL_STACK_TYPE	jamstack.h	/^	JAM_ILLEGAL_STACK_TYPE = 0,$/;"	e	enum:__anon8
+JAM_ILLEGAL_SYMBOL_TYPE	jamsym.h	/^	JAM_ILLEGAL_SYMBOL_TYPE = 0,$/;"	e	enum:__anon7
+JAM_INSTR_MAX	jamdefs.h	/^	JAM_INSTR_MAX$/;"	e	enum:__anon4
+JAM_INTEGER_ARRAY_INITIALIZED	jamsym.h	/^	JAM_INTEGER_ARRAY_INITIALIZED,$/;"	e	enum:__anon7
+JAM_INTEGER_ARRAY_WRITABLE	jamsym.h	/^	JAM_INTEGER_ARRAY_WRITABLE,$/;"	e	enum:__anon7
+JAM_INTEGER_EXPR	jamdefs.h	/^	JAM_INTEGER_EXPR,$/;"	e	enum:__anon5
+JAM_INTEGER_INSTR	jamdefs.h	/^	JAM_INTEGER_INSTR,$/;"	e	enum:__anon4
+JAM_INTEGER_SYMBOL	jamsym.h	/^	JAM_INTEGER_SYMBOL,$/;"	e	enum:__anon7
+JAM_INT_OR_BOOL_EXPR	jamdefs.h	/^	JAM_INT_OR_BOOL_EXPR,$/;"	e	enum:__anon5
+JAM_IRSCAN_INSTR	jamdefs.h	/^	JAM_IRSCAN_INSTR,$/;"	e	enum:__anon4
+JAM_IRSTOP_INSTR	jamdefs.h	/^	JAM_IRSTOP_INSTR,$/;"	e	enum:__anon4
+JAM_LABEL	jamsym.h	/^	JAM_LABEL,$/;"	e	enum:__anon7
+JAM_LET_INSTR	jamdefs.h	/^	JAM_LET_INSTR,$/;"	e	enum:__anon4
+JAM_NEXT_INSTR	jamdefs.h	/^	JAM_NEXT_INSTR,$/;"	e	enum:__anon4
+JAM_NOTE_INSTR	jamdefs.h	/^	JAM_NOTE_INSTR,$/;"	e	enum:__anon4
+JAM_NOTE_PHASE	jamdefs.h	/^	JAM_NOTE_PHASE,$/;"	e	enum:__anon6
+JAM_PADDING_INSTR	jamdefs.h	/^	JAM_PADDING_INSTR,$/;"	e	enum:__anon4
+JAM_PHASE_MAX	jamdefs.h	/^	JAM_PHASE_MAX$/;"	e	enum:__anon6
+JAM_POP_INSTR	jamdefs.h	/^	JAM_POP_INSTR,$/;"	e	enum:__anon4
+JAM_POSTDR_INSTR	jamdefs.h	/^	JAM_POSTDR_INSTR,$/;"	e	enum:__anon4
+JAM_POSTIR_INSTR	jamdefs.h	/^	JAM_POSTIR_INSTR,$/;"	e	enum:__anon4
+JAM_PREDR_INSTR	jamdefs.h	/^	JAM_PREDR_INSTR,$/;"	e	enum:__anon4
+JAM_PREIR_INSTR	jamdefs.h	/^	JAM_PREIR_INSTR,$/;"	e	enum:__anon4
+JAM_PRINT_INSTR	jamdefs.h	/^	JAM_PRINT_INSTR,$/;"	e	enum:__anon4
+JAM_PROCEDURE_BLOCK	jamsym.h	/^	JAM_PROCEDURE_BLOCK,$/;"	e	enum:__anon7
+JAM_PROCEDURE_INSTR	jamdefs.h	/^	JAM_PROCEDURE_INSTR,$/;"	e	enum:__anon4
+JAM_PROCEDURE_PHASE	jamdefs.h	/^	JAM_PROCEDURE_PHASE,$/;"	e	enum:__anon6
+JAM_PUSH_INSTR	jamdefs.h	/^	JAM_PUSH_INSTR,$/;"	e	enum:__anon4
+JAM_RANDOM	jamarray.c	/^	JAM_RANDOM$/;"	e	enum:__anon10	file:
+JAM_REM_INSTR	jamdefs.h	/^	JAM_REM_INSTR,$/;"	e	enum:__anon4
+JAM_RETURN_INSTR	jamdefs.h	/^	JAM_RETURN_INSTR,$/;"	e	enum:__anon4
+JAM_RETURN_TYPE	jamexprt.h	23;"	d
+JAM_STACK_CALL_RETURN	jamstack.h	/^	JAM_STACK_CALL_RETURN,$/;"	e	enum:__anon8
+JAM_STACK_FOR_NEXT	jamstack.h	/^	JAM_STACK_FOR_NEXT,$/;"	e	enum:__anon8
+JAM_STACK_MAX	jamstack.h	/^	JAM_STACK_MAX$/;"	e	enum:__anon8
+JAM_STACK_PUSH_POP	jamstack.h	/^	JAM_STACK_PUSH_POP,$/;"	e	enum:__anon8
+JAM_STATE_INSTR	jamdefs.h	/^	JAM_STATE_INSTR,$/;"	e	enum:__anon4
+JAM_SYMBOL_MAX	jamsym.h	/^	JAM_SYMBOL_MAX$/;"	e	enum:__anon7
+JAM_TRST_INSTR	jamdefs.h	/^	JAM_TRST_INSTR,$/;"	e	enum:__anon4
+JAM_UNKNOWN_PHASE	jamdefs.h	/^	JAM_UNKNOWN_PHASE = 0,$/;"	e	enum:__anon6
+JAM_VECTOR_INSTR	jamdefs.h	/^	JAM_VECTOR_INSTR,$/;"	e	enum:__anon4
+JAM_VMAP_INSTR	jamdefs.h	/^	JAM_VMAP_INSTR,$/;"	e	enum:__anon4
+JAM_WAIT_INSTR	jamdefs.h	/^	JAM_WAIT_INSTR,$/;"	e	enum:__anon4
+JTAG_TCK	jamstub.c	73;"	d	file:
+JTAG_TDI	jamstub.c	74;"	d	file:
+JTAG_TDO	jamstub.c	71;"	d	file:
+JTAG_TMS	jamstub.c	72;"	d	file:
+LEFT_SHIFT	jamexp.c	/^	LEFT_SHIFT,$/;"	e	enum:OPERATOR_TYPE	file:
+LEFT_SHIFT_TOK	jamexp.c	238;"	d	file:
+LEFT_SHIFT_TOK	jamytab.h	9;"	d
+LESS_OR_EQUAL	jamexp.c	/^	LESS_OR_EQUAL,$/;"	e	enum:OPERATOR_TYPE	file:
+LESS_OR_EQ_TOK	jamexp.c	237;"	d	file:
+LESS_OR_EQ_TOK	jamytab.h	8;"	d
+LESS_THAN	jamexp.c	/^	LESS_THAN,$/;"	e	enum:OPERATOR_TYPE	file:
+LESS_TOK	jamexp.c	235;"	d	file:
+LESS_TOK	jamytab.h	6;"	d
+LOG2	jamexp.c	/^	LOG2,$/;"	e	enum:OPERATOR_TYPE	file:
+LOG2_TOK	jamexp.c	243;"	d	file:
+LOG2_TOK	jamytab.h	14;"	d
+MAP_MASK	gpio.c	7;"	d	file:
+MAP_SIZE	gpio.c	6;"	d	file:
+MATCH_DATA_LENGTH	jamcomp.c	24;"	d	file:
+MAX_BUFFER_LENGTH	jamexp.c	54;"	d	file:
+MAX_ERROR_CODE	jamstub.c	682;"	d	file:
+MMAP_BASE_ADDR	gpio.c	9;"	d	file:
+MOD	jamexp.c	/^	MOD,$/;"	e	enum:OPERATOR_TYPE	file:
+MULT	jamexp.c	/^	MULT,$/;"	e	enum:OPERATOR_TYPE	file:
+NOT	jamexp.c	/^	NOT,$/;"	e	enum:OPERATOR_TYPE	file:
+NO_ALTERA_STDIO	jamstub.c	29;"	d	file:
+NULL	jamdefs.h	22;"	d
+NULL_EXP	jamexp.c	221;"	d	file:
+NUM_KEYWORDS	jamexp.c	145;"	d	file:
+N_STATIC_MEMORY_BYTES	jamstub.c	57;"	d	file:
+N_STATIC_MEMORY_KBYTES	jamstub.c	56;"	d	file:
+OBJS	makefile.mk	/^OBJS = \\$/;"	m
+OPERATOR_TYPE	jamexp.c	/^enum OPERATOR_TYPE$/;"	g	file:
+OPERATOR_TYPE	jamexp.c	/^typedef enum OPERATOR_TYPE OPERATOR_TYPE;$/;"	t	typeref:enum:OPERATOR_TYPE	file:
+OR	jamexp.c	/^	OR,$/;"	e	enum:OPERATOR_TYPE	file:
+OR_TOK	jamexp.c	231;"	d	file:
+OR_TOK	jamytab.h	2;"	d
+OUTPUT	gpio.h	28;"	d
+POINTER_ALIGNMENT	jamstub.c	58;"	d	file:
+POINTER_ALIGNMENT	jamstub.c	61;"	d	file:
+PORT	jamport.h	38;"	d
+PORTA_OFFSET_ADDR	gpio.c	14;"	d	file:
+PORTB_OFFSET_ADDR	gpio.c	15;"	d	file:
+PORTC_OFFSET_ADDR	gpio.c	16;"	d	file:
+PORTD_OFFSET_ADDR	gpio.c	17;"	d	file:
+PORTE_OFFSET_ADDR	gpio.c	18;"	d	file:
+PORTF_OFFSET_ADDR	gpio.c	19;"	d	file:
+PORT_A	gpio.h	21;"	d
+PORT_B	gpio.h	22;"	d
+PORT_C	gpio.h	23;"	d
+PORT_D	gpio.h	24;"	d
+PORT_E	gpio.h	25;"	d
+PORT_F	gpio.h	26;"	d
+PORT_OFFSET_INC	gpio.c	12;"	d	file:
+POUND	jamexp.c	/^	POUND,$/;"	e	enum:OPERATOR_TYPE	file:
+READ_TDO	jamjtag.c	134;"	d	file:
+RESET	jamjtag.h	/^	RESET = 0,$/;"	e	enum:__anon3
+RIGHT_SHIFT	jamexp.c	/^	RIGHT_SHIFT,$/;"	e	enum:OPERATOR_TYPE	file:
+RIGHT_SHIFT_TOK	jamexp.c	239;"	d	file:
+RIGHT_SHIFT_TOK	jamytab.h	10;"	d
+SHORT_BITS	jamcomp.c	21;"	d	file:
+SQRT	jamexp.c	/^	SQRT,$/;"	e	enum:OPERATOR_TYPE	file:
+SQRT_TOK	jamexp.c	244;"	d	file:
+SQRT_TOK	jamytab.h	15;"	d
+SUB	jamexp.c	/^	SUB,$/;"	e	enum:OPERATOR_TYPE	file:
+TDI_HIGH	jamjtag.c	132;"	d	file:
+TDI_LOW	jamjtag.c	133;"	d	file:
+TMS_HIGH	jamjtag.c	130;"	d	file:
+TMS_LOW	jamjtag.c	131;"	d	file:
+TRUE	jamdefs.h	25;"	d
+TRUE	jamexp.c	58;"	d	file:
+TRUE	jamstub.c	46;"	d	file:
+UMINUS	jamexp.c	/^	UMINUS,$/;"	e	enum:OPERATOR_TYPE	file:
+UNARY_MINUS	jamexp.c	251;"	d	file:
+UNARY_MINUS	jamytab.h	22;"	d
+UNARY_PLUS	jamexp.c	252;"	d	file:
+UNARY_PLUS	jamytab.h	23;"	d
+UNGET_CH	jamexp.c	74;"	d	file:
+UNIX	jamport.h	34;"	d
+VALUE_TOK	jamexp.c	247;"	d	file:
+VALUE_TOK	jamytab.h	18;"	d
+VECTOR_LIST_STRUCT	jamstub.c	/^struct VECTOR_LIST_STRUCT$/;"	s	file:
+VECTOR_SIGNAL_COUNT	jamstub.c	159;"	d	file:
+WINDOWS	jamport.h	33;"	d
+WORD	jamstub.c	/^typedef unsigned short WORD;$/;"	t	file:
+YYABORT	jamexp.c	1520;"	d	file:
+YYACCEPT	jamexp.c	1519;"	d	file:
+YYERRCODE	jamexp.c	257;"	d	file:
+YYERROR	jamexp.c	1518;"	d	file:
+YYFLAG	jamexp.c	1517;"	d	file:
+YYLAST	jamexp.c	1345;"	d	file:
+YYMAXDEPTH	jamexp.c	1510;"	d	file:
+YYMAXDEPTH	jamexp.c	158;"	d	file:
+YYMAXTLIST	jamexp.c	161;"	d	file:
+YYNPROD	jamexp.c	1344;"	d	file:
+YYSTYPE	jamexp.c	213;"	d	file:
+YYSTYPE	jamexp.c	254;"	d	file:
+__MX27_GPIO_H__	gpio.h	4;"	d
+cached	jamheap.h	/^	BOOL cached;		\/* TRUE if array data is cached *\/$/;"	m	struct:JAMS_HEAP_STRUCT
+calibrate_delay	jamstub.c	/^void calibrate_delay(void)$/;"	f
+child_otype	jamexp.c	/^  OPERATOR_TYPE		child_otype;$/;"	m	struct:EXP_STACK	file:
+close_jtag_hardware	jamstub.c	/^void close_jtag_hardware()$/;"	f
+com_port	jamstub.c	/^int com_port = -1;$/;"	v
+conv_to_hex	jamstub.c	/^char conv_to_hex(unsigned long value)$/;"	f
+data	jamheap.h	/^	long data[1];		\/* first word of data (or cache buffer) *\/$/;"	m	struct:JAMS_HEAP_STRUCT
+delay_loop	jamstub.c	/^void delay_loop(long count)$/;"	f
+dimension	jamheap.h	/^	long dimension;		\/* number of elements in array *\/$/;"	m	struct:JAMS_HEAP_STRUCT
+errct	jamexp.c	/^int errct = 0;  \/* error count *\/$/;"	v
+errfl	jamexp.c	/^int errfl = 0;  \/* error flag *\/$/;"	v
+error_text	jamstub.c	/^char *error_text[] =$/;"	v
+fd	gpio.c	/^int fd = 0;$/;"	v
+file_buffer	jamstub.c	/^char *file_buffer = NULL;$/;"	v
+file_length	jamstub.c	/^long file_length = 0L;$/;"	v
+file_pointer	jamstub.c	/^long file_pointer = 0L;$/;"	v
+for_position	jamstack.h	/^	long for_position;				\/* used only for FOR\/NEXT *\/$/;"	m	struct:__anon9
+get_tick_count	jamstub.c	/^DWORD get_tick_count(void)$/;"	f
+getgpiodata	gpio.c	/^int getgpiodata(unsigned int port, int pin, unsigned int * data)$/;"	f
+gpio_exit	gpio.c	/^int gpio_exit()$/;"	f
+gpio_init	gpio.c	/^int gpio_init()$/;"	f
+hardware_bit	jamstub.c	/^	int  hardware_bit;$/;"	m	struct:VECTOR_LIST_STRUCT	file:
+initialize_jtag_hardware	jamstub.c	/^void initialize_jtag_hardware()$/;"	f
+instruction	jamexec.c	/^	JAME_INSTRUCTION instruction;$/;"	m	struct:JAMS_INSTR_MAP	file:
+iterator	jamstack.h	/^	JAMS_SYMBOL_RECORD *iterator;	\/* used only for FOR\/NEXT *\/$/;"	m	struct:__anon9
+jam_6bit_char	jamarray.c	/^int jam_6bit_char(int ch)$/;"	f
+jam_action	jamexec.c	/^char *jam_action = NULL;$/;"	v
+jam_add_heap_record	jamheap.c	/^JAM_RETURN_TYPE jam_add_heap_record$/;"	f
+jam_add_symbol	jamsym.c	/^JAM_RETURN_TYPE jam_add_symbol$/;"	f
+jam_array_symbol_rec	jamexp.c	/^JAMS_SYMBOL_RECORD *jam_array_symbol_rec = NULL;$/;"	v
+jam_atol	jamutil.c	/^long jam_atol(char *string)$/;"	f
+jam_atol_bin	jamexp.c	/^long jam_atol_bin(char *string)$/;"	f
+jam_atol_hex	jamexp.c	/^long jam_atol_hex(char *string)$/;"	f
+jam_binary_constant_is_ok	jamexp.c	/^BOOL jam_binary_constant_is_ok(char *string)$/;"	f
+jam_bits_required	jamcomp.c	/^short jam_bits_required(short n)$/;"	f
+jam_bool_rep_table	jamarray.c	/^} jam_bool_rep_table[] =$/;"	v	typeref:struct:JAMS_BOOL_REP_MAP
+jam_call_procedure	jamexec.c	/^JAM_RETURN_TYPE jam_call_procedure$/;"	f
+jam_call_procedure_from_action	jamexec.c	/^JAM_RETURN_TYPE jam_call_procedure_from_action$/;"	f
+jam_call_procedure_from_procedure	jamexec.c	/^JAM_RETURN_TYPE jam_call_procedure_from_procedure$/;"	f
+jam_ch	jamexp.c	/^char		jam_ch = '\\0';		\/* next character from input file *\/$/;"	v
+jam_check_assignment	jamexec.c	/^BOOL jam_check_assignment$/;"	f
+jam_check_crc	jamcrc.c	/^JAM_RETURN_TYPE jam_check_crc$/;"	f
+jam_check_init_list	jamsym.c	/^BOOL jam_check_init_list$/;"	f
+jam_checking_uses_list	jamexec.c	/^BOOL jam_checking_uses_list = FALSE;$/;"	v
+jam_constant_is_ok	jamexp.c	/^BOOL jam_constant_is_ok(char *string)$/;"	f
+jam_constant_value	jamexp.c	/^BOOL jam_constant_value(char *string, long *value)$/;"	f
+jam_convert_bool_to_int	jamexp.c	/^long jam_convert_bool_to_int(long *data, long msb, long lsb)$/;"	f
+jam_convert_literal_aca	jamexec.c	/^JAM_RETURN_TYPE jam_convert_literal_aca$/;"	f
+jam_convert_literal_array	jamexec.c	/^JAM_RETURN_TYPE jam_convert_literal_array$/;"	f
+jam_convert_literal_binary	jamexec.c	/^JAM_RETURN_TYPE jam_convert_literal_binary$/;"	f
+jam_copy_array_subrange	jamexec.c	/^JAM_RETURN_TYPE jam_copy_array_subrange$/;"	f
+jam_crc_init	jamcrc.c	/^void jam_crc_init(unsigned short *shift_register)$/;"	f
+jam_crc_update	jamcrc.c	/^void jam_crc_update$/;"	f
+jam_current_block	jamexec.c	/^JAMS_SYMBOL_RECORD *jam_current_block = NULL;$/;"	v
+jam_current_file_position	jamexec.c	/^long jam_current_file_position = 0L;$/;"	v
+jam_current_statement_position	jamexec.c	/^long jam_current_statement_position = 0L;$/;"	v
+jam_delay	jamstub.c	/^void jam_delay(long microseconds)$/;"	f
+jam_do_drscan	jamjtag.c	/^JAM_RETURN_TYPE jam_do_drscan$/;"	f
+jam_do_irscan	jamjtag.c	/^JAM_RETURN_TYPE jam_do_irscan$/;"	f
+jam_do_wait_cycles	jamjtag.c	/^JAM_RETURN_TYPE jam_do_wait_cycles$/;"	f
+jam_do_wait_microseconds	jamjtag.c	/^JAM_RETURN_TYPE jam_do_wait_microseconds$/;"	f
+jam_dr_buffer	jamjtag.c	/^char *jam_dr_buffer         = NULL;$/;"	v
+jam_dr_length	jamjtag.c	/^int jam_dr_length    = 0;$/;"	v
+jam_dr_postamble	jamjtag.c	/^int jam_dr_postamble = 0;$/;"	v
+jam_dr_postamble_data	jamjtag.c	/^long *jam_dr_postamble_data = NULL;$/;"	v
+jam_dr_preamble	jamjtag.c	/^int jam_dr_preamble  = 0;$/;"	v
+jam_dr_preamble_data	jamjtag.c	/^long *jam_dr_preamble_data  = NULL;$/;"	v
+jam_drstop_state	jamjtag.c	/^JAME_JTAG_STATE jam_drstop_state = IDLE;$/;"	v
+jam_evaluate_expression	jamexp.c	/^JAM_RETURN_TYPE jam_evaluate_expression$/;"	f
+jam_execute	jamexec.c	/^JAM_RETURN_TYPE jam_execute$/;"	f
+jam_execute_statement	jamexec.c	/^JAM_RETURN_TYPE jam_execute_statement$/;"	f
+jam_exp_eval	jamexp.c	/^YYSTYPE jam_exp_eval(OPERATOR_TYPE otype, YYSTYPE op1, YYSTYPE op2)$/;"	f
+jam_exp_lexer	jamexp.c	/^void jam_exp_lexer (void)$/;"	f
+jam_exponentiate	jamexp.c	/^long jam_exponentiate(long x, long y)$/;"	f
+jam_export_boolean_array	jamstub.c	/^void jam_export_boolean_array(char *key, unsigned char *data, long count)$/;"	f
+jam_export_integer	jamstub.c	/^void jam_export_integer(char *key, long value)$/;"	f
+jam_expr_type	jamexp.c	/^JAME_EXPRESSION_TYPE jam_expr_type = JAM_ILLEGAL_EXPR_TYPE;$/;"	v
+jam_expression_type	jamexp.c	/^int			jam_expression_type = 0;$/;"	v
+jam_extract_bool_binary	jamarray.c	/^JAM_RETURN_TYPE jam_extract_bool_binary$/;"	f
+jam_extract_bool_comma_sep	jamarray.c	/^JAM_RETURN_TYPE jam_extract_bool_comma_sep$/;"	f
+jam_extract_bool_compressed	jamarray.c	/^JAM_RETURN_TYPE jam_extract_bool_compressed$/;"	f
+jam_extract_bool_hex	jamarray.c	/^JAM_RETURN_TYPE jam_extract_bool_hex$/;"	f
+jam_extract_bool_run_length	jamarray.c	/^JAM_RETURN_TYPE jam_extract_bool_run_length$/;"	f
+jam_extract_int_comma_sep	jamarray.c	/^JAM_RETURN_TYPE jam_extract_int_comma_sep$/;"	f
+jam_find_argument	jamexec.c	/^JAM_RETURN_TYPE jam_find_argument$/;"	f
+jam_find_keyword	jamexec.c	/^int jam_find_keyword$/;"	f
+jam_find_state_argument	jamexec.c	/^JAM_RETURN_TYPE jam_find_state_argument$/;"	f
+jam_free	jamstub.c	/^void jam_free(void *ptr)$/;"	f
+jam_free_heap	jamheap.c	/^void jam_free_heap(void)$/;"	f
+jam_free_jtag_padding_buffers	jamjtag.c	/^void jam_free_jtag_padding_buffers(int reset_jtag)$/;"	f
+jam_free_literal_aca_buffers	jamexec.c	/^void jam_free_literal_aca_buffers(void)$/;"	f
+jam_free_stack	jamstack.c	/^void jam_free_stack(void)$/;"	f
+jam_free_statement_buffer	jamexec.c	/^void jam_free_statement_buffer$/;"	f
+jam_free_symbol_table	jamsym.c	/^void jam_free_symbol_table()$/;"	f
+jam_free_temp_workspace	jamheap.c	/^void jam_free_temp_workspace$/;"	f
+jam_get_array_argument	jamexec.c	/^JAM_RETURN_TYPE jam_get_array_argument$/;"	f
+jam_get_array_subrange	jamexec.c	/^JAM_RETURN_TYPE jam_get_array_subrange$/;"	f
+jam_get_array_value	jamarray.c	/^JAM_RETURN_TYPE jam_get_array_value$/;"	f
+jam_get_crc_value	jamcrc.c	/^unsigned short jam_get_crc_value(unsigned short *shift_register)$/;"	f
+jam_get_instruction	jamexec.c	/^JAME_INSTRUCTION jam_get_instruction$/;"	f
+jam_get_jtag_state_from_name	jamjtag.c	/^JAME_JTAG_STATE jam_get_jtag_state_from_name$/;"	f
+jam_get_line_of_position	jamexec.c	/^long jam_get_line_of_position$/;"	f
+jam_get_note	jamnote.c	/^JAM_RETURN_TYPE jam_get_note$/;"	f
+jam_get_note_key	jamnote.c	/^BOOL jam_get_note_key$/;"	f
+jam_get_note_value	jamnote.c	/^BOOL jam_get_note_value$/;"	f
+jam_get_real_char	jamarray.c	/^int jam_get_real_char(void)$/;"	f
+jam_get_statement	jamexec.c	/^JAM_RETURN_TYPE jam_get_statement$/;"	f
+jam_get_symbol_record	jamsym.c	/^JAM_RETURN_TYPE jam_get_symbol_record$/;"	f
+jam_get_symbol_value	jamsym.c	/^JAM_RETURN_TYPE jam_get_symbol_value$/;"	f
+jam_get_temp_workspace	jamheap.c	/^void *jam_get_temp_workspace$/;"	f
+jam_getc	jamstub.c	/^int jam_getc(void)$/;"	f
+jam_goto_jtag_state	jamjtag.c	/^JAM_RETURN_TYPE jam_goto_jtag_state$/;"	f
+jam_hash	jamsym.c	/^int jam_hash$/;"	f
+jam_heap	jamheap.c	/^JAMS_HEAP_RECORD *jam_heap = NULL;$/;"	v
+jam_heap_records	jamheap.c	/^long jam_heap_records = 0L;$/;"	v
+jam_heap_top	jamheap.c	/^void *jam_heap_top = NULL;$/;"	v
+jam_hex_constant_is_ok	jamexp.c	/^BOOL jam_hex_constant_is_ok(char *string)$/;"	f
+jam_hexchar	jamcrc.c	/^int jam_hexchar(int ch)$/;"	f
+jam_init_heap	jamheap.c	/^JAM_RETURN_TYPE jam_init_heap(void)$/;"	f
+jam_init_jtag	jamjtag.c	/^JAM_RETURN_TYPE jam_init_jtag(void)$/;"	f
+jam_init_list	jamexec.c	/^char **jam_init_list = NULL;$/;"	v
+jam_init_stack	jamstack.c	/^JAM_RETURN_TYPE jam_init_stack(void)$/;"	f
+jam_init_statement_buffer	jamexec.c	/^JAM_RETURN_TYPE jam_init_statement_buffer$/;"	f
+jam_init_symbol_table	jamsym.c	/^JAM_RETURN_TYPE jam_init_symbol_table()$/;"	f
+jam_instruction_table	jamexec.c	/^} jam_instruction_table[] =$/;"	v	typeref:struct:JAMS_INSTR_MAP
+jam_ir_buffer	jamjtag.c	/^char *jam_ir_buffer         = NULL;$/;"	v
+jam_ir_length	jamjtag.c	/^int jam_ir_length    = 0;$/;"	v
+jam_ir_postamble	jamjtag.c	/^int jam_ir_postamble = 0;$/;"	v
+jam_ir_postamble_data	jamjtag.c	/^long *jam_ir_postamble_data = NULL;$/;"	v
+jam_ir_preamble	jamjtag.c	/^int jam_ir_preamble  = 0;$/;"	v
+jam_ir_preamble_data	jamjtag.c	/^long *jam_ir_preamble_data  = NULL;$/;"	v
+jam_irstop_state	jamjtag.c	/^JAME_JTAG_STATE jam_irstop_state = IDLE;$/;"	v
+jam_is_hex_char	jamutil.c	/^int jam_is_hex_char(char ch)$/;"	f
+jam_is_name_char	jamutil.c	/^int jam_is_name_char(char ch)$/;"	f
+jam_isalnum	jamutil.c	/^int jam_isalnum(char ch)$/;"	f
+jam_isalpha	jamutil.c	/^int jam_isalpha(char ch)$/;"	f
+jam_iscntrl	jamutil.c	/^int jam_iscntrl(char ch)$/;"	f
+jam_isdigit	jamutil.c	/^int jam_isdigit(char ch)$/;"	f
+jam_isspace	jamutil.c	/^int jam_isspace(char ch)$/;"	f
+jam_jtag_concatenate_data	jamjtag.c	/^void jam_jtag_concatenate_data$/;"	f
+jam_jtag_drscan	jamjtag.c	/^int jam_jtag_drscan$/;"	f
+jam_jtag_extract_target_data	jamjtag.c	/^void jam_jtag_extract_target_data$/;"	f
+jam_jtag_io	jamstub.c	/^int jam_jtag_io(int tms, int tdi, int read_tdo)$/;"	f
+jam_jtag_irscan	jamjtag.c	/^int jam_jtag_irscan$/;"	f
+jam_jtag_path_map	jamjtag.c	/^unsigned short jam_jtag_path_map[16] =$/;"	v
+jam_jtag_reset_idle	jamjtag.c	/^void jam_jtag_reset_idle(void)$/;"	f
+jam_jtag_state	jamjtag.c	/^JAME_JTAG_STATE jam_jtag_state = JAM_ILLEGAL_JTAG_STATE;$/;"	v
+jam_jtag_state_table	jamjtag.c	/^} jam_jtag_state_table[] =$/;"	v	typeref:struct:JAMS_JTAG_MAP
+jam_jtag_state_transitions	jamjtag.c	/^} jam_jtag_state_transitions[] =$/;"	v	typeref:struct:JAMS_JTAG_MACHINE
+jam_keyword_table	jamexp.c	/^} jam_keyword_table[] = {$/;"	v	typeref:struct:__anon11
+jam_literal_aca_buffer	jamexec.c	/^long *jam_literal_aca_buffer[JAMC_MAX_LITERAL_ARRAYS];$/;"	v
+jam_literal_array_buffer	jamexec.c	/^long jam_literal_array_buffer[JAMC_MAX_LITERAL_ARRAYS];$/;"	v
+jam_ltoa	jamutil.c	/^void jam_ltoa(char *buffer, long number)$/;"	f
+jam_malloc	jamstub.c	/^void *jam_malloc(unsigned int size)$/;"	f
+jam_message	jamstub.c	/^void jam_message(char *message_text)$/;"	f
+jam_next_statement_position	jamexec.c	/^long jam_next_statement_position = 0L;$/;"	v
+jam_null_expression	jamexp.c	/^YYSTYPE jam_null_expression= {0,0,0,0,0};$/;"	v
+jam_parse_string	jamexp.c	/^char		jam_parse_string[MAX_BUFFER_LENGTH];$/;"	v
+jam_parse_value	jamexp.c	/^long		jam_parse_value = 0;$/;"	v
+jam_peek_stack_record	jamstack.c	/^JAMS_STACK_RECORD *jam_peek_stack_record(void)$/;"	f
+jam_phase	jamexec.c	/^JAME_PHASE_TYPE jam_phase = JAM_UNKNOWN_PHASE;$/;"	v
+jam_pop_stack_record	jamstack.c	/^JAM_RETURN_TYPE jam_pop_stack_record(void)$/;"	f
+jam_process_action	jamexec.c	/^JAM_RETURN_TYPE jam_process_action$/;"	f
+jam_process_assignment	jamexec.c	/^JAM_RETURN_TYPE jam_process_assignment$/;"	f
+jam_process_boolean	jamexec.c	/^JAM_RETURN_TYPE jam_process_boolean$/;"	f
+jam_process_call_or_goto	jamexec.c	/^JAM_RETURN_TYPE jam_process_call_or_goto$/;"	f
+jam_process_data	jamexec.c	/^JAM_RETURN_TYPE jam_process_data$/;"	f
+jam_process_drscan	jamexec.c	/^JAM_RETURN_TYPE jam_process_drscan$/;"	f
+jam_process_drscan_capture	jamexec.c	/^JAM_RETURN_TYPE jam_process_drscan_capture$/;"	f
+jam_process_drscan_compare	jamexec.c	/^JAM_RETURN_TYPE jam_process_drscan_compare$/;"	f
+jam_process_drstop	jamexec.c	/^JAM_RETURN_TYPE jam_process_drstop(char *statement_buffer)$/;"	f
+jam_process_enddata	jamexec.c	/^JAM_RETURN_TYPE jam_process_enddata$/;"	f
+jam_process_exit	jamexec.c	/^JAM_RETURN_TYPE jam_process_exit$/;"	f
+jam_process_export	jamexec.c	/^JAM_RETURN_TYPE jam_process_export$/;"	f
+jam_process_for	jamexec.c	/^JAM_RETURN_TYPE jam_process_for$/;"	f
+jam_process_frequency	jamexec.c	/^JAM_RETURN_TYPE jam_process_frequency$/;"	f
+jam_process_if	jamexec.c	/^JAM_RETURN_TYPE jam_process_if$/;"	f
+jam_process_integer	jamexec.c	/^JAM_RETURN_TYPE jam_process_integer$/;"	f
+jam_process_irscan	jamexec.c	/^JAM_RETURN_TYPE jam_process_irscan$/;"	f
+jam_process_irscan_capture	jamexec.c	/^JAM_RETURN_TYPE jam_process_irscan_capture$/;"	f
+jam_process_irscan_compare	jamexec.c	/^JAM_RETURN_TYPE jam_process_irscan_compare$/;"	f
+jam_process_irstop	jamexec.c	/^JAM_RETURN_TYPE jam_process_irstop$/;"	f
+jam_process_next	jamexec.c	/^JAM_RETURN_TYPE jam_process_next$/;"	f
+jam_process_padding	jamexec.c	/^JAM_RETURN_TYPE jam_process_padding$/;"	f
+jam_process_pop	jamexec.c	/^JAM_RETURN_TYPE jam_process_pop$/;"	f
+jam_process_pre_post	jamexec.c	/^JAM_RETURN_TYPE jam_process_pre_post$/;"	f
+jam_process_print	jamexec.c	/^JAM_RETURN_TYPE jam_process_print$/;"	f
+jam_process_procedure	jamexec.c	/^JAM_RETURN_TYPE jam_process_procedure$/;"	f
+jam_process_push	jamexec.c	/^JAM_RETURN_TYPE jam_process_push$/;"	f
+jam_process_return	jamexec.c	/^JAM_RETURN_TYPE jam_process_return$/;"	f
+jam_process_state	jamexec.c	/^JAM_RETURN_TYPE jam_process_state$/;"	f
+jam_process_trst	jamexec.c	/^JAM_RETURN_TYPE jam_process_trst$/;"	f
+jam_process_uses_item	jamexec.c	/^JAM_RETURN_TYPE jam_process_uses_item$/;"	f
+jam_process_uses_list	jamexec.c	/^JAM_RETURN_TYPE jam_process_uses_list$/;"	f
+jam_process_vector	jamexec.c	/^JAM_RETURN_TYPE jam_process_vector$/;"	f
+jam_process_vector_capture	jamexec.c	/^JAM_RETURN_TYPE jam_process_vector_capture$/;"	f
+jam_process_vector_compare	jamexec.c	/^JAM_RETURN_TYPE jam_process_vector_compare$/;"	f
+jam_process_vmap	jamexec.c	/^JAM_RETURN_TYPE jam_process_vmap$/;"	f
+jam_process_wait	jamexec.c	/^JAM_RETURN_TYPE jam_process_wait$/;"	f
+jam_process_wait_cycles	jamexec.c	/^JAM_RETURN_TYPE jam_process_wait_cycles$/;"	f
+jam_process_wait_microseconds	jamexec.c	/^JAM_RETURN_TYPE jam_process_wait_microseconds$/;"	f
+jam_program	jamexec.c	/^char *jam_program = NULL;$/;"	v
+jam_program_size	jamexec.c	/^long jam_program_size = 0L;$/;"	v
+jam_push_callret_record	jamstack.c	/^JAM_RETURN_TYPE jam_push_callret_record$/;"	f
+jam_push_fornext_record	jamstack.c	/^JAM_RETURN_TYPE jam_push_fornext_record$/;"	f
+jam_push_pushpop_record	jamstack.c	/^JAM_RETURN_TYPE jam_push_pushpop_record$/;"	f
+jam_push_stack_record	jamstack.c	/^JAM_RETURN_TYPE jam_push_stack_record$/;"	f
+jam_read_bool_binary	jamarray.c	/^JAM_RETURN_TYPE jam_read_bool_binary$/;"	f
+jam_read_bool_comma_sep	jamarray.c	/^JAM_RETURN_TYPE jam_read_bool_comma_sep$/;"	f
+jam_read_bool_compressed	jamarray.c	/^JAM_RETURN_TYPE jam_read_bool_compressed$/;"	f
+jam_read_bool_hex	jamarray.c	/^JAM_RETURN_TYPE jam_read_bool_hex$/;"	f
+jam_read_bool_run_length	jamarray.c	/^JAM_RETURN_TYPE jam_read_bool_run_length$/;"	f
+jam_read_boolean_array_data	jamarray.c	/^JAM_RETURN_TYPE jam_read_boolean_array_data$/;"	f
+jam_read_int_comma_sep	jamarray.c	/^JAM_RETURN_TYPE jam_read_int_comma_sep$/;"	f
+jam_read_integer_array_data	jamarray.c	/^JAM_RETURN_TYPE jam_read_integer_array_data$/;"	f
+jam_read_packed	jamcomp.c	/^short jam_read_packed(char *buffer, long length, short bits)$/;"	f
+jam_return_code	jamexp.c	/^JAM_RETURN_TYPE jam_return_code = JAMC_SUCCESS;$/;"	v
+jam_reverse_boolean_array_bin	jamarray.c	/^JAM_RETURN_TYPE jam_reverse_boolean_array_bin$/;"	f
+jam_reverse_boolean_array_hex	jamarray.c	/^JAM_RETURN_TYPE jam_reverse_boolean_array_hex$/;"	f
+jam_rlc_key_char	jamarray.c	/^BOOL jam_rlc_key_char$/;"	f
+jam_seek	jamstub.c	/^int jam_seek(long offset)$/;"	f
+jam_set_dr_postamble	jamjtag.c	/^JAM_RETURN_TYPE jam_set_dr_postamble$/;"	f
+jam_set_dr_preamble	jamjtag.c	/^JAM_RETURN_TYPE jam_set_dr_preamble$/;"	f
+jam_set_drstop_state	jamjtag.c	/^JAM_RETURN_TYPE jam_set_drstop_state$/;"	f
+jam_set_frequency	jamstub.c	/^int jam_set_frequency(long hertz)$/;"	f
+jam_set_ir_postamble	jamjtag.c	/^JAM_RETURN_TYPE jam_set_ir_postamble$/;"	f
+jam_set_ir_preamble	jamjtag.c	/^JAM_RETURN_TYPE jam_set_ir_preamble$/;"	f
+jam_set_irstop_state	jamjtag.c	/^JAM_RETURN_TYPE jam_set_irstop_state$/;"	f
+jam_set_symbol_value	jamsym.c	/^JAM_RETURN_TYPE jam_set_symbol_value$/;"	f
+jam_skip_instruction_name	jamexec.c	/^int jam_skip_instruction_name$/;"	f
+jam_square_root	jamexp.c	/^long jam_square_root(long num)$/;"	f
+jam_stack	jamstack.c	/^JAMS_STACK_RECORD *jam_stack = 0;$/;"	v
+jam_statement_buffer_size	jamexec.c	/^unsigned int jam_statement_buffer_size = 0L;$/;"	v
+jam_strcmp	jamutil.c	/^int jam_strcmp(char *left, char *right)$/;"	f
+jam_strcpy	jamutil.c	/^void jam_strcpy(char *left, char *right)$/;"	f
+jam_stricmp	jamutil.c	/^int jam_stricmp(char *left, char *right)$/;"	f
+jam_strlen	jamutil.c	/^int jam_strlen(char *string)$/;"	f
+jam_strncmp	jamutil.c	/^int jam_strncmp(char *left, char *right, int count)$/;"	f
+jam_strncpy	jamutil.c	/^void jam_strncpy(char *left, char *right, int count)$/;"	f
+jam_strnicmp	jamutil.c	/^int jam_strnicmp(char *left, char *right, int count)$/;"	f
+jam_strptr	jamexp.c	/^int			jam_strptr = 0;$/;"	v
+jam_swap_dr	jamjtag.c	/^JAM_RETURN_TYPE jam_swap_dr$/;"	f
+jam_swap_ir	jamjtag.c	/^JAM_RETURN_TYPE jam_swap_ir$/;"	f
+jam_symbol_bottom	jamsym.c	/^void *jam_symbol_bottom = NULL;$/;"	v
+jam_symbol_table	jamsym.c	/^JAMS_SYMBOL_RECORD **jam_symbol_table = NULL;$/;"	v
+jam_token	jamexp.c	/^int			jam_token = 0;$/;"	v
+jam_token_buffer	jamexp.c	/^char		jam_token_buffer[MAX_BUFFER_LENGTH];$/;"	v
+jam_token_buffer_index	jamexp.c	/^int			jam_token_buffer_index;$/;"	v
+jam_toupper	jamutil.c	/^char jam_toupper(char ch)$/;"	f
+jam_uncompress	jamcomp.c	/^long jam_uncompress$/;"	f
+jam_vector_io	jamstub.c	/^int jam_vector_io$/;"	f
+jam_vector_map	jamstub.c	/^int jam_vector_map$/;"	f
+jam_vector_signal_count	jamexec.c	/^int jam_vector_signal_count = 0;$/;"	v
+jam_version	jamexec.c	/^int jam_version = 0;$/;"	v
+jam_workspace	jamexec.c	/^char *jam_workspace = NULL;$/;"	v
+jam_workspace_size	jamexec.c	/^long jam_workspace_size = 0L;$/;"	v
+jam_yyact	jamexp.c	/^const int jam_yyact[] = {$/;"	v
+jam_yychk	jamexp.c	/^const int jam_yychk[] = {$/;"	v
+jam_yydef	jamexp.c	/^const int jam_yydef[] = {$/;"	v
+jam_yyerrok	jamexp.c	1514;"	d	file:
+jam_yyerror	jamexp.c	/^void jam_yyerror (char *msg)$/;"	f
+jam_yyexca	jamexp.c	/^const int jam_yyexca[] = {$/;"	v
+jam_yylex	jamexp.c	/^int jam_yylex()$/;"	f
+jam_yylval	jamexp.c	/^YYSTYPE jam_yylval, jam_yyval;$/;"	v
+jam_yypact	jamexp.c	/^const int jam_yypact[] = {$/;"	v
+jam_yyparse	jamexp.c	/^jam_yyparse()$/;"	f
+jam_yypgo	jamexp.c	/^const int jam_yypgo[] = {$/;"	v
+jam_yyr1	jamexp.c	/^const int jam_yyr1[] = {$/;"	v
+jam_yyr2	jamexp.c	/^const int jam_yyr2[] = {$/;"	v
+jam_yyv	jamexp.c	/^YYSTYPE jam_yyv[YYMAXDEPTH];$/;"	v
+jam_yyval	jamexp.c	/^YYSTYPE jam_yylval, jam_yyval;$/;"	v
+jtag_hardware_initialized	jamstub.c	/^BOOL jtag_hardware_initialized = FALSE;$/;"	v
+length	jamexp.c	/^	int length;$/;"	m	struct:__anon11	file:
+loper	jamexp.c	/^  long				loper;		\/* left and right operands for DIV *\/$/;"	m	struct:EXP_STACK	file:
+main	jamstub.c	/^int main(int argc, char **argv)$/;"	f
+map_base	gpio.c	/^volatile void *map_base = NULL; $/;"	v
+n_allocations	jamstub.c	/^	unsigned int n_allocations = 0;$/;"	v
+n_bytes_allocated	jamstub.c	/^	unsigned int n_bytes_allocated = 0;$/;"	v
+n_bytes_not_recovered	jamstub.c	/^	unsigned int n_bytes_not_recovered = 0;$/;"	v
+name	jamsym.h	/^	char name[JAMC_MAX_NAME_LENGTH + 1];$/;"	m	struct:JAMS_SYMBOL_STRUCT
+next	jamheap.h	/^	struct JAMS_HEAP_STRUCT *next;$/;"	m	struct:JAMS_HEAP_STRUCT	typeref:struct:JAMS_HEAP_STRUCT::JAMS_HEAP_STRUCT
+next	jamsym.h	/^	struct JAMS_SYMBOL_STRUCT *next;$/;"	m	struct:JAMS_SYMBOL_STRUCT	typeref:struct:JAMS_SYMBOL_STRUCT::JAMS_SYMBOL_STRUCT
+one_ms_delay	jamstub.c	/^long one_ms_delay = 0L;$/;"	v
+parent	jamsym.h	/^	struct JAMS_SYMBOL_STRUCT *parent;$/;"	m	struct:JAMS_SYMBOL_STRUCT	typeref:struct:JAMS_SYMBOL_STRUCT::JAMS_SYMBOL_STRUCT
+peak_allocations	jamstub.c	/^	unsigned int peak_allocations = 0;$/;"	v
+peak_memory_usage	jamstub.c	/^	unsigned int peak_memory_usage = 0;$/;"	v
+position	jamheap.h	/^	long position;		\/* position in file of initialization data *\/$/;"	m	struct:JAMS_HEAP_STRUCT
+position	jamsym.h	/^	long position;$/;"	m	struct:JAMS_SYMBOL_STRUCT
+push_value	jamstack.h	/^	long push_value;				\/* used only for PUSH\/POP *\/$/;"	m	struct:__anon9
+rep	jamarray.c	/^	JAME_BOOLEAN_REP rep;$/;"	m	struct:JAMS_BOOL_REP_MAP	file:
+rep	jamheap.h	/^	JAME_BOOLEAN_REP rep;	\/* data representation format *\/$/;"	m	struct:JAMS_HEAP_STRUCT
+return_position	jamstack.h	/^	long return_position;			\/* used only for CALL\/RETURN *\/$/;"	m	struct:__anon9
+roper	jamexp.c	/^  long				roper;		\/* we save it for CEIL\/FLOOR's use *\/$/;"	m	struct:EXP_STACK	file:
+serial_port_name	jamstub.c	/^char *serial_port_name = NULL;$/;"	v
+setgpiodata	gpio.c	/^int setgpiodata(unsigned int port, unsigned int pin, unsigned int data)$/;"	f
+setgpiodir	gpio.c	/^int setgpiodir(unsigned int port, unsigned int pin, unsigned int dir)$/;"	f
+setpullup	gpio.c	/^int setpullup(unsigned int port, int pin, unsigned int pull)$/;"	f
+signal_name	jamstub.c	/^	char *signal_name;$/;"	m	struct:VECTOR_LIST_STRUCT	file:
+specified_com_port	jamstub.c	/^BOOL specified_com_port = FALSE;$/;"	v
+state	jamjtag.c	/^	JAME_JTAG_STATE state;$/;"	m	struct:JAMS_JTAG_MAP	file:
+static_memory_heap	jamstub.c	/^	unsigned char static_memory_heap[N_STATIC_MEMORY_BYTES] = { 0 };$/;"	v
+step_value	jamstack.h	/^	long step_value;				\/* used only for FOR\/NEXT *\/$/;"	m	struct:__anon9
+stop_value	jamstack.h	/^	long stop_value;				\/* used only for FOR\/NEXT *\/$/;"	m	struct:__anon9
+string	jamarray.c	/^	char string[4];$/;"	m	struct:JAMS_BOOL_REP_MAP	file:
+string	jamexec.c	/^	char string[JAMC_MAX_INSTR_LENGTH + 1];$/;"	m	struct:JAMS_INSTR_MAP	file:
+string	jamexp.c	/^	char *string;$/;"	m	struct:__anon11	file:
+string	jamjtag.c	/^	char string[JAMC_MAX_JTAG_STATE_LENGTH + 1];$/;"	m	struct:JAMS_JTAG_MAP	file:
+symbol_record	jamheap.h	/^	JAMS_SYMBOL_RECORD *symbol_record;$/;"	m	struct:JAMS_HEAP_STRUCT
+tck_delay	jamstub.c	/^int tck_delay = 0;$/;"	v
+tms_high	jamjtag.c	/^	JAME_JTAG_STATE tms_high;$/;"	m	struct:JAMS_JTAG_MACHINE	file:
+tms_low	jamjtag.c	/^	JAME_JTAG_STATE tms_low;$/;"	m	struct:JAMS_JTAG_MACHINE	file:
+token	jamexp.c	/^	int token;$/;"	m	struct:__anon11	file:
+token	jamexp.c	/^int token = -1; \/* input token *\/$/;"	v
+type	jamexp.c	/^  JAME_EXPRESSION_TYPE type;$/;"	m	struct:EXP_STACK	file:
+type	jamstack.h	/^	JAME_STACK_RECORD_TYPE type;$/;"	m	struct:__anon9
+type	jamsym.h	/^	JAME_SYMBOL_TYPE type;$/;"	m	struct:JAMS_SYMBOL_STRUCT
+val	jamexp.c	/^  long				val;$/;"	m	struct:EXP_STACK	file:
+value	jamsym.h	/^	long value;$/;"	m	struct:JAMS_SYMBOL_STRUCT
+vector_index	jamstub.c	/^	int  vector_index;$/;"	m	struct:VECTOR_LIST_STRUCT	file:
+vector_list	jamstub.c	/^struct VECTOR_LIST_STRUCT vector_list[] =$/;"	v	typeref:struct:VECTOR_LIST_STRUCT
+verbose	jamstub.c	/^BOOL verbose = FALSE;$/;"	v
