@@ -1,0 +1,112 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR	=     $(CROSS_COMPILE)ar$/;"	m
+AS	Makefile	/^AS	=     $(CROSS_COMPILE)as$/;"	m
+CC	Makefile	/^CC	=     $(CROSS_COMPILE)gcc$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE = arm-none-linux-gnueabi-$/;"	m
+EEPROM_DEV	libeeprom.c	19;"	d	file:
+EEPROM_I2C_ADDR	libeeprom.c	17;"	d	file:
+I2C_FUNCS	i2c-dev.h	139;"	d
+I2C_FUNC_10BIT_ADDR	i2c-dev.h	54;"	d
+I2C_FUNC_I2C	i2c-dev.h	53;"	d
+I2C_FUNC_PROTOCOL_MANGLING	i2c-dev.h	55;"	d
+I2C_FUNC_SMBUS_BLOCK_DATA	i2c-dev.h	79;"	d
+I2C_FUNC_SMBUS_BLOCK_PROC_CALL	i2c-dev.h	57;"	d
+I2C_FUNC_SMBUS_BYTE	i2c-dev.h	73;"	d
+I2C_FUNC_SMBUS_BYTE_DATA	i2c-dev.h	75;"	d
+I2C_FUNC_SMBUS_HWPEC_CALC	i2c-dev.h	87;"	d
+I2C_FUNC_SMBUS_I2C_BLOCK	i2c-dev.h	81;"	d
+I2C_FUNC_SMBUS_I2C_BLOCK_2	i2c-dev.h	83;"	d
+I2C_FUNC_SMBUS_PEC	i2c-dev.h	56;"	d
+I2C_FUNC_SMBUS_PROC_CALL	i2c-dev.h	65;"	d
+I2C_FUNC_SMBUS_QUICK	i2c-dev.h	58;"	d
+I2C_FUNC_SMBUS_READ_BLOCK_DATA	i2c-dev.h	66;"	d
+I2C_FUNC_SMBUS_READ_BYTE	i2c-dev.h	59;"	d
+I2C_FUNC_SMBUS_READ_BYTE_DATA	i2c-dev.h	61;"	d
+I2C_FUNC_SMBUS_READ_I2C_BLOCK	i2c-dev.h	68;"	d
+I2C_FUNC_SMBUS_READ_I2C_BLOCK_2	i2c-dev.h	70;"	d
+I2C_FUNC_SMBUS_READ_WORD_DATA	i2c-dev.h	63;"	d
+I2C_FUNC_SMBUS_WORD_DATA	i2c-dev.h	77;"	d
+I2C_FUNC_SMBUS_WRITE_BLOCK_DATA	i2c-dev.h	67;"	d
+I2C_FUNC_SMBUS_WRITE_BYTE	i2c-dev.h	60;"	d
+I2C_FUNC_SMBUS_WRITE_BYTE_DATA	i2c-dev.h	62;"	d
+I2C_FUNC_SMBUS_WRITE_I2C_BLOCK	i2c-dev.h	69;"	d
+I2C_FUNC_SMBUS_WRITE_I2C_BLOCK_2	i2c-dev.h	71;"	d
+I2C_FUNC_SMBUS_WRITE_WORD_DATA	i2c-dev.h	64;"	d
+I2C_M_IGNORE_NAK	i2c-dev.h	45;"	d
+I2C_M_NOSTART	i2c-dev.h	43;"	d
+I2C_M_NO_RD_ACK	i2c-dev.h	46;"	d
+I2C_M_RD	i2c-dev.h	42;"	d
+I2C_M_REV_DIR_ADDR	i2c-dev.h	44;"	d
+I2C_M_TEN	i2c-dev.h	41;"	d
+I2C_PEC	i2c-dev.h	141;"	d
+I2C_RDWR	i2c-dev.h	140;"	d
+I2C_RETRIES	i2c-dev.h	124;"	d
+I2C_SLAVE	i2c-dev.h	131;"	d
+I2C_SLAVE_FORCE	i2c-dev.h	133;"	d
+I2C_SMBUS	i2c-dev.h	143;"	d
+I2C_SMBUS_BLOCK_DATA	i2c-dev.h	112;"	d
+I2C_SMBUS_BLOCK_MAX	i2c-dev.h	92;"	d
+I2C_SMBUS_BLOCK_PROC_CALL	i2c-dev.h	114;"	d
+I2C_SMBUS_BYTE	i2c-dev.h	108;"	d
+I2C_SMBUS_BYTE_DATA	i2c-dev.h	109;"	d
+I2C_SMBUS_I2C_BLOCK_BROKEN	i2c-dev.h	113;"	d
+I2C_SMBUS_I2C_BLOCK_DATA	i2c-dev.h	115;"	d
+I2C_SMBUS_I2C_BLOCK_MAX	i2c-dev.h	93;"	d
+I2C_SMBUS_PROC_CALL	i2c-dev.h	111;"	d
+I2C_SMBUS_QUICK	i2c-dev.h	107;"	d
+I2C_SMBUS_READ	i2c-dev.h	102;"	d
+I2C_SMBUS_WORD_DATA	i2c-dev.h	110;"	d
+I2C_SMBUS_WRITE	i2c-dev.h	103;"	d
+I2C_TENBIT	i2c-dev.h	137;"	d
+I2C_TIMEOUT	i2c-dev.h	127;"	d
+LD	Makefile	/^LD	=     $(CROSS_COMPILE)ld$/;"	m
+LIB_I2CDEV_H	i2c-dev.h	26;"	d
+MAXSIZE	libeeprom.h	13;"	d
+MAXTEST	readeeprom.c	9;"	d	file:
+STRIP	Makefile	/^STRIP = $(CROSS_COMPILE)strip$/;"	m
+__LIBEEPROM__	libeeprom.h	3;"	d
+addr	i2c-dev.h	/^	__u16 addr;	\/* slave address			*\/$/;"	m	struct:i2c_msg
+block	i2c-dev.h	/^	__u8 block[I2C_SMBUS_BLOCK_MAX + 2]; \/* block[0] is used for length *\/$/;"	m	union:i2c_smbus_data
+buf	i2c-dev.h	/^	char *buf;		\/* pointer to msg data			*\/$/;"	m	struct:i2c_msg
+byte	i2c-dev.h	/^	__u8 byte;$/;"	m	union:i2c_smbus_data
+command	i2c-dev.h	/^	__u8 command;$/;"	m	struct:i2c_smbus_ioctl_data
+data	i2c-dev.h	/^	union i2c_smbus_data *data;$/;"	m	struct:i2c_smbus_ioctl_data	typeref:union:i2c_smbus_ioctl_data::i2c_smbus_data
+eeprom_close	libeeprom.c	/^int eeprom_close()$/;"	f
+eeprom_open	libeeprom.c	/^int eeprom_open()$/;"	f
+eeprom_read_buf	libeeprom.c	/^int eeprom_read_buf(unsigned int start, unsigned int len, unsigned char * buf)$/;"	f
+eeprom_read_byte	libeeprom.c	/^unsigned char eeprom_read_byte(unsigned int addr)$/;"	f
+eeprom_write_buf	libeeprom.c	/^int eeprom_write_buf(unsigned int start, unsigned int len, unsigned char * buf)$/;"	f
+eeprom_write_byte	libeeprom.c	/^int eeprom_write_byte(unsigned int addr, unsigned char data)$/;"	f
+fd	libeeprom.c	/^int fd = 0;$/;"	v
+flags	i2c-dev.h	/^	unsigned short flags;		$/;"	m	struct:i2c_msg
+i2c_msg	i2c-dev.h	/^struct i2c_msg {$/;"	s
+i2c_rdwr_ioctl_data	i2c-dev.h	/^struct i2c_rdwr_ioctl_data {$/;"	s
+i2c_smbus_access	i2c-dev.h	/^static inline __s32 i2c_smbus_access(int file, char read_write, __u8 command, $/;"	f
+i2c_smbus_block_process_call	i2c-dev.h	/^static inline __s32 i2c_smbus_block_process_call(int file, __u8 command,$/;"	f
+i2c_smbus_data	i2c-dev.h	/^union i2c_smbus_data {$/;"	u
+i2c_smbus_ioctl_data	i2c-dev.h	/^struct i2c_smbus_ioctl_data {$/;"	s
+i2c_smbus_process_call	i2c-dev.h	/^static inline __s32 i2c_smbus_process_call(int file, __u8 command, __u16 value)$/;"	f
+i2c_smbus_read_block_data	i2c-dev.h	/^static inline __s32 i2c_smbus_read_block_data(int file, __u8 command, $/;"	f
+i2c_smbus_read_byte	i2c-dev.h	/^static inline __s32 i2c_smbus_read_byte(int file)$/;"	f
+i2c_smbus_read_byte_data	i2c-dev.h	/^static inline __s32 i2c_smbus_read_byte_data(int file, __u8 command)$/;"	f
+i2c_smbus_read_i2c_block_data	i2c-dev.h	/^static inline __s32 i2c_smbus_read_i2c_block_data(int file, __u8 command,$/;"	f
+i2c_smbus_read_word_data	i2c-dev.h	/^static inline __s32 i2c_smbus_read_word_data(int file, __u8 command)$/;"	f
+i2c_smbus_write_block_data	i2c-dev.h	/^static inline __s32 i2c_smbus_write_block_data(int file, __u8 command, $/;"	f
+i2c_smbus_write_byte	i2c-dev.h	/^static inline __s32 i2c_smbus_write_byte(int file, __u8 value)$/;"	f
+i2c_smbus_write_byte_data	i2c-dev.h	/^static inline __s32 i2c_smbus_write_byte_data(int file, __u8 command, $/;"	f
+i2c_smbus_write_i2c_block_data	i2c-dev.h	/^static inline __s32 i2c_smbus_write_i2c_block_data(int file, __u8 command,$/;"	f
+i2c_smbus_write_quick	i2c-dev.h	/^static inline __s32 i2c_smbus_write_quick(int file, __u8 value)$/;"	f
+i2c_smbus_write_word_data	i2c-dev.h	/^static inline __s32 i2c_smbus_write_word_data(int file, __u8 command, $/;"	f
+len	i2c-dev.h	/^	short len;		\/* msg length				*\/$/;"	m	struct:i2c_msg
+main	readeeprom.c	/^int main(int argc, char** argv)$/;"	f
+msgs	i2c-dev.h	/^	struct i2c_msg *msgs;	\/* pointers to i2c_msgs *\/$/;"	m	struct:i2c_rdwr_ioctl_data	typeref:struct:i2c_rdwr_ioctl_data::i2c_msg
+nmsgs	i2c-dev.h	/^	int nmsgs;		\/* number of i2c_msgs *\/$/;"	m	struct:i2c_rdwr_ioctl_data
+objects	Makefile	/^objects = readeeprom.o libeeprom.o $/;"	m
+read_write	i2c-dev.h	/^	char read_write;$/;"	m	struct:i2c_smbus_ioctl_data
+size	i2c-dev.h	/^	int size;$/;"	m	struct:i2c_smbus_ioctl_data
+word	i2c-dev.h	/^	__u16 word;$/;"	m	union:i2c_smbus_data

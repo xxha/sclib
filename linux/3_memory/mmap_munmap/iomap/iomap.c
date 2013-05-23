@@ -91,7 +91,6 @@ static int iomap_mmap(struct file *file, struct vm_area_struct *vma)
 	 * done non-cached.
 	 */
 	if (file->f_flags & O_SYNC){
-		/*vma->vm_page_prot.pgprot |= (_PAGE_NO_CACHE | _PAGE_GUARDED);*/
 		vma->vm_page_prot |= (_PAGE_NO_CACHE | _PAGE_GUARDED);
 	}
 
@@ -105,7 +104,6 @@ static int iomap_mmap(struct file *file, struct vm_area_struct *vma)
 		vma->vm_flags &= ~VM_IO;
 
 
-	//if (remap_page_range(vma->vm_start, idev->base, size, vma->vm_page_prot))  
 	if (remap_pfn_range(vma, vma->vm_start, idev->base>>PAGE_SHIFT, size, vma->vm_page_prot))
 		return -EAGAIN;
 
