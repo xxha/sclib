@@ -1,0 +1,2640 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	bindings/Makefile	/^ACLOCAL = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	bindings/python/Makefile	/^ACLOCAL = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	doc/Makefile	/^ACLOCAL = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	examples/Makefile	/^ACLOCAL = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	src/Makefile	/^ACLOCAL = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	bindings/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	bindings/python/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	doc/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	examples/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run tar$/;"	m
+AMTAR	bindings/Makefile	/^AMTAR = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run tar$/;"	m
+AMTAR	bindings/python/Makefile	/^AMTAR = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run tar$/;"	m
+AMTAR	doc/Makefile	/^AMTAR = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run tar$/;"	m
+AMTAR	examples/Makefile	/^AMTAR = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run tar$/;"	m
+AMTAR	src/Makefile	/^AMTAR = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run tar$/;"	m
+AM_LDFLAGS	examples/Makefile	/^AM_LDFLAGS = -no-install$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AM_RECURSIVE_TARGETS	bindings/Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AR	bindings/Makefile	/^AR = ar$/;"	m
+AR	bindings/python/Makefile	/^AR = ar$/;"	m
+AR	doc/Makefile	/^AR = ar$/;"	m
+AR	examples/Makefile	/^AR = ar$/;"	m
+AR	src/Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoconf$/;"	m
+AUTOCONF	bindings/Makefile	/^AUTOCONF = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoconf$/;"	m
+AUTOCONF	bindings/python/Makefile	/^AUTOCONF = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoconf$/;"	m
+AUTOCONF	doc/Makefile	/^AUTOCONF = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoconf$/;"	m
+AUTOCONF	examples/Makefile	/^AUTOCONF = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoconf$/;"	m
+AUTOCONF	src/Makefile	/^AUTOCONF = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoheader$/;"	m
+AUTOHEADER	bindings/Makefile	/^AUTOHEADER = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoheader$/;"	m
+AUTOHEADER	bindings/python/Makefile	/^AUTOHEADER = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoheader$/;"	m
+AUTOHEADER	doc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoheader$/;"	m
+AUTOHEADER	examples/Makefile	/^AUTOHEADER = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoheader$/;"	m
+AUTOHEADER	src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run automake-1.11$/;"	m
+AUTOMAKE	bindings/Makefile	/^AUTOMAKE = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run automake-1.11$/;"	m
+AUTOMAKE	bindings/python/Makefile	/^AUTOMAKE = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run automake-1.11$/;"	m
+AUTOMAKE	doc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run automake-1.11$/;"	m
+AUTOMAKE	examples/Makefile	/^AUTOMAKE = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run automake-1.11$/;"	m
+AUTOMAKE	src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run automake-1.11$/;"	m
+AUTOMAKE_OPTIONS	Makefile	/^AUTOMAKE_OPTIONS = foreign 1.4$/;"	m
+AUTO_DETACH_SIO_MODULE	src/ftdi.h	/^    AUTO_DETACH_SIO_MODULE = 0,$/;"	e	enum:ftdi_module_detach_mode
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	bindings/Makefile	/^AWK = gawk$/;"	m
+AWK	bindings/python/Makefile	/^AWK = gawk$/;"	m
+AWK	doc/Makefile	/^AWK = gawk$/;"	m
+AWK	examples/Makefile	/^AWK = gawk$/;"	m
+AWK	src/Makefile	/^AWK = gawk$/;"	m
+BACKLIGHT_OFFSET	examples/main.c	60;"	d	file:
+BACKLIGHT_OFFSET	examples/sdupfail.c	32;"	d	file:
+BACKLIGHT_OFFSET	examples/simple.c	46;"	d	file:
+BACKLIGHT_OFFSET	examples/testopm.c	29;"	d	file:
+BACKLIGHT_OFFSET	examples/ux40040gsn.c	63;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400bl.c	32;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400bootkey.c	38;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400buzz.c	63;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400clocks.c	32;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400cpld.c	63;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400cpldver.c	32;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400fanoff.c	63;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400keys.c	65;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400opm-new.c	29;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400opm.c	32;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400poweroff.c	63;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400rss.c	32;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400updatepower.c	63;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400upower.c	61;"	d	file:
+BACKLIGHT_OFFSET	examples/ux400vfl.c	46;"	d	file:
+BITMODE_BITBANG	src/ftdi.h	/^    BITMODE_BITBANG= 0x01,    \/**< classical asynchronous bitbang mode, introduced with B-type chips *\/$/;"	e	enum:ftdi_mpsse_mode
+BITMODE_CBUS	src/ftdi.h	/^    BITMODE_CBUS   = 0x20,    \/**< Bitbang on CBUS pins of R-type chips, configure in EEPROM before *\/$/;"	e	enum:ftdi_mpsse_mode
+BITMODE_MCU	src/ftdi.h	/^    BITMODE_MCU    = 0x08,    \/**< MCU Host Bus Emulation mode, available on 2232x chips *\/$/;"	e	enum:ftdi_mpsse_mode
+BITMODE_MPSSE	src/ftdi.h	/^    BITMODE_MPSSE  = 0x02,    \/**< MPSSE mode, available on 2232x chips *\/$/;"	e	enum:ftdi_mpsse_mode
+BITMODE_OPTO	src/ftdi.h	/^    BITMODE_OPTO   = 0x10,    \/**< Fast Opto-Isolated Serial Interface Mode, available on 2232x chips  *\/$/;"	e	enum:ftdi_mpsse_mode
+BITMODE_RESET	src/ftdi.h	/^    BITMODE_RESET  = 0x00,    \/**< switch off bitbang mode, back to regular serial\/FIFO *\/$/;"	e	enum:ftdi_mpsse_mode
+BITMODE_SYNCBB	src/ftdi.h	/^    BITMODE_SYNCBB = 0x04,    \/**< synchronous bitbang mode, available on 2232x and R-type chips  *\/$/;"	e	enum:ftdi_mpsse_mode
+BITMODE_SYNCFF	src/ftdi.h	/^    BITMODE_SYNCFF = 0x40,    \/**< Single Channel Synchronous FIFO mode, available on 2232H chips *\/$/;"	e	enum:ftdi_mpsse_mode
+BITS_7	src/ftdi.h	/^enum ftdi_bits_type { BITS_7=7, BITS_8=8 };$/;"	e	enum:ftdi_bits_type
+BITS_8	src/ftdi.h	/^enum ftdi_bits_type { BITS_7=7, BITS_8=8 };$/;"	e	enum:ftdi_bits_type
+BOOST_CPPFLAGS	Makefile	/^BOOST_CPPFLAGS = -I\/include\/boost-0$/;"	m
+BOOST_CPPFLAGS	bindings/Makefile	/^BOOST_CPPFLAGS = -I\/include\/boost-0$/;"	m
+BOOST_CPPFLAGS	bindings/python/Makefile	/^BOOST_CPPFLAGS = -I\/include\/boost-0$/;"	m
+BOOST_CPPFLAGS	doc/Makefile	/^BOOST_CPPFLAGS = -I\/include\/boost-0$/;"	m
+BOOST_CPPFLAGS	examples/Makefile	/^BOOST_CPPFLAGS = -I\/include\/boost-0$/;"	m
+BOOST_CPPFLAGS	src/Makefile	/^BOOST_CPPFLAGS = -I\/include\/boost-0$/;"	m
+BOOST_LDFLAGS	Makefile	/^BOOST_LDFLAGS = -L\/lib$/;"	m
+BOOST_LDFLAGS	bindings/Makefile	/^BOOST_LDFLAGS = -L\/lib$/;"	m
+BOOST_LDFLAGS	bindings/python/Makefile	/^BOOST_LDFLAGS = -L\/lib$/;"	m
+BOOST_LDFLAGS	doc/Makefile	/^BOOST_LDFLAGS = -L\/lib$/;"	m
+BOOST_LDFLAGS	examples/Makefile	/^BOOST_LDFLAGS = -L\/lib$/;"	m
+BOOST_LDFLAGS	src/Makefile	/^BOOST_LDFLAGS = -L\/lib$/;"	m
+BREAK_OFF	src/ftdi.h	/^enum ftdi_break_type { BREAK_OFF=0, BREAK_ON=1 };$/;"	e	enum:ftdi_break_type
+BREAK_ON	src/ftdi.h	/^enum ftdi_break_type { BREAK_OFF=0, BREAK_ON=1 };$/;"	e	enum:ftdi_break_type
+BUF_SIZE	examples/bucheck.c	22;"	d	file:
+BUF_SIZE	examples/main.c	23;"	d	file:
+BUF_SIZE	examples/sdupfail.c	26;"	d	file:
+BUF_SIZE	examples/simple.c	26;"	d	file:
+BUF_SIZE	examples/ux40040gsn.c	26;"	d	file:
+BUF_SIZE	examples/ux400bl.c	28;"	d	file:
+BUF_SIZE	examples/ux400bootkey.c	26;"	d	file:
+BUF_SIZE	examples/ux400buzz.c	26;"	d	file:
+BUF_SIZE	examples/ux400cpld.c	26;"	d	file:
+BUF_SIZE	examples/ux400fanoff.c	26;"	d	file:
+BUF_SIZE	examples/ux400gpio.c	23;"	d	file:
+BUF_SIZE	examples/ux400gpioall.c	23;"	d	file:
+BUF_SIZE	examples/ux400keys.c	28;"	d	file:
+BUF_SIZE	examples/ux400poweroff.c	26;"	d	file:
+BUF_SIZE	examples/ux400updatepower.c	26;"	d	file:
+BUF_SIZE	examples/ux400upower.c	24;"	d	file:
+BUF_SIZE	examples/ux400vfl.c	26;"	d	file:
+BUZZER_DELAY	examples/main.c	56;"	d	file:
+BUZZER_DELAY	examples/sdupfail.c	31;"	d	file:
+BUZZER_DELAY	examples/simple.c	42;"	d	file:
+BUZZER_DELAY	examples/ux40040gsn.c	59;"	d	file:
+BUZZER_DELAY	examples/ux400bl.c	30;"	d	file:
+BUZZER_DELAY	examples/ux400bootkey.c	34;"	d	file:
+BUZZER_DELAY	examples/ux400buzz.c	59;"	d	file:
+BUZZER_DELAY	examples/ux400cpld.c	59;"	d	file:
+BUZZER_DELAY	examples/ux400fanoff.c	59;"	d	file:
+BUZZER_DELAY	examples/ux400keys.c	61;"	d	file:
+BUZZER_DELAY	examples/ux400poweroff.c	59;"	d	file:
+BUZZER_DELAY	examples/ux400updatepower.c	59;"	d	file:
+BUZZER_DELAY	examples/ux400upower.c	57;"	d	file:
+BUZZER_DELAY	examples/ux400vfl.c	42;"	d	file:
+CBUS_BB_RD	src/ftdi.h	268;"	d
+CBUS_BB_WR	src/ftdi.h	266;"	d
+CBUS_CLK12	src/ftdi.h	260;"	d
+CBUS_CLK24	src/ftdi.h	258;"	d
+CBUS_CLK48	src/ftdi.h	256;"	d
+CBUS_CLK6	src/ftdi.h	262;"	d
+CBUS_IOMODE	src/ftdi.h	264;"	d
+CBUS_PWREN	src/ftdi.h	246;"	d
+CBUS_RXLED	src/ftdi.h	248;"	d
+CBUS_SLEEP	src/ftdi.h	254;"	d
+CBUS_TXDEN	src/ftdi.h	244;"	d
+CBUS_TXLED	src/ftdi.h	250;"	d
+CBUS_TXRXLED	src/ftdi.h	252;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CC	bindings/Makefile	/^CC = gcc$/;"	m
+CC	bindings/python/Makefile	/^CC = gcc$/;"	m
+CC	doc/Makefile	/^CC = gcc$/;"	m
+CC	examples/Makefile	/^CC = gcc$/;"	m
+CC	src/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	bindings/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	bindings/python/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	doc/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	examples/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	examples/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	src/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2 $/;"	m
+CFLAGS	bindings/Makefile	/^CFLAGS = -g -O2 $/;"	m
+CFLAGS	bindings/python/Makefile	/^CFLAGS = -g -O2 $/;"	m
+CFLAGS	doc/Makefile	/^CFLAGS = -g -O2 $/;"	m
+CFLAGS	examples/Makefile	/^CFLAGS = -g -O2 $/;"	m
+CFLAGS	src/Makefile	/^CFLAGS = -g -O2 $/;"	m
+CLEANFILES	doc/Makefile	/^CLEANFILES = rm -rf html man$/;"	m
+COMPILE	examples/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES = libftdi-config libftdi.pc libftdi.spec \\$/;"	m
+CONFIG_CLEAN_FILES	bindings/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	bindings/python/Makefile	/^CONFIG_CLEAN_FILES = setup.py$/;"	m
+CONFIG_CLEAN_FILES	doc/Makefile	/^CONFIG_CLEAN_FILES = Doxyfile$/;"	m
+CONFIG_CLEAN_FILES	examples/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	bindings/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	bindings/python/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	doc/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	examples/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	bindings/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	bindings/python/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	doc/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	examples/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPP	bindings/Makefile	/^CPP = gcc -E$/;"	m
+CPP	bindings/python/Makefile	/^CPP = gcc -E$/;"	m
+CPP	doc/Makefile	/^CPP = gcc -E$/;"	m
+CPP	examples/Makefile	/^CPP = gcc -E$/;"	m
+CPP	src/Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	bindings/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	bindings/python/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	doc/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	examples/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	src/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	bindings/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	examples/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	src/Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXX	bindings/Makefile	/^CXX = g++$/;"	m
+CXX	bindings/python/Makefile	/^CXX = g++$/;"	m
+CXX	doc/Makefile	/^CXX = g++$/;"	m
+CXX	examples/Makefile	/^CXX = g++$/;"	m
+CXX	src/Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	examples/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	bindings/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	bindings/python/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	doc/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	examples/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	src/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	bindings/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	bindings/python/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	doc/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	examples/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	bindings/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	bindings/python/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	doc/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	examples/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXLD	examples/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	examples/Makefile	/^CXXLINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	bindings/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	bindings/python/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	doc/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	examples/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	src/Makefile	/^CYGPATH_W = echo$/;"	m
+Context	ftdipp/ftdi.cpp	/^Context::Context()$/;"	f	class:Ftdi::Context
+Context	ftdipp/ftdi.hpp	/^class Context$/;"	c	namespace:Ftdi
+CreateProcess	libtool	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CreateProcess	ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+DATA	Makefile	/^DATA = $(pkgconfig_DATA)$/;"	m
+DEFAULT_INCLUDES	examples/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	bindings/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	bindings/python/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	doc/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	examples/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	bindings/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	bindings/python/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	doc/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	examples/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	src/Makefile	/^DEPDIR = .deps$/;"	m
+DEPRECATED	src/ftdi.h	159;"	d
+DEPRECATED	src/ftdi.h	161;"	d
+DEPRECATED	src/ftdi.h	164;"	d
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	bindings/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	bindings/python/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	doc/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	examples/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = README $(am__configure_deps) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	bindings/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	bindings/python/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in \\$/;"	m
+DIST_COMMON	doc/Makefile	/^DIST_COMMON = $(srcdir)\/Doxyfile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	examples/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	src/Makefile	/^DIST_COMMON = $(include_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	bindings/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	bindings/python/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	doc/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	examples/Makefile	/^DIST_SOURCES = $(baud_test_SOURCES) $(bitbang_SOURCES) \\$/;"	m
+DIST_SOURCES	src/Makefile	/^DIST_SOURCES = $(libftdi_la_SOURCES)$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	bindings/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIV_VALUE	src/ftdi.h	89;"	d
+DONT_DETACH_SIO_MODULE	src/ftdi.h	/^    DONT_DETACH_SIO_MODULE = 1$/;"	e	enum:ftdi_module_detach_mode
+DOXYGEN	Makefile	/^DOXYGEN = $/;"	m
+DOXYGEN	bindings/Makefile	/^DOXYGEN = $/;"	m
+DOXYGEN	bindings/python/Makefile	/^DOXYGEN = $/;"	m
+DOXYGEN	doc/Makefile	/^DOXYGEN = $/;"	m
+DOXYGEN	examples/Makefile	/^DOXYGEN = $/;"	m
+DOXYGEN	src/Makefile	/^DOXYGEN = $/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	bindings/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	bindings/python/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	doc/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	examples/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	src/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	bindings/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	bindings/python/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	doc/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	examples/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	src/Makefile	/^DUMPBIN = $/;"	m
+Direction	ftdipp/ftdi.hpp	/^    enum Direction$/;"	g	class:Ftdi::Context
+Dtr	ftdipp/ftdi.hpp	/^        Dtr,$/;"	e	enum:Ftdi::Context::ModemCtl
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_C	bindings/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	bindings/python/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	doc/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	examples/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	src/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	bindings/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	bindings/python/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	doc/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	examples/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ECHO_T	bindings/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	bindings/python/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	doc/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	examples/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	src/Makefile	/^ECHO_T = $/;"	m
+EEPROM_40G_FILE_NAME	examples/ux400_eeprom_40g.c	30;"	d	file:
+EEPROM_BUS_FILE_NAME	examples/ux400_eeprom_40g.c	28;"	d	file:
+EEPROM_BUS_FILE_NAME	examples/ux400_eeprom_read.c	200;"	d	file:
+EEPROM_BUS_FILE_NAME	examples/ux400_eeprom_write.c	28;"	d	file:
+EEPROM_RS232_FILE_NAME	examples/ux400_eeprom_40g.c	29;"	d	file:
+EEPROM_RS232_FILE_NAME	examples/ux400_eeprom_read.c	201;"	d	file:
+EEPROM_RS232_FILE_NAME	examples/ux400_eeprom_write.c	29;"	d	file:
+EEPROM_SIZE	examples/ux400_eeprom_40g.c	27;"	d	file:
+EEPROM_SIZE	examples/ux400_eeprom_read.c	199;"	d	file:
+EEPROM_SIZE	examples/ux400_eeprom_write.c	27;"	d	file:
+EEPROM_SIZE	examples/ux400_ftdi_eeprom.c	24;"	d	file:
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	bindings/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	bindings/python/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	doc/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	examples/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	src/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENABLE_ASYNC_MODE	Makefile	/^ENABLE_ASYNC_MODE = 0$/;"	m
+ENABLE_ASYNC_MODE	bindings/Makefile	/^ENABLE_ASYNC_MODE = 0$/;"	m
+ENABLE_ASYNC_MODE	bindings/python/Makefile	/^ENABLE_ASYNC_MODE = 0$/;"	m
+ENABLE_ASYNC_MODE	doc/Makefile	/^ENABLE_ASYNC_MODE = 0$/;"	m
+ENABLE_ASYNC_MODE	examples/Makefile	/^ENABLE_ASYNC_MODE = 0$/;"	m
+ENABLE_ASYNC_MODE	src/Makefile	/^ENABLE_ASYNC_MODE = 0$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGS	bindings/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	examples/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	src/Makefile	/^ETAGS = etags$/;"	m
+EVEN	src/ftdi.h	/^enum ftdi_parity_type { NONE=0, ODD=1, EVEN=2, MARK=3, SPACE=4 };$/;"	e	enum:ftdi_parity_type
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXEEXT	bindings/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	bindings/python/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	doc/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	examples/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	src/Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = libftdi.spec libftdi.spec.in COPYING.LIB COPYING.GPL LICENSE \\$/;"	m
+EXTRA_DIST	bindings/Makefile	/^EXTRA_DIST = ftdi.i CMakeLists.txt$/;"	m
+EXTRA_DIST	examples/Makefile	/^EXTRA_DIST = CMakeLists.txt$/;"	m
+EXTRA_DIST	src/Makefile	/^EXTRA_DIST = CMakeLists.txt$/;"	m
+Eeprom	ftdipp/ftdi.cpp	/^Eeprom::Eeprom(Context* parent)$/;"	f	class:Ftdi::Eeprom
+Eeprom	ftdipp/ftdi.hpp	/^class Eeprom$/;"	c	namespace:Ftdi
+FAN_SLEEP	examples/main.c	30;"	d	file:
+FAN_SLEEP	examples/simple.c	33;"	d	file:
+FAN_SLEEP	examples/ux40040gsn.c	33;"	d	file:
+FAN_SLEEP	examples/ux400buzz.c	33;"	d	file:
+FAN_SLEEP	examples/ux400cpld.c	33;"	d	file:
+FAN_SLEEP	examples/ux400fanoff.c	33;"	d	file:
+FAN_SLEEP	examples/ux400gpio.c	30;"	d	file:
+FAN_SLEEP	examples/ux400gpioall.c	30;"	d	file:
+FAN_SLEEP	examples/ux400keys.c	35;"	d	file:
+FAN_SLEEP	examples/ux400poweroff.c	33;"	d	file:
+FAN_SLEEP	examples/ux400updatepower.c	33;"	d	file:
+FAN_SLEEP	examples/ux400upower.c	31;"	d	file:
+FAN_SLEEP	examples/ux400vfl.c	33;"	d	file:
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	bindings/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	bindings/python/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	doc/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	examples/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	src/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FTDI_DEFAULT_EEPROM_SIZE	src/ftdi.h	22;"	d
+FTDI_DEVICE_IN_REQTYPE	src/ftdi.h	116;"	d
+FTDI_DEVICE_OUT_REQTYPE	src/ftdi.h	115;"	d
+FTDI_URB_USERCONTEXT_COOKIE	src/ftdi.h	156;"	d
+Ftdi	ftdipp/ftdi.cpp	/^namespace Ftdi$/;"	n	file:
+Ftdi	ftdipp/ftdi.hpp	/^namespace Ftdi$/;"	n
+GET_BITS_HIGH	src/ftdi.h	83;"	d
+GET_BITS_LOW	src/ftdi.h	82;"	d
+GPS_BAUDRATE	examples/backup_simple.c	27;"	d	file:
+GPS_BAUDRATE	examples/ux400gps.c	27;"	d	file:
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	bindings/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	bindings/python/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	doc/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	examples/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	src/Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+GetBinStartAddr	examples/main.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/sdupfail.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/simple.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/ux40040gsn.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/ux400bl.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/ux400cpld.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/ux400fanoff.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/ux400keys.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/ux400poweroff.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/ux400updatepower.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+GetBinStartAddr	examples/ux400vfl.c	/^static long GetBinStartAddr(unsigned char *pBuff, long len)$/;"	f	file:
+HAVELIBUSB	Makefile	/^HAVELIBUSB = libusb-config$/;"	m
+HAVELIBUSB	bindings/Makefile	/^HAVELIBUSB = libusb-config$/;"	m
+HAVELIBUSB	bindings/python/Makefile	/^HAVELIBUSB = libusb-config$/;"	m
+HAVELIBUSB	doc/Makefile	/^HAVELIBUSB = libusb-config$/;"	m
+HAVELIBUSB	examples/Makefile	/^HAVELIBUSB = libusb-config$/;"	m
+HAVELIBUSB	src/Makefile	/^HAVELIBUSB = libusb-config$/;"	m
+HAVE_DLFCN_H	config.h	8;"	d
+HAVE_INTTYPES_H	config.h	11;"	d
+HAVE_MEMORY_H	config.h	14;"	d
+HAVE_STDINT_H	config.h	17;"	d
+HAVE_STDLIB_H	config.h	20;"	d
+HAVE_STRINGS_H	config.h	23;"	d
+HAVE_STRING_H	config.h	26;"	d
+HAVE_SYS_STAT_H	config.h	29;"	d
+HAVE_SYS_TYPES_H	config.h	32;"	d
+HAVE_UNISTD_H	config.h	35;"	d
+HEADERS	src/Makefile	/^HEADERS = $(include_HEADERS)$/;"	m
+HIGH_CURRENT_DRIVE	src/ftdi.h	289;"	d
+INCLUDES	examples/Makefile	/^INCLUDES = -I$(top_srcdir)\/src -I$(top_srcdir)\/ftdipp$/;"	m
+INIT_CYCLE	examples/main.c	28;"	d	file:
+INIT_CYCLE	examples/simple.c	31;"	d	file:
+INIT_CYCLE	examples/ux40040gsn.c	31;"	d	file:
+INIT_CYCLE	examples/ux400buzz.c	31;"	d	file:
+INIT_CYCLE	examples/ux400cpld.c	31;"	d	file:
+INIT_CYCLE	examples/ux400fanoff.c	31;"	d	file:
+INIT_CYCLE	examples/ux400gpio.c	28;"	d	file:
+INIT_CYCLE	examples/ux400gpioall.c	28;"	d	file:
+INIT_CYCLE	examples/ux400keys.c	33;"	d	file:
+INIT_CYCLE	examples/ux400poweroff.c	31;"	d	file:
+INIT_CYCLE	examples/ux400updatepower.c	31;"	d	file:
+INIT_CYCLE	examples/ux400upower.c	29;"	d	file:
+INIT_CYCLE	examples/ux400vfl.c	31;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	bindings/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	bindings/python/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	doc/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	examples/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	bindings/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	bindings/python/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	doc/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	examples/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	bindings/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	bindings/python/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	doc/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	examples/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	bindings/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	bindings/python/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	doc/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	examples/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	bindings/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	bindings/python/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	doc/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	examples/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	bindings/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	bindings/python/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	doc/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	examples/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INTERFACE_A	src/ftdi.h	/^    INTERFACE_A   = 1,$/;"	e	enum:ftdi_interface
+INTERFACE_ANY	src/ftdi.h	/^    INTERFACE_ANY = 0,$/;"	e	enum:ftdi_interface
+INTERFACE_B	src/ftdi.h	/^    INTERFACE_B   = 2,$/;"	e	enum:ftdi_interface
+INTERFACE_C	src/ftdi.h	/^    INTERFACE_C   = 3,$/;"	e	enum:ftdi_interface
+INTERFACE_D	src/ftdi.h	/^    INTERFACE_D   = 4$/;"	e	enum:ftdi_interface
+INVERT_CTS	src/ftdi.h	278;"	d
+INVERT_DCD	src/ftdi.h	284;"	d
+INVERT_DSR	src/ftdi.h	282;"	d
+INVERT_DTR	src/ftdi.h	280;"	d
+INVERT_RI	src/ftdi.h	286;"	d
+INVERT_RTS	src/ftdi.h	276;"	d
+INVERT_RXD	src/ftdi.h	274;"	d
+INVERT_TXD	src/ftdi.h	272;"	d
+Input	ftdipp/ftdi.hpp	/^        Input,$/;"	e	enum:Ftdi::Context::Direction
+KEYOFFSET	examples/main.c	62;"	d	file:
+KEYOFFSET	examples/sdupfail.c	34;"	d	file:
+KEYOFFSET	examples/simple.c	48;"	d	file:
+KEYOFFSET	examples/testopm.c	31;"	d	file:
+KEYOFFSET	examples/ux40040gsn.c	65;"	d	file:
+KEYOFFSET	examples/ux400bl.c	34;"	d	file:
+KEYOFFSET	examples/ux400bootkey.c	40;"	d	file:
+KEYOFFSET	examples/ux400buzz.c	65;"	d	file:
+KEYOFFSET	examples/ux400clocks.c	34;"	d	file:
+KEYOFFSET	examples/ux400cpld.c	65;"	d	file:
+KEYOFFSET	examples/ux400cpldver.c	34;"	d	file:
+KEYOFFSET	examples/ux400fanoff.c	65;"	d	file:
+KEYOFFSET	examples/ux400keys.c	67;"	d	file:
+KEYOFFSET	examples/ux400opm-new.c	31;"	d	file:
+KEYOFFSET	examples/ux400opm.c	34;"	d	file:
+KEYOFFSET	examples/ux400poweroff.c	65;"	d	file:
+KEYOFFSET	examples/ux400rss.c	34;"	d	file:
+KEYOFFSET	examples/ux400updatepower.c	65;"	d	file:
+KEYOFFSET	examples/ux400upower.c	63;"	d	file:
+KEYOFFSET	examples/ux400vfl.c	48;"	d	file:
+KEYS_TEST	examples/ux400cpld.c	37;"	d	file:
+KEYS_TEST	examples/ux400fanoff.c	37;"	d	file:
+KEYS_TEST	examples/ux400keys.c	39;"	d	file:
+KEYS_TEST	examples/ux400updatepower.c	37;"	d	file:
+KEYS_TEST	examples/ux400upower.c	35;"	d	file:
+KEY_INTERVAL	examples/sdupfail.c	35;"	d	file:
+KEY_INTERVAL	examples/ux400keys.c	82;"	d	file:
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	bindings/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	bindings/python/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	doc/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	examples/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	src/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDADD	examples/Makefile	/^LDADD = $(top_builddir)\/src\/libftdi.la$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	bindings/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	bindings/python/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	doc/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	examples/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	src/Makefile	/^LDFLAGS = $/;"	m
+LIBFTDI_MODULES	Makefile	/^LIBFTDI_MODULES = $/;"	m
+LIBFTDI_MODULES	bindings/Makefile	/^LIBFTDI_MODULES = $/;"	m
+LIBFTDI_MODULES	bindings/python/Makefile	/^LIBFTDI_MODULES = $/;"	m
+LIBFTDI_MODULES	doc/Makefile	/^LIBFTDI_MODULES = $/;"	m
+LIBFTDI_MODULES	examples/Makefile	/^LIBFTDI_MODULES = $/;"	m
+LIBFTDI_MODULES	src/Makefile	/^LIBFTDI_MODULES = $/;"	m
+LIBFTDI_MODULES_PKGCONFIG	Makefile	/^LIBFTDI_MODULES_PKGCONFIG = $/;"	m
+LIBFTDI_MODULES_PKGCONFIG	bindings/Makefile	/^LIBFTDI_MODULES_PKGCONFIG = $/;"	m
+LIBFTDI_MODULES_PKGCONFIG	bindings/python/Makefile	/^LIBFTDI_MODULES_PKGCONFIG = $/;"	m
+LIBFTDI_MODULES_PKGCONFIG	doc/Makefile	/^LIBFTDI_MODULES_PKGCONFIG = $/;"	m
+LIBFTDI_MODULES_PKGCONFIG	examples/Makefile	/^LIBFTDI_MODULES_PKGCONFIG = $/;"	m
+LIBFTDI_MODULES_PKGCONFIG	src/Makefile	/^LIBFTDI_MODULES_PKGCONFIG = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	bindings/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	bindings/python/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	doc/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	examples/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	src/Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS =  -L\/usr\/lib -lusb$/;"	m
+LIBS	bindings/Makefile	/^LIBS =  -L\/usr\/lib -lusb$/;"	m
+LIBS	bindings/python/Makefile	/^LIBS =  -L\/usr\/lib -lusb$/;"	m
+LIBS	doc/Makefile	/^LIBS =  -L\/usr\/lib -lusb$/;"	m
+LIBS	examples/Makefile	/^LIBS =  -L\/usr\/lib -lusb$/;"	m
+LIBS	src/Makefile	/^LIBS =  -L\/usr\/lib -lusb$/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	bindings/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	bindings/python/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	doc/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	examples/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	src/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	examples/Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LINK	src/Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LIPO	bindings/Makefile	/^LIPO = $/;"	m
+LIPO	bindings/python/Makefile	/^LIPO = $/;"	m
+LIPO	doc/Makefile	/^LIPO = $/;"	m
+LIPO	examples/Makefile	/^LIPO = $/;"	m
+LIPO	src/Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LN_S	bindings/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	bindings/python/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	doc/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	examples/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	src/Makefile	/^LN_S = ln -s$/;"	m
+LOOPBACK_END	src/ftdi.h	85;"	d
+LOOPBACK_START	src/ftdi.h	84;"	d
+LTCOMPILE	examples/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	src/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCXXCOMPILE	examples/Makefile	/^LTCXXCOMPILE = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	bindings/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	bindings/python/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	doc/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	examples/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	src/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	src/Makefile	/^LTLIBRARIES = $(lib_LTLIBRARIES)$/;"	m
+LT_OBJDIR	config.h	39;"	d
+List	ftdipp/ftdi.cpp	/^List::List(struct ftdi_device_list* devlist)$/;"	f	class:Ftdi::List
+List	ftdipp/ftdi.hpp	/^class List$/;"	c	namespace:Ftdi
+ListType	ftdipp/ftdi.hpp	/^    typedef std::list<Context> ListType;$/;"	t	class:Ftdi::List
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run makeinfo$/;"	m
+MAKEINFO	bindings/Makefile	/^MAKEINFO = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run makeinfo$/;"	m
+MAKEINFO	bindings/python/Makefile	/^MAKEINFO = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run makeinfo$/;"	m
+MAKEINFO	doc/Makefile	/^MAKEINFO = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run makeinfo$/;"	m
+MAKEINFO	examples/Makefile	/^MAKEINFO = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run makeinfo$/;"	m
+MAKEINFO	src/Makefile	/^MAKEINFO = ${SHELL} \/home\/v400\/libftdi-0.19\/missing --run makeinfo$/;"	m
+MANUALS	doc/Makefile	/^MANUALS = html\/index.html$/;"	m
+MARK	src/ftdi.h	/^enum ftdi_parity_type { NONE=0, ODD=1, EVEN=2, MARK=3, SPACE=4 };$/;"	e	enum:ftdi_parity_type
+MAX_DEVICES	examples/main.c	25;"	d	file:
+MAX_DEVICES	examples/simple.c	28;"	d	file:
+MAX_DEVICES	examples/ux40040gsn.c	28;"	d	file:
+MAX_DEVICES	examples/ux400bootkey.c	28;"	d	file:
+MAX_DEVICES	examples/ux400buzz.c	28;"	d	file:
+MAX_DEVICES	examples/ux400cpld.c	28;"	d	file:
+MAX_DEVICES	examples/ux400fanoff.c	28;"	d	file:
+MAX_DEVICES	examples/ux400gpio.c	25;"	d	file:
+MAX_DEVICES	examples/ux400gpioall.c	25;"	d	file:
+MAX_DEVICES	examples/ux400keys.c	30;"	d	file:
+MAX_DEVICES	examples/ux400poweroff.c	28;"	d	file:
+MAX_DEVICES	examples/ux400updatepower.c	28;"	d	file:
+MAX_DEVICES	examples/ux400upower.c	26;"	d	file:
+MAX_DEVICES	examples/ux400vfl.c	28;"	d	file:
+METASOURCES	examples/Makefile	/^METASOURCES = AUTO$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	bindings/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	bindings/python/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	doc/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	examples/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MPSSE_BITMODE	src/ftdi.h	68;"	d
+MPSSE_DO_READ	src/ftdi.h	72;"	d
+MPSSE_DO_WRITE	src/ftdi.h	71;"	d
+MPSSE_LSB	src/ftdi.h	70;"	d
+MPSSE_READ_NEG	src/ftdi.h	69;"	d
+MPSSE_WRITE_NEG	src/ftdi.h	67;"	d
+MPSSE_WRITE_TMS	src/ftdi.h	73;"	d
+ModemCtl	ftdipp/ftdi.hpp	/^    enum ModemCtl$/;"	g	class:Ftdi::Context
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	bindings/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	bindings/python/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	doc/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	examples/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	src/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NMEDIT	bindings/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	bindings/python/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	doc/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	examples/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	src/Makefile	/^NMEDIT = $/;"	m
+NONE	src/ftdi.h	/^enum ftdi_parity_type { NONE=0, ODD=1, EVEN=2, MARK=3, SPACE=4 };$/;"	e	enum:ftdi_parity_type
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	bindings/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	bindings/python/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	doc/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	examples/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	bindings/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	bindings/python/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	doc/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	examples/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	bindings/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	bindings/python/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	doc/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	examples/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	src/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	bindings/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	bindings/python/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	doc/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	examples/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	src/Makefile	/^OBJEXT = o$/;"	m
+ODD	src/ftdi.h	/^enum ftdi_parity_type { NONE=0, ODD=1, EVEN=2, MARK=3, SPACE=4 };$/;"	e	enum:ftdi_parity_type
+OPM_BAUDRATE	examples/ux400opmtest.c	27;"	d	file:
+OPM_OFF	examples/main.c	51;"	d	file:
+OPM_OFF	examples/testopm.c	24;"	d	file:
+OPM_OFF	examples/ux40040gsn.c	54;"	d	file:
+OPM_OFF	examples/ux400buzz.c	54;"	d	file:
+OPM_OFF	examples/ux400clocks.c	27;"	d	file:
+OPM_OFF	examples/ux400cpld.c	54;"	d	file:
+OPM_OFF	examples/ux400cpldver.c	27;"	d	file:
+OPM_OFF	examples/ux400fanoff.c	54;"	d	file:
+OPM_OFF	examples/ux400keys.c	56;"	d	file:
+OPM_OFF	examples/ux400opm-new.c	24;"	d	file:
+OPM_OFF	examples/ux400opm.c	27;"	d	file:
+OPM_OFF	examples/ux400poweroff.c	54;"	d	file:
+OPM_OFF	examples/ux400rss.c	27;"	d	file:
+OPM_OFF	examples/ux400updatepower.c	54;"	d	file:
+OPM_OFF	examples/ux400upower.c	52;"	d	file:
+OPM_ON	examples/main.c	50;"	d	file:
+OPM_ON	examples/testopm.c	23;"	d	file:
+OPM_ON	examples/ux40040gsn.c	53;"	d	file:
+OPM_ON	examples/ux400buzz.c	53;"	d	file:
+OPM_ON	examples/ux400clocks.c	26;"	d	file:
+OPM_ON	examples/ux400cpld.c	53;"	d	file:
+OPM_ON	examples/ux400cpldver.c	26;"	d	file:
+OPM_ON	examples/ux400fanoff.c	53;"	d	file:
+OPM_ON	examples/ux400keys.c	55;"	d	file:
+OPM_ON	examples/ux400opm-new.c	23;"	d	file:
+OPM_ON	examples/ux400opm.c	26;"	d	file:
+OPM_ON	examples/ux400poweroff.c	53;"	d	file:
+OPM_ON	examples/ux400rss.c	26;"	d	file:
+OPM_ON	examples/ux400updatepower.c	53;"	d	file:
+OPM_ON	examples/ux400upower.c	51;"	d	file:
+OPTION_OFFSET_FTDI	examples/ux400_ftdi_eeprom.c	26;"	d	file:
+OPTION_SIZE_FTDI	examples/ux400_ftdi_eeprom.c	27;"	d	file:
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL	bindings/Makefile	/^OTOOL = $/;"	m
+OTOOL	bindings/python/Makefile	/^OTOOL = $/;"	m
+OTOOL	doc/Makefile	/^OTOOL = $/;"	m
+OTOOL	examples/Makefile	/^OTOOL = $/;"	m
+OTOOL	src/Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	bindings/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	bindings/python/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	doc/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	examples/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	src/Makefile	/^OTOOL64 = $/;"	m
+Output	ftdipp/ftdi.hpp	/^        Output$/;"	e	enum:Ftdi::Context::Direction
+PACKAGE	Makefile	/^PACKAGE = libftdi$/;"	m
+PACKAGE	bindings/Makefile	/^PACKAGE = libftdi$/;"	m
+PACKAGE	bindings/python/Makefile	/^PACKAGE = libftdi$/;"	m
+PACKAGE	config.h	42;"	d
+PACKAGE	doc/Makefile	/^PACKAGE = libftdi$/;"	m
+PACKAGE	examples/Makefile	/^PACKAGE = libftdi$/;"	m
+PACKAGE	src/Makefile	/^PACKAGE = libftdi$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	bindings/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	bindings/python/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	config.h	45;"	d
+PACKAGE_BUGREPORT	doc/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	examples/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_BUGREPORT	src/Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = libftdi$/;"	m
+PACKAGE_NAME	bindings/Makefile	/^PACKAGE_NAME = libftdi$/;"	m
+PACKAGE_NAME	bindings/python/Makefile	/^PACKAGE_NAME = libftdi$/;"	m
+PACKAGE_NAME	config.h	48;"	d
+PACKAGE_NAME	doc/Makefile	/^PACKAGE_NAME = libftdi$/;"	m
+PACKAGE_NAME	examples/Makefile	/^PACKAGE_NAME = libftdi$/;"	m
+PACKAGE_NAME	src/Makefile	/^PACKAGE_NAME = libftdi$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = libftdi 0.19$/;"	m
+PACKAGE_STRING	bindings/Makefile	/^PACKAGE_STRING = libftdi 0.19$/;"	m
+PACKAGE_STRING	bindings/python/Makefile	/^PACKAGE_STRING = libftdi 0.19$/;"	m
+PACKAGE_STRING	config.h	51;"	d
+PACKAGE_STRING	doc/Makefile	/^PACKAGE_STRING = libftdi 0.19$/;"	m
+PACKAGE_STRING	examples/Makefile	/^PACKAGE_STRING = libftdi 0.19$/;"	m
+PACKAGE_STRING	src/Makefile	/^PACKAGE_STRING = libftdi 0.19$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = libftdi$/;"	m
+PACKAGE_TARNAME	bindings/Makefile	/^PACKAGE_TARNAME = libftdi$/;"	m
+PACKAGE_TARNAME	bindings/python/Makefile	/^PACKAGE_TARNAME = libftdi$/;"	m
+PACKAGE_TARNAME	config.h	54;"	d
+PACKAGE_TARNAME	doc/Makefile	/^PACKAGE_TARNAME = libftdi$/;"	m
+PACKAGE_TARNAME	examples/Makefile	/^PACKAGE_TARNAME = libftdi$/;"	m
+PACKAGE_TARNAME	src/Makefile	/^PACKAGE_TARNAME = libftdi$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	bindings/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	bindings/python/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	config.h	57;"	d
+PACKAGE_URL	doc/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	examples/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.19$/;"	m
+PACKAGE_VERSION	bindings/Makefile	/^PACKAGE_VERSION = 0.19$/;"	m
+PACKAGE_VERSION	bindings/python/Makefile	/^PACKAGE_VERSION = 0.19$/;"	m
+PACKAGE_VERSION	config.h	60;"	d
+PACKAGE_VERSION	doc/Makefile	/^PACKAGE_VERSION = 0.19$/;"	m
+PACKAGE_VERSION	examples/Makefile	/^PACKAGE_VERSION = 0.19$/;"	m
+PACKAGE_VERSION	src/Makefile	/^PACKAGE_VERSION = 0.19$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	bindings/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	bindings/python/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	doc/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	examples/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	bindings/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	bindings/python/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	doc/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	examples/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	bindings/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	bindings/python/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	doc/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	examples/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	src/Makefile	/^POST_UNINSTALL = :$/;"	m
+POWERKEY	examples/main.c	54;"	d	file:
+POWERKEY	examples/sdupfail.c	30;"	d	file:
+POWERKEY	examples/simple.c	40;"	d	file:
+POWERKEY	examples/ux40040gsn.c	57;"	d	file:
+POWERKEY	examples/ux400bl.c	29;"	d	file:
+POWERKEY	examples/ux400bootkey.c	32;"	d	file:
+POWERKEY	examples/ux400buzz.c	57;"	d	file:
+POWERKEY	examples/ux400cpld.c	57;"	d	file:
+POWERKEY	examples/ux400fanoff.c	57;"	d	file:
+POWERKEY	examples/ux400keys.c	59;"	d	file:
+POWERKEY	examples/ux400poweroff.c	57;"	d	file:
+POWERKEY	examples/ux400updatepower.c	57;"	d	file:
+POWERKEY	examples/ux400upower.c	55;"	d	file:
+POWERKEY	examples/ux400vfl.c	40;"	d	file:
+POWERKEY_OFFSET	examples/main.c	61;"	d	file:
+POWERKEY_OFFSET	examples/sdupfail.c	33;"	d	file:
+POWERKEY_OFFSET	examples/simple.c	47;"	d	file:
+POWERKEY_OFFSET	examples/testopm.c	30;"	d	file:
+POWERKEY_OFFSET	examples/ux40040gsn.c	64;"	d	file:
+POWERKEY_OFFSET	examples/ux400bl.c	33;"	d	file:
+POWERKEY_OFFSET	examples/ux400bootkey.c	39;"	d	file:
+POWERKEY_OFFSET	examples/ux400buzz.c	64;"	d	file:
+POWERKEY_OFFSET	examples/ux400clocks.c	33;"	d	file:
+POWERKEY_OFFSET	examples/ux400cpld.c	64;"	d	file:
+POWERKEY_OFFSET	examples/ux400cpldver.c	33;"	d	file:
+POWERKEY_OFFSET	examples/ux400fanoff.c	64;"	d	file:
+POWERKEY_OFFSET	examples/ux400keys.c	66;"	d	file:
+POWERKEY_OFFSET	examples/ux400opm-new.c	30;"	d	file:
+POWERKEY_OFFSET	examples/ux400opm.c	33;"	d	file:
+POWERKEY_OFFSET	examples/ux400poweroff.c	64;"	d	file:
+POWERKEY_OFFSET	examples/ux400rss.c	33;"	d	file:
+POWERKEY_OFFSET	examples/ux400updatepower.c	64;"	d	file:
+POWERKEY_OFFSET	examples/ux400upower.c	62;"	d	file:
+POWERKEY_OFFSET	examples/ux400vfl.c	47;"	d	file:
+POWERKEY_TEST	examples/sdupfail.c	28;"	d	file:
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	bindings/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	bindings/python/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	doc/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	examples/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	bindings/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	bindings/python/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	doc/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	examples/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	examples/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PYTHON	Makefile	/^PYTHON = \/usr\/bin\/python$/;"	m
+PYTHON	bindings/Makefile	/^PYTHON = \/usr\/bin\/python$/;"	m
+PYTHON	bindings/python/Makefile	/^PYTHON = \/usr\/bin\/python$/;"	m
+PYTHON	doc/Makefile	/^PYTHON = \/usr\/bin\/python$/;"	m
+PYTHON	examples/Makefile	/^PYTHON = \/usr\/bin\/python$/;"	m
+PYTHON	src/Makefile	/^PYTHON = \/usr\/bin\/python$/;"	m
+PYTHON_EXEC_PREFIX	Makefile	/^PYTHON_EXEC_PREFIX = ${exec_prefix}$/;"	m
+PYTHON_EXEC_PREFIX	bindings/Makefile	/^PYTHON_EXEC_PREFIX = ${exec_prefix}$/;"	m
+PYTHON_EXEC_PREFIX	bindings/python/Makefile	/^PYTHON_EXEC_PREFIX = ${exec_prefix}$/;"	m
+PYTHON_EXEC_PREFIX	doc/Makefile	/^PYTHON_EXEC_PREFIX = ${exec_prefix}$/;"	m
+PYTHON_EXEC_PREFIX	examples/Makefile	/^PYTHON_EXEC_PREFIX = ${exec_prefix}$/;"	m
+PYTHON_EXEC_PREFIX	src/Makefile	/^PYTHON_EXEC_PREFIX = ${exec_prefix}$/;"	m
+PYTHON_PLATFORM	Makefile	/^PYTHON_PLATFORM = linux2$/;"	m
+PYTHON_PLATFORM	bindings/Makefile	/^PYTHON_PLATFORM = linux2$/;"	m
+PYTHON_PLATFORM	bindings/python/Makefile	/^PYTHON_PLATFORM = linux2$/;"	m
+PYTHON_PLATFORM	doc/Makefile	/^PYTHON_PLATFORM = linux2$/;"	m
+PYTHON_PLATFORM	examples/Makefile	/^PYTHON_PLATFORM = linux2$/;"	m
+PYTHON_PLATFORM	src/Makefile	/^PYTHON_PLATFORM = linux2$/;"	m
+PYTHON_PREFIX	Makefile	/^PYTHON_PREFIX = ${prefix}$/;"	m
+PYTHON_PREFIX	bindings/Makefile	/^PYTHON_PREFIX = ${prefix}$/;"	m
+PYTHON_PREFIX	bindings/python/Makefile	/^PYTHON_PREFIX = ${prefix}$/;"	m
+PYTHON_PREFIX	doc/Makefile	/^PYTHON_PREFIX = ${prefix}$/;"	m
+PYTHON_PREFIX	examples/Makefile	/^PYTHON_PREFIX = ${prefix}$/;"	m
+PYTHON_PREFIX	src/Makefile	/^PYTHON_PREFIX = ${prefix}$/;"	m
+PYTHON_VERSION	Makefile	/^PYTHON_VERSION = 2.6$/;"	m
+PYTHON_VERSION	bindings/Makefile	/^PYTHON_VERSION = 2.6$/;"	m
+PYTHON_VERSION	bindings/python/Makefile	/^PYTHON_VERSION = 2.6$/;"	m
+PYTHON_VERSION	doc/Makefile	/^PYTHON_VERSION = 2.6$/;"	m
+PYTHON_VERSION	examples/Makefile	/^PYTHON_VERSION = 2.6$/;"	m
+PYTHON_VERSION	src/Makefile	/^PYTHON_VERSION = 2.6$/;"	m
+Private	ftdipp/ftdi.cpp	/^    Private()$/;"	f	class:Ftdi::Context::Private
+Private	ftdipp/ftdi.cpp	/^    Private()$/;"	f	class:Ftdi::Eeprom::Private
+Private	ftdipp/ftdi.cpp	/^    Private(struct ftdi_device_list* _devlist)$/;"	f	class:Ftdi::List::Private
+Private	ftdipp/ftdi.cpp	/^class Context::Private$/;"	c	class:Ftdi::Context	file:
+Private	ftdipp/ftdi.cpp	/^class Eeprom::Private$/;"	c	class:Ftdi::Eeprom	file:
+Private	ftdipp/ftdi.cpp	/^class List::Private$/;"	c	class:Ftdi::List	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	bindings/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	bindings/python/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	doc/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	examples/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	src/Makefile	/^RANLIB = ranlib$/;"	m
+READ_EXTENDED	src/ftdi.h	99;"	d
+READ_SHORT	src/ftdi.h	97;"	d
+RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_CLEAN_TARGETS	bindings/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RECURSIVE_TARGETS	bindings/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+REG1_OFFSET	examples/main.c	64;"	d	file:
+REG1_OFFSET	examples/sdupfail.c	37;"	d	file:
+REG1_OFFSET	examples/simple.c	50;"	d	file:
+REG1_OFFSET	examples/testopm.c	33;"	d	file:
+REG1_OFFSET	examples/ux40040gsn.c	67;"	d	file:
+REG1_OFFSET	examples/ux400bl.c	36;"	d	file:
+REG1_OFFSET	examples/ux400bootkey.c	42;"	d	file:
+REG1_OFFSET	examples/ux400buzz.c	67;"	d	file:
+REG1_OFFSET	examples/ux400clocks.c	36;"	d	file:
+REG1_OFFSET	examples/ux400cpld.c	67;"	d	file:
+REG1_OFFSET	examples/ux400cpldver.c	36;"	d	file:
+REG1_OFFSET	examples/ux400fanoff.c	67;"	d	file:
+REG1_OFFSET	examples/ux400keys.c	69;"	d	file:
+REG1_OFFSET	examples/ux400opm-new.c	33;"	d	file:
+REG1_OFFSET	examples/ux400opm.c	36;"	d	file:
+REG1_OFFSET	examples/ux400poweroff.c	67;"	d	file:
+REG1_OFFSET	examples/ux400rss.c	36;"	d	file:
+REG1_OFFSET	examples/ux400updatepower.c	67;"	d	file:
+REG1_OFFSET	examples/ux400upower.c	65;"	d	file:
+REG1_OFFSET	examples/ux400vfl.c	50;"	d	file:
+REG4_OFFSET	examples/ux400clocks.c	37;"	d	file:
+REG4_OFFSET	examples/ux400rss.c	37;"	d	file:
+REG5_OFFSET	examples/ux400clocks.c	38;"	d	file:
+REG_CPLDVER	examples/main.c	66;"	d	file:
+REG_CPLDVER	examples/sdupfail.c	39;"	d	file:
+REG_CPLDVER	examples/simple.c	52;"	d	file:
+REG_CPLDVER	examples/testopm.c	35;"	d	file:
+REG_CPLDVER	examples/ux40040gsn.c	69;"	d	file:
+REG_CPLDVER	examples/ux400_eeprom_read.c	27;"	d	file:
+REG_CPLDVER	examples/ux400bl.c	38;"	d	file:
+REG_CPLDVER	examples/ux400bootkey.c	44;"	d	file:
+REG_CPLDVER	examples/ux400buzz.c	69;"	d	file:
+REG_CPLDVER	examples/ux400clocks.c	39;"	d	file:
+REG_CPLDVER	examples/ux400cpld.c	69;"	d	file:
+REG_CPLDVER	examples/ux400cpldver.c	38;"	d	file:
+REG_CPLDVER	examples/ux400fanoff.c	69;"	d	file:
+REG_CPLDVER	examples/ux400gpio.c	37;"	d	file:
+REG_CPLDVER	examples/ux400gpioall.c	37;"	d	file:
+REG_CPLDVER	examples/ux400keys.c	71;"	d	file:
+REG_CPLDVER	examples/ux400opm-new.c	35;"	d	file:
+REG_CPLDVER	examples/ux400opm.c	38;"	d	file:
+REG_CPLDVER	examples/ux400poweroff.c	69;"	d	file:
+REG_CPLDVER	examples/ux400rss.c	38;"	d	file:
+REG_CPLDVER	examples/ux400updatepower.c	69;"	d	file:
+REG_CPLDVER	examples/ux400upower.c	67;"	d	file:
+REG_CPLDVER	examples/ux400vfl.c	52;"	d	file:
+REG_GPIO_OFFSET	examples/main.c	65;"	d	file:
+REG_GPIO_OFFSET	examples/sdupfail.c	38;"	d	file:
+REG_GPIO_OFFSET	examples/simple.c	51;"	d	file:
+REG_GPIO_OFFSET	examples/testopm.c	34;"	d	file:
+REG_GPIO_OFFSET	examples/ux40040gsn.c	68;"	d	file:
+REG_GPIO_OFFSET	examples/ux400bl.c	37;"	d	file:
+REG_GPIO_OFFSET	examples/ux400bootkey.c	43;"	d	file:
+REG_GPIO_OFFSET	examples/ux400buzz.c	68;"	d	file:
+REG_GPIO_OFFSET	examples/ux400cpld.c	68;"	d	file:
+REG_GPIO_OFFSET	examples/ux400cpldver.c	37;"	d	file:
+REG_GPIO_OFFSET	examples/ux400fanoff.c	68;"	d	file:
+REG_GPIO_OFFSET	examples/ux400gpio.c	36;"	d	file:
+REG_GPIO_OFFSET	examples/ux400gpioall.c	36;"	d	file:
+REG_GPIO_OFFSET	examples/ux400keys.c	70;"	d	file:
+REG_GPIO_OFFSET	examples/ux400opm-new.c	34;"	d	file:
+REG_GPIO_OFFSET	examples/ux400opm.c	37;"	d	file:
+REG_GPIO_OFFSET	examples/ux400poweroff.c	68;"	d	file:
+REG_GPIO_OFFSET	examples/ux400updatepower.c	68;"	d	file:
+REG_GPIO_OFFSET	examples/ux400upower.c	66;"	d	file:
+REG_GPIO_OFFSET	examples/ux400vfl.c	51;"	d	file:
+Read_bus	examples/backup_simple.c	/^static int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Read_bus	examples/main.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/sdupfail.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/simple.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/testopm.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux40040gsn.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400_eeprom_read.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400aclock.c	/^static int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Read_bus	examples/ux400aclockcal.c	/^static int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Read_bus	examples/ux400bl.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400bootkey.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400buzz.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400clocks.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400cpld.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400cpldver.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400fanoff.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400gpio.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400gpioall.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400gps.c	/^static int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Read_bus	examples/ux400keys.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400opm-new.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400opm.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400opmtest.c	/^static int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Read_bus	examples/ux400poweroff.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400rss.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400updatepower.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400upower.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Read_bus	examples/ux400vfl.c	/^int Read_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Rts	ftdipp/ftdi.hpp	/^        Rts$/;"	e	enum:Ftdi::Context::ModemCtl
+SCRIPTS	Makefile	/^SCRIPTS = $(bin_SCRIPTS)$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SED	bindings/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	bindings/python/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	doc/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	examples/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	src/Makefile	/^SED = \/bin\/sed$/;"	m
+SEND_IMMEDIATE	src/ftdi.h	92;"	d
+SET_BITS_HIGH	src/ftdi.h	79;"	d
+SET_BITS_LOW	src/ftdi.h	76;"	d
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	bindings/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	bindings/python/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	doc/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	examples/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	src/Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	bindings/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	bindings/python/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	doc/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	examples/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SIO_DISABLE_FLOW_CTRL	src/ftdi.h	140;"	d
+SIO_DTR_DSR_HS	src/ftdi.h	142;"	d
+SIO_ERASE_EEPROM_REQUEST	src/ftdi.h	133;"	d
+SIO_GET_LATENCY_TIMER_REQUEST	src/ftdi.h	128;"	d
+SIO_MODEM_CTRL	src/ftdi.h	110;"	d
+SIO_POLL_MODEM_STATUS_REQUEST	src/ftdi.h	124;"	d
+SIO_READ_EEPROM_REQUEST	src/ftdi.h	131;"	d
+SIO_READ_PINS_REQUEST	src/ftdi.h	130;"	d
+SIO_RESET	src/ftdi.h	109;"	d
+SIO_RESET_PURGE_RX	src/ftdi.h	137;"	d
+SIO_RESET_PURGE_TX	src/ftdi.h	138;"	d
+SIO_RESET_REQUEST	src/ftdi.h	119;"	d
+SIO_RESET_SIO	src/ftdi.h	136;"	d
+SIO_RTS_CTS_HS	src/ftdi.h	141;"	d
+SIO_RTS_CTS_HS	src/ftdi.h	152;"	d
+SIO_SET_BAUDRATE_REQUEST	src/ftdi.h	120;"	d
+SIO_SET_BAUD_RATE	src/ftdi.h	112;"	d
+SIO_SET_BITMODE_REQUEST	src/ftdi.h	129;"	d
+SIO_SET_DATA	src/ftdi.h	113;"	d
+SIO_SET_DATA_REQUEST	src/ftdi.h	121;"	d
+SIO_SET_DTR_HIGH	src/ftdi.h	146;"	d
+SIO_SET_DTR_LOW	src/ftdi.h	147;"	d
+SIO_SET_DTR_MASK	src/ftdi.h	145;"	d
+SIO_SET_ERROR_CHAR_REQUEST	src/ftdi.h	126;"	d
+SIO_SET_EVENT_CHAR_REQUEST	src/ftdi.h	125;"	d
+SIO_SET_FLOW_CTRL	src/ftdi.h	111;"	d
+SIO_SET_FLOW_CTRL_REQUEST	src/ftdi.h	122;"	d
+SIO_SET_LATENCY_TIMER_REQUEST	src/ftdi.h	127;"	d
+SIO_SET_MODEM_CTRL_REQUEST	src/ftdi.h	123;"	d
+SIO_SET_RTS_HIGH	src/ftdi.h	149;"	d
+SIO_SET_RTS_LOW	src/ftdi.h	150;"	d
+SIO_SET_RTS_MASK	src/ftdi.h	148;"	d
+SIO_WRITE_EEPROM_REQUEST	src/ftdi.h	132;"	d
+SIO_XON_XOFF_HS	src/ftdi.h	143;"	d
+SOURCES	Makefile	/^SOURCES =$/;"	m
+SOURCES	bindings/Makefile	/^SOURCES =$/;"	m
+SOURCES	bindings/python/Makefile	/^SOURCES =$/;"	m
+SOURCES	doc/Makefile	/^SOURCES =$/;"	m
+SOURCES	examples/Makefile	/^SOURCES = $(baud_test_SOURCES) $(bitbang_SOURCES) $(bitbang2_SOURCES) \\$/;"	m
+SOURCES	src/Makefile	/^SOURCES = $(libftdi_la_SOURCES)$/;"	m
+SPACE	src/ftdi.h	/^enum ftdi_parity_type { NONE=0, ODD=1, EVEN=2, MARK=3, SPACE=4 };$/;"	e	enum:ftdi_parity_type
+STDC_HEADERS	config.h	63;"	d
+STOP_BIT_1	src/ftdi.h	/^enum ftdi_stopbits_type { STOP_BIT_1=0, STOP_BIT_15=1, STOP_BIT_2=2 };$/;"	e	enum:ftdi_stopbits_type
+STOP_BIT_15	src/ftdi.h	/^enum ftdi_stopbits_type { STOP_BIT_1=0, STOP_BIT_15=1, STOP_BIT_2=2 };$/;"	e	enum:ftdi_stopbits_type
+STOP_BIT_2	src/ftdi.h	/^enum ftdi_stopbits_type { STOP_BIT_1=0, STOP_BIT_15=1, STOP_BIT_2=2 };$/;"	e	enum:ftdi_stopbits_type
+STRIP	Makefile	/^STRIP = strip$/;"	m
+STRIP	bindings/Makefile	/^STRIP = strip$/;"	m
+STRIP	bindings/python/Makefile	/^STRIP = strip$/;"	m
+STRIP	doc/Makefile	/^STRIP = strip$/;"	m
+STRIP	examples/Makefile	/^STRIP = strip$/;"	m
+STRIP	src/Makefile	/^STRIP = strip$/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = src bindings $(LIBFTDI_MODULES) examples doc$/;"	m
+SUBDIRS	bindings/Makefile	/^SUBDIRS = python$/;"	m
+SWIG	Makefile	/^SWIG = $/;"	m
+SWIG	bindings/Makefile	/^SWIG = $/;"	m
+SWIG	bindings/python/Makefile	/^SWIG = $/;"	m
+SWIG	doc/Makefile	/^SWIG = $/;"	m
+SWIG	examples/Makefile	/^SWIG = $/;"	m
+SWIG	src/Makefile	/^SWIG = $/;"	m
+TCK_DIVISOR	src/ftdi.h	86;"	d
+TEST_BUFFER	examples/main.c	26;"	d	file:
+TEST_BUFFER	examples/simple.c	29;"	d	file:
+TEST_BUFFER	examples/ux40040gsn.c	29;"	d	file:
+TEST_BUFFER	examples/ux400bootkey.c	29;"	d	file:
+TEST_BUFFER	examples/ux400buzz.c	29;"	d	file:
+TEST_BUFFER	examples/ux400cpld.c	29;"	d	file:
+TEST_BUFFER	examples/ux400fanoff.c	29;"	d	file:
+TEST_BUFFER	examples/ux400gpio.c	26;"	d	file:
+TEST_BUFFER	examples/ux400gpioall.c	26;"	d	file:
+TEST_BUFFER	examples/ux400keys.c	31;"	d	file:
+TEST_BUFFER	examples/ux400poweroff.c	29;"	d	file:
+TEST_BUFFER	examples/ux400updatepower.c	29;"	d	file:
+TEST_BUFFER	examples/ux400upower.c	27;"	d	file:
+TEST_BUFFER	examples/ux400vfl.c	29;"	d	file:
+TYPE_2232C	src/ftdi.h	/^enum ftdi_chip_type { TYPE_AM=0, TYPE_BM=1, TYPE_2232C=2, TYPE_R=3, TYPE_2232H=4, TYPE_4232H=5 };$/;"	e	enum:ftdi_chip_type
+TYPE_2232H	src/ftdi.h	/^enum ftdi_chip_type { TYPE_AM=0, TYPE_BM=1, TYPE_2232C=2, TYPE_R=3, TYPE_2232H=4, TYPE_4232H=5 };$/;"	e	enum:ftdi_chip_type
+TYPE_4232H	src/ftdi.h	/^enum ftdi_chip_type { TYPE_AM=0, TYPE_BM=1, TYPE_2232C=2, TYPE_R=3, TYPE_2232H=4, TYPE_4232H=5 };$/;"	e	enum:ftdi_chip_type
+TYPE_AM	src/ftdi.h	/^enum ftdi_chip_type { TYPE_AM=0, TYPE_BM=1, TYPE_2232C=2, TYPE_R=3, TYPE_2232H=4, TYPE_4232H=5 };$/;"	e	enum:ftdi_chip_type
+TYPE_BM	src/ftdi.h	/^enum ftdi_chip_type { TYPE_AM=0, TYPE_BM=1, TYPE_2232C=2, TYPE_R=3, TYPE_2232H=4, TYPE_4232H=5 };$/;"	e	enum:ftdi_chip_type
+TYPE_R	src/ftdi.h	/^enum ftdi_chip_type { TYPE_AM=0, TYPE_BM=1, TYPE_2232C=2, TYPE_R=3, TYPE_2232H=4, TYPE_4232H=5 };$/;"	e	enum:ftdi_chip_type
+UX400DES	examples/backup_simple.c	19;"	d	file:
+UX400DES	examples/main.c	21;"	d	file:
+UX400DES	examples/sdupfail.c	22;"	d	file:
+UX400DES	examples/simple.c	24;"	d	file:
+UX400DES	examples/testopm.c	21;"	d	file:
+UX400DES	examples/ux40040gsn.c	24;"	d	file:
+UX400DES	examples/ux400_eeprom_40g.c	21;"	d	file:
+UX400DES	examples/ux400_eeprom_read.c	21;"	d	file:
+UX400DES	examples/ux400_eeprom_write.c	21;"	d	file:
+UX400DES	examples/ux400aclock.c	19;"	d	file:
+UX400DES	examples/ux400aclockcal.c	19;"	d	file:
+UX400DES	examples/ux400bl.c	24;"	d	file:
+UX400DES	examples/ux400bootkey.c	24;"	d	file:
+UX400DES	examples/ux400buzz.c	24;"	d	file:
+UX400DES	examples/ux400clocks.c	24;"	d	file:
+UX400DES	examples/ux400cpld.c	24;"	d	file:
+UX400DES	examples/ux400cpldver.c	24;"	d	file:
+UX400DES	examples/ux400fanoff.c	24;"	d	file:
+UX400DES	examples/ux400gpio.c	21;"	d	file:
+UX400DES	examples/ux400gpioall.c	21;"	d	file:
+UX400DES	examples/ux400gps.c	19;"	d	file:
+UX400DES	examples/ux400keys.c	26;"	d	file:
+UX400DES	examples/ux400opm-new.c	21;"	d	file:
+UX400DES	examples/ux400opm.c	24;"	d	file:
+UX400DES	examples/ux400opmtest.c	19;"	d	file:
+UX400DES	examples/ux400poweroff.c	24;"	d	file:
+UX400DES	examples/ux400rss.c	24;"	d	file:
+UX400DES	examples/ux400updatepower.c	24;"	d	file:
+UX400DES	examples/ux400upower.c	22;"	d	file:
+UX400DES	examples/ux400vfl.c	24;"	d	file:
+UX400PRODUCT	examples/backup_simple.c	18;"	d	file:
+UX400PRODUCT	examples/main.c	20;"	d	file:
+UX400PRODUCT	examples/sdupfail.c	21;"	d	file:
+UX400PRODUCT	examples/simple.c	23;"	d	file:
+UX400PRODUCT	examples/testopm.c	20;"	d	file:
+UX400PRODUCT	examples/ux40040gsn.c	23;"	d	file:
+UX400PRODUCT	examples/ux400_eeprom_40g.c	20;"	d	file:
+UX400PRODUCT	examples/ux400_eeprom_read.c	20;"	d	file:
+UX400PRODUCT	examples/ux400_eeprom_write.c	20;"	d	file:
+UX400PRODUCT	examples/ux400_ftdi_eeprom.c	20;"	d	file:
+UX400PRODUCT	examples/ux400aclock.c	18;"	d	file:
+UX400PRODUCT	examples/ux400aclockcal.c	18;"	d	file:
+UX400PRODUCT	examples/ux400bl.c	23;"	d	file:
+UX400PRODUCT	examples/ux400bootkey.c	23;"	d	file:
+UX400PRODUCT	examples/ux400buzz.c	23;"	d	file:
+UX400PRODUCT	examples/ux400clocks.c	23;"	d	file:
+UX400PRODUCT	examples/ux400cpld.c	23;"	d	file:
+UX400PRODUCT	examples/ux400cpldver.c	23;"	d	file:
+UX400PRODUCT	examples/ux400fanoff.c	23;"	d	file:
+UX400PRODUCT	examples/ux400gpio.c	20;"	d	file:
+UX400PRODUCT	examples/ux400gpioall.c	20;"	d	file:
+UX400PRODUCT	examples/ux400gps.c	18;"	d	file:
+UX400PRODUCT	examples/ux400keys.c	25;"	d	file:
+UX400PRODUCT	examples/ux400opm-new.c	20;"	d	file:
+UX400PRODUCT	examples/ux400opm.c	23;"	d	file:
+UX400PRODUCT	examples/ux400opmtest.c	18;"	d	file:
+UX400PRODUCT	examples/ux400poweroff.c	23;"	d	file:
+UX400PRODUCT	examples/ux400rss.c	23;"	d	file:
+UX400PRODUCT	examples/ux400updatepower.c	23;"	d	file:
+UX400PRODUCT	examples/ux400upower.c	21;"	d	file:
+UX400PRODUCT	examples/ux400vfl.c	23;"	d	file:
+UX400VENDOR	examples/backup_simple.c	17;"	d	file:
+UX400VENDOR	examples/main.c	19;"	d	file:
+UX400VENDOR	examples/sdupfail.c	20;"	d	file:
+UX400VENDOR	examples/simple.c	22;"	d	file:
+UX400VENDOR	examples/testopm.c	19;"	d	file:
+UX400VENDOR	examples/ux40040gsn.c	22;"	d	file:
+UX400VENDOR	examples/ux400_eeprom_40g.c	19;"	d	file:
+UX400VENDOR	examples/ux400_eeprom_read.c	19;"	d	file:
+UX400VENDOR	examples/ux400_eeprom_write.c	19;"	d	file:
+UX400VENDOR	examples/ux400_ftdi_eeprom.c	19;"	d	file:
+UX400VENDOR	examples/ux400aclock.c	17;"	d	file:
+UX400VENDOR	examples/ux400aclockcal.c	17;"	d	file:
+UX400VENDOR	examples/ux400bl.c	22;"	d	file:
+UX400VENDOR	examples/ux400bootkey.c	22;"	d	file:
+UX400VENDOR	examples/ux400buzz.c	22;"	d	file:
+UX400VENDOR	examples/ux400clocks.c	22;"	d	file:
+UX400VENDOR	examples/ux400cpld.c	22;"	d	file:
+UX400VENDOR	examples/ux400cpldver.c	22;"	d	file:
+UX400VENDOR	examples/ux400fanoff.c	22;"	d	file:
+UX400VENDOR	examples/ux400gpio.c	19;"	d	file:
+UX400VENDOR	examples/ux400gpioall.c	19;"	d	file:
+UX400VENDOR	examples/ux400gps.c	17;"	d	file:
+UX400VENDOR	examples/ux400keys.c	24;"	d	file:
+UX400VENDOR	examples/ux400opm-new.c	19;"	d	file:
+UX400VENDOR	examples/ux400opm.c	22;"	d	file:
+UX400VENDOR	examples/ux400opmtest.c	17;"	d	file:
+UX400VENDOR	examples/ux400poweroff.c	22;"	d	file:
+UX400VENDOR	examples/ux400rss.c	22;"	d	file:
+UX400VENDOR	examples/ux400updatepower.c	22;"	d	file:
+UX400VENDOR	examples/ux400upower.c	20;"	d	file:
+UX400VENDOR	examples/ux400vfl.c	22;"	d	file:
+UX400_100GE	examples/bucheck.c	7;"	d	file:
+UX400_100GE	examples/mtype.c	7;"	d	file:
+UX400_10G	examples/bucheck.c	6;"	d	file:
+UX400_10G	examples/mtype.c	6;"	d	file:
+UX400_16G	examples/bucheck.c	12;"	d	file:
+UX400_16G	examples/mtype.c	12;"	d	file:
+UX400_1GE	examples/bucheck.c	10;"	d	file:
+UX400_1GE	examples/mtype.c	10;"	d	file:
+UX400_2G5_TESTSN	examples/ux400_ftdi_eeprom.c	22;"	d	file:
+UX400_2P5G	examples/bucheck.c	8;"	d	file:
+UX400_2P5G	examples/mtype.c	8;"	d	file:
+UX400_40G	examples/bucheck.c	9;"	d	file:
+UX400_40G	examples/mtype.c	9;"	d	file:
+UX400_40GE	examples/bucheck.c	11;"	d	file:
+UX400_40GE	examples/mtype.c	11;"	d	file:
+UX400_LA_PATH	examples/bucheck.c	14;"	d	file:
+UX400_LA_PATH	examples/mtype.c	14;"	d	file:
+UX400_LB_PATH	examples/bucheck.c	15;"	d	file:
+UX400_LB_PATH	examples/mtype.c	15;"	d	file:
+UX400_LC_PATH	examples/bucheck.c	16;"	d	file:
+UX400_LC_PATH	examples/mtype.c	16;"	d	file:
+UX400_LOCAL_SN	examples/main.c	58;"	d	file:
+UX400_LOCAL_SN	examples/sdupfail.c	23;"	d	file:
+UX400_LOCAL_SN	examples/simple.c	44;"	d	file:
+UX400_LOCAL_SN	examples/testopm.c	27;"	d	file:
+UX400_LOCAL_SN	examples/ux40040gsn.c	61;"	d	file:
+UX400_LOCAL_SN	examples/ux400_eeprom_40g.c	24;"	d	file:
+UX400_LOCAL_SN	examples/ux400_eeprom_read.c	24;"	d	file:
+UX400_LOCAL_SN	examples/ux400_eeprom_write.c	24;"	d	file:
+UX400_LOCAL_SN	examples/ux400bl.c	25;"	d	file:
+UX400_LOCAL_SN	examples/ux400bootkey.c	36;"	d	file:
+UX400_LOCAL_SN	examples/ux400buzz.c	61;"	d	file:
+UX400_LOCAL_SN	examples/ux400clocks.c	30;"	d	file:
+UX400_LOCAL_SN	examples/ux400cpld.c	61;"	d	file:
+UX400_LOCAL_SN	examples/ux400cpldver.c	30;"	d	file:
+UX400_LOCAL_SN	examples/ux400fanoff.c	61;"	d	file:
+UX400_LOCAL_SN	examples/ux400gpio.c	34;"	d	file:
+UX400_LOCAL_SN	examples/ux400gpioall.c	34;"	d	file:
+UX400_LOCAL_SN	examples/ux400keys.c	63;"	d	file:
+UX400_LOCAL_SN	examples/ux400opm-new.c	27;"	d	file:
+UX400_LOCAL_SN	examples/ux400opm.c	30;"	d	file:
+UX400_LOCAL_SN	examples/ux400poweroff.c	61;"	d	file:
+UX400_LOCAL_SN	examples/ux400rss.c	30;"	d	file:
+UX400_LOCAL_SN	examples/ux400updatepower.c	61;"	d	file:
+UX400_LOCAL_SN	examples/ux400upower.c	59;"	d	file:
+UX400_LOCAL_SN	examples/ux400vfl.c	44;"	d	file:
+UX400_RA_PATH	examples/bucheck.c	17;"	d	file:
+UX400_RA_PATH	examples/mtype.c	17;"	d	file:
+UX400_RB_PATH	examples/bucheck.c	18;"	d	file:
+UX400_RB_PATH	examples/mtype.c	18;"	d	file:
+UX400_RC_PATH	examples/bucheck.c	19;"	d	file:
+UX400_RC_PATH	examples/mtype.c	19;"	d	file:
+UX400_RS232_A	examples/backup_simple.c	24;"	d	file:
+UX400_RS232_A	examples/ux400aclock.c	24;"	d	file:
+UX400_RS232_A	examples/ux400aclockcal.c	24;"	d	file:
+UX400_RS232_A	examples/ux400gps.c	24;"	d	file:
+UX400_RS232_A	examples/ux400opmtest.c	24;"	d	file:
+UX400_RS232_B	examples/backup_simple.c	25;"	d	file:
+UX400_RS232_B	examples/ux400aclock.c	25;"	d	file:
+UX400_RS232_B	examples/ux400aclockcal.c	25;"	d	file:
+UX400_RS232_B	examples/ux400gps.c	25;"	d	file:
+UX400_RS232_B	examples/ux400opmtest.c	25;"	d	file:
+UX400_RS232_SN	examples/backup_simple.c	22;"	d	file:
+UX400_RS232_SN	examples/ux400_eeprom_40g.c	25;"	d	file:
+UX400_RS232_SN	examples/ux400_eeprom_read.c	25;"	d	file:
+UX400_RS232_SN	examples/ux400_eeprom_write.c	25;"	d	file:
+UX400_RS232_SN	examples/ux400aclock.c	22;"	d	file:
+UX400_RS232_SN	examples/ux400aclockcal.c	22;"	d	file:
+UX400_RS232_SN	examples/ux400gps.c	22;"	d	file:
+UX400_RS232_SN	examples/ux400opmtest.c	22;"	d	file:
+UX400_SEM_CPLD	examples/sdupfail.c	24;"	d	file:
+UX400_SEM_CPLD	examples/simple.c	60;"	d	file:
+UX400_SEM_CPLD	examples/ux40040gsn.c	77;"	d	file:
+UX400_SEM_CPLD	examples/ux400bl.c	26;"	d	file:
+UX400_SEM_CPLD	examples/ux400bootkey.c	52;"	d	file:
+UX400_SEM_CPLD	examples/ux400buzz.c	77;"	d	file:
+UX400_SEM_CPLD	examples/ux400clocks.c	41;"	d	file:
+UX400_SEM_CPLD	examples/ux400cpld.c	77;"	d	file:
+UX400_SEM_CPLD	examples/ux400cpldver.c	40;"	d	file:
+UX400_SEM_CPLD	examples/ux400fanoff.c	77;"	d	file:
+UX400_SEM_CPLD	examples/ux400gpio.c	18;"	d	file:
+UX400_SEM_CPLD	examples/ux400keys.c	79;"	d	file:
+UX400_SEM_CPLD	examples/ux400opm.c	40;"	d	file:
+UX400_SEM_CPLD	examples/ux400poweroff.c	77;"	d	file:
+UX400_SEM_CPLD	examples/ux400rss.c	40;"	d	file:
+UX400_SEM_CPLD	examples/ux400updatepower.c	77;"	d	file:
+UX400_SEM_CPLD	examples/ux400upower.c	75;"	d	file:
+UX400_SEM_CPLD	examples/ux400vfl.c	60;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/main.c	68;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/sdupfail.c	41;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/simple.c	54;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux40040gsn.c	71;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400bl.c	40;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400bootkey.c	46;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400buzz.c	71;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400cpld.c	71;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400fanoff.c	71;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400keys.c	73;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400poweroff.c	71;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400updatepower.c	71;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400upower.c	69;"	d	file:
+VEEX_KEY_BACKLIGHT	examples/ux400vfl.c	54;"	d	file:
+VEEX_KEY_FILE	examples/main.c	71;"	d	file:
+VEEX_KEY_FILE	examples/sdupfail.c	44;"	d	file:
+VEEX_KEY_FILE	examples/simple.c	57;"	d	file:
+VEEX_KEY_FILE	examples/ux40040gsn.c	74;"	d	file:
+VEEX_KEY_FILE	examples/ux400bl.c	43;"	d	file:
+VEEX_KEY_FILE	examples/ux400bootkey.c	49;"	d	file:
+VEEX_KEY_FILE	examples/ux400buzz.c	74;"	d	file:
+VEEX_KEY_FILE	examples/ux400cpld.c	74;"	d	file:
+VEEX_KEY_FILE	examples/ux400fanoff.c	74;"	d	file:
+VEEX_KEY_FILE	examples/ux400keys.c	76;"	d	file:
+VEEX_KEY_FILE	examples/ux400poweroff.c	74;"	d	file:
+VEEX_KEY_FILE	examples/ux400updatepower.c	74;"	d	file:
+VEEX_KEY_FILE	examples/ux400upower.c	72;"	d	file:
+VEEX_KEY_FILE	examples/ux400vfl.c	57;"	d	file:
+VEEX_KEY_HELP	examples/main.c	70;"	d	file:
+VEEX_KEY_HELP	examples/sdupfail.c	43;"	d	file:
+VEEX_KEY_HELP	examples/simple.c	56;"	d	file:
+VEEX_KEY_HELP	examples/ux40040gsn.c	73;"	d	file:
+VEEX_KEY_HELP	examples/ux400bl.c	42;"	d	file:
+VEEX_KEY_HELP	examples/ux400bootkey.c	48;"	d	file:
+VEEX_KEY_HELP	examples/ux400buzz.c	73;"	d	file:
+VEEX_KEY_HELP	examples/ux400cpld.c	73;"	d	file:
+VEEX_KEY_HELP	examples/ux400fanoff.c	73;"	d	file:
+VEEX_KEY_HELP	examples/ux400keys.c	75;"	d	file:
+VEEX_KEY_HELP	examples/ux400poweroff.c	73;"	d	file:
+VEEX_KEY_HELP	examples/ux400updatepower.c	73;"	d	file:
+VEEX_KEY_HELP	examples/ux400upower.c	71;"	d	file:
+VEEX_KEY_HELP	examples/ux400vfl.c	56;"	d	file:
+VEEX_KEY_HISTORY	examples/main.c	72;"	d	file:
+VEEX_KEY_HISTORY	examples/sdupfail.c	45;"	d	file:
+VEEX_KEY_HISTORY	examples/simple.c	58;"	d	file:
+VEEX_KEY_HISTORY	examples/ux40040gsn.c	75;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400bl.c	44;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400bootkey.c	50;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400buzz.c	75;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400cpld.c	75;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400fanoff.c	75;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400keys.c	77;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400poweroff.c	75;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400updatepower.c	75;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400upower.c	73;"	d	file:
+VEEX_KEY_HISTORY	examples/ux400vfl.c	58;"	d	file:
+VEEX_KEY_SUMARY	examples/main.c	69;"	d	file:
+VEEX_KEY_SUMARY	examples/sdupfail.c	42;"	d	file:
+VEEX_KEY_SUMARY	examples/simple.c	55;"	d	file:
+VEEX_KEY_SUMARY	examples/ux40040gsn.c	72;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400bl.c	41;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400bootkey.c	47;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400buzz.c	72;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400cpld.c	72;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400fanoff.c	72;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400keys.c	74;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400poweroff.c	72;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400updatepower.c	72;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400upower.c	70;"	d	file:
+VEEX_KEY_SUMARY	examples/ux400vfl.c	55;"	d	file:
+VERSION	Makefile	/^VERSION = 0.19$/;"	m
+VERSION	bindings/Makefile	/^VERSION = 0.19$/;"	m
+VERSION	bindings/python/Makefile	/^VERSION = 0.19$/;"	m
+VERSION	config.h	66;"	d
+VERSION	doc/Makefile	/^VERSION = 0.19$/;"	m
+VERSION	examples/Makefile	/^VERSION = 0.19$/;"	m
+VERSION	src/Makefile	/^VERSION = 0.19$/;"	m
+VFL_BLINK	examples/main.c	45;"	d	file:
+VFL_BLINK	examples/simple.c	37;"	d	file:
+VFL_BLINK	examples/ux40040gsn.c	48;"	d	file:
+VFL_BLINK	examples/ux400buzz.c	48;"	d	file:
+VFL_BLINK	examples/ux400cpld.c	48;"	d	file:
+VFL_BLINK	examples/ux400fanoff.c	48;"	d	file:
+VFL_BLINK	examples/ux400keys.c	50;"	d	file:
+VFL_BLINK	examples/ux400poweroff.c	48;"	d	file:
+VFL_BLINK	examples/ux400updatepower.c	48;"	d	file:
+VFL_BLINK	examples/ux400upower.c	46;"	d	file:
+VFL_BLINK	examples/ux400vfl.c	37;"	d	file:
+VFL_OFF	examples/main.c	44;"	d	file:
+VFL_OFF	examples/simple.c	36;"	d	file:
+VFL_OFF	examples/ux40040gsn.c	47;"	d	file:
+VFL_OFF	examples/ux400buzz.c	47;"	d	file:
+VFL_OFF	examples/ux400cpld.c	47;"	d	file:
+VFL_OFF	examples/ux400fanoff.c	47;"	d	file:
+VFL_OFF	examples/ux400keys.c	49;"	d	file:
+VFL_OFF	examples/ux400poweroff.c	47;"	d	file:
+VFL_OFF	examples/ux400updatepower.c	47;"	d	file:
+VFL_OFF	examples/ux400upower.c	45;"	d	file:
+VFL_OFF	examples/ux400vfl.c	36;"	d	file:
+VFL_ON	examples/main.c	43;"	d	file:
+VFL_ON	examples/simple.c	35;"	d	file:
+VFL_ON	examples/ux40040gsn.c	46;"	d	file:
+VFL_ON	examples/ux400buzz.c	46;"	d	file:
+VFL_ON	examples/ux400cpld.c	46;"	d	file:
+VFL_ON	examples/ux400fanoff.c	46;"	d	file:
+VFL_ON	examples/ux400keys.c	48;"	d	file:
+VFL_ON	examples/ux400poweroff.c	46;"	d	file:
+VFL_ON	examples/ux400updatepower.c	46;"	d	file:
+VFL_ON	examples/ux400upower.c	44;"	d	file:
+VFL_ON	examples/ux400vfl.c	35;"	d	file:
+VFL_STABLE	examples/main.c	46;"	d	file:
+VFL_STABLE	examples/simple.c	38;"	d	file:
+VFL_STABLE	examples/ux40040gsn.c	49;"	d	file:
+VFL_STABLE	examples/ux400buzz.c	49;"	d	file:
+VFL_STABLE	examples/ux400cpld.c	49;"	d	file:
+VFL_STABLE	examples/ux400fanoff.c	49;"	d	file:
+VFL_STABLE	examples/ux400keys.c	51;"	d	file:
+VFL_STABLE	examples/ux400poweroff.c	49;"	d	file:
+VFL_STABLE	examples/ux400updatepower.c	49;"	d	file:
+VFL_STABLE	examples/ux400upower.c	47;"	d	file:
+VFL_STABLE	examples/ux400vfl.c	38;"	d	file:
+VFL_TEST	examples/main.c	37;"	d	file:
+VFL_TEST	examples/ux40040gsn.c	40;"	d	file:
+WAIT_ON_HIGH	src/ftdi.h	93;"	d
+WAIT_ON_LOW	src/ftdi.h	94;"	d
+WRITE_EXTENDED	src/ftdi.h	104;"	d
+WRITE_SHORT	src/ftdi.h	102;"	d
+Write_bus	examples/backup_simple.c	/^static int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Write_bus	examples/main.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/sdupfail.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/simple.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/testopm.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux40040gsn.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400_eeprom_read.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400aclock.c	/^static int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Write_bus	examples/ux400aclockcal.c	/^static int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Write_bus	examples/ux400bl.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400bootkey.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400buzz.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400clocks.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400cpld.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400cpldver.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400fanoff.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400gpio.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400gpioall.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400gps.c	/^static int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Write_bus	examples/ux400keys.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400opm-new.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400opm.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400opmtest.c	/^static int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f	file:
+Write_bus	examples/ux400poweroff.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400rss.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400updatepower.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400upower.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+Write_bus	examples/ux400vfl.c	/^int Write_bus(struct ftdi_context * handle, unsigned char haddr, unsigned char laddr, unsigned char * buff, unsigned int len)$/;"	f
+__libftdi_h__	src/ftdi.h	18;"	d
+__libftdi_hpp__	ftdipp/ftdi.hpp	30;"	d
+_ftdi_determine_max_packet_size	src/ftdi.c	/^static unsigned int _ftdi_determine_max_packet_size(struct ftdi_context *ftdi, struct usb_device *dev)$/;"	f	file:
+_usb_async_cleanup	src/ftdi.c	/^static void _usb_async_cleanup(struct ftdi_context *ftdi, int wait_for_more, int timeout_msec)$/;"	f	file:
+_usb_bulk_write_async	src/ftdi.c	/^static int _usb_bulk_write_async(struct ftdi_context *ftdi, int ep, char *bytes, int size)$/;"	f	file:
+_usb_get_async_urbs_pending	src/ftdi.c	/^static int _usb_get_async_urbs_pending(struct ftdi_context *ftdi)$/;"	f	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_builddir	bindings/Makefile	/^abs_builddir = \/home\/v400\/libftdi-0.19\/bindings$/;"	m
+abs_builddir	bindings/python/Makefile	/^abs_builddir = \/home\/v400\/libftdi-0.19\/bindings\/python$/;"	m
+abs_builddir	doc/Makefile	/^abs_builddir = \/home\/v400\/libftdi-0.19\/doc$/;"	m
+abs_builddir	examples/Makefile	/^abs_builddir = \/home\/v400\/libftdi-0.19\/examples$/;"	m
+abs_builddir	src/Makefile	/^abs_builddir = \/home\/v400\/libftdi-0.19\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_srcdir	bindings/Makefile	/^abs_srcdir = \/home\/v400\/libftdi-0.19\/bindings$/;"	m
+abs_srcdir	bindings/python/Makefile	/^abs_srcdir = \/home\/v400\/libftdi-0.19\/bindings\/python$/;"	m
+abs_srcdir	doc/Makefile	/^abs_srcdir = \/home\/v400\/libftdi-0.19\/doc$/;"	m
+abs_srcdir	examples/Makefile	/^abs_srcdir = \/home\/v400\/libftdi-0.19\/examples$/;"	m
+abs_srcdir	src/Makefile	/^abs_srcdir = \/home\/v400\/libftdi-0.19\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_builddir	bindings/Makefile	/^abs_top_builddir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_builddir	bindings/python/Makefile	/^abs_top_builddir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_builddir	doc/Makefile	/^abs_top_builddir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_builddir	examples/Makefile	/^abs_top_builddir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_builddir	src/Makefile	/^abs_top_builddir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_srcdir	bindings/Makefile	/^abs_top_srcdir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_srcdir	bindings/python/Makefile	/^abs_top_srcdir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_srcdir	doc/Makefile	/^abs_top_srcdir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_srcdir	examples/Makefile	/^abs_top_srcdir = \/home\/v400\/libftdi-0.19$/;"	m
+abs_top_srcdir	src/Makefile	/^abs_top_srcdir = \/home\/v400\/libftdi-0.19$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	bindings/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	bindings/python/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	doc/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	examples/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	bindings/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	bindings/python/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	doc/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	examples/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	src/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	bindings/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	bindings/python/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	doc/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	examples/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	src/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+ac_fn_cxx_try_compile	configure	/^ac_fn_cxx_try_compile ()$/;"	f
+ac_fn_cxx_try_cpp	configure	/^ac_fn_cxx_try_cpp ()$/;"	f
+ac_fn_cxx_try_link	configure	/^ac_fn_cxx_try_link ()$/;"	f
+aclock_BAUDRATE	examples/ux400aclock.c	27;"	d	file:
+aclock_BAUDRATE	examples/ux400aclockcal.c	27;"	d	file:
+all_examples	examples/Makefile	/^all_examples = simple \\$/;"	m
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__EXEEXT_2	examples/Makefile	/^am__EXEEXT_2 = simple$(EXEEXT) bitbang$(EXEEXT) \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/acinclude.m4 \\$/;"	m
+am__aclocal_m4_deps	bindings/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/acinclude.m4 \\$/;"	m
+am__aclocal_m4_deps	bindings/python/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/acinclude.m4 \\$/;"	m
+am__aclocal_m4_deps	doc/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/acinclude.m4 \\$/;"	m
+am__aclocal_m4_deps	examples/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/acinclude.m4 \\$/;"	m
+am__aclocal_m4_deps	src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/acinclude.m4 \\$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__base_list	src/Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	bindings/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	bindings/python/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	doc/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	examples/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	bindings/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	bindings/python/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	doc/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	examples/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	examples/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__find_all_pp_SOURCES_DIST	examples/Makefile	/^am__find_all_pp_SOURCES_DIST = find_all_pp.cpp$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__include	bindings/Makefile	/^am__include = include$/;"	m
+am__include	bindings/python/Makefile	/^am__include = include$/;"	m
+am__include	doc/Makefile	/^am__include = include$/;"	m
+am__include	examples/Makefile	/^am__include = include$/;"	m
+am__include	src/Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__install_max	src/Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(pkgconfigdir)"$/;"	m
+am__installdirs	examples/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__installdirs	src/Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)" "$(DESTDIR)$(includedir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	bindings/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	bindings/python/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	doc/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	examples/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	src/Makefile	/^am__leading_dot = .$/;"	m
+am__mv	examples/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	src/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	src/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	src/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	src/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__quote	bindings/Makefile	/^am__quote = $/;"	m
+am__quote	bindings/python/Makefile	/^am__quote = $/;"	m
+am__quote	doc/Makefile	/^am__quote = $/;"	m
+am__quote	examples/Makefile	/^am__quote = $/;"	m
+am__quote	src/Makefile	/^am__quote = $/;"	m
+am__relativize	Makefile	/^am__relativize = \\$/;"	m
+am__relativize	bindings/Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	src/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	bindings/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	bindings/python/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	doc/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	examples/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	src/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	bindings/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	bindings/python/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	doc/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	examples/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	src/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	src/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	src/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_baud_test_OBJECTS	examples/Makefile	/^am_baud_test_OBJECTS = baud_test.$(OBJEXT)$/;"	m
+am_bitbang2_OBJECTS	examples/Makefile	/^am_bitbang2_OBJECTS = bitbang2.$(OBJEXT)$/;"	m
+am_bitbang_OBJECTS	examples/Makefile	/^am_bitbang_OBJECTS = bitbang.$(OBJEXT)$/;"	m
+am_bitbang_cbus_OBJECTS	examples/Makefile	/^am_bitbang_cbus_OBJECTS = bitbang_cbus.$(OBJEXT)$/;"	m
+am_bitbang_ft2232_OBJECTS	examples/Makefile	/^am_bitbang_ft2232_OBJECTS = bitbang_ft2232.$(OBJEXT)$/;"	m
+am_find_all_OBJECTS	examples/Makefile	/^am_find_all_OBJECTS = find_all.$(OBJEXT)$/;"	m
+am_libftdi_la_OBJECTS	src/Makefile	/^am_libftdi_la_OBJECTS = ftdi.lo$/;"	m
+am_serial_read_OBJECTS	examples/Makefile	/^am_serial_read_OBJECTS = serial_read.$(OBJEXT)$/;"	m
+am_simple_OBJECTS	examples/Makefile	/^am_simple_OBJECTS = simple.$(OBJEXT)$/;"	m
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+async_usb_buffer	src/ftdi.h	/^    char *async_usb_buffer;$/;"	m	struct:ftdi_context
+async_usb_buffer_size	src/ftdi.h	/^    unsigned int async_usb_buffer_size;$/;"	m	struct:ftdi_context
+author	bindings/python/setup.py	/^      author='Tarek Heiland',$/;"	v
+author_email	bindings/python/setup.py	/^      author_email='',$/;"	v
+backlight	examples/main.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/sdupfail.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/simple.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/ux40040gsn.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/ux400bl.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/ux400cpld.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/ux400fanoff.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/ux400keys.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/ux400poweroff.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/ux400updatepower.c	/^int backlight(unsigned char data)$/;"	f
+backlight	examples/ux400vfl.c	/^int backlight(unsigned char data)$/;"	f
+baud_test_DEPENDENCIES	examples/Makefile	/^baud_test_DEPENDENCIES = $(top_builddir)\/src\/libftdi.la$/;"	m
+baud_test_LDADD	examples/Makefile	/^baud_test_LDADD = $(LDADD)$/;"	m
+baud_test_OBJECTS	examples/Makefile	/^baud_test_OBJECTS = $(am_baud_test_OBJECTS)$/;"	m
+baud_test_SOURCES	examples/Makefile	/^baud_test_SOURCES = baud_test.c$/;"	m
+baudrate	src/ftdi.h	/^    int baudrate;$/;"	m	struct:ftdi_context
+begin	ftdipp/ftdi.cpp	/^List::const_iterator List::begin() const$/;"	f	class:Ftdi::List
+begin	ftdipp/ftdi.cpp	/^List::iterator List::begin()$/;"	f	class:Ftdi::List
+bin_PROGRAMS	examples/Makefile	/^bin_PROGRAMS = $(am__EXEEXT_2)$/;"	m
+bin_SCRIPTS	Makefile	/^bin_SCRIPTS = libftdi-config$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	bindings/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	bindings/python/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	doc/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	examples/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bitbang2_DEPENDENCIES	examples/Makefile	/^bitbang2_DEPENDENCIES = $(top_builddir)\/src\/libftdi.la$/;"	m
+bitbang2_LDADD	examples/Makefile	/^bitbang2_LDADD = $(LDADD)$/;"	m
+bitbang2_OBJECTS	examples/Makefile	/^bitbang2_OBJECTS = $(am_bitbang2_OBJECTS)$/;"	m
+bitbang2_SOURCES	examples/Makefile	/^bitbang2_SOURCES = bitbang2.c$/;"	m
+bitbang_DEPENDENCIES	examples/Makefile	/^bitbang_DEPENDENCIES = $(top_builddir)\/src\/libftdi.la$/;"	m
+bitbang_LDADD	examples/Makefile	/^bitbang_LDADD = $(LDADD)$/;"	m
+bitbang_OBJECTS	examples/Makefile	/^bitbang_OBJECTS = $(am_bitbang_OBJECTS)$/;"	m
+bitbang_SOURCES	examples/Makefile	/^bitbang_SOURCES = bitbang.c$/;"	m
+bitbang_cbus_DEPENDENCIES	examples/Makefile	/^bitbang_cbus_DEPENDENCIES = $(top_builddir)\/src\/libftdi.la$/;"	m
+bitbang_cbus_LDADD	examples/Makefile	/^bitbang_cbus_LDADD = $(LDADD)$/;"	m
+bitbang_cbus_OBJECTS	examples/Makefile	/^bitbang_cbus_OBJECTS = $(am_bitbang_cbus_OBJECTS)$/;"	m
+bitbang_cbus_SOURCES	examples/Makefile	/^bitbang_cbus_SOURCES = bitbang_cbus.c$/;"	m
+bitbang_disable	ftdipp/ftdi.cpp	/^int Context::bitbang_disable()$/;"	f	class:Ftdi::Context
+bitbang_enable	ftdipp/ftdi.cpp	/^int Context::bitbang_enable(unsigned char bitmask)$/;"	f	class:Ftdi::Context
+bitbang_enabled	src/ftdi.h	/^    unsigned char bitbang_enabled;$/;"	m	struct:ftdi_context
+bitbang_ft2232_DEPENDENCIES	examples/Makefile	/^bitbang_ft2232_DEPENDENCIES = $(top_builddir)\/src\/libftdi.la$/;"	m
+bitbang_ft2232_LDADD	examples/Makefile	/^bitbang_ft2232_LDADD = $(LDADD)$/;"	m
+bitbang_ft2232_OBJECTS	examples/Makefile	/^bitbang_ft2232_OBJECTS = $(am_bitbang_ft2232_OBJECTS)$/;"	m
+bitbang_ft2232_SOURCES	examples/Makefile	/^bitbang_ft2232_SOURCES = bitbang_ft2232.c$/;"	m
+bitbang_mode	src/ftdi.h	/^    unsigned char bitbang_mode;$/;"	m	struct:ftdi_context
+bootkey	examples/ux400bootkey.c	/^int bootkey()$/;"	f
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	bindings/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	bindings/python/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	doc/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	examples/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	ftdipp/ftdi.cpp	/^int Eeprom::build(unsigned char *output)$/;"	f	class:Ftdi::Eeprom
+build	src/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_alias	bindings/Makefile	/^build_alias = $/;"	m
+build_alias	bindings/python/Makefile	/^build_alias = $/;"	m
+build_alias	doc/Makefile	/^build_alias = $/;"	m
+build_alias	examples/Makefile	/^build_alias = $/;"	m
+build_alias	src/Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_cpu	bindings/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	bindings/python/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	doc/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	examples/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	src/Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_os	bindings/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	bindings/python/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	doc/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	examples/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	src/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	bindings/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	bindings/python/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	doc/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	examples/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	src/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+build_vendor	bindings/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	bindings/python/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	doc/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	examples/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	src/Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+builddir	bindings/Makefile	/^builddir = .$/;"	m
+builddir	bindings/python/Makefile	/^builddir = .$/;"	m
+builddir	doc/Makefile	/^builddir = .$/;"	m
+builddir	examples/Makefile	/^builddir = .$/;"	m
+builddir	src/Makefile	/^builddir = .$/;"	m
+buzzer	examples/main.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/sdupfail.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/simple.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux40040gsn.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux400bl.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux400buzz.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux400cpld.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux400fanoff.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux400keys.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux400poweroff.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux400updatepower.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux400upower.c	/^int buzzer(int on)$/;"	f
+buzzer	examples/ux400vfl.c	/^int buzzer(int on)$/;"	f
+cbus_function	src/ftdi.h	/^    int cbus_function[5];$/;"	m	struct:ftdi_eeprom
+change_usb_version	src/ftdi.h	/^    int change_usb_version;$/;"	m	struct:ftdi_eeprom
+chip_id	ftdipp/ftdi.cpp	/^int Eeprom::chip_id(unsigned int *chipid)$/;"	f	class:Ftdi::Eeprom
+chip_type	src/ftdi.h	/^    int chip_type;$/;"	m	struct:ftdi_eeprom
+clear	ftdipp/ftdi.cpp	/^void List::clear()$/;"	f	class:Ftdi::List
+close	ftdipp/ftdi.cpp	/^int Context::close()$/;"	f	class:Ftdi::Context
+const_iterator	ftdipp/ftdi.hpp	/^    typedef ListType::const_iterator const_iterator;$/;"	t	class:Ftdi::List
+const_reverse_iterator	ftdipp/ftdi.hpp	/^    typedef ListType::const_reverse_iterator const_reverse_iterator;$/;"	t	class:Ftdi::List
+context	ftdipp/ftdi.cpp	/^    struct ftdi_context* context;$/;"	m	class:Ftdi::Eeprom::Private	typeref:struct:Ftdi::Eeprom::Private::ftdi_context	file:
+context	ftdipp/ftdi.cpp	/^struct ftdi_context* Context::context()$/;"	f	class:Ftdi::Context
+cpldver	examples/main.c	/^char cpldver(void)$/;"	f
+cpldver	examples/sdupfail.c	/^char cpldver(void)$/;"	f
+cpldver	examples/simple.c	/^char cpldver(void)$/;"	f
+cpldver	examples/testopm.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux40040gsn.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400_eeprom_read.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400bl.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400cpld.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400cpldver.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400fanoff.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400gpioall.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400keys.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400opm-new.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400opm.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400poweroff.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400updatepower.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400upower.c	/^char cpldver(void)$/;"	f
+cpldver	examples/ux400vfl.c	/^char cpldver(void)$/;"	f
+d	ftdipp/ftdi.hpp	/^    boost::shared_ptr<Private> d;$/;"	m	class:Ftdi::Context
+d	ftdipp/ftdi.hpp	/^    boost::shared_ptr<Private> d;$/;"	m	class:Ftdi::Eeprom
+d	ftdipp/ftdi.hpp	/^    boost::shared_ptr<Private> d;$/;"	m	class:Ftdi::List
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	bindings/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	bindings/python/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	doc/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	examples/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	bindings/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	bindings/python/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	doc/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	examples/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	examples/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+description	bindings/python/setup.py	/^      description='libftdi Python binding',$/;"	v
+description	ftdipp/ftdi.cpp	/^    std::string description;$/;"	m	class:Ftdi::Context::Private	file:
+description	ftdipp/ftdi.cpp	/^const std::string& Context::description()$/;"	f	class:Ftdi::Context
+dev	ftdipp/ftdi.cpp	/^    struct usb_device*   dev;$/;"	m	class:Ftdi::Context::Private	typeref:struct:Ftdi::Context::Private::usb_device	file:
+dev	src/ftdi.h	/^    struct usb_device *dev;$/;"	m	struct:ftdi_device_list	typeref:struct:ftdi_device_list::usb_device
+devlist	ftdipp/ftdi.cpp	/^    struct ftdi_device_list* devlist;$/;"	m	class:Ftdi::List::Private	typeref:struct:Ftdi::List::Private::ftdi_device_list	file:
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	bindings/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	bindings/python/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	doc/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	examples/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	bindings/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	bindings/python/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	doc/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	examples/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	src/Makefile	/^dvidir = ${docdir}$/;"	m
+eeprom	examples/ux400_ftdi_eeprom.c	/^unsigned char eeprom[EEPROM_SIZE];$/;"	v
+eeprom	ftdipp/ftdi.cpp	/^    struct ftdi_eeprom eeprom;$/;"	m	class:Ftdi::Eeprom::Private	typeref:struct:Ftdi::Eeprom::Private::ftdi_eeprom	file:
+eeprom_size	src/ftdi.h	/^    int eeprom_size;$/;"	m	struct:ftdi_context
+empty	ftdipp/ftdi.cpp	/^bool List::empty() const$/;"	f	class:Ftdi::List
+end	ftdipp/ftdi.cpp	/^List::const_iterator List::end() const$/;"	f	class:Ftdi::List
+end	ftdipp/ftdi.cpp	/^List::iterator List::end()$/;"	f	class:Ftdi::List
+erase	ftdipp/ftdi.cpp	/^List::iterator List::erase(iterator beg, iterator end)$/;"	f	class:Ftdi::List
+erase	ftdipp/ftdi.cpp	/^List::iterator List::erase(iterator pos)$/;"	f	class:Ftdi::List
+erase	ftdipp/ftdi.cpp	/^int Eeprom::erase()$/;"	f	class:Ftdi::Eeprom
+error_str	src/ftdi.h	/^    char *error_str;$/;"	m	struct:ftdi_context
+error_string	ftdipp/ftdi.cpp	/^char* Context::error_string()$/;"	f	class:Ftdi::Context
+examples_libftdipp	examples/Makefile	/^examples_libftdipp = $/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	bindings/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	bindings/python/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	doc/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	examples/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+ext_modules	bindings/python/setup.py	/^      ext_modules=[Extension('_ftdi', ['ftdi_wrap.c'],$/;"	v
+fancontrol	examples/main.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/sdupfail.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/simple.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/ux40040gsn.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/ux400bl.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/ux400cpld.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/ux400fanoff.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/ux400keys.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/ux400poweroff.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/ux400updatepower.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fancontrol	examples/ux400vfl.c	/^int fancontrol(unsigned char fandata)$/;"	f
+fd	src/ftdi.c	/^    int fd;$/;"	m	struct:usb_dev_handle	file:
+find_all	ftdipp/ftdi.cpp	/^List* List::find_all(int vendor, int product)$/;"	f	class:Ftdi::List
+find_all_DEPENDENCIES	examples/Makefile	/^find_all_DEPENDENCIES = $(top_builddir)\/src\/libftdi.la$/;"	m
+find_all_LDADD	examples/Makefile	/^find_all_LDADD = $(LDADD)$/;"	m
+find_all_OBJECTS	examples/Makefile	/^find_all_OBJECTS = $(am_find_all_OBJECTS)$/;"	m
+find_all_SOURCES	examples/Makefile	/^find_all_SOURCES = find_all.c$/;"	m
+find_all_pp_OBJECTS	examples/Makefile	/^find_all_pp_OBJECTS = $(am_find_all_pp_OBJECTS)$/;"	m
+flush	ftdipp/ftdi.cpp	/^int Context::flush(int mask)$/;"	f	class:Ftdi::Context
+ft2232_checksum	examples/ux400_ftdi_eeprom.c	/^unsigned short ft2232_checksum(unsigned char * eeprom, int size)$/;"	f
+ftdi	ftdipp/ftdi.cpp	/^    struct ftdi_context* ftdi;$/;"	m	class:Ftdi::Context::Private	typeref:struct:Ftdi::Context::Private::ftdi_context	file:
+ftdi_async_complete	src/ftdi.c	/^void ftdi_async_complete(struct ftdi_context *ftdi, int wait_for_more)$/;"	f
+ftdi_bits_type	src/ftdi.h	/^enum ftdi_bits_type { BITS_7=7, BITS_8=8 };$/;"	g
+ftdi_break_type	src/ftdi.h	/^enum ftdi_break_type { BREAK_OFF=0, BREAK_ON=1 };$/;"	g
+ftdi_chip_type	src/ftdi.h	/^enum ftdi_chip_type { TYPE_AM=0, TYPE_BM=1, TYPE_2232C=2, TYPE_R=3, TYPE_2232H=4, TYPE_4232H=5 };$/;"	g
+ftdi_context	src/ftdi.h	/^struct ftdi_context$/;"	s
+ftdi_convert_baudrate	src/ftdi.c	/^static int ftdi_convert_baudrate(int baudrate, struct ftdi_context *ftdi,$/;"	f	file:
+ftdi_deinit	src/ftdi.c	/^void ftdi_deinit(struct ftdi_context *ftdi)$/;"	f
+ftdi_device_list	src/ftdi.h	/^struct ftdi_device_list$/;"	s
+ftdi_disable_bitbang	src/ftdi.c	/^int ftdi_disable_bitbang(struct ftdi_context *ftdi)$/;"	f
+ftdi_eeprom	src/ftdi.h	/^struct ftdi_eeprom$/;"	s
+ftdi_eeprom_build	src/ftdi.c	/^int ftdi_eeprom_build(struct ftdi_eeprom *eeprom, unsigned char *output)$/;"	f
+ftdi_eeprom_decode	src/ftdi.c	/^int ftdi_eeprom_decode(struct ftdi_eeprom *eeprom, unsigned char *buf, int size)$/;"	f
+ftdi_eeprom_free	src/ftdi.c	/^void ftdi_eeprom_free(struct ftdi_eeprom *eeprom)$/;"	f
+ftdi_eeprom_initdefaults	src/ftdi.c	/^void ftdi_eeprom_initdefaults(struct ftdi_eeprom *eeprom)$/;"	f
+ftdi_eeprom_setsize	src/ftdi.c	/^void ftdi_eeprom_setsize(struct ftdi_context *ftdi, struct ftdi_eeprom *eeprom, int size)$/;"	f
+ftdi_enable_bitbang	src/ftdi.c	/^int ftdi_enable_bitbang(struct ftdi_context *ftdi, unsigned char bitmask)$/;"	f
+ftdi_erase_eeprom	src/ftdi.c	/^int ftdi_erase_eeprom(struct ftdi_context *ftdi)$/;"	f
+ftdi_error_return	src/ftdi.c	47;"	d	file:
+ftdi_fatal	examples/bitbang2.c	/^void ftdi_fatal (struct ftdi_context *ftdi, char *str)$/;"	f
+ftdi_free	src/ftdi.c	/^void ftdi_free(struct ftdi_context *ftdi)$/;"	f
+ftdi_get_error_string	src/ftdi.c	/^char *ftdi_get_error_string (struct ftdi_context *ftdi)$/;"	f
+ftdi_get_latency_timer	src/ftdi.c	/^int ftdi_get_latency_timer(struct ftdi_context *ftdi, unsigned char *latency)$/;"	f
+ftdi_init	src/ftdi.c	/^int ftdi_init(struct ftdi_context *ftdi)$/;"	f
+ftdi_interface	src/ftdi.h	/^enum ftdi_interface$/;"	g
+ftdi_list_free	src/ftdi.c	/^void ftdi_list_free(struct ftdi_device_list **devlist)$/;"	f
+ftdi_list_free2	src/ftdi.c	/^void ftdi_list_free2(struct ftdi_device_list *devlist)$/;"	f
+ftdi_module_detach_mode	src/ftdi.h	/^enum ftdi_module_detach_mode$/;"	g
+ftdi_mpsse_mode	src/ftdi.h	/^enum ftdi_mpsse_mode$/;"	g
+ftdi_new	src/ftdi.c	/^struct ftdi_context *ftdi_new(void)$/;"	f
+ftdi_parity_type	src/ftdi.h	/^enum ftdi_parity_type { NONE=0, ODD=1, EVEN=2, MARK=3, SPACE=4 };$/;"	g
+ftdi_poll_modem_status	src/ftdi.c	/^int ftdi_poll_modem_status(struct ftdi_context *ftdi, unsigned short *status)$/;"	f
+ftdi_read_chipid	src/ftdi.c	/^int ftdi_read_chipid(struct ftdi_context *ftdi, unsigned int *chipid)$/;"	f
+ftdi_read_chipid_shift	src/ftdi.c	/^static unsigned char ftdi_read_chipid_shift(unsigned char value)$/;"	f	file:
+ftdi_read_data	src/ftdi.c	/^int ftdi_read_data(struct ftdi_context *ftdi, unsigned char *buf, int size)$/;"	f
+ftdi_read_data_get_chunksize	src/ftdi.c	/^int ftdi_read_data_get_chunksize(struct ftdi_context *ftdi, unsigned int *chunksize)$/;"	f
+ftdi_read_data_set_chunksize	src/ftdi.c	/^int ftdi_read_data_set_chunksize(struct ftdi_context *ftdi, unsigned int chunksize)$/;"	f
+ftdi_read_eeprom	src/ftdi.c	/^int ftdi_read_eeprom(struct ftdi_context *ftdi, unsigned char *eeprom)$/;"	f
+ftdi_read_eeprom_getsize	src/ftdi.c	/^int ftdi_read_eeprom_getsize(struct ftdi_context *ftdi, unsigned char *eeprom, int maxsize)$/;"	f
+ftdi_read_eeprom_location	src/ftdi.c	/^int ftdi_read_eeprom_location (struct ftdi_context *ftdi, int eeprom_addr, unsigned short *eeprom_val)$/;"	f
+ftdi_read_pins	src/ftdi.c	/^int ftdi_read_pins(struct ftdi_context *ftdi, unsigned char *pins)$/;"	f
+ftdi_set_baudrate	src/ftdi.c	/^int ftdi_set_baudrate(struct ftdi_context *ftdi, int baudrate)$/;"	f
+ftdi_set_bitmode	src/ftdi.c	/^int ftdi_set_bitmode(struct ftdi_context *ftdi, unsigned char bitmask, unsigned char mode)$/;"	f
+ftdi_set_error_char	src/ftdi.c	/^int ftdi_set_error_char(struct ftdi_context *ftdi,$/;"	f
+ftdi_set_event_char	src/ftdi.c	/^int ftdi_set_event_char(struct ftdi_context *ftdi,$/;"	f
+ftdi_set_interface	src/ftdi.c	/^int ftdi_set_interface(struct ftdi_context *ftdi, enum ftdi_interface interface)$/;"	f
+ftdi_set_latency_timer	src/ftdi.c	/^int ftdi_set_latency_timer(struct ftdi_context *ftdi, unsigned char latency)$/;"	f
+ftdi_set_line_property	src/ftdi.c	/^int ftdi_set_line_property(struct ftdi_context *ftdi, enum ftdi_bits_type bits,$/;"	f
+ftdi_set_line_property2	src/ftdi.c	/^int ftdi_set_line_property2(struct ftdi_context *ftdi, enum ftdi_bits_type bits,$/;"	f
+ftdi_set_usbdev	src/ftdi.c	/^void ftdi_set_usbdev (struct ftdi_context *ftdi, usb_dev_handle *usb)$/;"	f
+ftdi_setdtr	src/ftdi.c	/^int ftdi_setdtr(struct ftdi_context *ftdi, int state)$/;"	f
+ftdi_setdtr_rts	src/ftdi.c	/^int ftdi_setdtr_rts(struct ftdi_context *ftdi, int dtr, int rts)$/;"	f
+ftdi_setflowctrl	src/ftdi.c	/^int ftdi_setflowctrl(struct ftdi_context *ftdi, int flowctrl)$/;"	f
+ftdi_setrts	src/ftdi.c	/^int ftdi_setrts(struct ftdi_context *ftdi, int state)$/;"	f
+ftdi_stopbits_type	src/ftdi.h	/^enum ftdi_stopbits_type { STOP_BIT_1=0, STOP_BIT_15=1, STOP_BIT_2=2 };$/;"	g
+ftdi_usb_close	src/ftdi.c	/^int ftdi_usb_close(struct ftdi_context *ftdi)$/;"	f
+ftdi_usb_close_internal	src/ftdi.c	/^static int ftdi_usb_close_internal (struct ftdi_context *ftdi)$/;"	f	file:
+ftdi_usb_find_all	src/ftdi.c	/^int ftdi_usb_find_all(struct ftdi_context *ftdi, struct ftdi_device_list **devlist, int vendor, int product)$/;"	f
+ftdi_usb_get_strings	src/ftdi.c	/^int ftdi_usb_get_strings(struct ftdi_context * ftdi, struct usb_device * dev,$/;"	f
+ftdi_usb_open	src/ftdi.c	/^int ftdi_usb_open(struct ftdi_context *ftdi, int vendor, int product)$/;"	f
+ftdi_usb_open_desc	src/ftdi.c	/^int ftdi_usb_open_desc(struct ftdi_context *ftdi, int vendor, int product,$/;"	f
+ftdi_usb_open_desc_index	src/ftdi.c	/^int ftdi_usb_open_desc_index(struct ftdi_context *ftdi, int vendor, int product,$/;"	f
+ftdi_usb_open_dev	src/ftdi.c	/^int ftdi_usb_open_dev(struct ftdi_context *ftdi, struct usb_device *dev)$/;"	f
+ftdi_usb_open_string	src/ftdi.c	/^int ftdi_usb_open_string(struct ftdi_context *ftdi, const char* description)$/;"	f
+ftdi_usb_purge_buffers	src/ftdi.c	/^int ftdi_usb_purge_buffers(struct ftdi_context *ftdi)$/;"	f
+ftdi_usb_purge_rx_buffer	src/ftdi.c	/^int ftdi_usb_purge_rx_buffer(struct ftdi_context *ftdi)$/;"	f
+ftdi_usb_purge_tx_buffer	src/ftdi.c	/^int ftdi_usb_purge_tx_buffer(struct ftdi_context *ftdi)$/;"	f
+ftdi_usb_reset	src/ftdi.c	/^int ftdi_usb_reset(struct ftdi_context *ftdi)$/;"	f
+ftdi_write_data	src/ftdi.c	/^int ftdi_write_data(struct ftdi_context *ftdi, unsigned char *buf, int size)$/;"	f
+ftdi_write_data_async	src/ftdi.c	/^int ftdi_write_data_async(struct ftdi_context *ftdi, unsigned char *buf, int size)$/;"	f
+ftdi_write_data_get_chunksize	src/ftdi.c	/^int ftdi_write_data_get_chunksize(struct ftdi_context *ftdi, unsigned int *chunksize)$/;"	f
+ftdi_write_data_set_chunksize	src/ftdi.c	/^int ftdi_write_data_set_chunksize(struct ftdi_context *ftdi, unsigned int chunksize)$/;"	f
+ftdi_write_eeprom	src/ftdi.c	/^int ftdi_write_eeprom(struct ftdi_context *ftdi, unsigned char *eeprom)$/;"	f
+ftdi_write_eeprom_bytes	examples/ux400_ftdi_eeprom.c	/^int ftdi_write_eeprom_bytes( struct ftdi_context * ftdi, unsigned char addr, int len)$/;"	f
+ftdi_write_eeprom_location	src/ftdi.c	/^int ftdi_write_eeprom_location(struct ftdi_context *ftdi, int eeprom_addr, unsigned short eeprom_val)$/;"	f
+func_append	config.status	/^func_append ()$/;"	f
+func_append	configure	/^func_append ()$/;"	f
+func_append	libtool	/^func_append ()$/;"	f
+func_arith	config.status	/^func_arith ()$/;"	f
+func_arith	configure	/^func_arith ()$/;"	f
+func_arith	libtool	/^func_arith ()$/;"	f
+func_basename	config.status	/^func_basename ()$/;"	f
+func_basename	configure	/^func_basename ()$/;"	f
+func_basename	libtool	/^func_basename ()$/;"	f
+func_check_version_match	libtool	/^func_check_version_match ()$/;"	f
+func_check_version_match	ltmain.sh	/^func_check_version_match ()$/;"	f
+func_config	libtool	/^func_config ()$/;"	f
+func_config	ltmain.sh	/^func_config ()$/;"	f
+func_dirname	config.status	/^func_dirname ()$/;"	f
+func_dirname	configure	/^func_dirname ()$/;"	f
+func_dirname	libtool	/^func_dirname ()$/;"	f
+func_dirname_and_basename	config.status	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	libtool	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	libtool	/^func_echo ()$/;"	f
+func_echo	ltmain.sh	/^func_echo ()$/;"	f
+func_echo_all	configure	/^func_echo_all ()$/;"	f
+func_echo_all	libtool	/^func_echo_all ()$/;"	f
+func_echo_all	ltmain.sh	/^func_echo_all ()$/;"	f
+func_emit_cwrapperexe_src	libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	libtool	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	libtool	/^func_enable_tag ()$/;"	f
+func_enable_tag	ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	libtool	/^func_error ()$/;"	f
+func_error	ltmain.sh	/^func_error ()$/;"	f
+func_exec_program	libtool	/^func_exec_program ()$/;"	f
+func_exec_program	ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program_core	libtool	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_execute_cmds	libtool	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fallback_echo	config.status	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	libtool	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	libtool	/^func_fatal_error ()$/;"	f
+func_fatal_error	ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	libtool	/^func_fatal_help ()$/;"	f
+func_fatal_help	ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	libtool	/^func_features ()$/;"	f
+func_features	ltmain.sh	/^func_features ()$/;"	f
+func_generate_dlsyms	libtool	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	libtool	/^func_grep ()$/;"	f
+func_grep	ltmain.sh	/^func_grep ()$/;"	f
+func_help	libtool	/^func_help ()$/;"	f
+func_help	ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_lalib_p	libtool	/^func_lalib_p ()$/;"	f
+func_lalib_p	ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	config.status	/^func_len ()$/;"	f
+func_len	configure	/^func_len ()$/;"	f
+func_len	libtool	/^func_len ()$/;"	f
+func_lo2o	config.status	/^func_lo2o ()$/;"	f
+func_lo2o	configure	/^func_lo2o ()$/;"	f
+func_lo2o	libtool	/^func_lo2o ()$/;"	f
+func_lt_dump_args	libtool	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_ltwrapper_executable_p	libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	libtool	/^func_missing_arg ()$/;"	f
+func_missing_arg	ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	libtool	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	libtool	/^func_mode_compile ()$/;"	f
+func_mode_compile	ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	libtool	/^func_mode_execute ()$/;"	f
+func_mode_execute	ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	libtool	/^func_mode_finish ()$/;"	f
+func_mode_finish	ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	libtool	/^func_mode_help ()$/;"	f
+func_mode_help	ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	libtool	/^func_mode_install ()$/;"	f
+func_mode_install	ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	libtool	/^func_mode_link ()$/;"	f
+func_mode_link	ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	libtool	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_normal_abspath	libtool	/^func_normal_abspath ()$/;"	f
+func_normal_abspath	ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_opt_split	config.status	/^func_opt_split ()$/;"	f
+func_opt_split	configure	/^func_opt_split ()$/;"	f
+func_opt_split	libtool	/^func_opt_split ()$/;"	f
+func_parse_lt_options	libtool	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_quote_for_eval	libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	libtool	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_relative_path	libtool	/^func_relative_path ()$/;"	f
+func_relative_path	ltmain.sh	/^func_relative_path ()$/;"	f
+func_show_eval	libtool	/^func_show_eval ()$/;"	f
+func_show_eval	ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	libtool	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	libtool	/^func_source ()$/;"	f
+func_source	ltmain.sh	/^func_source ()$/;"	f
+func_stripname	config.status	/^func_stripname ()$/;"	f
+func_stripname	configure	/^func_stripname ()$/;"	f
+func_stripname	libtool	/^func_stripname ()$/;"	f
+func_to_host_path	libtool	/^func_to_host_path ()$/;"	f
+func_to_host_path	ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_host_pathlist	libtool	/^func_to_host_pathlist ()$/;"	f
+func_to_host_pathlist	ltmain.sh	/^func_to_host_pathlist ()$/;"	f
+func_usage	libtool	/^func_usage ()$/;"	f
+func_usage	ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	libtool	/^func_verbose ()$/;"	f
+func_verbose	ltmain.sh	/^func_verbose ()$/;"	f
+func_version	libtool	/^func_version ()$/;"	f
+func_version	ltmain.sh	/^func_version ()$/;"	f
+func_warning	libtool	/^func_warning ()$/;"	f
+func_warning	ltmain.sh	/^func_warning ()$/;"	f
+func_win32_import_lib_p	libtool	/^func_win32_import_lib_p ()$/;"	f
+func_win32_import_lib_p	ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	libtool	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	config.status	/^func_xform ()$/;"	f
+func_xform	configure	/^func_xform ()$/;"	f
+func_xform	libtool	/^func_xform ()$/;"	f
+get_prec_time	examples/baud_test.c	/^double get_prec_time()$/;"	f
+get_strings	ftdipp/ftdi.cpp	/^int Context::get_strings()$/;"	f	class:Ftdi::Context
+get_strings_and_reopen	ftdipp/ftdi.cpp	/^int Context::get_strings_and_reopen()$/;"	f	class:Ftdi::Context
+gpio_get	examples/ux400gpio.c	/^int gpio_get(unsigned char * gpio)$/;"	f
+gpio_set	examples/main.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/sdupfail.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/simple.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux40040gsn.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux400bl.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux400cpld.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux400fanoff.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux400gpio.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux400gpioall.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux400keys.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux400poweroff.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux400updatepower.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gpio_set	examples/ux400vfl.c	/^int gpio_set(unsigned char gpio)$/;"	f
+gps_atomic_switch	examples/ux400clocks.c	/^int gps_atomic_switch(unsigned int on)$/;"	f
+high_current	src/ftdi.h	/^    int high_current;$/;"	m	struct:ftdi_eeprom
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	bindings/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	bindings/python/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	doc/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	examples/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	src/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_alias	bindings/Makefile	/^host_alias = $/;"	m
+host_alias	bindings/python/Makefile	/^host_alias = $/;"	m
+host_alias	doc/Makefile	/^host_alias = $/;"	m
+host_alias	examples/Makefile	/^host_alias = $/;"	m
+host_alias	src/Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_cpu	bindings/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	bindings/python/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	doc/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	examples/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	src/Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_os	bindings/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	bindings/python/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	doc/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	examples/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	src/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	bindings/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	bindings/python/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	doc/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	examples/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	src/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+host_vendor	bindings/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	bindings/python/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	doc/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	examples/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	src/Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	bindings/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	bindings/python/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	doc/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	examples/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	src/Makefile	/^htmldir = ${docdir}$/;"	m
+in_ep	src/ftdi.h	/^    int in_ep;$/;"	m	struct:ftdi_context
+in_is_isochronous	src/ftdi.h	/^    int in_is_isochronous;$/;"	m	struct:ftdi_eeprom
+include_HEADERS	src/Makefile	/^include_HEADERS = ftdi.h$/;"	m
+include_dirs	bindings/python/setup.py	/^                             include_dirs=['..\/..\/src'],$/;"	v
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	bindings/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	bindings/python/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	doc/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	examples/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+index	src/ftdi.h	/^    int index;       \/* 1 or 2 *\/$/;"	m	struct:ftdi_context
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	bindings/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	bindings/python/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	doc/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	examples/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init_defaults	ftdipp/ftdi.cpp	/^void Eeprom::init_defaults()$/;"	f	class:Ftdi::Eeprom
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/v400\/libftdi-0.19\/install-sh$/;"	m
+install_sh	bindings/Makefile	/^install_sh = ${SHELL} \/home\/v400\/libftdi-0.19\/install-sh$/;"	m
+install_sh	bindings/python/Makefile	/^install_sh = ${SHELL} \/home\/v400\/libftdi-0.19\/install-sh$/;"	m
+install_sh	doc/Makefile	/^install_sh = ${SHELL} \/home\/v400\/libftdi-0.19\/install-sh$/;"	m
+install_sh	examples/Makefile	/^install_sh = ${SHELL} \/home\/v400\/libftdi-0.19\/install-sh$/;"	m
+install_sh	src/Makefile	/^install_sh = ${SHELL} \/home\/v400\/libftdi-0.19\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	bindings/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	bindings/python/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	doc/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	examples/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	bindings/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	bindings/python/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	doc/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	examples/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	bindings/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	bindings/python/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	doc/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	examples/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+interface	src/ftdi.h	/^    int interface;   \/* 0 or 1 *\/$/;"	m	struct:ftdi_context
+invert	src/ftdi.h	/^    int invert;$/;"	m	struct:ftdi_eeprom
+is_open	ftdipp/ftdi.cpp	/^bool Context::is_open()$/;"	f	class:Ftdi::Context
+iterator	ftdipp/ftdi.hpp	/^    typedef ListType::iterator iterator;$/;"	t	class:Ftdi::List
+key_send	examples/main.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/sdupfail.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/simple.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/ux40040gsn.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/ux400bl.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/ux400cpld.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/ux400fanoff.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/ux400keys.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/ux400poweroff.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/ux400updatepower.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+key_send	examples/ux400vfl.c	/^void key_send(__u16 code, __s32 value)$/;"	f
+keys	examples/main.c	/^void keys()$/;"	f
+keys	examples/sdupfail.c	/^void keys()$/;"	f
+keys	examples/simple.c	/^void keys()$/;"	f
+keys	examples/ux40040gsn.c	/^void keys()$/;"	f
+keys	examples/ux400bl.c	/^void keys()$/;"	f
+keys	examples/ux400cpld.c	/^void keys()$/;"	f
+keys	examples/ux400fanoff.c	/^void keys()$/;"	f
+keys	examples/ux400keys.c	/^void keys()$/;"	f
+keys	examples/ux400poweroff.c	/^void keys()$/;"	f
+keys	examples/ux400updatepower.c	/^void keys()$/;"	f
+keys	examples/ux400upower.c	/^void keys()$/;"	f
+keys	examples/ux400vfl.c	/^void keys()$/;"	f
+keyscan	examples/main.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/sdupfail.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/simple.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux40040gsn.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux400bl.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux400bootkey.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux400cpld.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux400fanoff.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux400keys.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux400poweroff.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux400updatepower.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux400upower.c	/^inline char keyscan(void)$/;"	f
+keyscan	examples/ux400vfl.c	/^inline char keyscan(void)$/;"	f
+latency	ftdipp/ftdi.cpp	/^unsigned Context::latency()$/;"	f	class:Ftdi::Context
+lib_LTLIBRARIES	src/Makefile	/^lib_LTLIBRARIES = libftdi.la$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	bindings/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	bindings/python/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	doc/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	examples/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	bindings/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	bindings/python/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	doc/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	examples/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libftdi_la_LDFLAGS	src/Makefile	/^libftdi_la_LDFLAGS = -version-info 20:0:19$/;"	m
+libftdi_la_LIBADD	src/Makefile	/^libftdi_la_LIBADD =$/;"	m
+libftdi_la_LINK	src/Makefile	/^libftdi_la_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libftdi_la_OBJECTS	src/Makefile	/^libftdi_la_OBJECTS = $(am_libftdi_la_OBJECTS)$/;"	m
+libftdi_la_SOURCES	src/Makefile	/^libftdi_la_SOURCES = ftdi.c$/;"	m
+libraries	bindings/python/setup.py	/^                             libraries=['ftdi'])],$/;"	v
+library_dirs	bindings/python/setup.py	/^                             library_dirs=['..\/..\/src\/.libs','lib','\/usr\/lib'],$/;"	v
+list	ftdipp/ftdi.cpp	/^    std::list<Context> list;$/;"	m	class:Ftdi::List::Private	file:
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	bindings/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	bindings/python/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	doc/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	examples/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	bindings/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	bindings/python/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	doc/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	examples/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	examples/backup_simple.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/baud_test.c	/^int main(int argc, char **argv)$/;"	f
+main	examples/bitbang.c	/^int main(int argc, char **argv)$/;"	f
+main	examples/bitbang2.c	/^int main(int argc, char **argv)$/;"	f
+main	examples/bitbang_cbus.c	/^int main(void)$/;"	f
+main	examples/bitbang_ft2232.c	/^int main(int argc, char **argv)$/;"	f
+main	examples/bucheck.c	/^int main(int argc,char *argv[])$/;"	f
+main	examples/find_all.c	/^int main(void)$/;"	f
+main	examples/find_all_pp.cpp	/^int main(int argc, char **argv)$/;"	f
+main	examples/main.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/mtype.c	/^int main(int argc,char *argv[])$/;"	f
+main	examples/sdupfail.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/serial_read.c	/^int main(int argc, char **argv)$/;"	f
+main	examples/simple.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/testopm.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux40040gsn.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400_eeprom_40g.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400_eeprom_read.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400_eeprom_write.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400_ftdi_eeprom.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400aclock.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400aclockcal.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400bl.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400bootkey.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400buzz.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400clocks.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400cpld.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400cpldver.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400fanoff.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400gpio.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400gpioall.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400gps.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400keys.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400opm-new.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400opm.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400opmtest.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400poweroff.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400rss.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400updatepower.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400upower.c	/^int main(int argc, char *argv[] )$/;"	f
+main	examples/ux400vfl.c	/^int main(int argc, char *argv[] )$/;"	f
+maintainer	bindings/python/setup.py	/^      maintainer='',$/;"	v
+maintainer_email	bindings/python/setup.py	/^      maintainer_email='',$/;"	v
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	bindings/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	bindings/python/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	doc/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	examples/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+manufacturer	src/ftdi.h	/^    char *manufacturer;$/;"	m	struct:ftdi_eeprom
+max_packet_size	src/ftdi.h	/^    unsigned int max_packet_size;$/;"	m	struct:ftdi_context
+max_power	src/ftdi.h	/^    int max_power;$/;"	m	struct:ftdi_eeprom
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	bindings/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	bindings/python/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	doc/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	examples/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	src/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	bindings/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	bindings/python/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	doc/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	examples/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+module_detach_mode	src/ftdi.h	/^    enum ftdi_module_detach_mode module_detach_mode;$/;"	m	struct:ftdi_context	typeref:enum:ftdi_context::ftdi_module_detach_mode
+next	src/ftdi.h	/^    struct ftdi_device_list *next;$/;"	m	struct:ftdi_device_list	typeref:struct:ftdi_device_list::ftdi_device_list
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	bindings/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	bindings/python/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	doc/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	examples/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+open	ftdipp/ftdi.cpp	/^    bool open;$/;"	m	class:Ftdi::Context::Private	file:
+open	ftdipp/ftdi.cpp	/^int Context::open(const std::string& description)$/;"	f	class:Ftdi::Context
+open	ftdipp/ftdi.cpp	/^int Context::open(int vendor, int product)$/;"	f	class:Ftdi::Context
+open	ftdipp/ftdi.cpp	/^int Context::open(int vendor, int product, const std::string& description, const std::string& serial, unsigned int index)$/;"	f	class:Ftdi::Context
+open	ftdipp/ftdi.cpp	/^int Context::open(struct usb_device *dev)$/;"	f	class:Ftdi::Context
+opm_pwr	examples/main.c	/^int opm_pwr(unsigned int on)$/;"	f
+opm_pwr	examples/testopm.c	/^int opm_pwr(unsigned int on)$/;"	f
+opm_pwr	examples/ux40040gsn.c	/^int opm_pwr(unsigned int on)$/;"	f
+opm_pwr	examples/ux400cpld.c	/^int opm_pwr(unsigned int on)$/;"	f
+opm_pwr	examples/ux400fanoff.c	/^int opm_pwr(unsigned int on)$/;"	f
+opm_pwr	examples/ux400keys.c	/^int opm_pwr(unsigned int on)$/;"	f
+opm_pwr	examples/ux400opm-new.c	/^int opm_pwr(unsigned int on)$/;"	f
+opm_pwr	examples/ux400opm.c	/^int opm_pwr(unsigned int on)$/;"	f
+opm_pwr	examples/ux400poweroff.c	/^int opm_pwr(unsigned int on)$/;"	f
+opm_pwr	examples/ux400updatepower.c	/^int opm_pwr(unsigned int on)$/;"	f
+out_ep	src/ftdi.h	/^    int out_ep;      \/* 1 or 2 *\/$/;"	m	struct:ftdi_context
+out_is_isochronous	src/ftdi.h	/^    int out_is_isochronous;$/;"	m	struct:ftdi_eeprom
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	bindings/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	bindings/python/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	doc/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	examples/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgconfig_DATA	Makefile	/^pkgconfig_DATA = libftdi.pc $(LIBFTDI_MODULES_PKGCONFIG)$/;"	m
+pkgconfigdir	Makefile	/^pkgconfigdir = $(libdir)\/pkgconfig$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/libftdi$/;"	m
+pkgdatadir	bindings/Makefile	/^pkgdatadir = $(datadir)\/libftdi$/;"	m
+pkgdatadir	bindings/python/Makefile	/^pkgdatadir = $(datadir)\/libftdi$/;"	m
+pkgdatadir	doc/Makefile	/^pkgdatadir = $(datadir)\/libftdi$/;"	m
+pkgdatadir	examples/Makefile	/^pkgdatadir = $(datadir)\/libftdi$/;"	m
+pkgdatadir	src/Makefile	/^pkgdatadir = $(datadir)\/libftdi$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/libftdi$/;"	m
+pkgincludedir	bindings/Makefile	/^pkgincludedir = $(includedir)\/libftdi$/;"	m
+pkgincludedir	bindings/python/Makefile	/^pkgincludedir = $(includedir)\/libftdi$/;"	m
+pkgincludedir	doc/Makefile	/^pkgincludedir = $(includedir)\/libftdi$/;"	m
+pkgincludedir	examples/Makefile	/^pkgincludedir = $(includedir)\/libftdi$/;"	m
+pkgincludedir	src/Makefile	/^pkgincludedir = $(includedir)\/libftdi$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/libftdi$/;"	m
+pkglibdir	bindings/Makefile	/^pkglibdir = $(libdir)\/libftdi$/;"	m
+pkglibdir	bindings/python/Makefile	/^pkglibdir = $(libdir)\/libftdi$/;"	m
+pkglibdir	doc/Makefile	/^pkglibdir = $(libdir)\/libftdi$/;"	m
+pkglibdir	examples/Makefile	/^pkglibdir = $(libdir)\/libftdi$/;"	m
+pkglibdir	src/Makefile	/^pkglibdir = $(libdir)\/libftdi$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/libftdi$/;"	m
+pkglibexecdir	bindings/Makefile	/^pkglibexecdir = $(libexecdir)\/libftdi$/;"	m
+pkglibexecdir	bindings/python/Makefile	/^pkglibexecdir = $(libexecdir)\/libftdi$/;"	m
+pkglibexecdir	doc/Makefile	/^pkglibexecdir = $(libexecdir)\/libftdi$/;"	m
+pkglibexecdir	examples/Makefile	/^pkglibexecdir = $(libexecdir)\/libftdi$/;"	m
+pkglibexecdir	src/Makefile	/^pkglibexecdir = $(libexecdir)\/libftdi$/;"	m
+pkgpyexecdir	Makefile	/^pkgpyexecdir = ${pyexecdir}\/libftdi$/;"	m
+pkgpyexecdir	bindings/Makefile	/^pkgpyexecdir = ${pyexecdir}\/libftdi$/;"	m
+pkgpyexecdir	bindings/python/Makefile	/^pkgpyexecdir = ${pyexecdir}\/libftdi$/;"	m
+pkgpyexecdir	doc/Makefile	/^pkgpyexecdir = ${pyexecdir}\/libftdi$/;"	m
+pkgpyexecdir	examples/Makefile	/^pkgpyexecdir = ${pyexecdir}\/libftdi$/;"	m
+pkgpyexecdir	src/Makefile	/^pkgpyexecdir = ${pyexecdir}\/libftdi$/;"	m
+pkgpythondir	Makefile	/^pkgpythondir = ${pythondir}\/libftdi$/;"	m
+pkgpythondir	bindings/Makefile	/^pkgpythondir = ${pythondir}\/libftdi$/;"	m
+pkgpythondir	bindings/python/Makefile	/^pkgpythondir = ${pythondir}\/libftdi$/;"	m
+pkgpythondir	doc/Makefile	/^pkgpythondir = ${pythondir}\/libftdi$/;"	m
+pkgpythondir	examples/Makefile	/^pkgpythondir = ${pythondir}\/libftdi$/;"	m
+pkgpythondir	src/Makefile	/^pkgpythondir = ${pythondir}\/libftdi$/;"	m
+poll_modem_status	ftdipp/ftdi.cpp	/^unsigned short Context::poll_modem_status()$/;"	f	class:Ftdi::Context
+powercut	examples/main.c	/^int powercut(void)$/;"	f
+powercut	examples/sdupfail.c	/^int powercut(void)$/;"	f
+powercut	examples/simple.c	/^int powercut(void)$/;"	f
+powercut	examples/ux40040gsn.c	/^int powercut(void)$/;"	f
+powercut	examples/ux400bl.c	/^int powercut(void)$/;"	f
+powercut	examples/ux400cpld.c	/^int powercut(void)$/;"	f
+powercut	examples/ux400fanoff.c	/^int powercut(void)$/;"	f
+powercut	examples/ux400keys.c	/^int powercut(void)$/;"	f
+powercut	examples/ux400poweroff.c	/^int powercut(void)$/;"	f
+powercut	examples/ux400updatepower.c	/^int powercut(void)$/;"	f
+powercut	examples/ux400upower.c	/^int powercut(void)$/;"	f
+powercut	examples/ux400vfl.c	/^int powercut(void)$/;"	f
+powerkey	examples/main.c	/^int powerkey(void)$/;"	f
+powerkey	examples/sdupfail.c	/^int powerkey(void)$/;"	f
+powerkey	examples/simple.c	/^int powerkey(void)$/;"	f
+powerkey	examples/ux40040gsn.c	/^int powerkey(void)$/;"	f
+powerkey	examples/ux400bl.c	/^int powerkey(void)$/;"	f
+powerkey	examples/ux400cpld.c	/^int powerkey(void)$/;"	f
+powerkey	examples/ux400fanoff.c	/^int powerkey(void)$/;"	f
+powerkey	examples/ux400keys.c	/^int powerkey(void)$/;"	f
+powerkey	examples/ux400poweroff.c	/^int powerkey(void)$/;"	f
+powerkey	examples/ux400updatepower.c	/^int powerkey(void)$/;"	f
+powerkey	examples/ux400upower.c	/^int powerkey(void)$/;"	f
+powerkey	examples/ux400vfl.c	/^int powerkey(void)$/;"	f
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	bindings/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	bindings/python/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	doc/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	examples/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	src/Makefile	/^prefix = \/usr\/local$/;"	m
+product	src/ftdi.h	/^    char *product;$/;"	m	struct:ftdi_eeprom
+product_id	src/ftdi.h	/^    int product_id;$/;"	m	struct:ftdi_eeprom
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	bindings/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	bindings/python/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	doc/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	examples/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+psdir	bindings/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	bindings/python/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	doc/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	examples/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	src/Makefile	/^psdir = ${docdir}$/;"	m
+push_back	ftdipp/ftdi.cpp	/^void List::push_back(const Context& element)$/;"	f	class:Ftdi::List
+push_front	ftdipp/ftdi.cpp	/^void List::push_front(const Context& element)$/;"	f	class:Ftdi::List
+py_modules	bindings/python/setup.py	/^      py_modules=['ftdi'],$/;"	v
+pyexecdir	Makefile	/^pyexecdir = ${exec_prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pyexecdir	bindings/Makefile	/^pyexecdir = ${exec_prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pyexecdir	bindings/python/Makefile	/^pyexecdir = ${exec_prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pyexecdir	doc/Makefile	/^pyexecdir = ${exec_prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pyexecdir	examples/Makefile	/^pyexecdir = ${exec_prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pyexecdir	src/Makefile	/^pyexecdir = ${exec_prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pythondir	Makefile	/^pythondir = ${prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pythondir	bindings/Makefile	/^pythondir = ${prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pythondir	bindings/python/Makefile	/^pythondir = ${prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pythondir	doc/Makefile	/^pythondir = ${prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pythondir	examples/Makefile	/^pythondir = ${prefix}\/lib\/python2.6\/dist-packages$/;"	m
+pythondir	src/Makefile	/^pythondir = ${prefix}\/lib\/python2.6\/dist-packages$/;"	m
+rbegin	ftdipp/ftdi.cpp	/^List::const_reverse_iterator List::rbegin() const$/;"	f	class:Ftdi::List
+rbegin	ftdipp/ftdi.cpp	/^List::reverse_iterator List::rbegin()$/;"	f	class:Ftdi::List
+read	ftdipp/ftdi.cpp	/^int Context::read(unsigned char *buf, int size)$/;"	f	class:Ftdi::Context
+read	ftdipp/ftdi.cpp	/^int Eeprom::read(unsigned char *eeprom)$/;"	f	class:Ftdi::Eeprom
+read_chunk_size	ftdipp/ftdi.cpp	/^int Context::read_chunk_size()$/;"	f	class:Ftdi::Context
+read_location	ftdipp/ftdi.cpp	/^int Eeprom::read_location(int eeprom_addr, unsigned short *eeprom_val)$/;"	f	class:Ftdi::Eeprom
+read_options	examples/ux400_ftdi_eeprom.c	/^int read_options(unsigned char * options)$/;"	f
+read_pins	ftdipp/ftdi.cpp	/^int Context::read_pins(unsigned char *pins)$/;"	f	class:Ftdi::Context
+readbuffer	src/ftdi.h	/^    unsigned char *readbuffer;$/;"	m	struct:ftdi_context
+readbuffer_chunksize	src/ftdi.h	/^    unsigned int readbuffer_chunksize;$/;"	m	struct:ftdi_context
+readbuffer_offset	src/ftdi.h	/^    unsigned int readbuffer_offset;$/;"	m	struct:ftdi_context
+readbuffer_remaining	src/ftdi.h	/^    unsigned int readbuffer_remaining;$/;"	m	struct:ftdi_context
+remote_wakeup	src/ftdi.h	/^    int remote_wakeup;$/;"	m	struct:ftdi_eeprom
+rend	ftdipp/ftdi.cpp	/^List::const_reverse_iterator List::rend() const$/;"	f	class:Ftdi::List
+rend	ftdipp/ftdi.cpp	/^List::reverse_iterator List::rend()$/;"	f	class:Ftdi::List
+reset	ftdipp/ftdi.cpp	/^int Context::reset()$/;"	f	class:Ftdi::Context
+reverse_iterator	ftdipp/ftdi.hpp	/^    typedef ListType::reverse_iterator reverse_iterator;$/;"	t	class:Ftdi::List
+rs232_switch	examples/ux400rss.c	/^int rs232_switch(unsigned int on)$/;"	f
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	bindings/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	bindings/python/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	doc/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	examples/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+self_powered	src/ftdi.h	/^    int self_powered;$/;"	m	struct:ftdi_eeprom
+send_event	examples/main.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/sdupfail.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/simple.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/ux40040gsn.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/ux400bl.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/ux400cpld.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/ux400fanoff.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/ux400keys.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/ux400poweroff.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/ux400updatepower.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+send_event	examples/ux400vfl.c	/^int send_event(int fd, __u16 type, __u16 code, __s32 value)$/;"	f
+serial	ftdipp/ftdi.cpp	/^    std::string serial;$/;"	m	class:Ftdi::Context::Private	file:
+serial	ftdipp/ftdi.cpp	/^const std::string& Context::serial()$/;"	f	class:Ftdi::Context
+serial	src/ftdi.h	/^    char *serial;$/;"	m	struct:ftdi_eeprom
+serial_read_DEPENDENCIES	examples/Makefile	/^serial_read_DEPENDENCIES = $(top_builddir)\/src\/libftdi.la$/;"	m
+serial_read_LDADD	examples/Makefile	/^serial_read_LDADD = $(LDADD)$/;"	m
+serial_read_OBJECTS	examples/Makefile	/^serial_read_OBJECTS = $(am_serial_read_OBJECTS)$/;"	m
+serial_read_SOURCES	examples/Makefile	/^serial_read_SOURCES = serial_read.c$/;"	m
+set_baud_rate	ftdipp/ftdi.cpp	/^int Context::set_baud_rate(int baudrate)$/;"	f	class:Ftdi::Context
+set_bitmode	ftdipp/ftdi.cpp	/^int Context::set_bitmode(unsigned char bitmask, enum ftdi_mpsse_mode mode)$/;"	f	class:Ftdi::Context
+set_bitmode	ftdipp/ftdi.cpp	/^int Context::set_bitmode(unsigned char bitmask, unsigned char mode)$/;"	f	class:Ftdi::Context
+set_context	ftdipp/ftdi.cpp	/^void Context::set_context(struct ftdi_context* context)$/;"	f	class:Ftdi::Context
+set_dtr	ftdipp/ftdi.cpp	/^int Context::set_dtr(bool state)$/;"	f	class:Ftdi::Context
+set_error_char	ftdipp/ftdi.cpp	/^int Context::set_error_char(unsigned char errorch, unsigned char enable)$/;"	f	class:Ftdi::Context
+set_event_char	ftdipp/ftdi.cpp	/^int Context::set_event_char(unsigned char eventch, unsigned char enable)$/;"	f	class:Ftdi::Context
+set_flow_control	ftdipp/ftdi.cpp	/^int Context::set_flow_control(int flowctrl)$/;"	f	class:Ftdi::Context
+set_interface	ftdipp/ftdi.cpp	/^int Context::set_interface(enum ftdi_interface interface)$/;"	f	class:Ftdi::Context
+set_latency	ftdipp/ftdi.cpp	/^int Context::set_latency(unsigned char latency)$/;"	f	class:Ftdi::Context
+set_line_property	ftdipp/ftdi.cpp	/^int Context::set_line_property(enum ftdi_bits_type bits, enum ftdi_stopbits_type sbit, enum ftdi_parity_type parity)$/;"	f	class:Ftdi::Context
+set_line_property	ftdipp/ftdi.cpp	/^int Context::set_line_property(enum ftdi_bits_type bits, enum ftdi_stopbits_type sbit, enum ftdi_parity_type parity, enum ftdi_break_type break_type)$/;"	f	class:Ftdi::Context
+set_modem_control	ftdipp/ftdi.cpp	/^int Context::set_modem_control(int mask)$/;"	f	class:Ftdi::Context
+set_read_chunk_size	ftdipp/ftdi.cpp	/^int Context::set_read_chunk_size(unsigned int chunksize)$/;"	f	class:Ftdi::Context
+set_rts	ftdipp/ftdi.cpp	/^int Context::set_rts(bool state)$/;"	f	class:Ftdi::Context
+set_size	ftdipp/ftdi.cpp	/^void Eeprom::set_size(int size)$/;"	f	class:Ftdi::Eeprom
+set_usb_device	ftdipp/ftdi.cpp	/^void Context::set_usb_device(struct usb_dev_handle *dev)$/;"	f	class:Ftdi::Context
+set_usb_device	ftdipp/ftdi.cpp	/^void Context::set_usb_device(struct usb_device *dev)$/;"	f	class:Ftdi::Context
+set_write_chunk_size	ftdipp/ftdi.cpp	/^int Context::set_write_chunk_size(unsigned int chunksize)$/;"	f	class:Ftdi::Context
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	bindings/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	bindings/python/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	doc/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	examples/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+simple_DEPENDENCIES	examples/Makefile	/^simple_DEPENDENCIES = $(top_builddir)\/src\/libftdi.la$/;"	m
+simple_LDADD	examples/Makefile	/^simple_LDADD = $(LDADD)$/;"	m
+simple_OBJECTS	examples/Makefile	/^simple_OBJECTS = $(am_simple_OBJECTS)$/;"	m
+simple_SOURCES	examples/Makefile	/^simple_SOURCES = simple.c$/;"	m
+size	ftdipp/ftdi.cpp	/^List::ListType::size_type List::size() const$/;"	f	class:Ftdi::List
+size	ftdipp/ftdi.cpp	/^int Eeprom::size(unsigned char *eeprom, int maxsize)$/;"	f	class:Ftdi::Eeprom
+size	src/ftdi.h	/^    int size;$/;"	m	struct:ftdi_eeprom
+sleep	examples/bitbang.c	6;"	d	file:
+sleep	examples/bitbang_ft2232.c	14;"	d	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcdir	bindings/Makefile	/^srcdir = .$/;"	m
+srcdir	bindings/python/Makefile	/^srcdir = .$/;"	m
+srcdir	doc/Makefile	/^srcdir = .$/;"	m
+srcdir	examples/Makefile	/^srcdir = .$/;"	m
+srcdir	src/Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = .$/;"	m
+subdir	bindings/Makefile	/^subdir = bindings$/;"	m
+subdir	bindings/python/Makefile	/^subdir = bindings\/python$/;"	m
+subdir	doc/Makefile	/^subdir = doc$/;"	m
+subdir	examples/Makefile	/^subdir = examples$/;"	m
+subdir	src/Makefile	/^subdir = src$/;"	m
+suspend_pull_downs	src/ftdi.h	/^    int suspend_pull_downs;$/;"	m	struct:ftdi_eeprom
+sys_init	examples/main.c	/^int sys_init()$/;"	f
+sys_init	examples/sdupfail.c	/^int sys_init()$/;"	f
+sys_init	examples/simple.c	/^int sys_init()$/;"	f
+sys_init	examples/testopm.c	/^int sys_init()$/;"	f
+sys_init	examples/ux40040gsn.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400_eeprom_read.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400_ftdi_eeprom.c	/^int sys_init(unsigned char * sn)$/;"	f
+sys_init	examples/ux400bl.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400bootkey.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400buzz.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400clocks.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400cpld.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400cpldver.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400fanoff.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400gpio.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400gpioall.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400keys.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400opm-new.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400opm.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400poweroff.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400rss.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400updatepower.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400upower.c	/^int sys_init()$/;"	f
+sys_init	examples/ux400vfl.c	/^int sys_init()$/;"	f
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	bindings/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	bindings/python/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	doc/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	examples/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | bzip2 -9 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzma -9 -c >$(distdir).tar.lzma$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | xz -c >$(distdir).tar.xz$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+target_alias	bindings/Makefile	/^target_alias = $/;"	m
+target_alias	bindings/python/Makefile	/^target_alias = $/;"	m
+target_alias	doc/Makefile	/^target_alias = $/;"	m
+target_alias	examples/Makefile	/^target_alias = $/;"	m
+target_alias	src/Makefile	/^target_alias = $/;"	m
+tcxo_1pps_switch	examples/ux400clocks.c	/^int tcxo_1pps_switch(unsigned int on)$/;"	f
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	bindings/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	bindings/python/Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_build_prefix	doc/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	examples/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_builddir	bindings/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	bindings/python/Makefile	/^top_builddir = ..\/..$/;"	m
+top_builddir	doc/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	examples/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	src/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	bindings/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	bindings/python/Makefile	/^top_srcdir = ..\/..$/;"	m
+top_srcdir	doc/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	examples/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	src/Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	bindings/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	bindings/python/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	doc/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	examples/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	src/Makefile	/^transform = $(program_transform_name)$/;"	m
+type	src/ftdi.h	/^    enum ftdi_chip_type type;$/;"	m	struct:ftdi_context	typeref:enum:ftdi_context::ftdi_chip_type
+uinput_fd	examples/main.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/sdupfail.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/simple.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/ux40040gsn.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/ux400bl.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/ux400cpld.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/ux400fanoff.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/ux400keys.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/ux400poweroff.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/ux400updatepower.c	/^int uinput_fd;$/;"	v
+uinput_fd	examples/ux400vfl.c	/^int uinput_fd;$/;"	v
+uinput_init	examples/main.c	/^void uinput_init()$/;"	f
+uinput_init	examples/sdupfail.c	/^void uinput_init()$/;"	f
+uinput_init	examples/simple.c	/^void uinput_init()$/;"	f
+uinput_init	examples/ux40040gsn.c	/^void uinput_init()$/;"	f
+uinput_init	examples/ux400bl.c	/^void uinput_init()$/;"	f
+uinput_init	examples/ux400cpld.c	/^void uinput_init()$/;"	f
+uinput_init	examples/ux400fanoff.c	/^void uinput_init()$/;"	f
+uinput_init	examples/ux400keys.c	/^void uinput_init()$/;"	f
+uinput_init	examples/ux400poweroff.c	/^void uinput_init()$/;"	f
+uinput_init	examples/ux400updatepower.c	/^void uinput_init()$/;"	f
+uinput_init	examples/ux400vfl.c	/^void uinput_init()$/;"	f
+url	bindings/python/setup.py	/^      url='',$/;"	v
+usage	libftdi-config	/^usage()$/;"	f
+usb_dev	src/ftdi.h	/^    struct usb_dev_handle *usb_dev;$/;"	m	struct:ftdi_context	typeref:struct:ftdi_context::usb_dev_handle
+usb_dev_handle	src/ftdi.c	/^struct usb_dev_handle$/;"	s	file:
+usb_read_timeout	src/ftdi.h	/^    int usb_read_timeout;$/;"	m	struct:ftdi_context
+usb_version	src/ftdi.h	/^    int usb_version;$/;"	m	struct:ftdi_eeprom
+usb_write_timeout	src/ftdi.h	/^    int usb_write_timeout;$/;"	m	struct:ftdi_context
+use_serial	src/ftdi.h	/^    int use_serial;$/;"	m	struct:ftdi_eeprom
+usleep	examples/bitbang2.c	35;"	d	file:
+ux400_aclock_ftdic	examples/ux400aclock.c	/^struct ftdi_context ux400_aclock_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_aclock_ftdic	examples/ux400aclockcal.c	/^struct ftdi_context ux400_aclock_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_aclock_read_data	examples/ux400aclock.c	/^static int ux400_aclock_read_data(unsigned char * buf, int size)$/;"	f	file:
+ux400_aclock_read_data	examples/ux400aclockcal.c	/^static int ux400_aclock_read_data(unsigned char * buf, int size)$/;"	f	file:
+ux400_aclock_sys_exit	examples/ux400aclock.c	/^static void ux400_aclock_sys_exit()$/;"	f	file:
+ux400_aclock_sys_exit	examples/ux400aclockcal.c	/^static void ux400_aclock_sys_exit()$/;"	f	file:
+ux400_aclock_sys_init	examples/ux400aclock.c	/^static int ux400_aclock_sys_init()$/;"	f	file:
+ux400_aclock_sys_init	examples/ux400aclockcal.c	/^static int ux400_aclock_sys_init()$/;"	f	file:
+ux400_aclock_write_data	examples/ux400aclock.c	/^static int ux400_aclock_write_data(unsigned char * buf, int size)$/;"	f	file:
+ux400_aclock_write_data	examples/ux400aclockcal.c	/^static int ux400_aclock_write_data(unsigned char * buf, int size)$/;"	f	file:
+ux400_ftdic	examples/main.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/sdupfail.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/simple.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/testopm.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux40040gsn.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400_eeprom_read.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400_ftdi_eeprom.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400bl.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400bootkey.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400buzz.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400clocks.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400cpld.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400cpldver.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400fanoff.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400gpio.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400gpioall.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400keys.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400opm-new.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400opm.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400poweroff.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400rss.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400updatepower.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400upower.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_ftdic	examples/ux400vfl.c	/^struct ftdi_context ux400_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_gps_ftdic	examples/backup_simple.c	/^struct ftdi_context ux400_gps_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_gps_ftdic	examples/ux400gps.c	/^struct ftdi_context ux400_gps_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_gps_read_data	examples/backup_simple.c	/^static int ux400_gps_read_data(unsigned char * buf, int size)$/;"	f	file:
+ux400_gps_read_data	examples/ux400gps.c	/^static int ux400_gps_read_data(unsigned char * buf, int size)$/;"	f	file:
+ux400_gps_sys_exit	examples/backup_simple.c	/^static void ux400_gps_sys_exit()$/;"	f	file:
+ux400_gps_sys_exit	examples/ux400gps.c	/^static void ux400_gps_sys_exit()$/;"	f	file:
+ux400_gps_sys_init	examples/backup_simple.c	/^static int ux400_gps_sys_init()$/;"	f	file:
+ux400_gps_sys_init	examples/ux400gps.c	/^static int ux400_gps_sys_init()$/;"	f	file:
+ux400_gps_write_data	examples/backup_simple.c	/^static int ux400_gps_write_data(unsigned char * buf, int size)$/;"	f	file:
+ux400_gps_write_data	examples/ux400gps.c	/^static int ux400_gps_write_data(unsigned char * buf, int size)$/;"	f	file:
+ux400_opm_ftdic	examples/ux400opmtest.c	/^struct ftdi_context ux400_opm_ftdic;$/;"	v	typeref:struct:ftdi_context
+ux400_opm_read_data	examples/ux400opmtest.c	/^static int ux400_opm_read_data(unsigned char * buf, int size)$/;"	f	file:
+ux400_opm_sys_exit	examples/ux400opmtest.c	/^static void ux400_opm_sys_exit()$/;"	f	file:
+ux400_opm_sys_init	examples/ux400opmtest.c	/^static int ux400_opm_sys_init()$/;"	f	file:
+ux400_opm_write_data	examples/ux400opmtest.c	/^static int ux400_opm_write_data(unsigned char * buf, int size)$/;"	f	file:
+vendor	ftdipp/ftdi.cpp	/^    std::string vendor;$/;"	m	class:Ftdi::Context::Private	file:
+vendor	ftdipp/ftdi.cpp	/^const std::string& Context::vendor()$/;"	f	class:Ftdi::Context
+vendor_id	src/ftdi.h	/^    int vendor_id;$/;"	m	struct:ftdi_eeprom
+version	bindings/python/setup.py	/^      version='0.19',$/;"	v
+vfl_pwr	examples/main.c	/^int vfl_pwr(unsigned int on, unsigned int blink)$/;"	f
+vfl_pwr	examples/simple.c	/^int vfl_pwr(unsigned int on, unsigned int blink)$/;"	f
+vfl_pwr	examples/ux40040gsn.c	/^int vfl_pwr(unsigned int on, unsigned int blink)$/;"	f
+vfl_pwr	examples/ux400cpld.c	/^int vfl_pwr(unsigned int on, unsigned int blink)$/;"	f
+vfl_pwr	examples/ux400fanoff.c	/^int vfl_pwr(unsigned int on, unsigned int blink)$/;"	f
+vfl_pwr	examples/ux400keys.c	/^int vfl_pwr(unsigned int on, unsigned int blink)$/;"	f
+vfl_pwr	examples/ux400poweroff.c	/^int vfl_pwr(unsigned int on, unsigned int blink)$/;"	f
+vfl_pwr	examples/ux400updatepower.c	/^int vfl_pwr(unsigned int on, unsigned int blink)$/;"	f
+vfl_pwr	examples/ux400vfl.c	/^int vfl_pwr(unsigned int on, unsigned int blink)$/;"	f
+write	ftdipp/ftdi.cpp	/^int Context::write(unsigned char *buf, int size)$/;"	f	class:Ftdi::Context
+write	ftdipp/ftdi.cpp	/^int Eeprom::write(unsigned char *eeprom)$/;"	f	class:Ftdi::Eeprom
+write_chunk_size	ftdipp/ftdi.cpp	/^int Context::write_chunk_size()$/;"	f	class:Ftdi::Context
+write_location	ftdipp/ftdi.cpp	/^int Eeprom::write_location(int eeprom_addr, unsigned short eeprom_val)$/;"	f	class:Ftdi::Eeprom
+write_options	examples/ux400_ftdi_eeprom.c	/^int write_options(unsigned char * options)$/;"	f
+writebuffer_chunksize	src/ftdi.h	/^    unsigned int writebuffer_chunksize;$/;"	m	struct:ftdi_context
+~Context	ftdipp/ftdi.cpp	/^Context::~Context()$/;"	f	class:Ftdi::Context
+~Eeprom	ftdipp/ftdi.cpp	/^Eeprom::~Eeprom()$/;"	f	class:Ftdi::Eeprom
+~List	ftdipp/ftdi.cpp	/^List::~List()$/;"	f	class:Ftdi::List
+~Private	ftdipp/ftdi.cpp	/^    ~Private()$/;"	f	class:Ftdi::Context::Private
+~Private	ftdipp/ftdi.cpp	/^    ~Private()$/;"	f	class:Ftdi::List::Private
