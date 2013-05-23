@@ -1,0 +1,144 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AMD	SUSI.h	49;"	d
+BOOL	SUSI.h	/^typedef int             BOOL;$/;"	t
+BYTE	SUSI.h	/^typedef unsigned char   BYTE;$/;"	t
+CFLAGS	Makefile	/^CFLAGS = -Wall -Werror -O2$/;"	m
+CHAR	SUSI.h	/^typedef char            CHAR;$/;"	t
+CORE_CPU_DYNAMIC	SUSI.h	136;"	d
+CORE_CPU_FULL_SPEED	SUSI.h	134;"	d
+CORE_CPU_LOW_SPEED	SUSI.h	135;"	d
+DEMO_PROG	Makefile	/^DEMO_PROG = demo_brightness demo_cpu demo_gpio demo_hwm demo_iic demo_smbus demo_vga demo_watchdog test_gpio$/;"	m
+DWORD	SUSI.h	/^typedef unsigned long   DWORD;$/;"	t
+ESIO_DMASK_DIRECTION	SUSI.h	/^   ESIO_DMASK_DIRECTION			= 0x0020,$/;"	e	enum:__anon1
+ESIO_DMASK_IN	SUSI.h	/^   ESIO_DMASK_IN				= 0x0040,   $/;"	e	enum:__anon1
+ESIO_DMASK_OUT	SUSI.h	/^   ESIO_DMASK_OUT				= 0x0080,$/;"	e	enum:__anon1
+ESIO_DMASK_READABLEOUT	SUSI.h	/^   ESIO_DMASK_READABLEOUT		= 0x0100$/;"	e	enum:__anon1
+ESIO_MASKFLAG	SUSI.h	/^} ESIO_MASKFLAG;$/;"	t	typeref:enum:__anon1
+ESIO_SMASK_CONFIGURABLE	SUSI.h	/^   ESIO_SMASK_CONFIGURABLE		= 0x0002,$/;"	e	enum:__anon1
+ESIO_SMASK_FIXIN	SUSI.h	/^   ESIO_SMASK_FIXIN				= 0x0004,$/;"	e	enum:__anon1
+ESIO_SMASK_FIXOUT	SUSI.h	/^   ESIO_SMASK_FIXOUT			= 0x0008,$/;"	e	enum:__anon1
+ESIO_SMASK_IF_OUT_READABLE	SUSI.h	/^   ESIO_SMASK_IF_OUT_READABLE	= 0x0010,$/;"	e	enum:__anon1
+ESIO_SMASK_PIN_FULL	SUSI.h	/^   ESIO_SMASK_PIN_FULL			= 0x0001,$/;"	e	enum:__anon1
+F2ND	SUSI.h	102;"	d
+FALSE	SUSI.h	36;"	d
+FAUX2	SUSI.h	104;"	d
+FCPU	SUSI.h	100;"	d
+FCPU2	SUSI.h	103;"	d
+FSYS	SUSI.h	101;"	d
+INTEL	SUSI.h	45;"	d
+LIB_LINK_NAME	Makefile	/^LIB_LINK_NAME = $(LIB_NAME).so$/;"	m
+LIB_NAME	Makefile	/^LIB_NAME = libSUSI-3.02$/;"	m
+LINKLIB	Makefile	/^LINKLIB = -Wl,-rpath,.\/ $(LIB_LINK_NAME)$/;"	m
+NVIDIA	SUSI.h	48;"	d
+RDC	SUSI.h	50;"	d
+SIS	SUSI.h	47;"	d
+SUSI_IIC_TYPE_BOTH	SUSI.h	111;"	d
+SUSI_IIC_TYPE_PRIMARY	SUSI.h	109;"	d
+SUSI_IIC_TYPE_SMBUS	SUSI.h	110;"	d
+TAUX	SUSI.h	96;"	d
+TCHAR	SUSI.h	/^typedef char            TCHAR;$/;"	t
+TCPU	SUSI.h	94;"	d
+TCPU2	SUSI.h	97;"	d
+TRUE	SUSI.h	35;"	d
+TSYS	SUSI.h	95;"	d
+UCHAR	SUSI.h	/^typedef unsigned char   UCHAR;$/;"	t
+V105	SUSI.h	88;"	d
+V120	SUSI.h	80;"	d
+V15	SUSI.h	89;"	d
+V18	SUSI.h	90;"	d
+V240	SUSI.h	91;"	d
+V25	SUSI.h	77;"	d
+V33	SUSI.h	78;"	d
+V3SB	SUSI.h	82;"	d
+V50	SUSI.h	79;"	d
+V5SB	SUSI.h	81;"	d
+VBAT	SUSI.h	83;"	d
+VCORE	SUSI.h	76;"	d
+VCORE2	SUSI.h	87;"	d
+VC_ALL_SUPPORT	SUSI.h	128;"	d
+VC_BRIGHT_CTL_SUPPORT	SUSI.h	126;"	d
+VC_NONE_SUPPORT	SUSI.h	125;"	d
+VC_VGA_CTL_SUPPORT	SUSI.h	127;"	d
+VIA	SUSI.h	46;"	d
+VMAX_SHIFT	SUSI.h	75;"	d
+VN120	SUSI.h	85;"	d
+VN50	SUSI.h	84;"	d
+VTT	SUSI.h	86;"	d
+WDTMAXNUM	SUSI.h	119;"	d
+WDTOUT0	SUSI.h	117;"	d
+WDTOUT1	SUSI.h	118;"	d
+WORD	SUSI.h	/^typedef unsigned short  WORD;$/;"	t
+_SUSI_H_	SUSI.h	16;"	d
+_WINDOWS_TYPE_DEF	SUSI.h	23;"	d
+check_file	demo_cpu.c	/^static int check_file(const char *file_name)$/;"	f	file:
+get_bright	demo_brightness.c	/^int get_bright(void)$/;"	f
+get_bright_rang	demo_brightness.c	/^int get_bright_rang(void)$/;"	f
+get_delay_timeout	demo_watchdog.c	/^void get_delay_timeout(DWORD min, DWORD max, DWORD step, DWORD *delay, DWORD *timeout)$/;"	f
+get_dir_mask	demo_gpio.c	/^int get_dir_mask(void)$/;"	f
+get_dir_mask	test_gpio.c	/^int get_dir_mask(void)$/;"	f
+get_fan_speed	demo_hwm.c	/^int get_fan_speed(void)$/;"	f
+get_mode	demo_cpu.c	/^int get_mode(void)$/;"	f
+get_temperature	demo_hwm.c	/^int get_temperature(void)$/;"	f
+get_voltage	demo_hwm.c	/^int get_voltage(void)$/;"	f
+main	demo_brightness.c	/^int main(void)$/;"	f
+main	demo_cpu.c	/^int main(void)$/;"	f
+main	demo_gpio.c	/^int main(void)$/;"	f
+main	demo_hwm.c	/^int main(void)$/;"	f
+main	demo_iic.c	/^int main(void)$/;"	f
+main	demo_smbus.c	/^int main(void)$/;"	f
+main	demo_vga.c	/^int main(void)$/;"	f
+main	demo_vga.n.c	/^int main(void)$/;"	f
+main	demo_watchdog.c	/^int main(void)$/;"	f
+main	test_gpio.c	/^int main(void)$/;"	f
+read_byte	demo_iic.c	/^int read_byte(void)$/;"	f
+read_byte	demo_smbus.c	/^int read_byte(void)$/;"	f
+read_bytes	demo_smbus.c	/^int read_bytes(void)$/;"	f
+read_pin	demo_gpio.c	/^int read_pin(void)$/;"	f
+read_pin	test_gpio.c	/^int read_pin(void)$/;"	f
+read_pins	demo_gpio.c	/^int read_pins(void)$/;"	f
+read_pins	test_gpio.c	/^int read_pins(void)$/;"	f
+read_word	demo_smbus.c	/^int read_word(void)$/;"	f
+scan_device	demo_smbus.c	/^int scan_device(void)$/;"	f
+scan_i2c	demo_iic.c	/^int scan_i2c(void)$/;"	f
+set_bright	demo_brightness.c	/^int set_bright(void)$/;"	f
+set_fan_speed	demo_hwm.c	/^int set_fan_speed(void)$/;"	f
+set_mode	demo_cpu.c	/^int set_mode(void)$/;"	f
+set_pin_direction	demo_gpio.c	/^int set_pin_direction(void)$/;"	f
+set_pin_direction	test_gpio.c	/^int set_pin_direction(void)$/;"	f
+set_pins_direction	demo_gpio.c	/^int set_pins_direction(void)$/;"	f
+set_pins_direction	test_gpio.c	/^int set_pins_direction(void)$/;"	f
+show_all_cpu_speed	demo_cpu.c	/^static int show_all_cpu_speed(void)$/;"	f	file:
+show_menu	demo_brightness.c	/^void show_menu(void)$/;"	f
+show_menu	demo_cpu.c	/^void show_menu(void)$/;"	f
+show_menu	demo_gpio.c	/^void show_menu(void)$/;"	f
+show_menu	demo_hwm.c	/^void show_menu(void)$/;"	f
+show_menu	demo_iic.c	/^void show_menu(void)$/;"	f
+show_menu	demo_smbus.c	/^void show_menu(void)$/;"	f
+show_menu	demo_vga.c	/^void show_menu(void)$/;"	f
+show_menu	demo_vga.n.c	/^void show_menu(void)$/;"	f
+show_menu	demo_watchdog.c	/^void show_menu(void)$/;"	f
+show_menu	test_gpio.c	/^void show_menu(void)$/;"	f
+show_platform_info	demo_brightness.c	/^int show_platform_info(void)$/;"	f
+show_platform_info	demo_cpu.c	/^int show_platform_info(void)$/;"	f
+show_platform_info	demo_gpio.c	/^int show_platform_info(void)$/;"	f
+show_platform_info	demo_hwm.c	/^int show_platform_info(void)$/;"	f
+show_platform_info	demo_iic.c	/^int show_platform_info(void)$/;"	f
+show_platform_info	demo_smbus.c	/^int show_platform_info(void)$/;"	f
+show_platform_info	demo_vga.c	/^int show_platform_info(void)$/;"	f
+show_platform_info	demo_vga.n.c	/^int show_platform_info(void)$/;"	f
+show_platform_info	demo_watchdog.c	/^int show_platform_info(void)$/;"	f
+show_platform_info	test_gpio.c	/^int show_platform_info(void)$/;"	f
+write_byte	demo_iic.c	/^int write_byte(void)$/;"	f
+write_byte	demo_smbus.c	/^int write_byte(void)$/;"	f
+write_bytes	demo_smbus.c	/^int write_bytes(void)$/;"	f
+write_pin	demo_gpio.c	/^int write_pin(void)$/;"	f
+write_pin	test_gpio.c	/^int write_pin(void)$/;"	f
+write_pins	demo_gpio.c	/^int write_pins(void)$/;"	f
+write_pins	test_gpio.c	/^int write_pins(void)$/;"	f
+write_read_combine	demo_iic.c	/^int write_read_combine(void)$/;"	f
+write_word	demo_smbus.c	/^int write_word(void)$/;"	f
