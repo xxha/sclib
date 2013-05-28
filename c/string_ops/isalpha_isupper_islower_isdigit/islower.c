@@ -1,7 +1,7 @@
 #include <ctype.h>
 #include <stdio.h>
 
-main()
+int main()
 {
 	char str[]="123@#FDsP[e?";
 	int i;
@@ -9,4 +9,6 @@ main()
 	for(i=0;str[i]!=0;i++)
 		if(islower(str[i]))
 			printf("%c is a lower-case character\n",str[i]);
+
+	return 0;
 }

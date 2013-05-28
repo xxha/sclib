@@ -6,7 +6,7 @@ int main(void)
 	char ch;
 	int total = 0;
 
-	/*Í³¼Æ×ÖÄ¸¿é*/
+	/* calculate letter number */
 	do
 	{
 		ch=getchar();
