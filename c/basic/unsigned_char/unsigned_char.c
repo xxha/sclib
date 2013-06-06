@@ -4,6 +4,10 @@
 int main(int argc, char **argv[])
 {
 	unsigned char test[4] = {0};
+	unsigned test1 = 0;
+
+	test1 -= 1;
+	printf("test1 = %d\n", test1);
 
 	test[0] = 33;
 	test[1] = 2;
