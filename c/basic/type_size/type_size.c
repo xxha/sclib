@@ -8,6 +8,7 @@ int main ()
 	unsigned int zero1 = ~0;
 
 	printf("int size = %d\n", sizeof(int));
+	printf("short size = %d\n", sizeof(short));
 	printf("short int size = %d\n", sizeof(short int));
 	printf("unsigned int size = %d\n", sizeof(unsigned int));
 	printf("unsigned long size = %d\n", sizeof(unsigned long));
