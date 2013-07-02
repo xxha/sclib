@@ -10,6 +10,7 @@ int main()
 	printf("size of short ** = %d\n", sizeof(presscode));
 	printf("size of short * = %d\n", sizeof(*presscode));
 	printf("size of short = %d\n", sizeof(**presscode));
+	printf("size of presscode[0][0] = %d\n", sizeof(presscode[0][0]));
 
 	printf("we have a conclusion: pointer size = 4, short size = 2\n");
 	return 0;
