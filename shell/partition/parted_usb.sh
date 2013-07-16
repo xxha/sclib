@@ -26,3 +26,9 @@ p
 w
 eof
 
+mke2fs /dev/sdb1
+sync
+mke2fs /dev/sdb2
+sync
+mkfs.ext4 /dev/sdb3
+
