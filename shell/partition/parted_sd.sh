@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dd if=/dev/zero of=$1 bs=1024 count=1024
+dd if=/dev/zero of=$1 bs=1024 count=1
 
 echo -e "fdisk $1 now..."
 fdisk $1 <<eof
