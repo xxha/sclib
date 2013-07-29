@@ -17,7 +17,8 @@ struct student class[5] = {
 int main()
 {
 	printf("1: %s\n", (void *)(class+1));
+	printf("1: %s\n", (void *)(class+5));
 	printf("2: %d\n", (void *)(class+1));
-
+	memcpy((void *)(class + 5), (void *)(class + 1), sizeof(struct student));
 	return 0;
 }
