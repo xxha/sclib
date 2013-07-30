@@ -24,6 +24,7 @@ HASH_TABLE* create_hash_table()
 	memset(pHashTbl, 0, sizeof(HASH_TABLE));
 	return pHashTbl;
 }
+
 /* find data in hash table */
 NODE* find_data_in_hash(HASH_TABLE* pHashTbl, int data)
 {
@@ -41,6 +42,7 @@ NODE* find_data_in_hash(HASH_TABLE* pHashTbl, int data)
 	}
 	return NULL;
 }
+
 /* insert data to hash table */
 STATUS insert_data_into_hash(HASH_TABLE* pHashTbl, int data)
 {

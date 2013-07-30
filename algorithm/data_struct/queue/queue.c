@@ -11,11 +11,11 @@
 
 typedef struct _QUEUE_NODE
 {
-	int* pData;   // data area 
-	int length;   // the length of pData
-	int head ;    // queue head
-	int tail;     // queue tail
-	int count;    // queue element number
+	int* pData;   /* data area */
+	int length;   /* the length of pData */
+	int head ;    /* queue head */
+	int tail;     /* queue tail */
+	int count;    /* queue element number */
 }QUEUE_NODE;
 
 /* allocate queue memory */
@@ -61,7 +61,7 @@ STATUS insert_queue(QUEUE_NODE* pQueueNode, int value)
 	if(pQueueNode->length == pQueueNode->count)
 		return FALSE;
 
-	pQueueNode->pData[pQueueNode->tail] = value;   //push from tail
+	pQueueNode->pData[pQueueNode->tail] = value;   /* push from tail */
 	pQueueNode->tail = (pQueueNode->tail + 1) % pQueueNode->length;  
 	pQueueNode->count ++;
 	return TRUE;
@@ -79,7 +79,7 @@ STATUS get_queue_data(QUEUE_NODE* pQueueNode, int* value)
 	*value = pQueueNode->pData[pQueueNode->head];
 	pQueueNode-> pData[pQueueNode->head] = 0; 
 	pQueueNode-> count --;
-	pQueueNode->head = (pQueueNode->head + 1) % pQueueNode->length;  //pull from head
+	pQueueNode->head = (pQueueNode->head + 1) % pQueueNode->length;  /* pull from head */
 	return TRUE;
 }
 
@@ -93,7 +93,7 @@ int  get_total_number(const QUEUE_NODE* pQueueNode)
 }
 
 /* calculate the whole length of queue */
-int  get_total_number(const QUEUE_NODE* pQueueNode)
+int  get_total_length(const QUEUE_NODE* pQueueNode)
 {
 	if(NULL == pQueueNode)
 		return 0;
