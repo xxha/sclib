@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>求两个单链表的和</title>
+    <meta name="author" content="Hawstein" />
+    <link href="http://hawstein.com/atom.xml"
+    rel="alternate" title="Hawstein's Blog" type="application/atom+xml" />
+
+    <!-- Homepage CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="/assets/css/bootstrap-responsive.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="/assets/css/app.css" type="text/css" media="screen" charset="utf-8" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css" media="screen" charset="utf-8" />
+
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+      <!-- Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+      </head>
+
+      <body>
+	<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="/">Hawstein's Blog</a>
+	<ul class="nav">
+	  <li class="active"><a href="/">Home</a></li>
+	  <li ><a href="/archive.html">Archive</a></li>
+	  <li ><a href="/categories.html">Categories</a></li>
+	  <li ><a href="/sitemap.html">Sitemap</a></li>
+	  <li ><a href="/about.html">About</a></li>
+	</ul>
+	<ul class="nav pull-right">
+	  <li ><a href="/atom.xml">Subscribe</a></li>
+	</ul>
+    </div>
+  </div>
+</div>
+
+	<div class="container">
+	  <div id="post">
+<h1>
+  <a href="/posts/add-singly-linked-list.html">求两个单链表的和</a>
+</h1>
+<div class="authoring">
+  June 30, 2013
+</div>
+<div style="line-height:180%;">
+  作者：Hawstein<br>
+  出处：<a href="/posts/add-singly-linked-list.html">http://hawstein.com/posts/add-singly-linked-list.html</a><br>
+  声明：本文采用以下协议进行授权： <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">自由转载-非商用-非衍生-保持署名|Creative Commons BY-NC-ND 3.0</a> ，转载请注明作者及出处。<br><br>
+</div>
+
+<h2>题目</h2>
+
+<p>两个单链表（singly linked list），每一个节点里面一个0-9的数字，
+输入就相当于两个大数了。然后返回这两个数的和（一个新list）。这两个输入的list
+长度相等。 要求是：1. 不用递归。2. 要求算法在最好的情况下，只遍历两个list一次，
+最差的情况下两遍。</p>
+
+<h2>解答</h2>
+
+<p>这是陈利人同学今天发在待字闺中的面试编程题目，看了一下解答，
+发现要么需要遍历链表两次，要么需要额外的存储空间，难道就没有更优的解法了吗？
+想了一下，发现还是有的。</p>
+
+<p>利人同学的分析我就不再复述了，这是传送门：
+<a href="http://chuansong.me/n/89263">戳我吧！</a></p>
+
+<p>顺便推荐一下陈利人同学的微博：<a href="http://weibo.com/lirenchen">@陈利人</a>
+和他的公众平台：待字闺中。一看这同学的名字就值得关注，利人，你值得拥有。XD</p>
+
+<p>OK，我们把这个问题具体化一下吧：(这里就不再考虑从低到高存等blabla情况)</p>
+
+<blockquote><blockquote><p>两个单链表，每个节点存储一个0-9的数字，那么一个单链表就表示一个大数。
+从高位到低位存，即表头对应的是这个大数的最高位。两个链表的长度相等，
+我们要返回一个新的单链表，是这两个输入链表代表的数的和。我们不能使用递归，
+不能使用额外的存储空间，即空间复杂度是O(1)。只遍历输入链表一次，
+输出链表也是单链表(没有前向指针)。</p></blockquote></blockquote>
+
+<p>既然只能遍历两个输入链表一次，那我们就从高位加起呗。在这种限制条件下，
+这是唯一的出路。然后呢？进位咋整？先加高位，再加低位，
+低位产生的进位怎么加到高位去？我们可没有前向指针哦亲。既然没有前向指针，
+我们就让一个临时指针指向高位，当低位相加产生进位时，我们就可以操作高位了。
+让我们看看图示：</p>
+
+<pre><code>输入链表1： 1 2 3
+输入链表2： 1 2 8
+输出链表：  2 4 
+两个指针：    p q
+</code></pre>
+
+<p>当指向输出链表当前结点的指针q发现3+8=11，产生进位，指向高位的p就将结点值加1。
+<strong>注意，两个0-9的数相加，要么不进位，要么进位为1，只有两种情况</strong>。因此，
+我们不用考虑进位是其它数，这一点很重要，后面会看到的。</p>
+
+<p>这样就OK了吗？当然不是，如果你遇上连续进位，怎么破？请看下面的情况：</p>
+
+<pre><code>输入链表1： 1 2 3 4 5
+输入链表2： 1 7 6 5 9
+</code></pre>
+
+<p>显然，指向高位的指针p总是紧跟着指向当前结点的指针q是不行的，
+这样当遇上连续进位时，比p更高位的位也需要改变。既然p不能紧跟着q，
+我们就不让它们紧挨着，给它们产生点距离。考虑一下，什么情况下会产生连续进位？
+9! 嗯，遇上9的时候。它要连续进位到哪一位？不为9的那一位。因此，指针p
+要停留在和不为9的那一位上，看图示：</p>
+
+<pre><code>输入链表1： 1 2 3 4 5
+输入链表2： 1 7 6 5 9
+输出链表：  2 9 9 9
+两个指针：  p       q
+</code></pre>
+
+<p>这回当q发现，需要进位了，只需要把p所指结点加1，然后把p，q间的结点都置0即可。
+为什么都置0了呢，<strong>因为进位只可能是1</strong>，9+1=10，留在该位的自然是0了。</p>
+
+<p>分析完毕，这种方法在任何时候都只需要遍历输入链表一次，空间复杂度O(1)。</p>
+
+<p>代码如下：</p>
+
+<div class="highlight"><pre><code class="cpp"><span class="cp">#include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="k">struct</span> <span class="n">Node</span><span class="p">{</span>
+    <span class="kt">char</span> <span class="n">data</span><span class="p">;</span> <span class="c1">// 保存0-9，1字节即可。</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">next</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="c1">// version 1</span>
+<span class="n">Node</span><span class="o">*</span> <span class="nf">AddSinglyLinkedList</span><span class="p">(</span><span class="n">Node</span><span class="o">*</span> <span class="n">list1</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">list2</span><span class="p">){</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">q1</span><span class="o">=</span><span class="n">list1</span><span class="p">,</span> <span class="o">*</span><span class="n">q2</span><span class="o">=</span><span class="n">list2</span><span class="p">;</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">ans</span><span class="o">=</span><span class="nb">NULL</span><span class="p">,</span> <span class="o">*</span><span class="n">p</span><span class="o">=</span><span class="nb">NULL</span><span class="p">,</span> <span class="o">*</span><span class="n">pre</span><span class="o">=</span><span class="nb">NULL</span><span class="p">,</span> <span class="o">*</span><span class="n">q</span><span class="o">=</span><span class="nb">NULL</span><span class="p">;</span><span class="c1">//pre指向q的前驱结点</span>
+    <span class="kt">bool</span> <span class="n">highest</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span><span class="c1">//只有最高位可能有进位，才考虑去掉前导0。0+0=0不去掉</span>
+    <span class="c1">// 处理最高位的结点</span>
+    <span class="kt">char</span> <span class="n">first</span> <span class="o">=</span> <span class="n">q1</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">+</span> <span class="n">q2</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">;</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">first</span> <span class="o">&gt;=</span> <span class="mi">9</span><span class="p">){</span><span class="c1">// 和大于等于9，要多开一个结点来保存进位</span>
+        <span class="n">highest</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+        <span class="n">ans</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">();</span>
+        <span class="n">pre</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">();</span>
+        <span class="n">pre</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="n">first</span> <span class="o">%</span> <span class="mi">10</span><span class="p">;</span>
+        <span class="n">ans</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">pre</span><span class="p">;</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">first</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">){</span><span class="c1">// 和大于9，最高位为1</span>
+            <span class="n">ans</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">pre</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">else</span><span class="p">{</span> <span class="c1">// 和为9，最高位为0，因为有可能连续进位使其变为1，p指向它</span>
+            <span class="n">ans</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">ans</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">else</span><span class="p">{</span><span class="c1">// 和小于9</span>
+        <span class="n">ans</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">();</span>
+        <span class="n">ans</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="n">first</span><span class="p">;</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="n">pre</span> <span class="o">=</span> <span class="n">ans</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c1">// 处理后面的结点</span>
+    <span class="k">while</span><span class="p">((</span><span class="n">q1</span><span class="o">=</span><span class="n">q1</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">q2</span><span class="o">=</span><span class="n">q2</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)){</span>
+        <span class="n">q</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">();</span> <span class="c1">// 当前输出结点</span>
+        <span class="n">pre</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">q</span><span class="p">;</span> <span class="c1">// 上一结点指向当前结点</span>
+        <span class="kt">char</span> <span class="n">num</span> <span class="o">=</span> <span class="n">q1</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">+</span> <span class="n">q2</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">;</span>
+        <span class="n">q</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="n">num</span> <span class="o">%</span> <span class="mi">10</span><span class="p">;</span> <span class="c1">// q结点存储的值</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">num</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">){</span>
+            <span class="n">p</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// p指向的结点值加1</span>
+            <span class="k">for</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span> <span class="n">p</span><span class="o">!=</span><span class="n">q</span><span class="p">;</span> <span class="n">p</span><span class="o">=</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span><span class="c1">// p,q间的结点值置0，p指向q</span>
+                <span class="n">p</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">num</span> <span class="o">&lt;</span> <span class="mi">9</span><span class="p">){</span><span class="c1">// 和小于9，p移动到当前位置q</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">q</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="n">pre</span> <span class="o">=</span> <span class="n">q</span><span class="p">;</span> <span class="c1">// 更新前一结点pre的指针</span>
+    <span class="p">}</span><span class="c1">// num等于9时，p不用更新</span>
+    
+    <span class="k">if</span><span class="p">(</span><span class="n">highest</span> <span class="o">&amp;&amp;</span> <span class="n">ans</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="c1">// 如果最高位没有因为连续进位而变成1</span>
+        <span class="n">ans</span> <span class="o">=</span> <span class="n">ans</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+    
+    <span class="k">return</span> <span class="n">ans</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="n">Node</span><span class="o">*</span> <span class="nf">MakeLinkedList</span><span class="p">(</span><span class="kt">int</span> <span class="n">d</span><span class="p">[],</span> <span class="kt">int</span> <span class="n">n</span><span class="p">){</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">head</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">();</span>
+    <span class="n">head</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="p">(</span><span class="kt">char</span><span class="p">)</span><span class="n">d</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">pre</span><span class="o">=</span><span class="n">head</span><span class="p">,</span> <span class="o">*</span><span class="n">cur</span><span class="o">=</span><span class="n">head</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cur</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">();</span>
+        <span class="n">cur</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="p">(</span><span class="kt">char</span><span class="p">)</span><span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="n">pre</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">cur</span><span class="p">;</span>
+        <span class="n">pre</span> <span class="o">=</span> <span class="n">cur</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">head</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// version 2, 在处理最高位上，比version1要简洁</span>
+<span class="n">Node</span><span class="o">*</span> <span class="nf">AddSinglyLinkedList1</span><span class="p">(</span><span class="n">Node</span><span class="o">*</span> <span class="n">list1</span><span class="p">,</span> <span class="n">Node</span><span class="o">*</span> <span class="n">list2</span><span class="p">){</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">q1</span><span class="o">=</span><span class="n">list1</span><span class="p">,</span> <span class="o">*</span><span class="n">q2</span><span class="o">=</span><span class="n">list2</span><span class="p">;</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">ans</span><span class="o">=</span><span class="nb">NULL</span><span class="p">,</span> <span class="o">*</span><span class="n">p</span><span class="o">=</span><span class="nb">NULL</span><span class="p">,</span> <span class="o">*</span><span class="n">pre</span><span class="o">=</span><span class="nb">NULL</span><span class="p">,</span> <span class="o">*</span><span class="n">q</span><span class="o">=</span><span class="nb">NULL</span><span class="p">;</span><span class="c1">//pre指向q的前驱结点</span>
+    
+    <span class="c1">// 处理最高位的结点，先不考虑进位问题</span>
+    <span class="kt">char</span> <span class="n">first</span> <span class="o">=</span> <span class="n">q1</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">+</span> <span class="n">q2</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">;</span>
+    <span class="n">ans</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">();</span>
+    <span class="n">ans</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="n">first</span><span class="p">;</span> <span class="c1">// 第一个结点不管有没进位，都存着先</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">pre</span> <span class="o">=</span> <span class="n">ans</span><span class="p">;</span>
+    
+    <span class="c1">// 处理后面的结点</span>
+    <span class="k">while</span><span class="p">((</span><span class="n">q1</span><span class="o">=</span><span class="n">q1</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">q2</span><span class="o">=</span><span class="n">q2</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)){</span>
+        <span class="n">q</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">();</span> <span class="c1">// 当前输出结点</span>
+        <span class="n">pre</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">q</span><span class="p">;</span> <span class="c1">// 上一结点指向当前结点</span>
+        <span class="kt">char</span> <span class="n">num</span> <span class="o">=</span> <span class="n">q1</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">+</span> <span class="n">q2</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">;</span>
+        <span class="n">q</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="n">num</span> <span class="o">%</span> <span class="mi">10</span><span class="p">;</span> <span class="c1">// q结点存储的值</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">num</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">){</span>
+            <span class="n">p</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// p指向的结点值加1</span>
+            <span class="k">for</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span> <span class="n">p</span><span class="o">!=</span><span class="n">q</span><span class="p">;</span> <span class="n">p</span><span class="o">=</span><span class="n">p</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span><span class="c1">// p,q间的结点值置0，p指向q</span>
+                <span class="n">p</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">num</span> <span class="o">&lt;</span> <span class="mi">9</span><span class="p">){</span><span class="c1">// 和小于9，p移动到当前位置q</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">q</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="n">pre</span> <span class="o">=</span> <span class="n">q</span><span class="p">;</span> <span class="c1">// 更新前一结点pre的指针</span>
+    <span class="p">}</span><span class="c1">// num等于9时，p不用更新</span>
+    
+    <span class="k">if</span><span class="p">(</span><span class="n">ans</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">){</span><span class="c1">// 全部加完后，如果最高位需要进位</span>
+        <span class="n">q</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Node</span><span class="p">();</span>
+        <span class="n">q</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="n">ans</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">=</span> <span class="n">ans</span><span class="o">-&gt;</span><span class="n">data</span> <span class="o">-</span> <span class="mi">10</span><span class="p">;</span>
+        <span class="n">q</span><span class="o">-&gt;</span><span class="n">next</span> <span class="o">=</span> <span class="n">ans</span><span class="p">;</span>
+        <span class="n">ans</span> <span class="o">=</span> <span class="n">q</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="k">return</span> <span class="n">ans</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="mi">7</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">a</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="mi">2</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span>
+    <span class="p">};</span>
+    <span class="kt">int</span> <span class="n">b</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">9</span>
+    <span class="p">};</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">list1</span> <span class="o">=</span> <span class="n">MakeLinkedList</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">list2</span> <span class="o">=</span> <span class="n">MakeLinkedList</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">ans</span> <span class="o">=</span> <span class="n">AddSinglyLinkedList</span><span class="p">(</span><span class="n">list1</span><span class="p">,</span> <span class="n">list2</span><span class="p">);</span>
+    <span class="k">for</span><span class="p">(;</span> <span class="n">ans</span><span class="p">;</span> <span class="n">ans</span><span class="o">=</span><span class="n">ans</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span>
+        <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">ans</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">;</span>
+    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span>
+    <span class="n">Node</span> <span class="o">*</span><span class="n">ans1</span> <span class="o">=</span> <span class="n">AddSinglyLinkedList1</span><span class="p">(</span><span class="n">list1</span><span class="p">,</span> <span class="n">list2</span><span class="p">);</span>
+    <span class="k">for</span><span class="p">(;</span> <span class="n">ans1</span><span class="p">;</span> <span class="n">ans1</span><span class="o">=</span><span class="n">ans1</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span>
+        <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">ans1</span><span class="o">-&gt;</span><span class="n">data</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+
+
+</div>
+
+<div id="related">
+  <h2>Random Posts</h2>
+  <ul class="posts">
+    
+      <li><span>23 Jul 2013</span> &raquo; <a href="/posts/lru-cache-impl.html">如何用C++实现一个LRU Cache</a></li>
+    
+      <li><span>18 Jul 2013</span> &raquo; <a href="/posts/ibar-begin.html">微信公众平台：程序员的面试吧</a></li>
+    
+      <li><span>14 Jul 2013</span> &raquo; <a href="/posts/google-cpp-style-guide.html">Google C++编程风格指南</a></li>
+    
+      <li><span>15 Apr 2013</span> &raquo; <a href="/posts/snake-ai.html">如何用Python写一个贪吃蛇AI</a></li>
+    
+      <li><span>31 Mar 2013</span> &raquo; <a href="/posts/pyglet-tutorial.html">Pyglet教程</a></li>
+    
+  </ul>
+</div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    var disqus_shortname = 'hawstein';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+	  <div id="footer">
+  Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>.  Last updated at 2013-08-19 20:28:22 -0700.
+</div>
+
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="/assets/js/app.js"></script>
+	<script type="text/javascript">
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37837952-1']);
+  _gaq.push(['_trackPageview']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+</script>
+
+      </body>
+</html>
