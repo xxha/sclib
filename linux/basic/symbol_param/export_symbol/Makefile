@@ -5,4 +5,4 @@ PWD :=$(shell pwd)
 default:
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
 clean:
-	rm -f *.o *.ko *.mod.*
+	rm -f *.o *.ko *.order *.symvers

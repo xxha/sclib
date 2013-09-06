@@ -1,0 +1,1 @@
+cmd_/home/xxha/sclib/linux/kernel/irq/tasklet/mydev.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.5.0-28-generic/scripts/module-common.lds --build-id  -o /home/xxha/sclib/linux/kernel/irq/tasklet/mydev.ko /home/xxha/sclib/linux/kernel/irq/tasklet/mydev.o /home/xxha/sclib/linux/kernel/irq/tasklet/mydev.mod.o

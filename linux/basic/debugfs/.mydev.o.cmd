@@ -1,0 +1,1 @@
+cmd_/home/xxha/git-server/sclib/linux/basic/debugfs/mydev.o := ld -m elf_i386   -r -o /home/xxha/git-server/sclib/linux/basic/debugfs/mydev.o /home/xxha/git-server/sclib/linux/basic/debugfs/mymod.o /home/xxha/git-server/sclib/linux/basic/debugfs/ringbuffer.o 

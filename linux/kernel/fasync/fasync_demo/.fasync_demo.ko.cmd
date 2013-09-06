@@ -1,0 +1,1 @@
+cmd_/home/xxha/sclib/linux_driver/fasync/fasync_demo/fasync_demo.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.32-21-generic/scripts/module-common.lds --build-id -o /home/xxha/sclib/linux_driver/fasync/fasync_demo/fasync_demo.ko /home/xxha/sclib/linux_driver/fasync/fasync_demo/fasync_demo.o /home/xxha/sclib/linux_driver/fasync/fasync_demo/fasync_demo.mod.o

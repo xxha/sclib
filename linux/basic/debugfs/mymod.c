@@ -7,6 +7,7 @@
 #include <linux/sched.h>
 #include <linux/wait.h>
 #include "ringbuffer.h"
+#include <linux/slab.h>
 
 static unsigned ndev = 1;				/* number of devices to create */
 static unsigned major = 0;				/* save major number assigned to driver */

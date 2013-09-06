@@ -4,7 +4,7 @@ mydev-objs := mymod.o ringbuffer.o
 # With this simplified Makefile, type 'make' to build your module
 # Type 'make install' to build and install the module to the target file system
 
-KERNELDIR=$(shell ls -d ~/linux-2.6.[0-9]*)
+KERNELDIR=/lib/modules/$(shell uname -r)/build
 TARGETDIR=/targetfs
 
 PWD := $(shell pwd)
@@ -14,3 +14,6 @@ default:
 
 install:
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules modules_install INSTALL_MOD_PATH=$(TARGETDIR)
+
+clean:
+	rm -rf *.o *.ko *.mod.* *.order *.symvers

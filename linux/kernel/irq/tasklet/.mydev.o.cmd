@@ -1,0 +1,1 @@
+cmd_/home/xxha/sclib/linux/kernel/irq/tasklet/mydev.o := ld -m elf_i386   -r -o /home/xxha/sclib/linux/kernel/irq/tasklet/mydev.o /home/xxha/sclib/linux/kernel/irq/tasklet/mymod_bh.o /home/xxha/sclib/linux/kernel/irq/tasklet/process_irq.o 
