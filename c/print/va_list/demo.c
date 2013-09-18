@@ -6,7 +6,7 @@ int demo( char * msg, ... );
 
 void main( void )
 {
-	demo("DEMO", "This", "is", "a", "demo!","");
+	demo("DEMO", "Thiresi", "is", "a", "demo!","");
 }
 	
 int demo( char *msg, ...)

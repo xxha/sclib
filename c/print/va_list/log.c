@@ -27,7 +27,7 @@ void log(const char * tag, const char* fmt, ...)
 	*buf ++ = 0x0a;
 	*buf ++ = 0x00;
 
-//	printf( "[%s]%s",tag,logBuffer );
+	printf( "[%s]: %s",tag,logBuffer );
 
 }
 
