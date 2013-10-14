@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC =		gcc -Wall -O2 -I.$/;"	m
+DEFAULT_FRAMEBUFFER	fb_display.h	14;"	d
+RM	Makefile	/^RM =		rm -f$/;"	m
+X_BUFFER	test.c	13;"	d	file:
+Y_BUFFER	test.c	14;"	d	file:
+blit2FB	fb_display.c	/^void blit2FB(int fh, void *fbbuff,$/;"	f
+blue	fb_display.c	/^unsigned short red[256], green[256], blue[256];$/;"	v
+blue_b	fb_display.c	/^unsigned short red_b[256], green_b[256], blue_b[256];$/;"	v
+closeFB	fb_display.c	/^void closeFB(int fh)$/;"	f
+convertRGB2FB	fb_display.c	/^void* convertRGB2FB(int fh, unsigned char *rgbbuff, unsigned long count, int bpp, int *cpp)$/;"	f
+fb_display	fb_display.c	/^void fb_display(unsigned char *rgbbuff, int x_size, int y_size, int x_pan, int y_pan, int x_offs, int y_offs)$/;"	f
+get8map	fb_display.c	/^void get8map(int fh, struct fb_cmap *map)$/;"	f
+getCurrentRes	fb_display.c	/^void getCurrentRes(int *x, int *y)$/;"	f
+getFixScreenInfo	fb_display.c	/^void getFixScreenInfo(int fh, struct fb_fix_screeninfo *fix)$/;"	f
+getVarScreenInfo	fb_display.c	/^void getVarScreenInfo(int fh, struct fb_var_screeninfo *var)$/;"	f
+green	fb_display.c	/^unsigned short red[256], green[256], blue[256];$/;"	v
+green_b	fb_display.c	/^unsigned short red_b[256], green_b[256], blue_b[256];$/;"	v
+main	test.c	/^int main(void)$/;"	f
+make15color	fb_display.c	/^inline unsigned short make15color(unsigned char r, unsigned char g, unsigned char b)$/;"	f
+make16color	fb_display.c	/^inline unsigned short make16color(unsigned char r, unsigned char g, unsigned char b)$/;"	f
+make332map	fb_display.c	/^void make332map(struct fb_cmap *map)$/;"	f
+make8color	fb_display.c	/^inline unsigned char make8color(unsigned char r, unsigned char g, unsigned char b)$/;"	f
+map332	fb_display.c	/^struct fb_cmap map332 = {0, 256, red, green, blue, NULL};$/;"	v	typeref:struct:fb_cmap
+map_back	fb_display.c	/^struct fb_cmap map_back = {0, 256, red_b, green_b, blue_b, NULL};$/;"	v	typeref:struct:fb_cmap
+openFB	fb_display.c	/^int openFB(const char *name)$/;"	f
+red	fb_display.c	/^unsigned short red[256], green[256], blue[256];$/;"	v
+red_b	fb_display.c	/^unsigned short red_b[256], green_b[256], blue_b[256];$/;"	v
+set332map	fb_display.c	/^void set332map(int fh)$/;"	f
+set8map	fb_display.c	/^void set8map(int fh, struct fb_cmap *map)$/;"	f
+setVarScreenInfo	fb_display.c	/^void setVarScreenInfo(int fh, struct fb_var_screeninfo *var)$/;"	f
