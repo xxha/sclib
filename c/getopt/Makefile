@@ -1,7 +1,10 @@
+CC = 	gcc -Wall -O2 -I.
+RM = 	rm -rf
+
 all: getopt
 
-getopt:getopt.c
-	gcc getopt.c -o getopt
+getopt: getopt.o
+getopt.o: getopt.c
 
 clean:
-	rm -rf *.o getopt
+	$(RM) *.o 

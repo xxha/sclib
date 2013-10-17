@@ -1,4 +1,9 @@
-/* output random data in 0-100 */
+/* 
+ * output random data in 0-100 by seed.
+ * different seed outcome different number;
+ * the same seed outcome the same number.
+ *
+*/
 
 #include <stdlib.h> /* for srand() */
 #include <stdio.h>
@@ -9,8 +14,12 @@ int main( void)
 	int number[MAX] = {0};
 	int i;
 	unsigned int seed;
+	int ret;
 
-	scanf("%d",&seed);/*手动输入种子*/
+	ret = scanf("%d",&seed);/*手动输入种子*/
+	printf("scanf input %d items\n", ret);
+	printf("seed = %d\n", seed);
+
 	srand(seed);
 
 	for(i = 0; i < MAX; i++)

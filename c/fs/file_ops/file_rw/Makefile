@@ -1,9 +1,9 @@
 #cross_compile stuff
-CROSS_COMPILE = powerpc-860-linux-gnu-
+CROSS_COMPILE =
 
 #compile tools
 AS = $(CROSS_COMPILE)as
-CC = $(CROSS_COMPILE)gcc
+CC = $(CROSS_COMPILE)gcc -Wall -O2 -I.
 LD = $(CROSS_COMPILE)ld
 AR = $(CROSS_COMPILE)ar
 STRIP = $(CROSS_COMPILE)strip

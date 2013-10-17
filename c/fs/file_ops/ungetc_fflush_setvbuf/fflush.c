@@ -1,14 +1,16 @@
 #include <string.h>
 #include <stdio.h>
-#include "conio.h"
-#include "io.h"
+#include <unistd.h>
+#include <stdlib.h>
+
 
 void flush(FILE *stream);
 
 int main(void)
 {
 	FILE *stream;
-	char msg[] = "This is a test";
+	char msg[] = "This is a haha test";
+	int ret;
 
 	/* create a file */
 	stream = fopen("DUMMY.FIL", "w");
@@ -16,19 +18,21 @@ int main(void)
 	/* write some data to the file */
 	fwrite(msg, strlen(msg), 1, stream);
 
-	clrscr();
+	ret = system("clear");
+	if (ret != 0)
+		printf("clear screen failed\n");
 
 	printf("Press any key to flush DUMMY.FIL:");
-	getch();
+	getchar();
 
 	/* flush the data to DUMMY.FIL without\
 	closing it */
 	flush(stream);
 
-	printf("\nFile was flushed, Press any key\to quit:");
+	printf("\nFile was flushed, Press any key to quit:");
 
-	getch();
-
+	getchar();
+	printf("\n");
 	return 0;
 }
 void flush(FILE *stream)

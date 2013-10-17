@@ -138,7 +138,7 @@ Ball *ball_sort(Ball *arr, int len)
 }
 
 
-int main(void)
+int main()
 {
 	int i;
 
@@ -148,6 +148,8 @@ int main(void)
 	printf("---------------------------------------------------\n");
 
 	ball_sort(arr, SIZE);
+
+	return 0;
 }
 
 

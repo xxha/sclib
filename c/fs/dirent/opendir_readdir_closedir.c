@@ -33,7 +33,7 @@ int main(int argc, char*argv[])
 	if (dirp == NULL) {
 		fprintf(stderr, "%s: opendir(): %s: %s\n",
 			argv[0], name, strerror(errno));
-		exit(errno);
+		return -1;
 	} else {
 		printf("opendir %s succeed!\n", name);	
 	}
