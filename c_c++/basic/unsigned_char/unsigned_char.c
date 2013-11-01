@@ -14,10 +14,10 @@ int main(int argc, char *argv[])
 	test[2] = 2;
 	test[3] = 33;
 
-	printf("test = 0x%c\n", test[0]);
-	printf("test = 0x%x\n", test[1]);
-	printf("test = 0x%x\n", test[2]);
-	printf("test = 0x%x\n", test[3]);
+	printf("test[0] = %c\n", test[0]);
+	printf("test[1] = 0x%x\n", test[1]);
+	printf("test[2] = 0x%x\n", test[2]);
+	printf("test[3] = 0x%x\n", test[3]);
 
 	return 0;
 }
